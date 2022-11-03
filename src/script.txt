@@ -1,0 +1,16 @@
+// Rhythm Heaven Advance script for abcde
+
+//TO-DO - Actual script...
+#VAR(tbl, TABLE)
+#ADDTBL("src/sjis_2.tbl", tbl)
+#ACTIVETBL(tbl)
+
+#VAR(RtPtr, CUSTOMPOINTER)
+#CREATEPTR(RtPtr, "LINEAR", $-8000000, 32)
+
+//Jump at end of the ROM for empty space.
+#JMP($D20600)
+
+
+
+//End of Script file.
