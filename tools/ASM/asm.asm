@@ -1,0 +1,15 @@
+.include tools/ASM/lz77hack.asm
+.include tools/ASM/debug.asm
+
+.if _debugmenu==1
+;Skip Main Menu
+.org 0x0801CFD4
+.dw 0x089DDBCC ; Check https://docs.google.com/document/d/1gwQz-1zzkr3CLOBLtUMTfsk2Xtd1zmoMDKJRhPMbqwg for more infomation.
+;Skip Rhythm Introduction
+.org 0x0801D014
+.dw 0x089DDBCC
+.endif
+
+.org 0x0801d174
+bl EndlessGamesPlural_Hook
+;eof
