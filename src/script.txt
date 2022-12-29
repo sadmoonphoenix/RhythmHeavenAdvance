@@ -71,12 +71,12 @@ Again, [;[;
 #WRITE(RtPtr, $19D54)
 // 0x8054f24
 //しかも、[;
-Moreover, [;
+And [;
 
 #WRITE(RtPtr, $19CAC)
 // 0x8054f30
 //さらに、[;
-In addition, [;
+Plus, [;
 
 #WRITE(RtPtr, $9D7B4C)
 // 0x8054f3c
@@ -372,7 +372,7 @@ That was great![;
 #WRITE(RtPtr, $A11584)
 // 0x805c890
 //すばらしい判断力だ！[;
-Impecable timing![;
+Impeccable timing![;
 
 #WRITE(RtPtr, $9CE620)
 // 0x80535b0
@@ -382,7 +382,7 @@ Mission success! We rescued the alien![;
 #WRITE(RtPtr, $9CE61C)
 // 0x80535cc
 //今日の任務は、おそうじでーす♪[;
-Today's mission: cleaning~♪[;
+Today's mission: cleaning.[;
 
 #WRITE(RtPtr, $9CE618)
 // 0x80535ec
@@ -402,10 +402,10 @@ Spaceball[;
 //心でボールを打て！[l
 //視覚に頼るな！[l
 //どんと行け〜！[;
-Ignore the camera's wild[l
-zooms! Make the ball[l
-fly wildly away! Don't[l
-blink or wipe your tears![;
+Ignore[1px]the camera's[1px]wild[l
+zooms! Make the ball fly[l
+wildly away! Don't blink[l
+or wipe your tears![;
 
 #WRITE(RtPtr, $A08DD0)
 // 0x805bff8
@@ -453,7 +453,7 @@ Must... train... harder...[;
 // --- Literal
 //Please forgive me for only this.[;
 // --- Edited
-C-can I have my ball back? I'll give you my last rice ball...[;
+Can I have my ball back? I'll give you my last rice ball...[;
 
 // The Clappy Trio
 
@@ -500,6 +500,7 @@ Let's practice![;
 Press [A_button] for the third clap.[;
 
 #WRITE(RtPtr, $9F2400)
+#WRITE(RtPtr, $9F2748)
 // 0x805afa0
 //ＯＫ[;
 OK.[;
