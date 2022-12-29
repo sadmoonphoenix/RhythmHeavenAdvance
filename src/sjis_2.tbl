@@ -619,8 +619,8 @@
 84BD=┸
 84BE=╂
 8740=[A_button]
-8741=②
-8742=③
+8741=[B_button]
+8742=[D_pad]
 8743=④
 8744=⑤
 8745=⑥
@@ -635,9 +635,9 @@
 874E=⑮
 874F=⑯
 8750=⑰
-8751=⑱
-8752=⑲
-8753=⑳
+8751=é
+8752=[2px]
+8753=[1px]
 8754=Ⅰ
 8755=Ⅱ
 8756=Ⅲ
@@ -1994,7 +1994,7 @@ EEF9=￢
 EEFA=￤
 EEFB=＇
 EEFC=＂
-0130=[linestyle=0(normal)]
+0130=[linestyle=normal]
 0131=[linestyle=1]
 0132=[linestyle=2]
 0133=[linestyle=3]
@@ -2009,7 +2009,7 @@ EEFC=＂
 014C=[linealign=left]
 0143=[linealign=center]
 0152=[linealign=right]
-0230=[color=0(normal)]
+0230=[color=normal]
 0231=[color=peach]
 0232=[color=gray]
 0233=[color=pink]
@@ -2020,8 +2020,6 @@ EEFC=＂
 0531=[style=gold]
 0532=[style=shadow]
 0533=[style=purple]
-0534=[style=4(normal)]
+0534=[style=normal]
 00=[;
 0A=[l
-2C2020=,  
-2C0A=,[l

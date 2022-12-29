@@ -10,6 +10,15 @@
 .dw 0x089DDBCC
 .endif
 
+.org 0x08019A2C
+bl FixResultsCaps
+.org 0x08019B80
+bl FixResultsCaps
+.org 0x08019C80
+bl FixResultsCaps
+.org 0x08019CCA
+bl FixResultsCaps
+
 .org 0x0801d174
 bl EndlessGamesPlural_Hook
 ;eof

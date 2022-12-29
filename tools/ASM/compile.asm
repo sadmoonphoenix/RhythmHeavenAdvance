@@ -2,8 +2,8 @@
 .open ROM/rh-atlus.gba,ROM/rh-eng.gba, 0x08000000
 
 _skiprhythmtest equ 1
-_debug equ 1
-_debugmenu equ 1
+_debug equ 0
+_debugmenu equ 0
 _oamluaconsolemessages equ 0
 _spriteluaconsolemessages equ 0
 
