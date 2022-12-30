@@ -22,7 +22,7 @@ pop r0-r7
 mov r2,r0
 mov r1,0
 mov r15,r14
-; .pool
+.pool
 .endif
 
 .if _debug ==1

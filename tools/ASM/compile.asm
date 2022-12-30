@@ -4,8 +4,8 @@
 _skiprhythmtest equ 1
 _debug equ 0
 _debugmenu equ 0
-_oamluaconsolemessages equ 0
-_spriteluaconsolemessages equ 0
+_oamluaconsolemessages equ 1
+_spriteluaconsolemessages equ 1
 
 .if _skiprhythmtest ==1
 .warning "Rhythm Test will be skipped, do not use for release!"
@@ -27,6 +27,7 @@ _spriteluaconsolemessages equ 0
 .include tools/ASM/relocate.asm
 
 .include src/Graphics/Font/font.asm
+.include src/Graphics/RhythmGames/RatRace/ratrace.asm
 
 .include tools/ASM/asm_relocate.asm
 .include tools/ASM/asm.asm
