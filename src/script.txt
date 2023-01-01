@@ -2843,7 +2843,10 @@ Bouncy Road[;
 //とんでくる丸い玉。[l
 //あれはイイやつです。[l
 //落とさないでネ！[;
-tai[;
+See the ball bouncing[l
+down the road? It's a[l
+very good ball, so don't[l
+let it fall![;
 
 #WRITE(RtPtr, $9FF0F0)
 // 0x805b810
@@ -2897,7 +2900,10 @@ Ninja Bodyguard[;
 //敵襲(てきしゅう)だ！[l
 //十字ボタンとAボタンで応戦(おうせん)だ！[l
 //フジヤマ（ふじさん）！！[;
-tai[;
+An enemy is attacking[l
+your lord! Block the[l
+arrows with your sword,[l
+next time bring a shield![;
 
 #WRITE(RtPtr, $A012A0)
 // 0x805b988
@@ -2957,7 +2963,10 @@ Toss Boys[;
 //声をかけあいながら[l
 //いつも楽しくトスの[l
 //練習してます。[;
-tai[;
+This trio of friends love[l
+practicing volleyball.[l
+Look out for their names[l
+as they pass their ball![;
 
 #WRITE(RtPtr, $A29194)
 // 0x805d7b4
@@ -3109,7 +3118,10 @@ Firework Festival[;
 //やっぱ花火かな？[l
 //色あざやかに[l
 //打ち上げよう！[;
-tai[;
+It's not summertime[l
+without fireworks! Light[l
+them up to fill the[l
+sky with pretty colors![;
 
 #WRITE(RtPtr, $A1AAC4)
 // 0x805cde0
@@ -3251,7 +3263,7 @@ tai[;
 #WRITE(RtPtr, $A1B514)
 // 0x805d0e8
 //あいずは　ナシだぜ・・・[;
-Ｗｅ　ｗｏｎ’ｔ　ｂｅ　ｃｏｕｎｔｉｎｇ　ａｎｙｍｏｒｅ．．．　Ｇｏｏｄ　ｌｕｃｋ！[;
+Ｗｅ　ｗｏｎ’ｔ　ｃｏｕｎｔ　ａｎｙｍｏｒｅ．．．　Ｇｏｏｄ　ｌｕｃｋ！[;
 
 #WRITE(RtPtr, $A19DA4)
 // 0x805cdc8
@@ -3306,7 +3318,10 @@ Tap Trial[;
 //となりのサルたちに[l
 //合わせてタップを[l
 //きざむッス！[;
-tai[;
+You are the girl.[l
+They are the monkeys.[l
+Follow them to tap[l
+stardom![;
 
 #WRITE(RtPtr, $A0DC30)
 // 0x805c348
@@ -3446,7 +3461,10 @@ Gotta tap out.[;
 Remix 5[;
 
 #WRITE(RtPtr, $9CE8EC)
-tai[;
+Stage 5's Remix[l
+features a special song![l
+Think you can beat it?[l
+Good luck and have fun![;
 
 #WRITE(RtPtr, $A648C8)
 // 0x806a2f4
