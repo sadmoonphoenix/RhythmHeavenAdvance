@@ -277,7 +277,7 @@ For now, let's break for lunch![;
 #WRITE(RtPtr, $9CE358)
 // 0x80544cc
 //明日が あるさ。[;
-That was as lively as... a huge baseball tournament![;
+There's always tomorrow...[;
 
 // Rhythm Tweezers
 
@@ -423,7 +423,7 @@ That was great![;
 #WRITE(RtPtr, $A11584)
 // 0x805c890
 //すばらしい判断力だ！[;
-Impeccable timing![;
+Your timing is on point![;
 
 #WRITE(RtPtr, $9CE620)
 // 0x80535b0
@@ -775,7 +775,7 @@ No ghost escapes on your watch![;
 #WRITE(RtPtr, $9CE53C)
 // 0x8053a60
 //しとめた！[;
-You got one![;
+This one's not going anywhere![;
 
 #WRITE(RtPtr, $9CE538)
 // 0x8053a6c
@@ -1808,7 +1808,8 @@ IN SPAAAAAAAAAAACE![;
 #WRITE(RtPtr, $A361DC)
 // 0x805e38c
 //みんなで　ダンスするぞ。[;
-Ｉｔ　ｉｓ　ｔｉｍｅ　ｆｏｒ　ｕｓ　ｔｏ　ｄａｎｃｅ　ｔｏｇｅｔｈｅｒ．[;
+ひ[;
+// Ｉｔ　ｉｓ　ｔｉｍｅ　ｆｏｒ　ｕｓ　ｔｏ　ｄａｎｃｅ　ｔｏｇｅｔｈｅｒ．[;
 
 #WRITE(RtPtr, $A3626C)
 // 0x805e3a8
@@ -2090,9 +2091,9 @@ back now![l
 // 0x805ed44
 //とうとう、[l
 //５問目です！！[;
-We have arrived at[l
-question the fifth![l
-[l
+We have arrived[l
+at question the[l
+fifth![l
 [;
 
 #WRITE(RtPtr, $A3C4DC)
@@ -2108,8 +2109,8 @@ the final question![l
 // 0x805ed74
 //[l
 //どうぞ[;
-Go ahead.[l
 [l
+Go ahead.[l
 [l
 [;
 
@@ -2117,8 +2118,8 @@ Go ahead.[l
 // 0x805ed7c
 //[l
 //そこまで！！[;
-Aaaand stop![l
 [l
+Aaaand stop![l
 [l
 [;
 
@@ -2163,8 +2164,8 @@ next week![l
 // 0x805eca4
 //[l
 //残念！！[;
-Aww, too bad![l
 [l
+Aww, too bad![l
 [l
 [;
 
@@ -2722,6 +2723,7 @@ Good luck and have fun![;
 //[l
 //Here we go![;
 // --- Edited
+[l
 Let's begin![;
 
 #WRITE(RtPtr, $A54184)
@@ -2729,6 +2731,7 @@ Let's begin![;
 // 0x80680fc
 //[l
 //どうぞ。[;
+[l
 Go ahead.[;
 
 #WRITE(RtPtr, $A5422C)
@@ -2736,13 +2739,17 @@ Go ahead.[;
 // 0x8068108
 //[l
 //そこまで！！[;
-Aaaand stop![;
+[l
+Aaaand stop![l
+[l
+[;
 
 #WRITE(RtPtr, $A542BC)
 #WRITE(RtPtr, $A56A1C)
 // 0x8068118
 //[l
 //ザンネン！！[;
+[l
 Aww, too bad![;
 
 #WRITE(RtPtr, $A5431C)
@@ -2750,6 +2757,7 @@ Aww, too bad![;
 // 0x8068128
 //[l
 //おみごと！！[;
+[l
 Impressive![;
 
 #WRITE(RtPtr, $A5599C)
@@ -2822,5 +2830,678 @@ Today's forecast... very cloudy.[;
 // 0x80528fc
 //今回の天気 ： 雨[;
 Today's forecast... raining buckets.[;
+
+// Bouncy Road
+
+#WRITE(RtPtr, $9CE4A8)
+// 0x8053d78
+//ホッピングロード[;
+Bouncy Road[;
+
+#WRITE(RtPtr, $9CE4AC)
+// 0x8053d3c
+//とんでくる丸い玉。[l
+//あれはイイやつです。[l
+//落とさないでネ！[;
+tai[;
+
+#WRITE(RtPtr, $9FF0F0)
+// 0x805b810
+//かぜのウワサ[;
+The Wind's Gossip[;
+
+#WRITE(RtPtr, $9FF0AC)
+// 0x805b784
+//きほんが　できてないよね。[;
+You need to focus on the basics.[;
+
+#WRITE(RtPtr, $9FF0BC)
+// 0x805b7a4
+//連続ジャンプで　ミスが目立ちすぎよね。[;
+You made more mistakes when more balls came.[;
+
+#WRITE(RtPtr, $9FF0B8)
+// 0x805b7cc
+//連続ジャンプが　ファンタスティックだわ！[;
+You handled all those spheres with ease![;
+
+#WRITE(RtPtr, $9FF0C8)
+// 0x805b7f8
+//いい判断だったよね！[;
+Your timing was on point![;
+
+#WRITE(RtPtr, $9CE4C0)
+// 0x8053ce8
+//かんたん かんたん♪[;
+Where's the challenge?[;
+
+#WRITE(RtPtr, $9CE4BC)
+// 0x8053cfc
+//けっこうな コンビネーションだったネ！[;
+We make a good team![;
+
+#WRITE(RtPtr, $9CE4B8)
+// 0x8053d24
+//なかなか ムズカシー！[;
+Ow! This is pretty hard...[;
+
+// Ninja Bodyguard
+
+#WRITE(RtPtr, $9CE4E8)
+// 0x8053c40
+//忍者[;
+Ninja Bodyguard[;
+
+#WRITE(RtPtr, $9CE4EC)
+// 0x8053be8
+//敵襲(てきしゅう)だ！[l
+//十字ボタンとAボタンで応戦(おうせん)だ！[l
+//フジヤマ（ふじさん）！！[;
+tai[;
+
+#WRITE(RtPtr, $A012A0)
+// 0x805b988
+//トノから　ひとこと[;
+My Lord Solemnly Intones[;
+
+#WRITE(RtPtr, $A00080)
+// 0x805b8e0
+//ちゃんと　守ってよネ…[;
+I hired you to protect me.[;
+
+#WRITE(RtPtr, $A00090)
+// 0x805b8fc
+//すばやい　剣さばきが　みじゅくである。[;
+Your swordplay wasn't quick enough.[;
+
+#WRITE(RtPtr, $A0008C)
+// 0x805b924
+//すばやい　剣さばきであった！[;
+You're quite nimble with a sword![;
+
+#WRITE(RtPtr, $A000A0)
+// 0x805b944
+//「四連矢」　に　コテンパンである。[;
+Their four-arrow barrage overwhelmed you.[;
+
+#WRITE(RtPtr, $A0009C)
+// 0x805b968
+//「四連矢返し」　が　おみごと！[;
+You blocked their four-arrow barrage![;
+
+#WRITE(RtPtr, $9CE500)
+// 0x8053b8c
+//アッパレって 言われちゃったゼ！！[;
+Not a scratch![;
+
+#WRITE(RtPtr, $9CE4FC)
+// 0x8053bb0
+//トノ！ ごめんなさ〜い。[;
+I cannot apologize enough, my lord![;
+
+#WRITE(RtPtr, $9CE4F8)
+// 0x8053bc8
+//ゲッ！ トノが きぜつしてる！！[;
+Nooooo! My lord has fainted![;
+
+// Ninja Bodyguard
+
+#WRITE(RtPtr, $9CE6E8)
+// 0x8053248
+//トスボーイズ[;
+Toss Boys[;
+
+#WRITE(RtPtr, $9CE6EC)
+// 0x8053200
+//なかよし３人組、[l
+//声をかけあいながら[l
+//いつも楽しくトスの[l
+//練習してます。[;
+tai[;
+
+#WRITE(RtPtr, $A29194)
+// 0x805d7b4
+//[l
+//なかよく　れんしゅう中[;
+Time for Passing Practice![;
+
+#WRITE(RtPtr, $A29614)
+// 0x805d7cc
+//ひっさつワザ　１[l
+//[size=medium][linesize=medium][style=bold][linestyle=4]ＡＢ　トストス[size=small][linesize=small][style=4(normal)][linestyle=8][;
+Toss Technique 1:[l
+[size=medium][linesize=medium][style=bold][linestyle=4]A-B Pass-Toss[size=small][linesize=small][style=4(normal)][linestyle=8][;
+
+#WRITE(RtPtr, $A29BC0)
+// 0x805d7fc
+//[l
+//もう　いっかい[;
+[l
+Let's see it one more time![;
+
+#WRITE(RtPtr, $A2A13C)
+// 0x805d80c
+//[l
+//いいね！[;
+[l
+Great Tossing![;
+
+#WRITE(RtPtr, $A2A1B4)
+// 0x805d818
+//ひっさつワザ　２[l
+//[size=medium][linesize=medium][style=bold][linestyle=4]セルフ　ブルー[size=small][linesize=small][style=4(normal)][linestyle=8][;
+Toss Technique 2:[l
+[size=medium][linesize=medium][style=bold][linestyle=4]Blue Bounce[size=small][linesize=small][style=4(normal)][linestyle=8][;
+
+#WRITE(RtPtr, $A2A784)
+// 0x805d848
+//[l
+//もう いっちょ〜[;
+[l
+Once again![;
+
+#WRITE(RtPtr, $A2AD24)
+// 0x805d85c
+//[l
+//そうそう！！[;
+[l
+Last one...[;
+
+#WRITE(RtPtr, $A2AD9C)
+// 0x805d86c
+//ひっさつワザ　３[l
+//[size=medium][linesize=medium][style=bold][linestyle=4]イエロー　クイック[size=small][linesize=small][style=4(normal)][linestyle=8][;
+Toss Technique 3:[l
+[size=medium][linesize=medium][style=bold][linestyle=4]Yellow Quick-Toss[size=small][linesize=small][style=4(normal)][linestyle=8][;
+#WRITE(RtPtr, $A2B2E8)
+// 0x805d8a0
+//[l
+//ワンス　モア[;
+[l
+Once more for good measure![;
+
+#WRITE(RtPtr, $A2B804)
+// 0x805d8b0
+//[l
+//オーケイ[;
+[l
+Okay![;
+
+#WRITE(RtPtr, $A2B888)
+// 0x805d8bc
+//[l
+//だいぶ　いい感じなので、[;
+[l
+We've made good time on practice...[;
+
+#WRITE(RtPtr, $A25C6C)
+// 0x805d78c
+//[l
+//ほんばん、　いきまーす！[;
+[l
+Let's try out our routine![;
+
+#WRITE(RtPtr, $A2911C)
+// 0x805d7a8
+//[l
+//おしまい。[;
+[l
+The End.[;
+
+#WRITE(RtPtr, $A25BF4)
+// 0x805d778
+//カントクのことば[;
+Tips From The Referee[;
+
+#WRITE(RtPtr, $A25BB0)
+// 0x805d6e0
+//練習の成果が　でてないな。[;
+You need to practice tossing more.[;
+
+#WRITE(RtPtr, $A25BAC)
+// 0x805d6fc
+//きほんが　できている！[;
+Your tossing was impressive![;
+
+#WRITE(RtPtr, $A25BC0)
+// 0x805d714
+//あせってないか？[;
+Don't lose your head![;
+
+#WRITE(RtPtr, $A25BBC)
+// 0x805d728
+//かなり　おちついてる！[;
+You kept your cool throughout![;
+
+#WRITE(RtPtr, $A25BD0)
+// 0x805d740
+//スピードに　ついてこい。[;
+You couldn't keep up to speed.[;
+
+#WRITE(RtPtr, $A25BCC)
+// 0x805d75c
+//速さをモノにしている！！[;
+Speed's no problem for you three![;
+
+#WRITE(RtPtr, $9CE700)
+// 0x80531a0
+//目標は、 トス世界選手権 優勝だー！！[;
+Toss World Championship, here we come![;
+
+#WRITE(RtPtr, $9CE6FC)
+// 0x80531c8
+//まだまだもっと上手にできるはず！[;
+Next time, we'll toss better than the best![;
+
+#WRITE(RtPtr, $9CE6F8)
+// 0x80531ec
+//ダメダメだァ〜！[;
+We've been tossed out![;
+
+#WRITE(RtPtr, $9CE688)
+// 0x8053394
+//花火[;
+Firework Festival[;
+
+#WRITE(RtPtr, $9CE68C)
+// 0x8053358
+//夏といえばさ、[l
+//やっぱ花火かな？[l
+//色あざやかに[l
+//打ち上げよう！[;
+tai[;
+
+#WRITE(RtPtr, $A1AAC4)
+// 0x805cde0
+//・・・　おまつり　まえ　・・・[;
+Ｂｅｆｏｒｅ　ｔｈｅ　ｆｅｓｔｉｖａｌ　ｂｅｇｉｎｓ．．．[;
+
+#WRITE(RtPtr, $A1AB24)
+// 0x805ce00
+//とっくんだ！[;
+．．．ｌｅｔ’ｓ　ｈａｖｅ　ａ　ｃｒａｓｈ　ｃｏｕｒｓｅ！[;
+
+#WRITE(RtPtr, $A1AB6C)
+// 0x805ce10
+//「ハイ！」　のあいずで　Ａボタン[;
+Ｗｈｅｎ　ｙｏｕ　ｈｅａｒ　”Ｇｏ！”　ｐｒｅｓｓ　（Ａ）[;
+
+#WRITE(RtPtr, $A1ABD8)
+// 0x805ce34
+//まずは、　「　ふつう　の　ハナビ　」[;
+Ｆｉｒｓｔ　ｏｆ　ａｌｌ，　ｎｏｒｍａｌ　ｆｉｒｅｗｏｒｋｓ．[;
+
+#WRITE(RtPtr, $A1AC8C)
+#WRITE(RtPtr, $A1AD88)
+// 0x805ce5c
+//.bいち　.bに　.bさん　　.bハイ！[;
+.bＯｎｅ　.bＴｗｏ　.bＴｈｒｅｅ　.bＧｏ！[;
+
+#WRITE(RtPtr, $A1ACD4)
+#WRITE(RtPtr, $A1ADD0)
+// 0x805ce80
+//.dいち　.bに　.bさん　　.bハイ！[;
+.dＯｎｅ　.bＴｗｏ　.bＴｈｒｅｅ　.bＧｏ！[;
+
+#WRITE(RtPtr, $A1AD04)
+#WRITE(RtPtr, $A1AE00)
+// 0x805cea4
+//.dいち　.dに　.bさん　　.bハイ！[;
+.dＯｎｅ　.dＴｗｏ　.bＴｈｒｅｅ　.bＧｏ！[;
+
+#WRITE(RtPtr, $A1AD28)
+#WRITE(RtPtr, $A1AE24)
+// 0x805cec8
+//.dいち　.dに　.dさん　　.bハイ！[;
+.dＯｎｅ　.dＴｗｏ　.dＴｈｒｅｅ　.bＧｏ！[;
+
+#WRITE(RtPtr, $A1AD4C)
+#WRITE(RtPtr, $A1AE48)
+// 0x805ceec
+//　.cいち　.cに　.cさん　.c:0ハイ！[;
+.cＯｎｅ　.cＴｗｏ　.cＴｈｒｅｅ　.cＧｏ！[;
+
+#WRITE(RtPtr, $A1AECC)
+// 0x805cf10
+//「　きあい　の　ハナビ　」[;
+Ｎｅｘｔ　ｕｐ，　ｏｕｒ　Ｓｐｉｒｉｔ　Ｒｏｃｋｅｔｓ！[;
+
+#WRITE(RtPtr, $A1AF80)
+#WRITE(RtPtr, $A1B088)
+// 0x805cf2c
+//.bぬ.bえ.bい.b！　　.bハイ！[;
+.bＨ.bａ.bｈ.b！　.bＧｏ！[;
+
+#WRITE(RtPtr, $A1AFC8)
+#WRITE(RtPtr, $A1B0D0)
+// 0x805cf4c
+//.dぬ.bえ.bい.b！　　.bハイ！[;
+.dＨ.bａ.bｈ.b！　.bＧｏ！[;
+
+#WRITE(RtPtr, $A1AFE0)
+#WRITE(RtPtr, $A1B0E8)
+// 0x805cf6c
+//.dぬ.dえ.bい.b！　　.bハイ！[;
+.dＨ.dａ.bｈ.b！　.bＧｏ！[;
+
+#WRITE(RtPtr, $A1AFF8)
+#WRITE(RtPtr, $A1B100)
+// 0x805cf8c
+//.dぬ.dえ.dい.b！　　.bハイ！[;
+.dＨ.dａ.dｈ.b！　.bＧｏ！[;
+
+#WRITE(RtPtr, $A1B010)
+#WRITE(RtPtr, $A1B118)
+// 0x805cfac
+//.dぬ.dえ.dい.d！　　.bハイ！[;
+.dＨ.dａ.dｈ.d！　.bＧｏ！[;
+
+#WRITE(RtPtr, $A1B040)
+#WRITE(RtPtr, $A1B148)
+// 0x805cfcc
+//　.cぬ.cえ.cい.c！　.c:0ハイ！[;
+.cＨ.cａ.cｈ.c！　.cＧｏ！[;
+
+#WRITE(RtPtr, $A1B1D8)
+// 0x805cfec
+//「　シメ　の　タイコボンバー　」[;
+Ｆｉｎａｌｌｙ，　ｏｕｒ　Ｄｒｕｍｍｅｒ’ｓ　Ｂｏｍｂ！[;
+
+#WRITE(RtPtr, $A1B28C)
+#WRITE(RtPtr, $A1B370)
+// 0x805d010
+//.bた.bま.bや.b〜　　.bハイ！[;
+.bＨｅｒｅ　.bｉｔ　.bｃｏｍｅｓ！　.bＧｏ！[;
+
+#WRITE(RtPtr, $A1B2BC)
+#WRITE(RtPtr, $A1B3A0)
+// 0x805d030
+//.dた.bま.bや.b〜　　.bハイ！[;
+.dＨｅｒｅ　.bｉｔ　.bｃｏｍｅｓ.b！　.bＧｏ！[;
+
+#WRITE(RtPtr, $A1B2D4)
+#WRITE(RtPtr, $A1B3B8)
+// 0x805d050
+//.dた.dま.bや.b〜　　.bハイ！[;
+.dＨｅｒｅ　.dｉｔ　.bｃｏｍｅｓ.b！　.bＧｏ！[;
+
+#WRITE(RtPtr, $A1B2EC)
+#WRITE(RtPtr, $A1B3D0)
+// 0x805d070
+//.dた.dま.dや.b〜　　.bハイ！[;
+.dＨｅｒｅ　.dｉｔ　.dｃｏｍｅｓ.b！　.bＧｏ！[;
+
+#WRITE(RtPtr, $A1B304)
+#WRITE(RtPtr, $A1B3E8)
+// 0x805d090
+//.dた.dま.dや.d〜　　.bハイ！[;
+.dＨｅｒｅ　.dｉｔ　.dｃｏｍｅｓ.d！　.bＧｏ！[;
+
+#WRITE(RtPtr, $A1B328)
+#WRITE(RtPtr, $A1B40C)
+// 0x805d0b0
+//　.cた.cま.cや.c〜　.c:0ハイ！[;
+.cＨｅｒｅ　.cｉｔ　.cｃｏｍｅｓ.c！　.cＧｏ！[;
+
+#WRITE(RtPtr, $A1B4B4)
+// 0x805d0d0
+//さあ、　ではホンバン！[;
+Ａｌｒｉｇｈｔ！　Ｌｅｔ　ｔｈｅ　ｆｅｓｔｉｖａｌ　ｂｅｇｉｎ！[;
+
+#WRITE(RtPtr, $A1B514)
+// 0x805d0e8
+//あいずは　ナシだぜ・・・[;
+Ｗｅ　ｗｏｎ’ｔ　ｂｅ　ｃｏｕｎｔｉｎｇ　ａｎｙｍｏｒｅ．．．　Ｇｏｏｄ　ｌｕｃｋ！[;
+
+#WRITE(RtPtr, $A19DA4)
+// 0x805cdc8
+//オヤカタから　ひとこと[;
+Notes from the Director[;
+
+#WRITE(RtPtr, $A19D74)
+// 0x805cd60
+//もっとハデに　キメようぜ！[;
+Look alive out there![;
+
+#WRITE(RtPtr, $A19D70)
+// 0x805cd7c
+//すばらしい　うちあげっぷりだ！！[;
+Phenomenal explosions![;
+
+#WRITE(RtPtr, $A19D84)
+// 0x805cda0
+//反応が　おそいぞ！[;
+You gotta react a little quicker![;
+
+#WRITE(RtPtr, $A19D80)
+// 0x805cdb4
+//いい反応してるな！[;
+You were quick on your feet![;
+
+#WRITE(RtPtr, $9CE6A0)
+// 0x8053308
+//花火のことならオレにまかせろ！！[;
+I am THE go-to fireworks guy![;
+
+#WRITE(RtPtr, $9CE69C)
+// 0x805332c
+//なかなかのデキだぜ！[;
+That wasn't half bad![;
+
+#WRITE(RtPtr, $9CE698)
+// 0x8053344
+//ゲホゲホッ… 失敗。[;
+Uhh... I'll get it right next year...![;
+
+// Tap Trial
+
+#WRITE(RtPtr, $9CE5C8)
+// 0x8053790
+//タップダンズ[;
+Tap Trial[;
+
+#WRITE(RtPtr, $9CE5CC)
+// 0x805374c
+//あなたは女の子。[l
+//となりのサルたちに[l
+//合わせてタップを[l
+//きざむッス！[;
+tai[;
+
+#WRITE(RtPtr, $A0DC30)
+// 0x805c348
+//タップしましょ！[;
+Ｌｅｔ’ｓ　ｔａｐ！[;
+
+#WRITE(RtPtr, $A0DCCC)
+// 0x805c35c
+//まず、　れんしゅう。[;
+Ｐｒａｃｔｉｃｅ　ｆｉｒｓｔ！[;
+
+#WRITE(RtPtr, $A0DD44)
+// 0x805c374
+//マネしてね。[;
+Ｊｕｓｔ　ｃｏｐｙ　ｕｓ！[;
+
+#WRITE(RtPtr, $A0DDBC)
+// 0x805c384
+//ＯＫ！　つぎでーす。[;
+ＯＫ，　ｈｅｒｅ’ｓ　ａｎｏｔｈｅｒ　ｓｔｅｐ！[;
+
+#WRITE(RtPtr, $A0DE40)
+// 0x805c39c
+//ＯＫ！　まだあるヨ。[;
+ＯＫ，　ｏｎｅ　ｍｏｒｅ！[;
+
+#WRITE(RtPtr, $A0DEC4)
+// 0x805c3b4
+//ＯＫ！　ラストです。[;
+ＯＫ，　ｌａｓｔ　ｏｎｅ！[;
+
+#WRITE(RtPtr, $A0DF60)
+// 0x805c3cc
+//ＯＫ！[;
+ＯＫ！[;
+
+#WRITE(RtPtr, $A0FE20)
+// 0x805c75c
+//ＯＫ！　おつかれさま！[;
+ＯＫ，　ｎｉｃｅ　ｗｏｒｋ！[;
+
+#WRITE(RtPtr, $A0D12C)
+// 0x805c300
+//ほんばん　スタート！[;
+Ｌｅｔ’ｓ　ｄａｎｃｅ！[;
+
+#WRITE(RtPtr, $A0D1A4)
+// 0x805c318
+//チェックしちゃうもんね。[;
+Ｉ　ｌｏｖｅ　ｔａｐ！[;
+
+#WRITE(RtPtr, $9E8064)
+// 0x805a8c0
+//ホレたー！！[;
+Ｉ　ｔｈｉｎｋ　Ｉ’ｍ　ｉｎ　ｌｏｖｅ！[;
+
+#WRITE(RtPtr, $9E8060)
+// 0x805a8d0
+//イカスッす！！[;
+Ｓｈａｒｐ　ｗｏｒｋ！[;
+
+#WRITE(RtPtr, $9E805C)
+// 0x805a8e0
+//テクニシャン！[;
+Ｓｏ　ｔｅｃｈｎｉｃａｌ！[;
+
+#WRITE(RtPtr, $9E8058)
+// 0x805a8f0
+//カッコイイ！！[;
+Ｄａｚｚｌｉｎｇ！[;
+
+#WRITE(RtPtr, $9E8054)
+// 0x805a900
+//うまいっス！！[;
+Ｄｉｖｉｎｅ！[;
+
+#WRITE(RtPtr, $A0DBAC)
+// 0x805c334
+//おつかれちゃん。[;
+Ｗｈａｔ　ａ　ｐｅｒｆｏｒｍａｎｃｅ！[;
+
+#WRITE(RtPtr, $A0D0C0)
+// 0x805c2ec
+//サルの　ひとこと[;
+Monkey Feedback[;
+
+#WRITE(RtPtr, $A0CEAC)
+// 0x805c248
+//きほんが　できてないかも…[;
+Your basics were a little sloppy.[;
+
+#WRITE(RtPtr, $A0CEA8)
+// 0x805c264
+//なじんでるネ！[;
+You showed real rhythm potential![;
+
+#WRITE(RtPtr, $A0CEBC)
+// 0x805c274
+//判断力が　たりないかも…[;
+You seemed to be looking for the rhythm.[;
+
+#WRITE(RtPtr, $A0CEB8)
+// 0x805c290
+//たいした　判断力だヨ！[;
+You had nice rhythm awareness![;
+
+#WRITE(RtPtr, $A0CECC)
+// 0x805c2a8
+//もっと集中しよう。[;
+You needed to concentrate more.[;
+
+#WRITE(RtPtr, $A0CEC8)
+// 0x805c2bc
+//すごい集中力だヨ〜！[;
+You were clearly concentrating hard.[;
+
+#WRITE(RtPtr, $9CE5E0)
+// 0x8053700
+//気分は もう、サイコー！！[;
+Tap loves you too, Giraffe![;
+
+#WRITE(RtPtr, $9CE5DC)
+// 0x805371c
+//ちょっと、 ヘンなトコあったけどネ！[;
+You were ALMOST as good as a monkey...[;
+
+#WRITE(RtPtr, $9CE5D8)
+// 0x8053740
+//無念だわ。[;
+Gotta tap out.[;
+
+// Remix 5
+
+#WRITE(RtPtr, $9CE8E8)
+// 0x80528b0
+//リミックス ５[;
+Remix 5[;
+
+#WRITE(RtPtr, $9CE8EC)
+tai[;
+
+#WRITE(RtPtr, $A648C8)
+// 0x806a2f4
+//[linealign=right][style=gold][linestyle=5]♪ WISH 君を待てなくて　[;
+[linealign=right][style=gold][linestyle=5]♪ WISH - Can't Wait for You　[;
+
+#WRITE(RtPtr, $A66818)
+// 0x806a314
+//[linesize=large]　うた　　田中　総史[;
+[linesize=large]　Singer:　　Sohshi Tanaka[;
+
+#WRITE(RtPtr, $A66B24)
+// 0x806a32c
+//[linesize=large]作詞　作曲[l
+//　　　　　　　　つんく[l
+//編曲[l
+//　　　　　　　　湯浅　公一[;
+Music:[l
+　　　　　　　　TSUNKU[l
+Arrangement:[l
+　　　　　　　　Yuasa Koichi[;
+
+#WRITE(RtPtr, $A66C68)
+// 0x806a370
+//[linealign=center]提供　　J.P.ROOM[;
+[linealign=center]Sponsored by J.P.ROOM[;
+
+#WRITE(RtPtr, $A64868)
+// 0x806a2d8
+//なぞのリズム組織から通達[;
+Rhythm League notes:[;
+
+#WRITE(RtPtr, $A64824)
+// 0x806a230
+//まだまだです。[;
+Try a little harder.[;
+
+#WRITE(RtPtr, $A64820)
+// 0x806a240
+//かなり、　サイコーでーす！[;
+That was really great![;
+
+#WRITE(RtPtr, $9CE900)
+// 0x8052834
+//今回のふたり ： 幸せになりました♪[;
+This couple is... living their best lives![;
+
+#WRITE(RtPtr, $9CE8FC)
+// 0x8052858
+//今回のふたり ： このさき、チョット不安かも…[;
+This couple is... a little nervous...[;
+
+#WRITE(RtPtr, $9CE8F8)
+// 0x8052888
+//今回のふたり ： ジャマされてしまった！[;
+This couple is... in trouble![;
 
 //End of Script file.
