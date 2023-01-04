@@ -12,6 +12,10 @@ del "ROM\rh-atlus.gba"
 copy "ROM\rh-jpn.gba" "ROM\rh-atlus.gba"
 perl "tools\abcde\abcde.pl" -cm abcde::Atlas "ROM\rh-atlus.gba" "src\script.txt"
 
+tools\4bmpp.exe -p src/Graphics/RhythmGames/NightWalk/beba58_night1_intro.bmp
+
+tools\DSDecmp.exe -c lz10 src/Graphics/RhythmGames/NightWalk/beba58_night1_intro.bin src/Graphics/RhythmGames/NightWalk/beba58_night1_intro
+
 tools\armips.exe tools/ASM/compile.asm
 echo If no error was found during any of the steps, it should now be compiled. (Press any key to recompile!)
 pause > nul

@@ -14,6 +14,34 @@
 // Put all the text in the blank space at the end of the rom.
 #JMP($D20600)
 
+// Title Screen Demo
+
+#WRITE(RtPtr, $A324DC)
+// 0x805df4c
+//Welcome to[l
+//this funky game,[l
+//the RHYTHM TEN-[l
+//GOKU world!![;
+Welcome to the[l
+funky world of[l
+Rhythm Heaven Advance![;
+
+#WRITE(RtPtr, $A32CA4)
+// 0x805df88
+//リズム天国へ ようこそ！[l
+//ファンキーなひとときを[l
+//楽しんでくださいネ![;
+Enjoy your time here.[l
+It's a lot of fun![;
+
+#WRITE(RtPtr, $A33424)
+// 0x805dfcc
+//では、　またのちほど[l
+//お会いしましょう！[l
+//see you![;
+[l
+Well then, see you later![;
+
 // Options
 
 #WRITE(RtPtr, $165EC)
@@ -112,12 +140,16 @@ I guess that was all right.[;
 //喫茶カウンセル
 Consultant Café[;
 
-// #WRITE(RtPtr, $9CE96C)
+#WRITE(RtPtr, $9CE96C)
 // 0x8052678
-//最近の調子 どう？[l
-//なにか気になれば[l
-//ここで相談を[l
-//してみよう。[;
+// 最近の調子 どう？[l
+// なにか気になれば[l
+// ここで相談を[l
+// してみよう。[;
+How are you feeling?[l
+If something's on your[l
+mind, feel free to talk[l
+about it here.[;
 
 
 // Rhythm Toys
@@ -127,12 +159,16 @@ Consultant Café[;
 //おもちゃ[;
 Rhythm Toys[;
 
-// #WRITE(RtPtr, $9CE98C)
+#WRITE(RtPtr, $9CE98C)
 // 0x8052624
 //メダルを あつめて[l
 //音のでるおもちゃで[l
 //あそんでみてネ！[l
 //いくつかあるヨ。[;
+Collect medals to[l
+play with some[l
+Rhythm Toys![l
+Check them out![;
 
 #WRITE(RtPtr, $9CE9A8)
 // 0x805261c
@@ -1815,8 +1851,7 @@ IN SPAAAAAAAAAAACE![;
 #WRITE(RtPtr, $A361DC)
 // 0x805e38c
 //みんなで　ダンスするぞ。[;
-ひ[;
-// Ｉｔ　ｉｓ　ｔｉｍｅ　ｆｏｒ　ｕｓ　ｔｏ　ｄａｎｃｅ　ｔｏｇｅｔｈｅｒ．[;
+Ｉｔ　ｉｓ　ｔｉｍｅ　ｆｏｒ　ｕｓ　ｔｏ　ｄａｎｃｅ　ｔｏｇｅｔｈｅｒ．[;
 
 #WRITE(RtPtr, $A3626C)
 // 0x805e3a8
@@ -2318,7 +2353,7 @@ Power Calligraphy[;
 //オイシイとこだけ。[;
 Japanese calligraphy[l
 requires grace, finesse,[l
-and surprisingly upper[l
+and, surprisingly, upper[l
 body strength.[;
 
 #WRITE(RtPtr, $A1F4B0)
@@ -2442,7 +2477,7 @@ Is your left hand falling asleep?[;
 #WRITE(RtPtr, $9F2804)
 // 0x805b02c
 //左手が　しっかり仕事してるネ！[;
-Your left hand was a model employee!;
+Your left hand was a model employee![;
 
 #WRITE(RtPtr, $9F2818)
 // 0x805b04c
@@ -2850,15 +2885,15 @@ Bouncy Road[;
 //とんでくる丸い玉。[l
 //あれはイイやつです。[l
 //落とさないでネ！[;
-See the ball bouncing[l
-down the road? It's a[l
-very good ball, so don't[l
-let it fall![;
+See that ball bouncing[l
+down the road? You[l
+wouldn't want to let[l
+it fall...would you?[;
 
 #WRITE(RtPtr, $9FF0F0)
 // 0x805b810
 //かぜのウワサ[;
-The Wind's Gossip[;
+Gossip from the Wind[;
 
 #WRITE(RtPtr, $9FF0AC)
 // 0x805b784
@@ -2957,12 +2992,12 @@ I cannot apologize enough, my lord![;
 //ゲッ！ トノが きぜつしてる！！[;
 Nooooo! My lord has fainted![;
 
-// Toys Boys
+// Toss Team
 
 #WRITE(RtPtr, $9CE6E8)
 // 0x8053248
 //トスボーイズ[;
-Toss Boys[;
+Toss Team[;
 
 #WRITE(RtPtr, $9CE6EC)
 // 0x8053200
@@ -4691,12 +4726,12 @@ We're working our hardest![;
 //エーン！ しっぱい！！[;
 Ow! We failed![;
 
-// Toys Boys 2
+// Toss Team 2
 
 #WRITE(RtPtr, $9CE708)
 // 0x8053190
 //トスボーイズ ２[;
-Toss Boys 2[;
+Toss Team 2[;
 
 #WRITE(RtPtr, $9CE70C)
 This trio of friends love[l

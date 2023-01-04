@@ -36,3 +36,4 @@ ROM/*.png
 
 # mGBA cheats
 *.cheats
+copy_to_gba.bat
