@@ -29,9 +29,15 @@ _spriteluaconsolemessages equ 1
 .include src/Graphics/Font/font.asm
 .include src/Graphics/RhythmGames/RatRace/ratrace.asm
 .include src/Graphics/RhythmGames/NightWalk/nightwalk.asm
+.include src/Graphics/RhythmGames/KarateMan/karateman.asm
 
 .include tools/ASM/asm_relocate.asm
 .include tools/ASM/asm.asm
+
+; ALWAYS INCLUDE LAST - DO NOT INCLUDE ANYTHING AFTER THIS.
+
+; .include src/Misc/DebugMenu/debugmenu_relocate.asm
+; .include src/Misc/DebugMenu/debugmenu.asm
 
 .close
 ;eof 

@@ -19,6 +19,6 @@ bl FixResultsCaps
 .org 0x08019CCA
 bl FixResultsCaps
 
-.org 0x0801d174
-bl EndlessGamesPlural_Hook
+; .org 0x0801d174
+; bl EndlessGamesPlural_Hook
 ;eof

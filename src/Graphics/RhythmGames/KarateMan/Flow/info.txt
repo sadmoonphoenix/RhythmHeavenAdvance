@@ -1,0 +1,24 @@
+.org 0x088ACD1C
+.dw X8AC9B4_assembly0
+
+;--
+.org 0x088ACD24
+.dw X8AC9DA_assembly1
+
+;--
+.org 0x088ACD2C
+.dw X8ACA00_assembly2
+
+;--
+.org 0x088ACD34
+.dw X8ACA26_assembly3
+
+;--
+.org 0x088ACD3C
+.dw X8ACA4C_assembly4
+
+;--
+.org 0x088ACD44
+.dw X8ACA72_assembly5
+
+;--

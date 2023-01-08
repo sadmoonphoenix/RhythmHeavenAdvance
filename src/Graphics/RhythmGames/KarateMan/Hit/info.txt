@@ -1,0 +1,12 @@
+.org 0x08D6259C
+.import Directory/D6259C_assembly0.bin
+;--
+.org 0x088ACB84
+.import Directory/8ACB84_assembly1.bin
+;--
+.org 0x088ACB98
+.import Directory/8ACB98_assembly2.bin
+;--
+.org 0x08D625B6
+.import Directory/D625B6_assembly3.bin
+;--
