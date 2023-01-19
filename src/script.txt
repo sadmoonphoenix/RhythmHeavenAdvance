@@ -2,7 +2,10 @@
 // by Shaffy (2022-2023)
 
 // Contributors:
-// Shaffy / sA / Cash Banooka / Captain Stage / vincells
+// Shaffy / Butter (sA) / Cash Banooka / Captain Stage / vincells
+// 
+// Managed by Shaffy
+// (C)2022-2023 Advance Team
 
 #VAR(tbl, TABLE)
 #ADDTBL("src/sjis_2.tbl", tbl)
@@ -41,6 +44,230 @@ It's a lot of fun![;
 //see you![;
 [l
 Well then, see you later![;
+
+// Welcome! Speech
+
+#WRITE(RtPtr, $A33B38)
+// 0x805e000
+//リズム感[l
+//それは潜在的に[l
+//みんなが持っている[l
+//ものなんです。[;
+Hey there![l
+Everyone's got the[l
+potential to have a good[l
+sense of rhythm, you know.[;
+
+#WRITE(RtPtr, $A33B74)
+// 0x805e03c
+//リズム感は[l
+//意識していれば[l
+//どんどん良くなります。[;
+That sense of rhythm can[l
+be sharpened like any skill,[l
+just by paying attention[l
+to it.[;
+
+#WRITE(RtPtr, $A33BB0)
+// 0x805e070
+//さて、まずは[l
+//あなたのリズム感を[l
+//かるく見てみましょう。[;
+Want to know how sharp[l
+yours is? Then why don't[l
+we take a quick look?[;
+
+#WRITE(RtPtr, $A33C70)
+// 0x805e0a8
+//どうでしたか？[l
+//納得のいく結果が[l
+//出せましたか？[;
+How did you do? Are you[l
+happy with the results?[;
+
+
+#WRITE(RtPtr, $A33CAC)
+// 0x805e0d8
+//潜在的なリズム感は[l
+//訓練によって[l
+//成長するんです。[;
+Your sense of[l
+rhythm will grow[l
+with some practice, so...[;
+
+#WRITE(RtPtr, $A33CE8)
+// 0x805e10c
+//このあと出てくる[l
+//リズミカルなゲームで[l
+//楽しくリズム感を[l
+//みがいてみてください。[;
+Leap into some of these[l
+games and you might[l
+just find it getting[l
+sharper and sharper![;
+
+#WRITE(RtPtr, $A33D24)
+// 0x805e15c
+//では、またあとで[l
+//お会いしましょう。[;
+Well then, see you later.[;
+
+// Rhythm Test
+
+#WRITE(RtPtr, $A40CD4)
+// 0x805f078
+//あなたのリズム感をしらべましょう[;
+Let's find out how good your rhythm is.[;
+
+#WRITE(RtPtr, $A40CF8)
+// 0x805f09c
+//これから、３回のテストをします[;
+We're going to do three tests.[;
+
+#WRITE(RtPtr, $A40D1C)
+// 0x805f0bc
+//では、１回目です[;
+Here's the first rhythm test.[;
+
+#WRITE(RtPtr, $A3E150)
+// 0x805eed8
+//音に合わせて、Ａボタンを押してください[;
+Press [A_button] in time with the signal.[;
+
+#WRITE(RtPtr, $A3E510)
+// 0x805ef00
+//あと半分[;
+You're halfway there![;
+
+#WRITE(RtPtr, $A40D88)
+// 0x805f0d0
+//２回目のテスト、いきます[;
+Let's move on to the second test.[;
+
+#WRITE(RtPtr, $A3E72C)
+// 0x805ef18
+//「ゼロ」と同時に、Ａボタンを押してください[;
+Press [A_button] when the timer hits "0".[;
+
+#WRITE(RtPtr, $A3E8F4)
+// 0x805ef44
+//音が消えるところは、心でカウントしてください[;
+When there's no sound, count[l
+to yourself to keep the beat.[;
+
+#WRITE(RtPtr, $A3EAE0)
+// 0x805ef74
+//では、測定をはじめます[;
+Now, let's start measuring.[;
+
+#WRITE(RtPtr, $A40DF4)
+// 0x805f0ec
+//さいごのテストです[;
+This is the final test.[;
+
+#WRITE(RtPtr, $A40178)
+// 0x805ef8c
+//音に合わせて、Ａボタンを押してください[;
+Press [A_button] in time with the signal.[;
+
+#WRITE(RtPtr, $A402E0)
+// 0x805efb4
+//そのまま、キープしつづけて下さい[;
+Keep it up like this![;
+
+#WRITE(RtPtr, $A40CB0)
+// 0x805efd8
+//だいぶ、努力が必要かも…[;
+You'll have to put in a lot of effort...[;
+
+#WRITE(RtPtr, $A40CAC)
+// 0x805eff4
+//もう少し、がんばりましょう。[;
+You'll need to try a little harder.[;
+
+#WRITE(RtPtr, $A40CA8)
+// 0x805f014
+//人並みの正確さをお持ちです。[;
+You're as accurate as any person could be.[;
+
+#WRITE(RtPtr, $A40CA4)
+// 0x805f034
+//正確な体内時計をお持ちです！[;
+You have an accurate biological clock![;
+
+#WRITE(RtPtr, $A40CA0)
+// 0x805f054
+//すごい！　電波時計なみの正確さ！！[;
+Incredible! You're as precise as an atomic clock![;
+
+// Concert
+
+#WRITE(RtPtr, $9E5C74)
+// 0x805a830
+//[size=medium][linesize=medium][style=bold][linestyle=4]Drum Girls LIVE!  [l
+//[l
+//[size=small][linesize=small][style=gold][linestyle=5]♪　ナイトウォーク[l
+//[size=small][linesize=small][style=gold][linestyle=5]♪　スペースダンス[l
+//[size=small][linesize=small][style=gold][linestyle=5]♪　恋のハニースイ〜トエンジェル[l
+//[l
+//[;
+[size=medium][linesize=medium][style=bold][linestyle=4]Drum Girls LIVE!  [l
+[l
+[size=small][linesize=small][style=gold][linestyle=5]♪　Night Walk[l
+[size=small][linesize=small][style=gold][linestyle=5]♪　Space Dance[l
+[size=small][linesize=small][style=gold][linestyle=5]♪　Honey Sweet Angel of Love[l
+[l
+[;
+
+#WRITE(RtPtr, $9E5C78)
+// 0x805a7a8
+//[size=medium][linesize=medium][style=bold][linestyle=4]Drum Boys LIVE![l
+//[l
+//[size=small][linesize=small][style=gold][linestyle=5]　　　　♪　パチパチ三人衆[l
+//[size=small][linesize=small][style=gold][linestyle=5]　　　　♪　タップダンズ[l
+//[size=small][linesize=small][style=gold][linestyle=5]　　　　♪　WISH 君を待てなくて[l
+//[l
+//[;
+[size=medium][linesize=medium][style=bold][linestyle=4]Drum Boys LIVE![l
+[l
+[size=small][linesize=small][style=gold][linestyle=5]♪　The Clappy Trio[l
+[size=small][linesize=small][style=gold][linestyle=5]♪　Tap Trial[l
+[size=small][linesize=small][style=gold][linestyle=5]♪　WISH - Can't Wait for You[l
+[l
+[;
+
+#WRITE(RtPtr, $9E5C7C)
+// 0x805a6e8
+//[size=medium][linesize=medium][style=bold][linestyle=4]Drum Samurai's[l
+//[size=medium][linesize=medium][style=bold][linestyle=4][linealign=right]Band LIVE! [l
+//[l
+//[size=small][linesize=small][style=gold][linestyle=5][linesize=large]　　　　　　　　　　♪　コスモダンス[l
+//[size=small][linesize=small][style=gold][linestyle=5]　　　　　　　　　　♪　バリバリ三人衆[l
+//[size=small][linesize=small][style=gold][linestyle=5]　　　　　　　　　　♪　スーパータップ[l
+//[l
+//[;
+[size=medium][linesize=medium][style=bold][linestyle=4]Drum Samurai's[l
+[size=medium][linesize=medium][style=bold][linestyle=4][linealign=right]Band LIVE! [l
+[size=small][linesize=small][style=gold][linestyle=5][linealign=left]♪　Cosmic Dance[l
+[size=small][linesize=small][style=gold][linestyle=5]♪　The Snappy Trio[l
+[size=small][linesize=small][style=gold][linestyle=5]♪　Turbo Tap Trial[l
+[l
+[;
+
+// #WRITE(RtPtr, $9CEA20)
+// 0x8052464
+//プロデューサー「うちで、ガンバってみない？」[;
+The producer says... "You should play at our place, too!"[;
+
+#WRITE(RtPtr, $9CEA1C)
+// 0x8052494
+//オーナー「キミ、なかなか スジあるヨ」[;
+The owner says... "You've got great skills."[;
+
+#WRITE(RtPtr, $9CEA18)
+// 0x80524bc
+//おばちゃん「またつぎ、がんばりなよ！」[;
+The cleaner says... "I know you can do it, try your best!"[;
 
 // Options
 
@@ -595,9 +822,6 @@ Must... train... harder...[;
 #WRITE(RtPtr, $9CE598)
 // 0x8053880
 //これで ゆるしてください。[;
-// --- Literal
-//Please forgive me for only this.[;
-// --- Edited
 Can I have my ball back? I'll give you my last rice ball...[;
 
 // The Clappy Trio
@@ -968,9 +1192,6 @@ I've broken my blade![;
 #WRITE(RtPtr, $9CE728)
 // 0x8053148
 //こっそり ラット[;
-// --- Literal
-//Stealthy Rat[;
-// --- Edited
 Rat Race[;
 
 #WRITE(RtPtr, $9CE72C)
@@ -1093,9 +1314,9 @@ Sick Beats[;
 //バイキン発生です！！[l
 //先生、たすけて〜」[;
 [color=pink]Assistant memo:[l
-We've got an outbreak[l
+"We've got an outbreak[l
 of an unknown virus![l
-Help us, Dr. Cutlery![;
+Help us, Dr. Cutlery!"[;
 
 #WRITE(RtPtr, $9FD1CC)
 // 0x805b764
@@ -2035,14 +2256,14 @@ Good luck and have fun![;
 #WRITE(RtPtr, $A620C4)
 // 0x806a134
 //[style=gold][linestyle=5]　編曲　　鈴木Daichi秀行[;
-[style=gold][linestyle=5]　Arrangement:　　H.D.Suzuki[;
+[style=gold][linestyle=5]　Arrangement: H. D. Suzuki[;
 
 #WRITE(RtPtr, $A62340)
 // 0x806a154
 //[l
 //[style=gold][linestyle=5][linealign=center]提供　　J.P.ROOM[;
 [l
-[style=gold][linestyle=5][linealign=center]Sponsored by J.P.ROOM[;
+[style=gold][linestyle=5][linealign=center]Managed by J.P. ROOM[;
 
 #WRITE(RtPtr, $A60648)
 // 0x806a0b8
@@ -2797,9 +3018,6 @@ This blows...[;
 #WRITE(RtPtr, $9CE8C8)
 // 0x8052910
 //リミックス ４[;
-// --- Literal
-//Remix 4[;
-// --- Edited
 Remix 4[;
 
 #WRITE(RtPtr, $9CE8CC)
@@ -2812,10 +3030,6 @@ Good luck and have fun![;
 // 0x80680f0
 //[l
 //いきます！[;
-// --- Literal
-//[l
-//Here we go![;
-// --- Edited
 [l
 Let's begin![;
 
@@ -3583,7 +3797,7 @@ Arrangement:[l
 #WRITE(RtPtr, $A66C68)
 // 0x806a370
 //[linealign=center]提供　　J.P.ROOM[;
-[linealign=center]Sponsored by J.P.ROOM[;
+[linealign=center]Managed by J.P. ROOM[;
 
 #WRITE(RtPtr, $A64868)
 // 0x806a2d8
@@ -4452,7 +4666,7 @@ Why do you have to be so hairy!?[;
 #WRITE(RtPtr, $9CE508)
 // 0x8053b80
 //忍者の子孫[;
-Ninja Reincarnate[;
+Ninja Descendant[;
 
 #WRITE(RtPtr, $9CE50C)
 // 0x8053b44
@@ -5397,5 +5611,1955 @@ again next week![l
 // 0x805950c
 //マネキン工場[;
 Mannequin Factory[;
+
+// Pre-Staff Credits
+
+#WRITE(RtPtr, $A5F9E4)
+// 0x8069dc8
+//[l
+//[l
+//おつかれさま！[;
+Hey, you did it![;
+
+#WRITE(RtPtr, $A5FABC)
+// 0x8069ddc
+//がんばりましたネ！[l
+//あなたの　リズム感、[l
+//良くなっていると[l
+//うれしいな。[;
+You sure worked hard![l
+Think your sense of[l
+rhythm has gotten a[l
+little better now?[;
+
+#WRITE(RtPtr, $A5FBC4)
+// 0x8069e24
+//クリアしたゲームは[l
+//なれたころが　いちばん[l
+//楽しいから、またあとで[l
+//あそんでみてネ！[;
+You're not done yet, though![l
+You may have beaten[l
+the game, but there's[l
+still more to play![;
+
+#WRITE(RtPtr, $A5FCCC)
+// 0x8069e78
+//ゲームは、あとすこしだけ[l
+//つづくんだけど、ここで[l
+//スタッフのメンバー紹介を[l
+//させてくださいネ。[;
+But before all that,[l
+let's show you all[l
+of the people who[l
+worked on the game.[;
+
+#WRITE(RtPtr, $A5FDBC)
+// 0x8069ed4
+//[l
+//[l
+//では、どうぞ〜！[;
+[l
+Well, here we go![;
+
+// Pre-Staff Credits (Post Remix 6)
+
+#WRITE(RtPtr, $A5FF24)
+// 0x8069ee8
+//[l
+//[l
+//こんにちは！[;
+[l
+Hello again![;
+
+#WRITE(RtPtr, $A5FFFC)
+// 0x8069ef8
+//がんばってますか？[l
+//あなたの　リズム感、[l
+//良くなっていると[l
+//うれしいな。[;
+Are you doing well?[l
+Is your sense of[l
+rhythm still improving?[l
+I sure hope so![;
+
+#WRITE(RtPtr, $A60104)
+// 0x8069f40
+//クリアしたゲームは[l
+//なれたころが　いちばん[l
+//楽しいから、何回も[l
+//あそんでみてネ！[;
+You know, nothing's[l
+more fun than mastering[l
+a game. You should keep[l
+replaying them to get better![;
+
+#WRITE(RtPtr, $A6020C)
+// 0x8069f90
+//そうそう、[l
+//ゲームのスタッフでしたね。[l
+//今は、どんなゲームを[l
+//作ってるんでしょうねぇ…[;
+Anyway, here's the[l
+game's staff again.[l
+I wonder what they're[l
+working on now...[;
+
+#WRITE(RtPtr, $A602FC)
+// 0x8069fe4
+//[linealign=center]ま、それはさておき。[l
+//[l
+//では、どうぞ〜！[;
+[l
+Well, here we go again![;
+
+
+// Staff Credits
+
+#WRITE(RtPtr, $A5DF2C)
+// 0x8069a48
+//STAFF CREDITS[;
+[color=pink]Staff Credits[;
+
+#WRITE(RtPtr, $A5DF8C)
+// 0x8069a58
+//PRODUCERS[;
+[color=pink]Producers[;
+
+#WRITE(RtPtr, $A5DFC8)
+#WRITE(RtPtr, $A5E964)
+// 0x8069a64
+//つんく♂[;
+TSUNKU♂[;
+
+#WRITE(RtPtr, $A5E004)
+#WRITE(RtPtr, $A5E400)
+// 0x8069a70
+//Y.SAKAMOTO[;
+Y. Sakamoto[;
+
+#WRITE(RtPtr, $A5E04C)
+// 0x8069a7c
+//SUPERVISORS[;
+Supervisors[;
+
+#WRITE(RtPtr, $A5E088)
+#WRITE(RtPtr, $A5E43C)
+// 0x8069a88
+//K.YAMANO[;
+K. Yamano[;
+
+#WRITE(RtPtr, $A5E0C4)
+#WRITE(RtPtr, $A5E478)
+// 0x8069a94
+//H.IIDA[;
+H. Iida[;
+
+#WRITE(RtPtr, $A5E100)
+// 0x8069a9c
+//N.UMEMOTO[;
+N. Umemoto[;
+
+#WRITE(RtPtr, $A5E148)
+// 0x8069aa8
+//CHIEF DIRECTOR[;
+Chief Director[;
+
+#WRITE(RtPtr, $A5E184)
+#WRITE(RtPtr, $A5E220)
+#WRITE(RtPtr, $A5E514)
+#WRITE(RtPtr, $A5E76C)
+// 0x8069ab8
+//K.OSAWA[;
+K. Osawa[;
+
+#WRITE(RtPtr, $A5E1E4)
+// 0x8069ac0
+//GAME DESIGN[;
+Game Design[;
+
+#WRITE(RtPtr, $A5E25C)
+#WRITE(RtPtr, $A5E694)
+#WRITE(RtPtr, $A5EDE4)
+// 0x8069acc
+//K.TAKEUCHI[;
+K. Takeuchi[;
+
+#WRITE(RtPtr, $A5E298)
+#WRITE(RtPtr, $A5E868)
+#WRITE(RtPtr, $A5E9A0)
+#WRITE(RtPtr, $A5EB14)
+#WRITE(RtPtr, $A5EBEC)
+#WRITE(RtPtr, $A5ED6C)
+// 0x8069ad8
+//M.YONE[;
+M. Yone[;
+
+#WRITE(RtPtr, $A5E2D4)
+#WRITE(RtPtr, $A5E730)
+#WRITE(RtPtr, $A5EE5C)
+// 0x8069ae0
+//S.IKEO[;
+S. Ikeo[;
+
+#WRITE(RtPtr, $A5E310)
+#WRITE(RtPtr, $A5E7A8)
+// 0x8069ae8
+//N.FURUTA[;
+N. Furuta[;
+
+#WRITE(RtPtr, $A5E34C)
+#WRITE(RtPtr, $A5E610)
+// 0x8069af4
+//R.TAKAHASHI[;
+R. Takahashi[;
+
+#WRITE(RtPtr, $A5E388)
+#WRITE(RtPtr, $A5E598)
+// 0x8069b00
+//Y.TAKEUCHI[;
+Y. Takeuchi[;
+
+#WRITE(RtPtr, $A5E3C4)
+#WRITE(RtPtr, $A5E5D4)
+// 0x8069b0c
+//M.KAWANO[;
+M. Kawano[;
+
+#WRITE(RtPtr, $A5E4D8)
+// 0x8069b18
+//PROGRAM DIRECTOR[;
+Program Director[;
+
+#WRITE(RtPtr, $A5E55C)
+// 0x8069b2c
+//PROGRAMMING[;
+Programming[;
+
+#WRITE(RtPtr, $A5E658)
+// 0x8069b38
+//DESIGN DIRECTOR[;
+Design Director[;
+
+#WRITE(RtPtr, $A5E6F4)
+// 0x8069b48
+//DESIGN[;
+Design[;
+
+#WRITE(RtPtr, $A5E7E4)
+#WRITE(RtPtr, $A5EE20)
+// 0x8069b50
+//F.MIYAMOTO[;
+F. Miyamoto[;
+
+#WRITE(RtPtr, $A5E82C)
+// 0x8069b5c
+//SOUND DIRECTORS[;
+Sound Directors[;
+
+#WRITE(RtPtr, $A5E8A4)
+// 0x8069b6c
+//H.OGURO[;
+H. Oguro[;
+
+#WRITE(RtPtr, $A5E8E0)
+// 0x8069b74
+//K.KAMADA[;
+K. Kamada[;
+
+#WRITE(RtPtr, $A5E928)
+// 0x8069b80
+//MUSIC[;
+Music[;
+
+#WRITE(RtPtr, $A5E9E8)
+// 0x8069b88
+//MUSIC ARRANGEMENT[;
+Music Arrangement[;
+
+#WRITE(RtPtr, $A5EA24)
+// 0x8069b9c
+//K.YUASA[;
+K. Yausa[;
+
+#WRITE(RtPtr, $A5EA60)
+// 0x8069ba4
+//H.D.SUZUKI[;
+H. D. Suzuki[;
+
+#WRITE(RtPtr, $A5EA9C)
+// 0x8069bb0
+//K.OKUBO[;
+K. Okubo[;
+
+#WRITE(RtPtr, $A5EAD8)
+#WRITE(RtPtr, $A5EC28)
+// 0x8069bb8
+//D.SHIIBA[;
+D. Shiiba[;
+
+#WRITE(RtPtr, $A5EB74)
+// 0x8069bc4
+//SOUND EFFECT[;
+Sound Effects[;
+
+#WRITE(RtPtr, $A5EBB0)
+#WRITE(RtPtr, $A5EDA8)
+// 0x8069bd4
+//T.FUJII[;
+T. Fujii[;
+
+#WRITE(RtPtr, $A5EC70)
+// 0x8069bdc
+//SONG[;
+Song[;
+
+#WRITE(RtPtr, $A5ECAC)
+// 0x8069be4
+//時東　ぁみ[;
+Ami Tokito[;
+
+#WRITE(RtPtr, $A5ECE8)
+// 0x8069bf0
+//田中　総史[;
+Sohshi Tanaka[;
+
+#WRITE(RtPtr, $A5ED30)
+// 0x8069bfc
+//VOICE[;
+Voice[;
+
+#WRITE(RtPtr, $A5EE98)
+// 0x8069c04
+//N.KITAMURA[;
+N. Kitamura[;
+
+#WRITE(RtPtr, $A5EED4)
+// 0x8069c10
+//M.NOMURA[;
+M. Nomura[;
+
+#WRITE(RtPtr, $A5EF34)
+// 0x8069c1c
+//DEBUG[;
+Debug[;
+
+#WRITE(RtPtr, $A5EF70)
+// 0x8069c24
+//Y.ADACHI[;
+Y. Adachi[;
+
+#WRITE(RtPtr, $A5EFAC)
+// 0x8069c30
+//N.HASHIDA[;
+N. Hashida[;
+
+#WRITE(RtPtr, $A5EFE8)
+// 0x8069c3c
+//S.TAKADA[;
+S. Takada[;
+
+#WRITE(RtPtr, $A5F024)
+// 0x8069c48
+//D.NISHIKAWA[;
+D. Nishikawa[;
+
+#WRITE(RtPtr, $A5F060)
+// 0x8069c54
+//R.SUGO[;
+R. Sugo[;
+
+#WRITE(RtPtr, $A5F09C)
+// 0x8069c5c
+//S.ADACHI[;
+S. Adachi[;
+
+#WRITE(RtPtr, $A5F0D8)
+// 0x8069c68
+//H.SAKAGUCHI[;
+H. Sakaguchi[;
+
+#WRITE(RtPtr, $A5F114)
+// 0x8069c74
+//N.WATANABE[;
+N. Watanabe[;
+
+#WRITE(RtPtr, $A5F150)
+// 0x8069c80
+//H.MATSUDA[;
+H. Matsuda[;
+
+#WRITE(RtPtr, $A5F18C)
+// 0x8069c8c
+//D.MORITA[;
+D. Morita[;
+
+#WRITE(RtPtr, $A5F1C8)
+// 0x8069c98
+//K.UMEDA[;
+K. Umeda[;
+
+#WRITE(RtPtr, $A5F204)
+// 0x8069ca0
+//Y.NAKAI[;
+Y. Nakai[;
+
+#WRITE(RtPtr, $A5F240)
+// 0x8069ca8
+//Y.FUJIKAWA[;
+Y. Fujikawa[;
+
+#WRITE(RtPtr, $A5F27C)
+// 0x8069cb4
+//K.NISHIMOTO[;
+K. Nishimoto[;
+
+#WRITE(RtPtr, $A5F2B8)
+// 0x8069cc0
+//T.AKIHO[;
+T. Akiho[;
+
+#WRITE(RtPtr, $A5F2F4)
+// 0x8069cc8
+//J.TERAI[;
+J. Terai[;
+
+#WRITE(RtPtr, $A5F330)
+// 0x8069cd0
+//A.SHIMIZUBATA[;
+A. Shimizubata[;
+
+#WRITE(RtPtr, $A5F36C)
+// 0x8069ce0
+//Y.YAMASHITA[;
+Y. Yamashita[;
+
+#WRITE(RtPtr, $A5F3CC)
+// 0x8069cec
+//SPECIAL THANKS[;
+Special Thanks[;
+
+#WRITE(RtPtr, $A5F408)
+// 0x8069cfc
+//Y.KURATSUNE[;
+Y. Kuratsune[;
+
+#WRITE(RtPtr, $A5F444)
+// 0x8069d08
+//R.KAIMOTO[;
+R. Kaimoto[;
+
+#WRITE(RtPtr, $A5F480)
+// 0x8069d14
+//H.SAKAGAMI[;
+H. Sakagami[;
+
+#WRITE(RtPtr, $A5F4BC)
+// 0x8069d20
+//R.YOSHITOMI[;
+R. Yoshitomi[;
+
+#WRITE(RtPtr, $A5F4F8)
+// 0x8069d2c
+//S.YAMAMOTO[;
+S. Yamamoto[;
+
+#WRITE(RtPtr, $A5F534)
+// 0x8069d38
+//T.HOTTA[;
+T. Hotta[;
+
+#WRITE(RtPtr, $A5F570)
+// 0x8069d40
+//N.MATSUMIYA[;
+N. Matsumiya[;
+
+#WRITE(RtPtr, $A5F5AC)
+// 0x8069d4c
+//みつばち　まき[;
+M. Mitsubachi[;
+
+#WRITE(RtPtr, $A5F5E8)
+// 0x8069d5c
+//A.KENMOCHI[;
+A. Kenmochi[;
+
+#WRITE(RtPtr, $A5F624)
+// 0x8069d68
+//H.NAKANO[;
+H. Nakano[;
+
+#WRITE(RtPtr, $A5F660)
+// 0x8069d74
+//あなた[;
+You[;
+
+#WRITE(RtPtr, $A5F6A8)
+// 0x8069d7c
+//EXECUTIVE[;
+[;
+
+#WRITE(RtPtr, $A5F6E4)
+// 0x8069d88
+//      PRODUCERS[;
+Executive Producers[;
+
+#WRITE(RtPtr, $A5F720)
+// 0x8069d98
+//S.IWATA[;
+S. Iwata[;
+
+#WRITE(RtPtr, $A5F75C)
+// 0x8069da0
+//S.TERAI[;
+S. Terai[;
+
+#WRITE(RtPtr, $A5F8A0)
+// 0x8069dac
+//(C)2006 Nintendo/J.P.ROOM[;
+(C)2006 Nintendo / J.P. ROOM[;
+
+// E-Mail
+
+// Greeting
+
+#WRITE(RtPtr, $9D7E74)
+// 0x8058ee8
+//リズム天国へようこそ！[;
+Greetings[;
+
+#WRITE(RtPtr, $9D7E78)
+// 0x8058da4
+//ごあいさつ[l
+//このたびは、「リズム天国」をお買い上げいただきまことにありがとうございます。あ、おともだちに借りているのかな？そ、それとも、ちゅ、中古ですか！？[l
+//ま、それはさておき。このゲームに興味をもっていただいて光栄です。あなたとの出会いに感謝です！[l
+//末永く楽しんでいただけたら、うれしいでーす！！[l
+//ありがとうございました。[;
+Greetings![l[l
+Thank you very much for[l
+purchasing "Rhythm Heaven Advance".[l
+Oh, you've borrowed it from a friend? A-and[l
+it's u-used?[l
+Well, that's beside the point. I'm honored by your [l
+interest in this game.[l
+It's been nice meeting you! I hope you get a lot of[l
+mileage out of this game![l[l
+Thank you very much![;
+
+// How to Play
+
+#WRITE(RtPtr, $9D7E84)
+// 0x8058d94
+//取り扱い説明書[;
+How to Play[;
+
+#WRITE(RtPtr, $9D7E88)
+// 0x8058c8c
+//このゲームの遊び方[l
+//[l
+//っていうか、とくに説明がいるほど複雑なゲームじゃないんですヨ〜。だから、ここに書くこともとくにないんですよねぇ。[l
+//あ、そうそう、音楽にノるのがポイントなので、ノリノリで遊ぶのがいいですヨ！オススメでーす！[l
+//そんなとこですね。よろしくどうぞ〜。[;
+How to play the game:[l
+[l
+Well, it's a pretty straightforward game.[l
+What can I really say...?[l
+Oh, right, the idea is that you follow the music, [l
+so try to feel the flow when you play. That's my advice![l
+And that's about it. Pleased to meet you, by the way![;
+
+// From the Barista
+
+#WRITE(RtPtr, $9D7E94)
+// 0x8058c7c
+//経営者に聞く[;
+From the Barista[;
+
+#WRITE(RtPtr, $9D7E98)
+// 0x805896c
+//私は喫茶店を経営しております。まぁ、分かりやすく言うと喫茶店のマスターです。経営のほうは常連さんのおかげで、まずまずといったカンジですね。あ、そうそう、先に言っておきますが、私は犬です。[l
+//うちのお客さんは、音楽が好きな方が多いんですよねぇ。とくに、リズムに関して、かなりのこだわりをお持ちの方が来られます。なかには、パーフェクトキャンペーンをいくつも達成されてる方もいらっしゃって、もう ビックリしちゃいますヨ！[l
+//まぁ、いつもはこんなカンジで喫茶店のほうを営んでおりますが、実はこれ、仮のすがたなんです。本当の私は… おはずかしい話ですが、犬用のヘッドホンをしながらノリノリで、はしゃぎまわっているんです！やはり、ノリノリなしではやってられないんですよねぇ。こまったものです。ははは。[l
+//わりといろいろな所に遊びに出かけたりもしているので、もし見かけたらナデナデして下さいネ〜！[l
+//ではまた。[;
+I own and operate a Café.[l
+Or, to put it simply, I'm the barista.[l
+It's going well thanks to the regulars.[l
+And, uh, just to let you know now, I'm a dog.[l
+Many of my customers listen to music all the time.[l
+A lot of them have especially good rhythm.[l
+And a few have even achieved Perfect Campaigns![l
+I was pretty surprised to learn that.[l
+[l
+I may look all professional when I run my Café,[l
+but I'll be honest, I'm really putting on a front.[l
+See, it's a little embarrassing, but when I'm off the[l
+clock, I'm always jamming out with these little[l
+dog-sized headphones. What can I say?[l
+I need a little flow wherever I go.[l
+It's complicated. Hahaha.[l
+I do go out from time to time, so if you happen to[l
+run into me... please pet me![l
+Well, see you.[l
+
+// Plucking Letter
+
+#WRITE(RtPtr, $9D7EA4)
+// 0x8058960
+//毛ぬき投書[;
+Plucking Letter[;
+
+#WRITE(RtPtr, $9D7EA8)
+// 0x80587c0
+//わたしは野菜をつくっているおじさんです。最近、うちの野菜たちにヒゲが生えるんです！とてもブキミだし、これでは売り物にならないんでヒゲをぬくんですが、これがまたキレイにぬけないのです。こまったわたしは気をまぎらわせようと、音楽をききながらノリノリで野菜たちの毛をぬきました。するとなんと！キレイにぬけるのです！しかもなんだか楽しいんです！音楽のチカラってすばらしいですね。みなさんもぜひ野菜の毛をぬいてみてください！[;
+I'm an old man who grows vegetables. [l
+One day, the vegetables started growing hair! [l
+It's so creepy! I can't sell them like this![l
+So I pluck the hairs,[l
+ but I just couldn't pluck them clean.[l
+Well, to lighten up the mood, I put on some music.[l
+Before I knew it, I found myself plucking to the beat.[l
+And... I plucked them clean! And it's somehow fun![l
+The power of music is really something else![l
+Everyone has got to try[l
+plucking hairs off of vegetables![;
+
+// Rhythm Haiku Collection
+
+#WRITE(RtPtr, $9D7FA4)
+// 0x8055304
+//リズム俳句集[;
+Rhythm Haiku Collection[;
+
+#WRITE(RtPtr, $9D7FA8)
+// 0x8054f88
+//[l
+//[linesize=large][size=large][linesize=large]鍛えよう[l
+//[linesize=large][size=large][linesize=large][l
+//[linealign=center][size=large][linesize=large]誰でも持ってる[l
+//[linesize=large][size=large][linesize=large][l
+//[linealign=right][size=large][linesize=large]リズム感[l
+//[linesize=large][size=large][linesize=large][l
+//[linesize=large][size=small][linesize=small]「潜在的なリズム感は、訓練によって成長させることが可能。日々の反復練習が最も効果的」[l
+//[l
+//[linesize=large][size=large][linesize=large]日常の[l
+//[linesize=large][size=large][linesize=large][l
+//[linealign=center][size=large][linesize=large]動きはこんなに[l
+//[linesize=large][size=large][linesize=large][l
+//[linealign=right][size=large][linesize=large]リズミカル[l
+//[linesize=large][size=small][linesize=small]「リズム感は日常生活の中で常に感じ、育てると良い。歩き方や歯磨き、料理の時等、リズムを意識して動いてみるべし」[l
+//[l
+//[linesize=large][size=large][linesize=large]リズム感[l
+//[linesize=large][size=large][linesize=large][l
+//[linealign=center][size=large][linesize=large]ノリがよければ[l
+//[linesize=large][size=large][linesize=large][l
+//[linealign=right][size=large][linesize=large]なおクール[l
+//[linesize=large][size=large][linesize=large][l
+//[linesize=large][size=small][linesize=small]「ただし、リズム感とノリは別モノ。リズムを意識し鍛えながら、同時にノリの良さも身に付けよう」[l
+//[l
+//[linesize=large][size=large][linesize=large]ブレイクを[l
+//[linesize=large][size=large][linesize=large][l
+//[linealign=center][size=large][linesize=large]待てないアノ娘は[l
+//[linesize=large][size=large][linesize=large][l
+//[linealign=right][size=large][linesize=large]ハンパモノ[l
+//[linesize=large][size=small][linesize=small]「ブレイクを正確にカウントすることは難しく、つっこみ気味になりがち。落ち着いて待てるかどうかが、かっこよさを大きく左右する」[l
+//[l
+//[linesize=large][size=large][linesize=large]大人でも[l
+//[linesize=large][size=large][linesize=large][l
+//[linealign=center][size=large][linesize=large]メキメキ伸びる[l
+//[linesize=large][size=large][linesize=large][l
+//[linealign=right][size=large][linesize=large]リズム感[l
+//[linesize=large][size=large][linesize=large][l
+//[linesize=large][size=small][linesize=small]「リズムを意識しようとする心がけで、リズム感は成人してからでも格段に良くなってゆく」[l
+//[;
+[l
+[linealign=left]Let us exercise[l
+[linealign=center]something which everyone has,[l
+[linealign=right]a sense of rhythm...[l
+[l
+[linealign=center]"Your sense of rhythm can be developed with[l
+practice, especially when it's worked into[l
+your daily routine."[l
+[l
+//
+[l
+[linealign=left]You can make all your[l
+[linealign=center]everyday activities[l
+[linealign=right]much more rhythmical[l
+[l
+[linealign=center]"It's good to feel and improve your sense of rhythm[l
+throughout your day, such as while walking,[l
+brushing your teeth, cooking, etc...[l
+You should always keep rhythm in mind."[l
+//
+[l
+[linealign=left]Your sense of rhythm,[l
+[linealign=center]if your flow can be improved,[l
+[linealign=right]gets even cooler[l
+[l
+[linealign=center]"However, a sense of rhythm and good flow are not[l
+one and the same. Try to improve you flow while[l
+also being mindful of your sense of rhythm."[l
+[l
+//
+[l
+[linealign=left]In a break or pause[l
+[linealign=center]children who lack patience are[l
+[linealign=right]simply too stubborn[l
+[l
+[linealign=center]"It can be difficult to count accurately during a rest,[l
+and it's easy to resume the beat prematurely, but the[l
+ability to stay calm and wait[l
+effects your flow the most."[l
+//
+[l
+[linealign=left]Even in adults,[l
+[linealign=center]something still rapidly grows:[l
+[linealign=right]Their sense of rhythm[l
+[l
+[linealign=center]"From simply being mindful of it, your sense of rhythm[l
+can grow exponentially, no matter your age."[l
+[;
+
+// Rhythm Poem Collection
+
+#WRITE(RtPtr, $9D7F94)
+// 0x8055514
+//リズムポエム集[;
+Rhythm Poem Collection[;
+
+#WRITE(RtPtr, $9D7F98)
+// 0x8055314
+//[linealign=center][size=medium][linesize=medium]「そだてる」[l
+//[l
+//[linealign=center][size=small][linesize=small]わたしはそれを育てている。[l
+//いつか大きく羽ばたく日のために。[l
+//なにげない日常の生活の中で、[l
+//より、自然に[l
+//より、楽しく。[l
+//今はまだちっぽけな、[l
+//わたしのリズム感を…[l
+//[linealign=center][size=medium][linesize=medium]「Karate Rhythm」[l
+//[linealign=center][size=small][linesize=small][l
+//Hey! Baby! How's it going?[l
+//This beat is non stop.[l
+//Hey! Baby! Listen to my phrase.[l
+//I can give you[l
+//the sense of rhythm.[l
+//Oh, Yeah.[l
+//Awake,baby! Trust me![l
+//This beat is non stop![l
+//New groove in your soul.[l
+//Oh, Yeah![l
+//This beat![l
+//You are growing up well.[l
+//Hey, Baby![l
+//Hold onto your ambition.[l
+//Hey! Oh, Yeah![l
+//[;
+[linealign=center][size=medium][linesize=medium]"To Nurture"[l
+[l
+[linealign=center][size=small][linesize=small]I have nurtured it,[l
+For the day when it will learns to use its wings.[l
+In the wake of a casual, everyday life,[l
+Naturally,[l
+Enjoyably,[l
+That which is now only very, very small,[l
+My sense of rhythm...[l
+[linealign=center][size=medium][linesize=medium]"Karate Rhythm"[l
+[linealign=center][size=small][linesize=small][l
+Hey! Baby! How's it going?[l
+This beat is non stop.[l
+Hey! Baby! Listen to my phrase.[l
+I can give you[l
+the sense of rhythm.[l
+Oh, Yeah.[l
+Awake,baby! Trust me![l
+This beat is non stop![l
+New groove in your soul.[l
+Oh, Yeah![l
+This beat![l
+You are growing up well.[l
+Hey, Baby![l
+Hold onto your ambition.[l
+Hey! Oh, Yeah![;
+
+// Rhythm Type Diagnosis
+
+#WRITE(RtPtr, $9D7F84)
+// 0x80560bc
+//リズム感タイプ診断[;
+Rhythm Type Diagnosis[;
+
+#WRITE(RtPtr, $9D7F88)
+// 0x8055524
+//[linealign=center][size=medium][linesize=medium]リズム感タイプ診断[l
+//[size=small][linesize=small][l
+//あなたのリズム感を診断します。[l
+//当てはまるものを選んでいってネ！[l
+//[l
+//自分はリズム感があるほうだと思う。[l
+//YES  2ページへGO![l
+// NO  3ページへGO![l
+//-1-[l
+//[l
+//ロックとポップス、好きなのは…[l
+//[l
+//ロック  4ページへGO![l
+//ポップス 5ページへGO![l
+//[l
+//[l
+//[l
+//-2-[l
+//[l
+//ジャズとクラシック、好きなのは…[l
+//[l
+//ジャズ  6ページへGO![l
+//クラシック 7ページへGO![l
+//[l
+//[l
+//[l
+//-3-[l
+//[l
+//リズム感がなければダンスは踊れないと思う。[l
+//[l
+//YES  8ページへGO![l
+// NO  9ページへGO![l
+//[l
+//[l
+//[l
+//-4-[l
+//[l
+//リズム感は聴きとれれば、表現できるものだと思う。[l
+//[l
+//YES  10ページへGO![l
+// NO  11ページへGO![l
+//[l
+//[l
+//[l
+//-5-[l
+//[l
+//リズム感の全くない人なんていないと思う。[l
+//[l
+//YES  9ページへGO![l
+// NO  8ページへGO![l
+//[l
+//[l
+//[l
+//-6-[l
+//[l
+//リズム感は生まれつきのものなので、[l
+//訓練では成長しないと思う。[l
+//[l
+//YES  10ページへGO![l
+// NO  11ページへGO![l
+//[l
+//[l
+//-7-[l
+//[l
+//リズム感は、ノリがいいほうがカッコイイと思う。[l
+//[l
+//YES  12ページへGO![l
+// NO  13ページへGO![l
+//[l
+//[l
+//[l
+//-8-[l
+//[l
+//リズム感とノリは、ほとんど同じものだと思う。[l
+//[l
+//YES  14ページへGO![l
+// NO  15ページへGO![l
+//[l
+//[l
+//[l
+//-9-[l
+//[l
+//リズム感がよくても、モテないと思う。[l
+//[l
+//YES  16ページへGO![l
+// NO  17ページへGO![l
+//[l
+//[l
+//[l
+//-10-[l
+//[l
+//リズム感がいいだけで、[l
+//オンチに聞こえにくいと思う。[l
+//[l
+//YES  18ページへGO![l
+// NO  19ページへGO![l
+//[l
+//[l
+//-11-[l
+//[l
+//リズム感は年齢が若い方が身につきやすいと思う。[l
+//[l
+//YES  23ページへGO![l
+// NO  21ページへGO![l
+//[l
+//[l
+//[l
+//-12-[l
+//[l
+//成人してからではリズム感の成長は望めないと思う。[l
+//[l
+//YES  21ページへGO![l
+// NO  22ページへGO![l
+//[l
+//[l
+//[l
+//-13-[l
+//[l
+//リズム感って、日常生活とは無縁だと思う。[l
+//[l
+//YES  23ページへGO![l
+// NO  22ページへGO![l
+//[l
+//[l
+//[l
+//-14-[l
+//[l
+//たとえ3年以上かけて身に付けたリズム感も[l
+//意識をしていなければすぐに忘れてしまうと思う。[l
+//[l
+//YES  23ページへGO![l
+// NO  20ページへGO![l
+//[l
+//[l
+//-15-[l
+//[l
+//リズム感は、あえてつらく厳しい[l
+//訓練をした方が身によくつくと思う。[l
+//[l
+//YES  23ページへGO![l
+// NO  22ページへGO![l
+//[l
+//[l
+//-16-[l
+//[l
+//リズム感は意識すれば、[l
+//たったの30分でもよくなると思う。[l
+//[l
+//YES  22ページへGO![l
+// NO  23ページへGO![l
+//[l
+//[l
+//-17-[l
+//[l
+//リズム感は、常に感じていると[l
+//かえってよくないと思う。[l
+//[l
+//YES  23ページへGO![l
+// NO  20ページへGO![l
+//[l
+//[l
+//-18-[l
+//[l
+//リズム感は、理論を理解するのではなく[l
+//繰り返しで身につけるものだと思う。[l
+//[l
+//YES  23ページへGO![l
+// NO  21ページへGO![l
+//[l
+//[l
+//-19-[l
+//[linealign=center]あなたのリズム感タイプ[l
+//[size=medium][linesize=medium]ノリノリ型[size=small][linesize=small][l
+//[l
+//[linesize=large]あなたのリズム感に対する考え方は、とってもナイスです。もし今のリズム感に自信をもてなくても、これからリズムと いっしょに楽しい人生をおくれるでしょう。ノリノリでエンジョイしてネ！[l
+//[l
+//[linealign=center]-20-[l
+//[linealign=center]あなたのリズム感タイプ[l
+//[size=medium][linesize=medium]てれやさん型[size=small][linesize=small][l
+//[l
+//[linesize=large]リズム感ということに対して、すこしビビってませんか？リズム感はみんながもっているものなんです。楽しみながらすこしずつでもリズムを意識すれば、リズム感は成長します。安心してネ。[l
+//[l
+//[linealign=center]-21-[l
+//[linealign=center]あなたのリズム感タイプ[l
+//[size=medium][linesize=medium]おちょうし者型[size=small][linesize=small][l
+//[l
+//[linesize=large]リズム感とノリのよさのちがいをもっと意識すると、ベターです。ノリがよくても肝心のリズム感がわるいと、ノリのよさが空回りしてしまってもったいないです。リズム感をしっかりとしたものにしておけば、あなたの元気はみんなをもっとハッピーにするかも！？[l
+//[linealign=center]-22-[l
+//[linealign=center]あなたのリズム感タイプ[l
+//[size=medium][linesize=medium]カッチリ型[size=small][linesize=small][l
+//[l
+//[linesize=large]あなたはリズム感ということを少しむずかしくとらえすぎかもしれません。もうすこしリズムと気軽につきあって、日常生活にとけこませると自然にリズム感がよくなるのではないでしょうか。そのほうが、きっと楽しいですヨ！[l
+//[linealign=center]-23-[l
+//[;
+[linealign=center][size=medium][linesize=medium]Rhythm Diagnosis[l
+[size=small][linesize=small][l
+Let's diagnose your sense of rhythm.[l
+Choose the ones that apply to you![l
+[l
+I think that I have a good sense of rhythm.[l
+Yes - Go to Page 2![l
+No - Go to Page 3![l
+-1-[l
+[l
+Between Rock and Pop music, I like...[l
+[l
+[l
+[l
+Rock - Go to Page 4![l
+Pop - Go to Page 5![l
+[l
+-2-[l
+[l
+Between Jazz and Classical music, I like...[l
+[l
+[l
+[l
+Jazz - Go to Page 6![l
+Classical - Go to Page 7![l
+[l
+-3-[l
+[l
+I think you need a good sense of rhythm to dance well.[l
+[l
+[l
+[l
+Yes - Go to Page 8![l
+No - Go to Page 9![l
+[l
+-4-[l
+[l
+I think that if you can hear good rhythm,[l
+then you can express it.[l
+[l
+[l
+Yes - Go to Page 10![l
+No - Go to Page 11![l
+[l
+-5-[l
+[l
+I don't think anyone has a sense of rhythm at all.[l
+[l
+[l
+[l
+Yes - Go to Page 9![l
+No - Go to Page 8![l
+[l
+-6-[l
+[l
+I think that a sense of rhythm is inherent,[l
+meaning you can't improve it with training.[l
+[l
+[l
+Yes - Go to Page 10![l
+No - Go to Page 11![l
+[l
+-7-[l
+[l
+I think that your sense of rhythm is cooler[l
+when you have flow.[l
+[l
+[l
+Yes - Go to Page 12![l
+No - Go to Page 13![l
+[l
+-8-[l
+[l
+I think that a sense of rhythm and[l
+flow are just about the same thing.[l
+[l
+[l
+Yes - Go to Page 14![l
+No - Go to Page 15![l
+[l
+-9-[l
+[l
+I don't think you can become popular just by[l
+having a good sense of rhythm.[l
+[l
+[l
+Yes - Go to Page 16![l
+No - Go to Page 17![l
+[l
+-10-[l
+[l
+I think that having a good sense of rhythm[l
+makes it easy to mask being tone deaf.[l
+[l
+[l
+Yes - Go to Page 18![l
+No - Go to Page 19![l
+[l
+-11-[l
+[l
+I think that a good sense of rhythm is easier [l
+to acquire at a young age.[l
+[l
+[l
+Yes - Go to Page 23![l
+No - Go to Page 21![l
+[l
+-12-[l
+[l
+I don't think you can improve your[l
+sense of rhythm after becoming an adult.[l
+[l
+[l
+Yes - Go to Page 21![l
+No - Go to Page 22![l
+[l
+-13-[l
+[l
+I think that rhythm and[l
+every day life are unrelated.[l
+[l
+[l
+Yes - Go to Page 23![l
+No - Go to Page 22![l
+[l
+-14-[l
+[l
+I think that even a sense of rhythm that you've had[l
+for over three years can quickly be lost[l
+if you're not mindful of it.[l
+[l
+Yes - Go to Page 23![l
+No - Go to Page 20![l
+[l
+-15-[l
+[l
+I think that your sense of rhythm will[l
+improve if you train long and hard.[l
+[l
+[l
+Yes - Go to Page 23![l
+No - Go to Page 22![l
+[l
+-16-[l
+[l
+I think that your sense of rhythm can improve[l
+in just 30 seconds if you stay mindful of it.[l
+[l
+[l
+Yes - Go to Page 22![l
+No - Go to Page 23![l
+[l
+-17-[l
+[l
+I don't think it's a good thing to[l
+always feel a sense of rhythm.[l
+[l
+[l
+Yes - Go to Page 23![l
+No - Go to Page 20![l
+[l
+-18-[l
+[l
+I think that a good sense of rhythm is[l
+acquired by repetition, not theory.[l
+[l
+[l
+Yes - Go to Page 23![l
+No - Go to Page 21![l
+[l
+-19-[l
+[linealign=center]Your Sense of Rhythm[l
+[size=medium][linesize=medium]Flow Type[size=small][linesize=small][l
+[linesize=small][l
+You have a good attitude about your sense of rhythm.[l
+You might not have confidence in your[l
+sense of rhythm quite yet, but you could probably[l
+use rhythm to lead an enjoyable life.[l
+Enjoy getting into the flow![l
+-20-[l
+[linealign=center]Your Sense of Rhythm[l
+[size=medium][linesize=medium]Shy Type[size=small][linesize=small][l
+[linesize=small][l
+You're nervous about your sense of rhythm, huh?[l
+Everyone has a sense of rhythm. [l
+If you live life being mindful of the rhythms [l
+around you, your sense of rhythm can only grow.[l
+Make sure to relax.[l
+-21-[l
+[linealign=center]Your Sense of Rhythm[l
+[size=medium][linesize=medium]Carefree Type[size=small][linesize=small][l
+[linesize=small][l
+You should learn the difference between a sense[l
+of rhythm and flow. A good flow can only go so far[l
+if your sense of rhythm is poor.[l
+Steady your sense of rhythm and[l
+your flow could improve everyone's mood.[l
+-22-[l
+[linealign=center]Your Sense of Rhythm[l
+[size=medium][linesize=medium]Catchy Type[size=small][linesize=small][l
+[linesize=small][l
+You may have a hard time grasping rhythm.[l
+If you find ways to incorporate your sense of rhythm[l
+into your daily routine,[l
+perhaps it can grow and improve.[l
+It might even make things more fun that way![l
+-23-[;
+
+// Understanding Rhythm
+
+#WRITE(RtPtr, $9D7F74)
+// 0x8056258
+//わかる！リズムの公式[;
+Understanding Rhythm[;
+
+#WRITE(RtPtr, $9D7F78)
+// 0x80560d0
+//[linealign=center][size=large][linesize=large][l
+//[l
+//リズム感 ⊃ ノリ[l
+//[l
+//リズム感 ≠ ノリ[l
+//[linesize=large][size=small][linesize=small][l
+//[l
+//解説：ノリは、リズム感に含まれる要素の１つであり、リズム感そのものではないのだ。[l
+//[linealign=center][size=large][linesize=large][l
+//[l
+//リズム ≠ リズム感[l
+//[l
+//[l
+//[linesize=large][size=small][linesize=small][l
+//解説：リズムは時間を刻むもの、リズム感はノリで表現したり、感じたり、自然にかもし出したりするものなのだ。[l
+//[linealign=center][size=medium][linesize=medium][l
+//[l
+//[l
+//グッドなダンサー ≠ ナイスなリズム感[l
+//[l
+//[linesize=large][size=small][linesize=small][l
+//[l
+//解説：ダンスの上手な人が、「リズム感が良い」とは限らないのだ。[l
+//[;
+[linealign=center][size=medium][linesize=medium][l
+[l
+Sense of rhythm ⊃ Flow[l
+[l
+Sense of rhythm ≠ Flow[l
+[linesize=large][size=small][linesize=small][l
+Explanation: Flow is an element included in anyone's[l
+sense of rhythm, but not a sense of rhythm itself.[l
+[linealign=center][size=medium][linesize=medium][l
+[l
+[l
+[l
+Rhythm ≠ Sense of rhythm[l
+[l
+[l
+[linesize=large][size=small][linesize=small]
+Explanation: Rhythm is what ticks at a steady pace.[l
+A sense of rhythm is how you keep up with that pace,[l
+expressed naturally by way of flow.[;
+
+// Voices of Joy
+
+#WRITE(RtPtr, $9D7F64)
+// 0x8056548
+//よろこびの声[;
+Voices of Joy[;
+
+#WRITE(RtPtr, $9D7F68)
+// 0x8056270
+//[l
+//リズム天国を楽しんでいただいた方からたくさんのよろこびの声が届きました。あまりに多くの方からお手紙やメールをいただき（！）、すべては紹介しきれませんが、そのなかのごく一部をここで紹介させていただきます。みなさんも、ぜひ一度お試しくださり、その効果をお友達にもお伝えください！！[l
+//[l
+//[l
+//リズム感が良くなっただけなのに…[l
+//[l
+//[size=medium][linesize=medium]こんなにモテて、ホントにいいの！？[l
+//[size=small][linesize=small][l
+//「リズム天国」に出会うまでは、全く女性に縁のなかった私ですが、今ではモテモテで…人生観が変わりました。[l
+//[linealign=right]Tさん ３８才 会社員[l
+//[linesize=large][l
+//リズム感が良くなっただけなのに…[l
+//[l
+//[size=medium][linesize=medium]歌が上手だねって言われちゃった！？[l
+//[size=small][linesize=small][l
+//「リズム天国」に出会うまでは、オンチの代表みたいに言われてた私なのに、最近よくホメられるんです。相変わらずオンチなのに不思議。でもうれしい！[l
+//[linealign=right]Hさん ２９才 主婦[l
+//[linesize=large][;
+We've recieved many letters from[l
+satisfied players of Rhythm Heaven Advance.[l
+So, SO many in fact(!), that we can't[l
+show all of them, but here are just a few[l
+of our players' thoughts![l
+[l
+[l
+[l
+[l
+Just by improving my sense of rhythm...[l
+[l
+[size=medium][linesize=medium]I've become... popular?[l
+[size=small][linesize=small][l
+Before I found "Rhythm Heaven Advance",[l
+I had no luck with women, but now I'm popular,[l
+and I've got a new lease on life![l
+[l
+[linealign=right]Mr. T, Age 38, Office Worker[l
+[linealign=left][size=small][linesize=small]Just by improving my sense of rhythm...[l
+[l
+[size=medium][linesize=medium]I've become...[l
+[linealign=right]a better singer?[l
+[linealign=left][size=small][linesize=small]Before I found "Rhythm Heaven Advance",[l
+I was the textbook definition of tone-deaf,[l
+but lately people have told me my singing is much nicer![l
+I'm still tone deaf, of course, but at least I'm happy![l
+[linealign=right]Mrs. H, Age 29, Housewife[;
+
+// Rhythm Manzai
+
+#WRITE(RtPtr, $9D7F54)
+// 0x8056c08
+//リズム漫才[;
+Rhythm Manzai[;
+
+#WRITE(RtPtr, $9D7F58)
+// 0x8056558
+//きーやん「どうもー、きーやんでーす！」[l
+//あおくん「どうもー、あおくんでーす！」[l
+//ふたり「Y&Bでーす！よろしくどうぞ〜！」[l
+//きーやん「なぁなぁ、あおくん。あんな、この前な、音楽教室に体験入学してん！」[l
+//あおくん「エー！ウソー！？きいてないよー！きーやん、楽器はじめるん！？ギター？ドラム？なになに？」[l
+//きーやん「オレのパートはな…」[l
+//あおくん「うんうん、なになに？」[l
+//きーやん「オレのパートは リズムやねん！」[l
+//あおくん「は？リズムって、きーやん、それ楽器ちゃうやん！なんやリズムって」[l
+//きーやん「ちゃうねん、ドラムやりたいって先生にゆうたらな、まずリズムをしなさいって言われてん！」[l
+//あおくん「きーやん、それ、たぶんな、リズム感をきたえなさいってゆうたんやと思うで」[l
+//きーやん「あ、そうや！たしかそう言ってたわ！あおくん、すごいな！なんで分かるん！？エスパーか？」[l
+//あおくん「なんでって…、分かるわ！！常識やわ！！！」[l
+//きーやん「まぁまぁ、そんなに怒らんといて〜や」[l
+//あおくん「あ、あぁ、せやな、ごめんな…」[l
+//きーやん「あ！あおくん、チャックあいてるで」[l
+//あおくん「エッ！？うゎ、ウソ！！マジ！？」[l
+//きーやん「ウソ」[l
+//あおくん「ずるっ！」[l
+//きーやん「ずるって、古いな」[l
+//あおくん「うるさい！ほっとけ！！」[l
+//きーやん「ムカー！！！」[l
+//あおくん「うわっ！な、なんで逆ギレやねん。もう、わけわからんわ！」[l
+//きーやん「ほんでな、リズム感の話やけどな」[l
+//あおくん「あ、あぁ、そうやったな」[l
+//きーやん「まったく…、話を脱線させんといてや」[l
+//あおくん「あぁ、ごめんな…って、どっちがやねん！！！話、脱線させたん、きーやんやろがーーー！！チャックあいてるとかウソぶっこいといてー！！！」[l
+//きーやん「まぁまぁ、そんなに怒らんでも」[l
+//あおくん「やかましいわ！まったく…、ほんで、なんなん、リズム感の話って？」[l
+//きーやん「洗剤的なアルミ缶は、訓練したら成長するんやて。」[l
+//あおくん「あほ！ それを言うなら、潜在的なリズム感やろ！」[l
+//ふたり「しっつれいしましたー！」[;
+Yellow: "Hello, I'm Yellow!"[l
+Blue: "Hello, I'm Blue!"[l
+Both: "Y&B! Nice to meet you!"[l
+Yellow: "Hey Blue! Did you hear? I'm in a music class!"[l
+Blue: "Wait, really? No way! What instrument are you[l
+learning, Yellow? Is it the guitar? Drums maybe?"[l
+Yellow: "Well, my part is..."[l
+Blue: "Yeah? What?"[l
+Yellow: "I'll be playing rhythm!"[l
+Blue: "Wha? You can't 'play' rhythm, Yellow.[l
+It's not an instrument. Where did you hear that?"[l
+Yellow: "Well, I told the teacher I wanted[l
+to play drums, and they told me I should[l
+practice 'rhythm' first!"[l
+Blue: "Yellow, I think they meant you need to [l
+improve your sense of rhythm."[l
+Yellow: "Oh yeah! They said just that![l
+How did you know?[l
+Are you psychic or something? That's incredible!"[l
+Blue: "What do you mean 'how did I know'!?[l
+It's just common sense!"[l
+Yellow: "Hey, hey! No need to get so angry."[l
+Blue: "Ah... You know, you're right, I'm sorry..."[l
+Yellow: "Oop! Blue, your fly is down!"[l
+Blue: "Huh!? Wait, really?"[l
+Yellow: "No, I lied."[l
+Blue: "Ugh... What am I gonna do with you..."[l
+Yellow: "Man, that's kind of a[l
+cheesy line, don't you think?"[l
+Blue: "Shut up! Leave me alone"[l
+Yellow: "GRAAAGH!"[l
+Blue: "Huh!? Why are you mad? What did I do?"[l
+Yellow: "Anyway, we were talking about my[l
+sense of rhythm, right?"[l
+Blue: "Ah, that's right."[l
+Yellow: "Geez... way to derail the whole thing..."[l
+Blue: "Ah, I'm sorry... wait, I'M sorry?[l
+You were the one who-- by lying that my fly was down!"[l
+Yellow: "Hey hey, no need to get so angry."[l
+Blue: "Oh, shut up! Yeesh... anyway, we were talking[l
+about rhythm?"[l
+Yellow: "Right! So apparently you're supposed to[l
+practice to improve something[l
+called 'censor risms'...?"[l
+Blue: "Your sense of rhythm! Idiot!"[l
+Both: "Thank you! You've been a wonderful audience!"[;
+
+// Ninja Scroll
+
+#WRITE(RtPtr, $9D7F44)
+// 0x8057004
+//忍者の巻物[;
+Ninja Scroll[;
+
+#WRITE(RtPtr, $9D7F48)
+// 0x8056c14
+//みなさん、はじめまして。オレは田中っていいます。この前、うらの倉庫で古い巻物をみつけたんです。その中にはこう書いてありました。[l
+//[l
+//「これを見ているオヌシ。オヌシは、この巻物をたまたま見つけたのではない。見つけるべくして、見つかるように忍術をかけておいたものなのだ。わかるか？そう、これを書いているワシは忍者であり、オヌシのご先祖さまというわけだ。[l
+//先日ワシは、ワシの主人であるトノを矢の雨からお守りした。もちろん、命がけだ。その大仕事を終えた夜、夢をみた。そこには、若い男がいた。世の中に背をむけて生きている、とんがった若者だ。占いオババによると、その若者、どうもオヌシらしいのだ。そして、ワシと同じように命がけで、ある人を守っている。女性だ。その女性はトノの子孫なのだそうだ。こんな巻物を突然見ても、あまりピンとこないかもしれないが、願わくばその女性はオヌシが守り続けて欲しい。」[l
+//今、オレの心にはある女性がいます。その女性は、先日、パチンコで狙いうちされそうになっているのを、オレが必死で助けた女性です。これから、どうなるってわけじゃないけど、ここはひとつ、ご先祖様の忍術にまんまとかけられてみようかな…[;
+Nice to meet you all. I'm Tanaka. The other day I[l
+found a bizarre scroll in the back of storage.[l
+Written was the following:[l
+[l
+"To you who reads this: You did not come across[l
+this scroll by chance. I used the powers of ninjitsu[l
+to ensure that it would reach you. Do you understand?[l
+Indeed, the writer of this scroll is not only a ninja[l
+but your ancestor.[l
+[l
+The other day, I protected my lord from a[l
+storm of arrows.[l
+I risked my life. The night following this daunting task,[l
+a dream came to me. I saw a young man.[l
+A discontented man with his back against the world.[l
+According to the fortune teller, that young man is you.[l
+Much like me, you risk your life to protect someone.[l
+A young woman. She too is said to be a descendant[l
+of my lord.[l
+I know not if you can comprehend this scroll, but[l
+if so, I ask that you continue to protect her."[l
+[l
+Now, there actually is a woman in my heart.[l
+The other day, I saved her from a slingshot attack.[l
+I put my life on the line. Who knows what could[l
+happen next? My ancestor's ninjutsu might just[l
+help in a pinch one day.[;
+
+// Final Letter
+
+#WRITE(RtPtr, $9D7F34)
+// 0x80573d0
+//さいごの通達[;
+Final Letter[;
+
+#WRITE(RtPtr, $9D7F38)
+// 0x8057010
+//なぞのリズム組織から最後の通達が届きました。[l
+//[l
+//「おめでとう！！リミックス８のパーフェクト、かなりサイコーでした〜！…と、明るく祝福するのはやめておく。たしかにキミは、この「リズム天国」でスバラシイ成績を残した。これはまぎれもない事実で、我々も十分みとめている。キミは最高だ！もう、超サイコーなんでーす！！…と、つい、うれしくなってしまうが、楽しくたたえるのは やめておく。[l
+//今回、このゲームでキミが体感したリズムは、リズム界のほんのチョコットである。もしキミがリズムに対して、よりいっそうの興味を持ってくれたならば、ぜひこれを機会にノリノリになってほしい！だって、ノリノリってサイコーなんだヨ！！もう、超オススメなんだからー！！…と、つい、ウキウキしてしまうが、うかれてオススメするのはやめておく。[l
+//我々は、本気だ。[l
+//本気でキミに、ノリノリであってほしいのだ！[l
+//このリズム界をリードするのが、キミであると信じている！っていうか、キミしか信じられなーい！！[l
+//もう、キミってサイコーなんだもーん！！[l
+//遊んでくれてありがとう！」[l
+//[l
+//[l
+//[linealign=right]なぞのリズム組織代表[l
+//[linealign=right]スペースおじさん[;
+We received this Final Letter from[l
+the Rhythm League.[l
+[l
+"Congratulations![l
+Getting a Perfect on Remix 8 was very impressive![l
+...is how I should be congratulating you, but I won't.[l
+You certainly did well in "Rhythm Heaven Advance".[l
+This is irrefutable and I fully recognize it.[l
+You are the best! The best of the best! ...is how I feel,[l
+but that's enough praise.[l
+In this game, any rhythm you experienced is[l
+just a tiny fraction of the whole world of it.[l
+If you are now more interested in rhythm,[l
+please use this opportunity to learn more about it![l
+Because flow is the best![l
+I can't recommend having it enough! ...and... well,[l
+I should stop getting excited and start recommending.[l
+We're serious.[l
+We really want you live with flow![l
+We believe you will lead a world of rhythm yourself![l
+In fact, we can ONLY believe in you to do it![l
+You really are the best![l
+Thank you so much for playing!"[l
+[l
+[l
+[linealign=right]Rhythm League Representative[l
+[linealign=right]Space Gramps[;
+
+// Lyrics Card ③
+
+#WRITE(RtPtr, $9D7F24)
+// 0x8057628
+//歌詞カード〜(3)[;
+Lyrics Card ③[;
+
+#WRITE(RtPtr, $9D7F28)
+// 0x80573e0
+//ＷＩＳＨ　君を待てなくて　[l
+//うた：田中総史[l
+//作詞/作曲：つんく[l
+//編曲：湯浅公一[l
+//[l
+//君を待てなくて　今夜さよなら[l
+//もっと愛しあいたかった[l
+//孤独な夜が　幸せだった頃を[l
+//たくさん想い出させる[l
+//この街で出会って 激しく恋をした[l
+//[l
+//戸惑う事も無く 抱きしめ合ってた[l
+//[l
+//それは気まぐれだね[l
+//すれ違ってく想い[l
+//[l
+//いつの間にか冷たい[l
+//キスをしていた[l
+//[l
+//[l
+//夢がかすんで行く[l
+//君がかすんで行く[l
+//熱い熱い[l
+//胸の痛み[l
+//我慢できないね[l
+//[l
+//[l
+//君を待てなくて　今夜さよなら[l
+//もっと愛しあいたかった[l
+//孤独な夜が　幸せだった頃を[l
+//たくさん想い出させる[l
+//[l
+//君を待てなくて　今夜さよなら[l
+//二人夢つかみたかった[l
+//いつもの駅が　幸せだった頃を[l
+//寂しく想い出させる[;
+WISH - Can't Wait for You[l
+Song: Sohshi Tanaka[l
+Music: TSUNKU[l
+Arrangement: Yuasa Kouichi[l
+[l
+Kimi o matenakute Kon'ya sayonara[l
+Motto aishi aitakatta[l
+Kodokuna yoru ga Shiawasedatta koro o[l
+Takusan omoide sa seru[l
+[l
+Kono machi de deatte [l
+Hageshiku koi o shita[l
+[l
+Tomadou koto mo naku [l
+Dakishime atteta[l
+[l
+Sore wa kimagureda ne[l
+Surechigatte ku omoi[l
+[l
+Itsunomanika tsumetai[l
+Kisu o shite ita[l
+Yume ga kasunde iku[l
+Kimi ga kasunde iku[l
+Atsui Atsui[l
+Mune no itami[l
+Gaman dekinai ne[l
+[l
+Kimi o matenakute Kon'ya sayonara[l
+Motto aishi aitakatta[l
+Kodokuna yoru ga Shiawasedatta koro o[l
+Takusan omoide sa seru[l
+[l
+Kimi o matenakute Kon'ya sayonara[l
+Futari yume tsukamitakatta[l
+Itsumo no eki ga Shiawasedatta koro o[l
+Sabishiku omoide sa seru[;
+
+// Lyrics Card ②
+
+#WRITE(RtPtr, $9D7F14)
+// 0x80577c4
+//歌詞カード〜(2)[;
+Lyrics Card ②[;
+
+#WRITE(RtPtr, $9D7F18)
+// 0x8057638
+//恋のハニースイ〜トエンジェル[l
+//うた：時東ぁみ[l
+//作詞/作曲：つんく[l
+//編曲：鈴木Daichi秀行[l
+// [l
+//恋の魅力  恋の不思議[l
+//恋の形  恋のニュアンス[l
+//ハニースイ〜トエンジェル[l
+//[l
+//[l
+//[l
+//逆の意味で 「好き」って何よ！[l
+//超わかんな〜い[l
+//[l
+//さらに逆に 言い換えると[l
+//スキ みたいなんですよ[l
+//[l
+//[l
+//[l
+//めっちゃ あまずっぱい いっちごミルク[l
+//そんな感じね 私たち[l
+//I　LOVE　U　　[l
+//[l
+//恋の魅力 恋の不思議[l
+//恋の形 恋のニュアンス[l
+//ハニースイ〜トエンジェル[l
+//[;
+Honey Sweet Angel of Love[l
+Song: Ami Tokito[l
+Music: TSUNKU[l
+Arrangement: Suzuki "Daichi" Hideyuki[l
+[l
+[l
+Koi no miryoku Koi no fushigi[l
+Koi no katachi Koi no nuance[l
+Honey Sweet Angel[l
+[l
+Gyaku no imi de "suki" ttenani yo![l
+Chou waka n'na~i[l
+Sarani gyaku ni iikaeru to[l
+Suki mitaina ndesu yo[l
+[l
+Metcha amazuppai Itchi go miruku[l
+Son'na kanji ne watashitachi[l
+I LOVE YOU[l
+[l
+Koi no miryoku Koi no fushigi[l
+Koi no katachi Koi no nuance[l
+Honey Sweet Angel[;
+
+// Lyrics Card ①
+
+#WRITE(RtPtr, $9D7F08)
+// 0x80577d4
+//ザ☆ぼんおどり[l
+//うた：時東ぁみ[l
+//作詞/作曲：つんく[l
+//[l
+//は〜花火あがれば〜[l
+//は〜あ〜歓声あがる〜[l
+//[l
+//は〜　人気あがれば〜[l
+//は〜あ〜　給料あがる〜[l
+//祭りだわっしょい！[l
+//にっぽん中がわっしょい！[l
+//[l
+//それ　ひっくり返って　ドンドパンパン[l
+//は〜　盆踊り〜[l
+//[l
+//は〜雨があがれば〜[l
+//は〜あ〜やぐらに あがる〜[l
+//[l
+//[l
+//ほら！祭りだわっしょい！[l
+//これぞ　メイド イン ジャパン　[l
+//[l
+//それ　ひっくり返って　ドンドパンパン[l
+//は〜　盆踊り〜[;
+The☆Bon Odori[l
+Song: Ami Tokito[l
+Music: TSUNKU[l
+[l
+[l
+Haa~[l
+            Hanabi Agare ba~[l
+[l
+Haa~ Ah~[l
+            Kansei Agaru~[l
+[l
+Haa~[l
+            Ninki Agare ba~[l
+[l
+Haa~ Ah~[l
+            Kyuuryou Agaru~[l
+[l
+Matsuri da Wasshoi![l
+Nippon chuu ga Wasshoi![l
+[l
+Sore Hikkuri Kaette[l
+Ha~ Bon Odori~[l
+[l
+Haa~[l
+            Ame ga Agare ba~[l
+[l
+Haa~ Ah~[l
+            Yagura ni Agaru~[l
+[l
+Hora! Matsuri da Wasshoi![l
+Korezo Meido in Japan[l
+[l
+Sore Hikkuri Kaette[l
+Ha~ Bon Odori~[;
+
+#WRITE(RtPtr, $9D7F04)
+// 0x8057958
+//歌詞カード①[;
+Lyrics Card ①[;
+
+// A Certain Radio Station
+
+#WRITE(RtPtr, $9D7EF8)
+// 0x8057968
+//はいどーもー！DJ SALUでーす！[l
+//今日もステキなゲストが来てくれています。ラップメン（RM）のおふたりでーす。よろしくどうぞ〜！[l
+//RM「あ、どうも ラップメンです」[l
+//DJ「新曲、いいじゃないですか〜！」[l
+//RM「せやろ〜。わかりますか？」[l
+//DJ「うん、うん。サイコー！」[l
+//RM「ところで、なやみがあるんですわ」[l
+//DJ「え！？え〜っと、…ど、どんな？」[l
+//RM「なんか、うちらのバッタモンが現れたんですわ、ラップウィメンとかいう」[l
+//DJ「ほんとですか！？」[l
+//RM「うん。しかも楽屋にあった うちらのおやつをないしょで食べてもうたんですわ」[l
+//DJ「エー！ショックですねぇ…」[l
+//RM「しかも、おき手紙があってね」[l
+//DJ「なんて？」[l
+//[l
+//RM「べつばら サイコーって」[l
+//DJ「なんて大胆な…」[l
+//RM「でっしゃろ？くやしくて叫びました」[l
+//DJ「おやつがナイヨ〜ってですか？」[l
+//RM「！？ なんでしってんの？」[l
+//DJ「だってリズム天国やってるもーん！ではここでCMでーす」[l
+//CM「ノリ感アップに… リズム天国！買ってネ！」[l
+//[linealign=right]おわり[;
+Hey there! I'm DJ MON-K![l
+We've got a couple of wonderful guests here today.[l
+Allow me to introduce the RAPMEN (RM)! Pleased[l
+to meet you today![l
+RM: "Hey, viewers at home! We are the RAPMEN!"[l
+DJ: "Your latest song is really good, huh?"[l
+RM: "You know it! It's pretty clear, huh?"[l
+DJ: "Uh uh! It's the GREATEST!"[l
+RM: "All that said, we're kind of in a jam right now."[l
+DJ: "O-Oh! W-What is it?"[l
+RM: "Well, all of our merch went missing![l
+And I'm pretty sure it was the RAPWOMEN."[l
+DJ: "Maybe so, huh?"[l
+RM: "Yeah. And you know what else? They ate all[l
+the snacks we kept in our dressing room!"[l
+DJ: "Unbelievable!"[l
+RM: "And if that wasn't enough, they left a little[l
+note for us."[l
+DJ: "What did it say?"[l
+RM: "It said 'Candies are the GREATEST!'"[l
+DJ: "Oh wow. That's bold."[l
+RM: "Right!? It was enough to make me yell..."[l
+DJ: "You were like, "Hey! Who ATE IT!?"[l
+RM: "Uh... Yeah! How do you know that?"[l
+DJ: "Because I've been playing Rhythm Heaven[l
+Advance! Roll the commercial!"[l
+CM: "UP your flow with Rhythm Heaven Advance![l
+Available now! Game and system sold separately."[l
+End.[;
+
+#WRITE(RtPtr, $9D7EF4)
+// 0x8057cb4
+//とあるラジオ番組[;
+A Certain Radio Station[;
+
+// Squadmate Activity Log
+
+#WRITE(RtPtr, $9D7EE8)
+// 0x8057cc8
+//４月１６日 今日からマーチャに入隊！みんなの役に立つようにがんばるぞー！[l
+//[l
+//４月２０日 今日はみんなと「あしぶみ」がそろわず、隊長におこられちゃった。[l
+//[l
+//４月２８日 今日は駅前の清掃活動をした。みしらぬおばあちゃんが「キレイにしてくれてありがとう」と言ってアメをくれた。うれしかった！[l
+//５月４日 最近なんだかだるい。これが５月病というものなのかな？しっかりしないと、おいてけぼりをされそうだ…[l
+//[l
+//５月８日 隊長のようすがおかしい… 昨日、宇宙でウサギと遊んだと言っている。大丈夫かな…？[l
+//[l
+//５月１６日 最近、隊長そっくりの人をよくみかける。[l
+//気のせいだろうか？[l
+//５月２２日 ボクは見てしまった。隊長が…[l
+//[l
+//[l
+//活動記録はここで終わっている。[l
+//いったい、隊長の身になにが！？[;
+April 16: I enlisted in the Marching Orders group! [l
+I'm gonna give it my all and help everybody I can![l
+[l
+April 20: Today I marched out of line with the others. [l
+Sarge got angry at me...[l
+[l
+April 28: Today we were cleaning the[l
+front of the station. [l
+An old lady came up to me and said "Thank you for [l
+keeping things clean" and gave me some candy. [l
+I was so happy![l
+[l
+May 4: I've been pretty sluggish lately. [l
+I don't think this is what they mean by "spring fever".[l
+If I don't shape up soon, I might get shipped out...[l
+[l
+May 8: There's something going on with Sarge... [l
+Yesterday, he told us about how he played with[l
+some rabbits up in outer space. Is he okay?[l
+[l
+May 16: Recently, I've been seeing people who look[l
+just like Sarge. It's got to be my imagination, right?[l
+[l
+May 22: I saw it! Sarge is...[l
+[l
+The log ends here.[l
+What could've happened to Sarge?[;
+
+#WRITE(RtPtr, $9D7EE4)
+// 0x8057f50
+//マーチャ活動記録[;
+Squadmate Activity Log[;
+
+// Horse Machine's Development
+
+#WRITE(RtPtr, $9D7ED8)
+// 0x8057f64
+//メダルでもらえるおまけ「うまマシーン」の開発にたずさわった、Fさんに開発のお話をきくことができました。[l
+//Fさん「うまを走らせる気持ちよさを伝えたいという想いから開発がスタートしました」[l
+//シンプルながら熱い想いをことばに託すFさん。[l
+//Fさん「しかし、ゲームとしてのいろいろな条件を満たそうとすると出口が見つからず、開発の断念を意識した時期もありました」[l
+//苦しい時期もあったFさん。自分の想うものを決められた枠内で表現するのは大変なんですね。[l
+//Fさん「遊んでくれた人がほんのチョットでもハッピーになってくれたら、もうそれで苦労なんか吹っ飛んじゃいますけどネ！」[l
+//サービス精神旺盛なFさん。これからの作品も期待しております。ありがとうございました。[;
+We were given the chance to interview "Mr. F",[l
+inventor of the Horse Machine in the Rhythm Toys[l
+section, about its development.[l
+[l
+[l
+Mr. F: "The idea came about because I just really[l
+wanted to share the joys of riding a horse. So[l
+development sort of revolved around that idea."[l
+[l
+Mr. F's comments were as simple as they were[l
+passionate.[l
+[l
+Mr. F: "But in trying to make a game out of it, I found[l
+myself losing sight of that end goal. I considered[l
+giving up many times."[l
+[l
+It was a struggle for Mr. F, who found it difficult to[l
+express his vision within a standard framework.[l
+Mr. F: "But thinking about the kinds of people who[l
+use the Horse Machine and get even a little joy[l
+out of it...[l
+[l
+Well, the hardships sort of just drift away."[l
+[l
+Mr. F, you are truly devoted to your craft. We look[l
+forward to seeing your next creations. Thank you.[;
+
+#WRITE(RtPtr, $9D7ED4)
+// 0x80581dc
+//うまマシーン開発秘話[;
+Horse Machine's Development[;
+
+// Spaceball Report
+
+#WRITE(RtPtr, $9D7EC8)
+// 0x80581f4
+//ただいま宇宙空間で活躍中のエアーバッターさんにインタビューしてみました！[l
+//[l
+//Q．今シーズンの調子はどうですか？[l
+//A．おにぎり食べてるから、バッチシです！[l
+//[l
+//Q．目標は？[l
+//A．おにぎりを欠かさないこと！です。[l
+//[l
+//Q．彼女はいますか？[l
+//A．はい、います。[l
+//[l
+//Q．彼女の得意料理は？[l
+//A．おにぎりです！[l
+//[l
+//Q．なぜ、ゲーム中に かぶりものを？[l
+//A．なんのことですか？[l
+//[l
+//Q．なぜ ウサギなどのコスチュームを？[l
+//A．しりません。[l
+//[l
+//Q．質問に答えてください！[l
+//A．もう、時間ですので失礼します。[l
+//[l
+//ここで、エアーバッターさんは席を外されてしまいました。なにかワケありのようです。以上、宇宙空間からでした。[;
+We're here in outer space for an exclusive interview[l
+with the space faring baseball player,[l
+the Space Batter![l
+[l
+Q. How is this season looking so far?[l
+A. I've been eating rice balls, so it's right on the mark![l
+[l
+Q. What would you say your goal is?[l
+A. To not miss any rice balls![l
+[l
+Q. You have a girlfriend, right?[l
+A. Yes, I do.[l
+[l
+Q. What would you say is her best trait?[l
+A. She makes a mean rice ball![l
+[l
+Q. Why do you wear masks in the middle of games?[l
+A. Hm? What do you mean?[l
+[l
+Q. When you wore a full rabbit costume, for instance?[l
+A. I'm not sure what you're talking about.[l
+[l
+Q. Please answer the question![l
+A. Uh... It's time for me to go. Sorry.[l
+[l
+He's just left his seat![l
+Seems there's been some kind of problem.[l
+That's all from outer space. [;
+
+#WRITE(RtPtr, $9D7EC4)
+// 0x8058424
+//エアーバッター速報[;
+Spaceball Report[;
+
+// Night Walk Information
+
+#WRITE(RtPtr, $9D7EB8)
+// 0x8058438
+//ナイトウォークに出演している彼は、とっても音楽がスキなのだそうです。以前も音楽関係の仕事をしていたそうで、そのコネで今回このゲームに出演しているのだそうです。この前、街で偶然彼をみつけたので話をきいてみると「音楽大スキ！」と言い残し、階段をのぼってどっかに行っちゃいました。そんな音楽好きの彼に またどこかで会えたらいいなぁと、チョットだけ思いました。そういえば彼、なんていう名前なのかなぁ？[l
+//さぁ、ここでクイズです！[l
+//その彼は名前は…[l
+//[l
+//[linealign=center][size=medium][linesize=medium]〜〜〜〜〜[l
+//[linesize=large][size=small][linesize=small][l
+//各番号に入る文字を答えてくださいネ！[l
+//正解すると、次のページの文章を読むことができまーす！！[l
+//[l
+//[l
+//[size=medium][linesize=medium][linealign=center]リズムゲームの「クイズ」のヒミツ[l
+//[size=small][linesize=small][linesize=large][l
+//あのゲームは、[size=medium][linesize=medium]〜〜〜〜[size=small][linesize=small]ーがボタ[size=medium][linesize=medium]〜[size=small][linesize=small]をたたくと、たた[size=medium][linesize=medium]〜[size=small][linesize=small]た数だけカウントされますよね？実は、ゲームをほっと[size=medium][linesize=medium]〜[size=small][linesize=small]て、ボタ[size=medium][linesize=medium]〜[size=small][linesize=small]をたたきまくると、た[size=medium][linesize=medium]〜[size=small][linesize=small]へ[size=medium][linesize=medium]〜[size=small][linesize=small]なことがおきる[size=medium][linesize=medium]〜[size=small][linesize=small]です。と[size=medium][linesize=medium]〜[size=small][linesize=small]っても、まぁ、あまり期待しな[size=medium][linesize=medium]〜[size=small][linesize=small]でネ〜！[;
+The strange character who appears in Night Walk[l
+seems to really love music.[l
+Apparently he's worked with music before,[l
+and landed a role in this game through connections.[l
+I ran into him in the city. All he said was "I love music!",[l
+and just disappeared up some stairs.[l
+I wonder if I'll ever meet that music-loving guy again.[l
+Come to think of it, I don't even know his name...[l
+[l
+Okay, time for a quiz![l
+His name is...[l
+[l
+[linealign=center][size=medium][linesize=medium]①②③④-④③⑤[l
+[linesize=large][size=small][linesize=small][l
+Answer which letters go in each of the numbers![l
+If you answer correctly, you'll be able to[l
+read the following text!![l
+[l
+[size=medium][linesize=medium][linealign=center]Secret of the[l
+"Quiz Show" game[l
+[l
+[size=small][linesize=small][linesize=large]In this g[size=medium][linesize=medium]③[size=small][linesize=small]me, the [size=medium][linesize=medium]①②③④[size=small][linesize=small]er has to m[size=medium][linesize=medium]③[size=small][linesize=small]tch[l
+the host's [size=medium][linesize=medium]⑤[size=small][linesize=small]umber of button [size=medium][linesize=medium]①[size=small][linesize=small]resses. But[l
+if you mash the butto[size=medium][linesize=medium]⑤[size=small][linesize=small]s really f[size=medium][linesize=medium]③[size=small][linesize=small]st instead,[l
+somethi[size=medium][linesize=medium]⑤[size=small][linesize=small]g interesting can h[size=medium][linesize=medium]③[size=small][linesize=small]ppen.[l
+It's nothing crazy or an[size=medium][linesize=medium]④[size=small][linesize=small]thing, but it's neat![l
+[;
+
+#WRITE(RtPtr, $9D7EB4)
+// 0x80587ac
+//ナイトウォーク情報[;
+Night Walk Information[;
 
 //End of Script file.

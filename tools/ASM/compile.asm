@@ -23,6 +23,27 @@ _spriteluaconsolemessages equ 1
 .warning "Sprite Log Enabled, while not deadly, should be disabled for the sake of it."
 .endif
 
+;Init. Seq.
+.org 0x089CFE50
+; .dw 0x08A218C4
+
+;Init. Seq. (Skip)
+.org 0x089CFF2C
+; .dw 0x089EF884
+
+;Load Seq. Call
+.org 0x089CFED4
+; .dw 0x089D2FFC+60h
+
+;Load Seq. (Skip) not actually a pointer...
+
+;Engine (BE)
+.org 0x089CFE30
+; .dw 0x089E0378
+
+;Prologue
+.org 0x089CFE14
+; .dw 0x089EA6C0
 
 .include tools/ASM/relocate.asm
 
@@ -30,6 +51,7 @@ _spriteluaconsolemessages equ 1
 .include src/Graphics/RhythmGames/RatRace/ratrace.asm
 .include src/Graphics/RhythmGames/NightWalk/nightwalk.asm
 .include src/Graphics/RhythmGames/KarateMan/karateman.asm
+.include src/Graphics/RhythmGames/TheClappyTrio/clappy.asm
 
 .include tools/ASM/asm_relocate.asm
 .include tools/ASM/asm.asm

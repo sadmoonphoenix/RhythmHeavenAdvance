@@ -32,7 +32,7 @@ push r0-r2,r14
 ldr r0,=0x030046a8
 ldr r0,[r0]
 add r0,0x16
-mov r1,0x37
+mov r1,0x36
 mov r2,4
 @@fillstart:
 strb r2,[r0,r1]

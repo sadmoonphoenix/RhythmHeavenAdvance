@@ -54,7 +54,7 @@ end
 function update()
 	oamLog_textBuf:clear()
 	sprLog_textBuf:clear()
-
+	
 	local keys = emu:getKeys()
 	
 	if(keys == 4) then
