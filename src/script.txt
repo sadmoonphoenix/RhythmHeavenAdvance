@@ -358,8 +358,6 @@ I guess that was all right.[;
 
 //// RHYTHM GAMES
 
-//// Bonus
-
 // Consultant Café
 
 #WRITE(RtPtr, $9CE968)
