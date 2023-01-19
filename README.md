@@ -1,3 +1,3 @@
-# Rhythm Heaven Advance
+# Rhythm Heaven Advance (Kiosk Edition)
 
-README coming soon!
+Please ignore this, this won't be supported.

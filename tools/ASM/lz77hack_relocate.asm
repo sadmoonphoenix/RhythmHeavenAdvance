@@ -14,7 +14,7 @@ ldr r1,[r5,0x10]
 swi 0x12
 b @@ExitCompressionCheck
 @@NotLZ77Compressed:
-bl 0x08008594
+bl 0x08008548
 @@ExitCompressionCheck:
 pop r15
 
@@ -54,7 +54,7 @@ ldrb r5,[r5,0x3]
 lsr r5,r5,7
 cmp r5,1
 beq @@LZ77Compressed
-bl 0x0804EAFC
+bl 0x0804EC78
 @@LZ77Compressed:
 pop r5,r15
 .pool
