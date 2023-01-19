@@ -36,6 +36,18 @@
 // 税込みでーす！！
 // よかったら　買ってネ。
 
+// Game Select [[Beautiful padding I know x)
+
+#WRITE(RtPtr, $9CF504)
+// 0x80548a4
+//[color=0(normal)][linestyle=0(normal)][style=gold][linestyle=5]ランク [color=gray][linestyle=2][style=purple][linestyle=7]ハイレベル[;
+[color=normal][linestyle=normal][style=gold][linestyle=5]Rank:            [1px][color=gray][linestyle=2][style=purple][linestyle=7]Superb[;
+
+#WRITE(RtPtr, $9CF500)
+// 0x80548c8
+//[color=0(normal)][linestyle=0(normal)][style=gold][linestyle=5]ランク [color=gray][linestyle=2][style=purple][linestyle=7]平凡[;
+[color=normal][linestyle=normal][style=gold][linestyle=5]Rank:                     [2px][color=gray][linestyle=2][style=purple][linestyle=7]OK[;
+
 //// RHYTHM GAMES
 
 // Karate Man
@@ -55,6 +67,110 @@ like all things, is rhythm.[l
 Now, let us throw some[l
 stuff for you to punch.[;
 
+#WRITE(RtPtr, $9EEE70)
+//ようこそ！[l
+//カラテ家のゲームへ。[;
+Welcome to karate[l
+training![;
+
+#WRITE(RtPtr, $9EEED0)
+// このゲームは、Aボタンで「モノ」をパンチするだけだけどもタイミングが超シビアです。[;
+Press [A_button] to punch the[l
+objects that are flying[l
+your way.[l
+The timing's a little tricky![;
+
+#WRITE(RtPtr, $9EEF30)
+//まずは、とんでくる[l
+//「モノ」を　ビシッ　と[l
+//パンチしてみよう。[;
+Here, why don't you give[l
+it a shot?[;
+
+#WRITE(RtPtr, $9EF098)
+//どう？[l
+//タイミングのシビアさ、[l
+//わかってもらえたかな？[;
+See?[l
+The timing is pretty[l
+strict, isn't it?[;
+
+#WRITE(RtPtr, $9EF0F8)
+//つぎは、音楽にあわせて[l
+//パンチしてみよう！[;
+Now try punching to[l
+the beat of some music![;
+
+#WRITE(RtPtr, $9EF2E4)
+//どうですか？[l
+//音楽にノると、やりやすくないですか？[;
+How was that?[l
+Much easier with the[l
+music, right?[;
+
+#WRITE(RtPtr, $9EF344)
+// 0x805ad38
+//では、そんなカンジで[l
+//音楽にノッて「モノ」を[l
+//ビシビシ　たたきましょう！[;
+Well, there you have it![l
+Just flow with the music[l
+and punch away![;
+
+#WRITE(RtPtr, $9EF3B0)
+// 0x805ad80
+//[l
+//本番、スタート！！[;
+[l
+Ready, set, punch![;
+
+#WRITE(RtPtr, $9EDB8C)
+// 0x805abc4
+//[l
+//ノるのを　忘れずにネ！[;
+[l
+Remember to feel the flow![;
+
+#WRITE(RtPtr, $9EEAC8)
+// 0x805abdc
+//師匠のおことば[;
+The Master speaks...[;
+
+#WRITE(RtPtr, $9EDB0C)
+// 0x805ab50
+//きほんが　できてない。[;
+You needed to focus on the basics.[;
+
+#WRITE(RtPtr, $9EDB1C)
+// 0x805ab6c
+//つづけざまは　ニガテみたいだね。[;
+Your sequential punches were just sad.[;
+
+#WRITE(RtPtr, $9EDB18)
+// 0x805ab90
+//れんぞくパンチに　キレがある！[;
+Stellar sequential punches![;
+
+#WRITE(RtPtr, $9EDB28)
+// 0x805abb0
+//さいご キマってた！[;
+You nailed the ending![;
+
+#WRITE(RtPtr, $9CDE44)
+// 0x805448c
+//こんなに ブッとばしちゃった！！[;
+Look at all this stuff I punched away![;
+
+#WRITE(RtPtr, $9CDE40)
+// 0x80544ac
+//とりあえず、ごはん 食べとこう！[;
+For now, let's break for lunch![;
+
+#WRITE(RtPtr, $9CDE3C)
+// 0x80544cc
+//明日が あるさ。[;
+There's always tomorrow...[;
+
 // Rhythm Tweezers
 
 #WRITE(RtPtr, $9CDF2C)
@@ -72,6 +188,87 @@ My roots are showing![l
 Can you pluck them off?[l
 Please, pluck them off![;
 
+#WRITE(RtPtr, $9FADE4)
+// 0x805b544
+//ようこそ。[;
+Welcome.[;
+
+#WRITE(RtPtr, $9FAE5C)
+// 0x805b550
+//Ａボタン、または十字ボタンで　毛をぬいてネ！[;
+Use [A_button] or [D_pad] to remove the hairs![;
+
+#WRITE(RtPtr, $9FB054)
+#WRITE(RtPtr, $9FB258)
+#WRITE(RtPtr, $9FB4B0)
+// 0x805b580
+//[style=bold][linestyle=4][size=medium][linesize=medium]ＯＫ[;
+[style=bold][linestyle=4][size=medium][linesize=medium]OK.[;
+
+#WRITE(RtPtr, $9FB090)
+// 0x805b590
+//[style=4(normal)][linestyle=8][size=small][linesize=small]まきヒゲは　ボタンを長く押して引っぱってネ。[;
+[style=normal][linestyle=8][size=small][linesize=small]Pull the curly hairs by holding [A_button] or [D_pad][;
+
+#WRITE(RtPtr, $9FB294)
+// 0x805b5c8
+//[style=4(normal)][linestyle=8][size=small][linesize=small]多いときは、両手でするとラクだヨ。[;
+[style=normal][linestyle=8][size=small][linesize=small]It's easier to use both hands when there's lots of hairs.[;
+
+#WRITE(RtPtr, $9FB4EC)
+// 0x805b5f4
+//[style=4(normal)][linestyle=8][size=small][linesize=small]では、ほんばんです。[;
+[style=normal][linestyle=8][size=small][linesize=small]Good luck on the real thing![;
+
+// for Rhythm Tweezers 1 & 2
+#WRITE(RtPtr, $9F9758)
+// 0x805b6e4
+//ムダ毛　チェック[;
+Unwanted-Hair Check[;
+
+// for Rhythm Tweezers 1 & 2
+#WRITE(RtPtr, $9F9714)
+// 0x805b490
+//しっかり　ぬいてください。[;
+Please pluck the hairs properly.[;
+
+#WRITE(RtPtr, $9F9724)
+// 0x805b4b0
+//ながい毛が　処理できてません。[;
+A lot of the long hairs weren't plucked.[;
+
+#WRITE(RtPtr, $9F9720)
+// 0x805b4d0
+//ながい毛が　すっきりです！[;
+You plucked the long hairs clean![;
+
+#WRITE(RtPtr, $9F9734)
+// 0x805b4ec
+//多いところが　ぬきのこしすぎです。[;
+You couldn't quite pluck the hairest areas.[;
+
+#WRITE(RtPtr, $9F9730)
+// 0x805b510
+//多かったところ、ツルツルです！[;
+Even the hairest ones were plucked perfectly![;
+
+#WRITE(RtPtr, $9CDF44)
+// 0x8053ef8
+//スッキリそうかい！ 空気がうまい！！[;
+So fresh and clean! Even the air tastes delicious![;
+
+#WRITE(RtPtr, $9CDF40)
+// 0x8053f1c
+//なんで うちのヤサイは 毛がはえるんだ？[;
+Wh-why do my vegetables grow hair?[;
+
+#WRITE(RtPtr, $9CDF3C)
+// 0x8053f44
+//これじゃ 売りものに ならん！[;
+I can't sell these![;
+
+// The Clappy Trio
+
 #WRITE(RtPtr, $9CDE6C)
 //パチパチ三人衆[;
 The Clappy Trio[;
@@ -82,6 +279,110 @@ Clap your hands in[l
 order! You are the third[l
 clapper. Keep an eye[l
 on the other two![;
+
+#WRITE(RtPtr, $9F1B64)
+// 0x805af14
+//オレたち、パチパチ三人衆[;
+Hi, we're the Clappy Trio![;
+
+#WRITE(RtPtr, $9F1C30)
+// 0x805af30
+//等間隔で手拍子をするヨ[;
+We clap our hands on a steady beat.[;
+
+#WRITE(RtPtr, $9F1CE4)
+// 0x805af48
+//あなたは３つめ担当です[;
+You do the third clap, OK?[;
+
+#WRITE(RtPtr, $9F1D98)
+// 0x805af60
+//では、練習してみましょう[;
+Let's practice![;
+
+#WRITE(RtPtr, $9F1E4C)
+#WRITE(RtPtr, $9F2338)
+#WRITE(RtPtr, $9F217C)
+// 0x805af7c
+//( Ａボタンで３つめをたたいてネ )[;
+Press [A_button] for the third clap.[;
+
+#WRITE(RtPtr, $9F1FF0)
+#WRITE(RtPtr, $9F2338)
+// 0x805afa0
+//ＯＫ[;
+OK.[;
+
+#WRITE(RtPtr, $9F2038)
+// 0x805afa8
+//そんなかんじ[;
+Just like that.[;
+
+#WRITE(RtPtr, $9F20B0)
+// 0x805afb8
+//少し、速くしてみます[;
+Let's speed it up a bit.[;
+
+#WRITE(RtPtr, $9F238C)
+// 0x805afd4
+//それでは、本番です！[;
+It's time for our show! Clap like you mean it![;
+
+#WRITE(RtPtr, $9F0514)
+// 0x805af08
+//なかまの声[;
+Peer Review[;
+
+#WRITE(RtPtr, $9F04B0)
+// 0x805ae40
+//きほんが　できてないね。[;
+Work on your basics.[;
+
+#WRITE(RtPtr, $9F04C0)
+// 0x805ae60
+//ウラが　ニガテみたいだね。[;
+You struggled with the syncopated parts.[;
+
+#WRITE(RtPtr, $9F04BC)
+// 0x805ae7c
+//ウラが　サイコー！[;
+Your syncopation sounded great![;
+
+#WRITE(RtPtr, $9F04D0)
+// 0x805ae90
+//ゆったりするとこが　ヘンだ。[;
+You missed more in the slow parts.[;
+
+#WRITE(RtPtr, $9F04CC)
+// 0x805aeb0
+//ながれが　見えてる！[;
+You showed a great sense of flow.[;
+
+#WRITE(RtPtr, $9F04E0)
+// 0x805aec8
+//いそがしくなると　ダメだねぇ…[;
+You couldn't keep up in the fast parts.[;
+
+#WRITE(RtPtr, $9F04DC)
+// 0x805aee8
+//いそがしいところが　カンペキ！[;
+You were on top of the fast parts![;
+
+#WRITE(RtPtr, $9CDE84)
+// 0x8054340
+//この三人衆、 息ピッタリだ！！[;
+Trio-riffic![;
+
+#WRITE(RtPtr, $9CDE80)
+// 0x8054360
+//満足するのは まだ早いかもね。[;
+You need to make it to more of our practice sessions...[;
+
+#WRITE(RtPtr, $9CDE7C)
+// 0x8054380
+//仲間が帰っちゃった！[;
+The trio just went solo![;
+// Rhythm Test
 
 #WRITE(RtPtr, $9CE50C)
 //リズム感測定[;
@@ -96,6 +397,38 @@ Press [A_button] in time[l
 with the signal![l
 Want to know your[l
 sense of rhythm?[;
+
+#WRITE(RtPtr, $A40918)
+//あなたのリズム感をしらべましょう[;
+Let's find out how good your rhythm is.[;
+
+#WRITE(RtPtr, $A3DDC4)
+//音に合わせて、Ａボタンを押してください[;
+Press [A_button] in time with the signal.[;
+
+#WRITE(RtPtr, $A3E154)
+//あと半分[;
+You're halfway there![;
+
+#WRITE(RtPtr, $A408F4)
+//だいぶ、努力が必要かも…[;
+You'll have to put in a lot of effort...[;
+
+#WRITE(RtPtr, $A408F0)
+//もう少し、がんばりましょう。[;
+You'll need to try a little harder.[;
+
+#WRITE(RtPtr, $A408EC)
+//人並みの正確さをお持ちです。[;
+You're as accurate as any person could be.[;
+
+#WRITE(RtPtr, $A408E8)
+//正確な体内時計をお持ちです！[;
+You have an accurate biological clock![;
+
+#WRITE(RtPtr, $A408E4)
+//すごい！　電波時計なみの正確さ！！[;
+Incredible! You're as precise as an atomic clock![;
 
 
 //End of Script file.
