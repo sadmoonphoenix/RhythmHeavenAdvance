@@ -1,4 +1,4 @@
-// Rhythm Heaven Advance's abcde script.
+// Rhythm Heaven Advance (Kiosk)'s abcde script.
 // by Shaffy (2022-2023)
 
 // Contributors:
@@ -19,22 +19,32 @@
 
 // Title Screen Demo
 
-// #WRITE(RtPtr, $A32174)
+#WRITE(RtPtr, $A32174)
 //Welcome to[l
 //this funky game,[l
 //the RHYTHM TEN-[l
 //GOKU world!![;
+Welcome to a preview[l
+of the world of[l
+Rhythm Heaven Advance![;
 
-// #WRITE(RtPtr, $A3293C)
+#WRITE(RtPtr, $A3293C)
 //リズム天国へ ようこそ！[l
 //ファンキーなひとときを[l
 //楽しんでくださいネ![;
+Please enjoy your time[l
+with the demo of this[l
+funky game![;
 
-// #WRITE(RtPtr, $A330BC)
+#WRITE(RtPtr, $A330BC)
 // 気になる　おねだんは
 // ３８００円です！
 // 税込みでーす！！
 // よかったら　買ってネ。
+The price for the full[l
+game is $39.99![l
+(Including tax!)[l
+Buy it if you've had fun![;
 
 // Game Select [[Beautiful padding I know x)
 
@@ -185,8 +195,7 @@ Rhythm Tweezers[;
 //ぬいちゃえ、 [l
 //ぬいちゃえ！[;
 My roots are showing![l
-Can you pluck them off?[l
-Please, pluck them off![;
+Can you pluck them off?[;
 
 #WRITE(RtPtr, $9FADE4)
 // 0x805b544
@@ -429,6 +438,5 @@ You have an accurate biological clock![;
 #WRITE(RtPtr, $A408E4)
 //すごい！　電波時計なみの正確さ！！[;
 Incredible! You're as precise as an atomic clock![;
-
 
 //End of Script file.
