@@ -309,6 +309,103 @@ The cleaner says... "I know you can do it, try your best!"[;
 //[color=0(normal)][linestyle=0(normal)][style=gold][linestyle=5]ランク [color=gray][linestyle=2][style=purple][linestyle=7]平凡[;
 [color=normal][linestyle=normal][style=gold][linestyle=5]Rank:                     [2px][color=gray][linestyle=2][style=purple][linestyle=7]OK[;
 
+// Perfect
+
+#WRITE(RtPtr, $12DC0)
+// 0x8050bdc
+// ただいま「[;
+[linealign=center]"[;
+
+#WRITE(RtPtr, $12DC4)
+// 0x8050be8
+//」でパーフェクトを達成すると[;
+"[l
+do this and you'll receive[;
+
+#WRITE(RtPtr, $12DC8)
+// 0x8050c08
+//もれなく[;
+// [l
+[l[;
+
+#WRITE(RtPtr, $12DCC)
+// 0x8050c14
+//「[;
+"[;
+
+#WRITE(RtPtr, $12DD0)
+// 0x8050c18
+//」[;
+"[;
+
+#WRITE(RtPtr, $12DD4)
+// 0x8050c1c
+//の曲[;
+'s song[;
+ 
+#WRITE(RtPtr, $12DD8)
+// 0x8050c24
+//をプレゼント!![;
+[las a bonus.[;
+
+// You got a Perfect!
+
+#WRITE(RtPtr, $16D00)
+// 0x8054acc
+//[color=peach][linestyle=1][linealign=center][size=small][linesize=small][style=4(normal)][linestyle=8]「[;
+[color=peach][linestyle=1][linealign=center][size=small][linesize=small][style=normal][linestyle=8]"[;
+
+#WRITE(RtPtr, $16D04)
+// 0x8054ae0
+//」[;
+"[;
+
+#WRITE(RtPtr, $16D08)
+// 0x8054ae4
+//の曲[;
+[;
+
+#WRITE(RtPtr, $16D0C)
+// 0x8054aec
+//[color=0(normal)][linestyle=0(normal)]をプレゼント！[l
+//[;
+[color=normal][linestyle=normal][lYou've earned a gift![;
+
+#WRITE(RtPtr, $9CFC7C)
+// 0x8054a94
+//（スタジオで　たたけるヨ）[l
+ Read it at the Rhythm Library![l
+[;
+
+#WRITE(RtPtr, $9CFC78)
+// 0x8054ab0
+//（スタジオで　きけるヨ） [l
+//[;
+ Listen to it in the Studio![l
+[;
+
+#WRITE(RtPtr, $16D14)
+// 0x8054b00
+//プレゼントは　あと　[color=peach][linestyle=1][;
+There are now [color=peach][linestyle=1][;
+
+#WRITE(RtPtr, $16D18)
+// 0x8054b1c
+//コ[color=0(normal)][linestyle=0(normal)]　あるから、[l
+//他のキャンペーンにもチャレンジしてみてネ！[;
+[size=small][color=normal][linestyle=normal][style=normal] gifts left to get.[l
+Keep going![;
+
+#WRITE(RtPtr, $16D50)
+// 0x8054b5c
+//プレゼントは　これで[color=peach][linestyle=1]オシマイ[color=0(normal)][linestyle=0(normal)]です。[l
+You finally got them all![;
+
+#WRITE(RtPtr, $16D54)
+// 0x8054b88
+//パーフェクトキャンペーン、コンプリートです！[;
+PERFECT![;
+
 // Common (Rating)
 
 #WRITE(RtPtr, $9D7B3C)
@@ -1135,7 +1232,7 @@ slice them all![;
 #WRITE(RtPtr, $A04C9C)
 // 0x805bda4
 //２ひき．．．！？[;
-Ｔｗｏ　ｏｆ　ｔｈｅｍ．．．！？[;
+Ｔｗｏ　ｏｆ　ｔｈｅｍ．．．？[;
 
 #WRITE(RtPtr, $A05464)
 // 0x805bdb8
@@ -1281,7 +1378,7 @@ You took off right on cue![;
 #WRITE(RtPtr, $A1B5D8)
 // 0x805d164
 //もう！　ジャマしないでよ！[;
-Hey! Make more room for us![;
+Stop getting in the way![;
 
 #WRITE(RtPtr, $9CE740)
 // 0x80530c4
@@ -2949,11 +3046,11 @@ talk of the town![;
 
 #WRITE(RtPtr, $A3A150)
 // おやつが　ナイヨー！！[;
-.a:1Ｈｅｙ！　Ｗｈｏ　.a:0ＡＴＥ　ＩＴ！？.8:1[;
+.a:1Ｈｅｙ！　Ｗｈｏ　.a:0ＡＴＥ　ＴＨＥＭ！？.8:1[;
 
 #WRITE(RtPtr, $A3A360)
 // オレ、しらナイヨー！！[;
-.a:1Ｉ　ｋｎｏｗ　ｓｏｍｅｏｎｅ　.a:0ＡＴＥ　ＩＴ！.8:1[;
+.a:1Ｉ　ｋｎｏｗ　ｓｏｍｅｏｎｅ　.a:0ＡＴＥ　ＴＨＥＭ！.8:1[;
 
 #WRITE(RtPtr, $A3A5D0)
 // 0x805ea34
@@ -4123,7 +4220,7 @@ Cosmic Dance[;
 //くぎづけです！！[;
 These paragons of[l
 dancing have mastered[l
-their zero G moves[l
+their Zero-G moves[l
 and want to show off![;
 
 #WRITE(RtPtr, $A578B4)
@@ -4269,7 +4366,7 @@ cute voices![;
 #WRITE(RtPtr, $A4D2A4)
 //べつばら　サイコー！！
 // .a:1Ｒａｐｓ　ａｎｄ　ｓｎａｃｋｓ　ａｒｅ　.a:0ｔｈｅ　ＢＥＳＴ！！.8:1[;
-.a:1Ｃａｎｄｉｅｓ　ａｒｅ　.a:0ｔｈｅ　ＧＲＥＡＴＥＳＴ！.8:1[;
+.a:1Ｄｅｓｓｅｒｔｓ　ａｒｅ　.a:0ｔｈｅ　ＧＲＥＡＴＥＳＴ！.8:1[;
 
 #WRITE(RtPtr, $A4C20C)
 #WRITE(RtPtr, $A4C968)
@@ -4615,9 +4712,9 @@ Rhythm Tweezers 2[;
 //ぬいちゃえ、 [l
 //ぬいちゃえ！[;
 My roots are growing[l
-back! How annoying![l
-Pluck them off,[l
-pluck them off![;
+back again![l
+Can you pluck them off!?[l
+Please pluck them off![;
 
 #WRITE(RtPtr, $9FB914)
 // 0x805b634
@@ -6133,15 +6230,16 @@ Greetings[;
 //ま、それはさておき。このゲームに興味をもっていただいて光栄です。あなたとの出会いに感謝です！[l
 //末永く楽しんでいただけたら、うれしいでーす！！[l
 //ありがとうございました。[;
-Greetings![l[l
+Greetings![l
 Thank you very much for[l
 purchasing "Rhythm Heaven Advance".[l
 Oh, you've borrowed it from a friend? A-and[l
 it's u-used?[l
 Well, that's beside the point. I'm honored by your [l
 interest in this game.[l
-It's been nice meeting you! I hope you get a lot of[l
-mileage out of this game![l[l
+It's been nice meeting you![l
+[l
+I hope you get a lot of mileage out of this game![l
 Thank you very much![;
 
 // How to Play
@@ -6162,7 +6260,7 @@ How to play the game:[l
 [l
 Well, it's a pretty straightforward game.[l
 What can I really say...?[l
-Oh, right, the idea is that you follow the music, [l
+Oh, right, the idea is to play along to the music,[l
 so try to feel the flow when you play. That's my advice![l
 And that's about it. Pleased to meet you, by the way![;
 
@@ -6184,7 +6282,7 @@ I own and operate a Café.[l
 Or, to put it simply, I'm the barista.[l
 It's going well thanks to the regulars.[l
 And, uh, just to let you know now, I'm a dog.[l
-Many of my customers listen to music all the time.[l
+Many of my customers love listening to music.[l
 A lot of them have especially good rhythm.[l
 And a few have even achieved Perfect Campaigns![l
 I was pretty surprised to learn that.[l
@@ -6198,7 +6296,7 @@ I need a little flow wherever I go.[l
 It's complicated. Hahaha.[l
 I do go out from time to time, so if you happen to[l
 run into me... please pet me![l
-Well, see you.[l
+I'll see you later.[;
 
 // Plucking Letter
 
@@ -6213,14 +6311,14 @@ Plucking Letter[;
 I'm an old man who grows vegetables. [l
 One day, the vegetables started growing hair! [l
 It's so creepy! I can't sell them like this![l
-So I pluck the hairs,[l
- but I just couldn't pluck them clean.[l
+So I tried plucking the hairs, but I just[l
+couldn't pluck them clean.[l
 Well, to lighten up the mood, I put on some music.[l
 Before I knew it, I found myself plucking to the beat.[l
 And... I plucked them clean! And it's somehow fun![l
 The power of music is really something else![l
-Everyone has got to try[l
-plucking hairs off of vegetables![;
+Everyone has got to try plucking hairs off[l
+of vegetables![;
 
 // Rhythm Haiku Collection
 
@@ -6307,8 +6405,8 @@ also being mindful of your sense of rhythm."[l
 [l
 [linealign=center]"It can be difficult to count accurately during a rest,[l
 and it's easy to resume the beat prematurely, but the[l
-ability to stay calm and wait[l
-effects your flow the most."[l
+ability to stay calm and wait affects your[l
+flow the most."[l
 //
 [l
 [linealign=left]Even in adults,[l
@@ -6958,9 +7056,9 @@ to play drums, and they told me I should[l
 practice 'rhythm' first!"[l
 Blue: "Yellow, I think they meant you need to [l
 improve your sense of rhythm."[l
-Yellow: "Oh yeah! They said just that![l
-How did you know?[l
-Are you psychic or something? That's incredible!"[l
+Yellow: "Oh yeah, they said just that![l
+That's incredible![l
+But how did you know? Are you psychic?"[l
 Blue: "What do you mean 'how did I know'!?[l
 It's just common sense!"[l
 Yellow: "Hey, hey! No need to get so angry."[l
@@ -6968,7 +7066,7 @@ Blue: "Ah... You know, you're right, I'm sorry..."[l
 Yellow: "Oop! Blue, your fly is down!"[l
 Blue: "Huh!? Wait, really?"[l
 Yellow: "No, I lied."[l
-Blue: "Ugh... What am I gonna do with you..."[l
+Blue: "Why I outta...!"
 Yellow: "Man, that's kind of a[l
 cheesy line, don't you think?"[l
 Blue: "Shut up! Leave me alone"[l
@@ -6976,7 +7074,7 @@ Yellow: "GRAAAGH!"[l
 Blue: "Huh!? Why are you mad? What did I do?"[l
 Yellow: "Anyway, we were talking about my[l
 sense of rhythm, right?"[l
-Blue: "Ah, that's right."[l
+Blue: "Yeah, that's true."[l
 Yellow: "Geez... way to derail the whole thing..."[l
 Blue: "Ah, I'm sorry... wait, I'M sorry?[l
 You were the one who-- by lying that my fly was down!"[l
@@ -7280,7 +7378,7 @@ Haa~ Ah~[l
             Yagura ni Agaru~[l
 [l
 Hora! Matsuri da Wasshoi![l
-Korezo Meido in Japan[l
+Korezo Made in Japan[l
 [l
 Sore Hikkuri Kaette[l
 Ha~ Bon Odori~[;
@@ -7336,10 +7434,10 @@ DJ: "Unbelievable!"[l
 RM: "And if that wasn't enough, they left a little[l
 note for us."[l
 DJ: "What did it say?"[l
-RM: "It said 'Candies are the GREATEST!'"[l
+RM: "It said 'Desserts are the GREATEST!'"[l
 DJ: "Oh wow. That's bold."[l
 RM: "Right!? It was enough to make me yell..."[l
-DJ: "You were like, "Hey! Who ATE IT!?"[l
+DJ: "You were like, "Hey! Who ATE THEM!?"[l
 RM: "Uh... Yeah! How do you know that?"[l
 DJ: "Because I've been playing Rhythm Heaven[l
 Advance! Roll the commercial!"[l
@@ -7372,19 +7470,19 @@ A Certain Radio Station[;
 //[l
 //活動記録はここで終わっている。[l
 //いったい、隊長の身になにが！？[;
-April 16: I enlisted in the Marching Orders group! [l
+April 16: I enlisted in the Marching Orders group![l
 I'm gonna give it my all and help everybody I can![l
 [l
-April 20: Today I marched out of line with the others. [l
+April 20: Today I marched out of line with the others.[l
 Sarge got angry at me...[l
 [l
-April 28: Today we were cleaning the[l
-front of the station. [l
-An old lady came up to me and said "Thank you for [l
-keeping things clean" and gave me some candy. [l
+April 28: Today we were cleaning the front of[l
+the station. [l
+An old lady came up to me and said "Thank you for[l
+keeping things clean" and gave me some candy.[l
 I was so happy![l
 [l
-May 4: I've been pretty sluggish lately. [l
+May 4: I've been pretty sluggish lately.[l
 I don't think this is what they mean by "spring fever".[l
 If I don't shape up soon, I might get shipped out...[l
 [l
@@ -7477,8 +7575,8 @@ Horse Machine's Development[;
 //[l
 //ここで、エアーバッターさんは席を外されてしまいました。なにかワケありのようです。以上、宇宙空間からでした。[;
 We're here in outer space for an exclusive interview[l
-with the space faring baseball player,[l
-the Space Batter![l
+with the space faring baseball player, the[l
+Space Batter![l
 [l
 Q. How is this season looking so far?[l
 A. I've been eating rice balls, so it's right on the mark![l
@@ -7495,7 +7593,8 @@ A. She makes a mean rice ball![l
 Q. Why do you wear masks in the middle of games?[l
 A. Hm? What do you mean?[l
 [l
-Q. When you wore a full rabbit costume, for instance?[l
+Q. Or when you wore a full rabbit costume,[l
+for instance?[l
 A. I'm not sure what you're talking about.[l
 [l
 Q. Please answer the question![l
@@ -7503,7 +7602,7 @@ A. Uh... It's time for me to go. Sorry.[l
 [l
 He's just left his seat![l
 Seems there's been some kind of problem.[l
-That's all from outer space. [;
+I suppose that concludes this interstellar interview.[;
 
 #WRITE(RtPtr, $9D7EC4)
 // 0x8058424
@@ -7542,15 +7641,15 @@ His name is...[l
 [linealign=center][size=medium][linesize=medium]①②③④-④③⑤[l
 [linesize=large][size=small][linesize=small][l
 Answer which letters go in each of the numbers![l
-If you answer correctly, you'll be able to[l
-read the following text!![l
+If you answer correctly, you'll be able to read the[l
+following text!![l
 [l
 [size=medium][linesize=medium][linealign=center]Secret of the[l
 "Quiz Show" game[l
 [l
 [size=small][linesize=small][linesize=large]In this g[size=medium][linesize=medium]③[size=small][linesize=small]me, the [size=medium][linesize=medium]①②③④[size=small][linesize=small]er has to m[size=medium][linesize=medium]③[size=small][linesize=small]tch[l
 the host's [size=medium][linesize=medium]⑤[size=small][linesize=small]umber of button [size=medium][linesize=medium]①[size=small][linesize=small]resses. But[l
-if you mash the butto[size=medium][linesize=medium]⑤[size=small][linesize=small]s really f[size=medium][linesize=medium]③[size=small][linesize=small]st instead,[l
+if you mash the butto[size=medium][linesize=medium]⑤[size=small][linesize=small]s rea②②y f[size=medium][linesize=medium]③[size=small][linesize=small]st instead,[l
 somethi[size=medium][linesize=medium]⑤[size=small][linesize=small]g interesting can h[size=medium][linesize=medium]③[size=small][linesize=small]ppen.[l
 It's nothing crazy or an[size=medium][linesize=medium]④[size=small][linesize=small]thing, but it's neat![l
 [;

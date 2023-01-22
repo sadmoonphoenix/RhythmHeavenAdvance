@@ -26,4 +26,13 @@ bl EndlessGamesPlural_Hook
 .org 0x08016832
 bl OptionsDebugSequence_Hook
 
+.if _autoplay==1
+.org 0x08017C54
+.byte 0x01
+.org 0x08017C58
+.byte 0x00
+; .org 0x08017C1C
+; bl AutoPlay_Hook
+.endif
+
 ;eof

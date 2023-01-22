@@ -86,6 +86,20 @@ bl OptionsDebugSequence
 bl 0x080006D0
 pop r15
 
+; AutoPlay:
+; mov r0,0x00
+; mov r1,0x00
+; mov r2,0x02
+; mov r15,r14
+; .pool
+
+; AutoPlay_Hook:
+; push r14
+; bl AutoPlay
+; bl 0x08017928
+; pop r15
+
+
 
 .include tools/ASM/lz77hack_relocate.asm
 .include tools/ASM/debug_relocate.asm
