@@ -34,8 +34,8 @@ Rhythm Heaven Advance![;
 //リズム天国へ ようこそ！[l
 //ファンキーなひとときを[l
 //楽しんでくださいネ![;
-Enjoy your time here.[l
-It's a lot of fun![;
+I hope you have a good time[l
+with this game![;
 
 #WRITE(RtPtr, $A33424)
 // 0x805dfcc
@@ -43,7 +43,7 @@ It's a lot of fun![;
 //お会いしましょう！[l
 //see you![;
 [l
-Well then, see you later![;
+Well, see you later![;
 
 // Welcome! Speech
 
@@ -53,7 +53,7 @@ Well then, see you later![;
 //それは潜在的に[l
 //みんなが持っている[l
 //ものなんです。[;
-Hey there![l
+Hey man![l
 Everyone's got the[l
 potential to have a good[l
 sense of rhythm, you know.[;
@@ -63,18 +63,17 @@ sense of rhythm, you know.[;
 //リズム感は[l
 //意識していれば[l
 //どんどん良くなります。[;
-That sense of rhythm can[l
-be sharpened like any skill,[l
-just by paying attention[l
-to it.[;
+And with some mindfulness,[l
+that sense of rhythm can[l
+be sharpened like any skill.[;
 
 #WRITE(RtPtr, $A33BB0)
 // 0x805e070
 //さて、まずは[l
 //あなたのリズム感を[l
 //かるく見てみましょう。[;
-Want to know how sharp[l
-yours is? Then why don't[l
+Wanna know how sharp[l
+yours is? Then how about[l
 we take a quick look?[;
 
 #WRITE(RtPtr, $A33C70)
@@ -82,17 +81,16 @@ we take a quick look?[;
 //どうでしたか？[l
 //納得のいく結果が[l
 //出せましたか？[;
-How did you do? Are you[l
-happy with the results?[;
-
+How'd you do? Got a[l
+good score, I hope?[;
 
 #WRITE(RtPtr, $A33CAC)
 // 0x805e0d8
 //潜在的なリズム感は[l
 //訓練によって[l
 //成長するんです。[;
-Your sense of[l
-rhythm will grow[l
+Well, your sense of[l
+rhythm can only grow[l
 with some practice, so...[;
 
 #WRITE(RtPtr, $A33CE8)
@@ -110,7 +108,7 @@ sharper and sharper![;
 // 0x805e15c
 //では、またあとで[l
 //お会いしましょう。[;
-Well then, see you later.[;
+Well, catch you 'round.[;
 
 // Rhythm Test
 
@@ -3019,7 +3017,7 @@ talk of the town![;
 
 #WRITE(RtPtr, $A3A258)
 //オレの　せいかもネ[;
-.9:1Ａｔｅ　’ｅｍ　ａｌｌ　ｕｐ，　.9:0Ｉ　ｓｕｐｐｏｓｅ.8:1．[;
+.9:1Ａｔｅ　ｕｐ　ｏｕｒ　ｓｔａｓｈ，　.9:0Ｉ　ｓｕｐｐｏｓｅ.8:1．[;
 
 #WRITE(RtPtr, $A3A468)
 //それもそう　かもネ[;
@@ -3374,7 +3372,7 @@ as they pass their ball![;
 // 0x805d7b4
 //[l
 //なかよく　れんしゅう中[;
-Time for Passing Practice![;
+Time for Tossing Practice![;
 
 #WRITE(RtPtr, $A29614)
 // 0x805d7cc
@@ -3416,7 +3414,7 @@ Once again![;
 //[l
 //そうそう！！[;
 [l
-Last one...[;
+Good job![;
 
 #WRITE(RtPtr, $A2AD9C)
 // 0x805d86c
@@ -4366,7 +4364,7 @@ cute voices![;
 #WRITE(RtPtr, $A4D2A4)
 //べつばら　サイコー！！
 // .a:1Ｒａｐｓ　ａｎｄ　ｓｎａｃｋｓ　ａｒｅ　.a:0ｔｈｅ　ＢＥＳＴ！！.8:1[;
-.a:1Ｄｅｓｓｅｒｔｓ　ａｒｅ　.a:0ｔｈｅ　ＧＲＥＡＴＥＳＴ！.8:1[;
+.a:1Ｃａｋｅｓ　ａｒｅ　.a:0ｔｈｅ　ＧＲＥＡＴＥＳＴ！.8:1[;
 
 #WRITE(RtPtr, $A4C20C)
 #WRITE(RtPtr, $A4C968)
@@ -4466,7 +4464,7 @@ MON-K Feedback[;
 #WRITE(RtPtr, $A48AD4)
 // 0x8067b28
 //イケてない。[;
-That wasn't very good.[;
+You're not good at this.[;
 
 #WRITE(RtPtr, $A48AD0)
 // 0x8067b38
@@ -4491,7 +4489,7 @@ Work on your technique.[;
 #WRITE(RtPtr, $A48AF0)
 // 0x8067b90
 //テクが　ある！[;
-You've got a good technique![;
+Nice technique![;
 
 #WRITE(RtPtr, $9CE600)
 // 0x8053660
@@ -5714,7 +5712,7 @@ Mannequin Factory[;
 //[l
 //[l
 //おつかれさま！[;
-Hey, you did it![;
+Hey, man! You did it![;
 
 #WRITE(RtPtr, $A5FABC)
 // 0x8069ddc
@@ -5722,10 +5720,10 @@ Hey, you did it![;
 //あなたの　リズム感、[l
 //良くなっていると[l
 //うれしいな。[;
-You sure worked hard![l
+You worked hard out there![l
 Think your sense of[l
-rhythm has gotten a[l
-little better now?[;
+rhythm's gotten a little[l
+better now?[;
 
 #WRITE(RtPtr, $A5FBC4)
 // 0x8069e24
@@ -5745,8 +5743,8 @@ still more to play![;
 //スタッフのメンバー紹介を[l
 //させてくださいネ。[;
 But before all that,[l
-let's show you all[l
-of the people who[l
+let me show you all[l
+the people who[l
 worked on the game.[;
 
 #WRITE(RtPtr, $A5FDBC)
@@ -5765,7 +5763,7 @@ Well, here we go![;
 //[l
 //こんにちは！[;
 [l
-Hello again![;
+Welcome back, man![;
 
 #WRITE(RtPtr, $A5FFFC)
 // 0x8069ef8
@@ -5773,7 +5771,7 @@ Hello again![;
 //あなたの　リズム感、[l
 //良くなっていると[l
 //うれしいな。[;
-Are you doing well?[l
+Are you holding up well?[l
 Is your sense of[l
 rhythm still improving?[l
 I sure hope so![;
@@ -6231,8 +6229,9 @@ Greetings[;
 //末永く楽しんでいただけたら、うれしいでーす！！[l
 //ありがとうございました。[;
 Greetings![l
+[l
 Thank you very much for[l
-purchasing "Rhythm Heaven Advance".[l
+purchasing Rhythm Heaven Advance.[l
 Oh, you've borrowed it from a friend? A-and[l
 it's u-used?[l
 Well, that's beside the point. I'm honored by your [l
@@ -6293,10 +6292,10 @@ See, it's a little embarrassing, but when I'm off the[l
 clock, I'm always jamming out with these little[l
 dog-sized headphones. What can I say?[l
 I need a little flow wherever I go.[l
-It's complicated. Hahaha.[l
+It's complicated. Heh...[l
 I do go out from time to time, so if you happen to[l
 run into me... please pet me![l
-I'll see you later.[;
+See you around.[;
 
 // Plucking Letter
 
@@ -7425,19 +7424,20 @@ RM: "You know it! It's pretty clear, huh?"[l
 DJ: "Uh uh! It's the GREATEST!"[l
 RM: "All that said, we're kind of in a jam right now."[l
 DJ: "O-Oh! W-What is it?"[l
-RM: "Well, all of our merch went missing![l
-And I'm pretty sure it was the RAPWOMEN."[l
-DJ: "Maybe so, huh?"[l
-RM: "Yeah. And you know what else? They ate all[l
-the snacks we kept in our dressing room!"[l
+RM: "Well first, some knock-off rap duo sprung[l
+up outta nowhere! They call themselves the[l
+'RAPWOMEN', I think."[l
+DJ: "Maybe so, huh."[l
+RM: "Yeah. And those wannabes ate our stash of[l
+snacks we kept in our dressing room!"[l
 DJ: "Unbelievable!"[l
 RM: "And if that wasn't enough, they left a little[l
 note for us."[l
 DJ: "What did it say?"[l
-RM: "It said 'Desserts are the GREATEST!'"[l
+RM: "It said 'Cakes are the GREATEST!'"[l
 DJ: "Oh wow. That's bold."[l
 RM: "Right!? It was enough to make me yell..."[l
-DJ: "You were like, "Hey! Who ATE THEM!?"[l
+DJ: "You were like, "Hey! Who ATE IT!?"[l
 RM: "Uh... Yeah! How do you know that?"[l
 DJ: "Because I've been playing Rhythm Heaven[l
 Advance! Roll the commercial!"[l
@@ -7583,7 +7583,7 @@ A. I've been eating rice balls, so it's right on the mark![l
 [l
 Q. What would you say your goal is?[l
 A. To not miss any rice balls![l
-[l
+//[l
 Q. You have a girlfriend, right?[l
 A. Yes, I do.[l
 [l

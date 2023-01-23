@@ -6,7 +6,7 @@ _debug equ 0
 _debugmenu equ 0
 _oamluaconsolemessages equ 1
 _spriteluaconsolemessages equ 1
-_autoplay equ 1 ; EXPERIMENTAL (VERY GLITCHY)
+_autoplay equ 0 ; EXPERIMENTAL (VERY GLITCHY)
 
 .if _skiprhythmtest ==1
 .warning "Rhythm Test will be skipped, do not use for release!"
@@ -26,15 +26,15 @@ _autoplay equ 1 ; EXPERIMENTAL (VERY GLITCHY)
 
 ;Init. Seq.
 .org 0x089CFE50
-.dw 0x08A218C4
+.dw 0x08A36BD0
 
 ;Init. Seq. (Skip)
 .org 0x089CFF2C
-.dw 0x089EF884
+.dw 0x08A2C990
 
 ;Load Seq. Call
 .org 0x089CFED4
-.dw 0x089D2FFC+60h
+.dw 0x089D3F58+60h
 
 ;Engine (BE)
 .org 0x089CFE30
