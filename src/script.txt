@@ -309,100 +309,99 @@ The cleaner says... "I know you can do it, try your best!"[;
 
 // Perfect
 
-#WRITE(RtPtr, $12DC0)
+// #WRITE(RtPtr, $12DC0)
 // 0x8050bdc
 // ただいま「[;
-[linealign=center]"[;
+// If you get a Perfect on[l"[;
 
-#WRITE(RtPtr, $12DC4)
+// #WRITE(RtPtr, $12DC4)
 // 0x8050be8
-//」でパーフェクトを達成すると[;
-"[l
-do this and you'll receive[;
+// 」でパーフェクトを達成すると[;
+// " right now,[;
 
-#WRITE(RtPtr, $12DC8)
+// #WRITE(RtPtr, $12DC8)
 // 0x8050c08
 //もれなく[;
 // [l
-[l[;
+// [l[;
 
-#WRITE(RtPtr, $12DCC)
+// #WRITE(RtPtr, $12DCC)
 // 0x8050c14
 //「[;
-"[;
+// "[;
 
-#WRITE(RtPtr, $12DD0)
+// #WRITE(RtPtr, $12DD0)
 // 0x8050c18
 //」[;
-"[;
+// "[;
 
-#WRITE(RtPtr, $12DD4)
+// #WRITE(RtPtr, $12DD4)
 // 0x8050c1c
 //の曲[;
-'s song[;
+// 's song[;
  
-#WRITE(RtPtr, $12DD8)
+// #WRITE(RtPtr, $12DD8)
 // 0x8050c24
 //をプレゼント!![;
-[las a bonus.[;
+// [las a bonus.[;
 
 // You got a Perfect!
 
-#WRITE(RtPtr, $16D00)
+// #WRITE(RtPtr, $16D00)
 // 0x8054acc
 //[color=peach][linestyle=1][linealign=center][size=small][linesize=small][style=4(normal)][linestyle=8]「[;
-[color=peach][linestyle=1][linealign=center][size=small][linesize=small][style=normal][linestyle=8]"[;
+// [color=peach][linestyle=1][linealign=center][size=small][linesize=small][style=normal][linestyle=8]"[;
 
-#WRITE(RtPtr, $16D04)
+// #WRITE(RtPtr, $16D04)
 // 0x8054ae0
 //」[;
-"[;
+// "[;
 
-#WRITE(RtPtr, $16D08)
+// #WRITE(RtPtr, $16D08)
 // 0x8054ae4
 //の曲[;
-[;
+// [;
 
-#WRITE(RtPtr, $16D0C)
+// #WRITE(RtPtr, $16D0C)
 // 0x8054aec
 //[color=0(normal)][linestyle=0(normal)]をプレゼント！[l
 //[;
-[color=normal][linestyle=normal][lYou've earned a gift![;
+// [color=normal][linestyle=normal][lYou've earned a gift![;
 
-#WRITE(RtPtr, $9CFC7C)
+// #WRITE(RtPtr, $9CFC7C)
 // 0x8054a94
 //（スタジオで　たたけるヨ）[l
- Read it at the Rhythm Library![l
-[;
+ // Read it at the Rhythm Library![l
+// [;
 
-#WRITE(RtPtr, $9CFC78)
+// #WRITE(RtPtr, $9CFC78)
 // 0x8054ab0
 //（スタジオで　きけるヨ） [l
 //[;
- Listen to it in the Studio![l
-[;
+ // Listen to it in the Studio![l
+// [;
 
-#WRITE(RtPtr, $16D14)
+// #WRITE(RtPtr, $16D14)
 // 0x8054b00
 //プレゼントは　あと　[color=peach][linestyle=1][;
-There are now [color=peach][linestyle=1][;
+// There are now [color=peach][linestyle=1][;
 
-#WRITE(RtPtr, $16D18)
+// #WRITE(RtPtr, $16D18)
 // 0x8054b1c
 //コ[color=0(normal)][linestyle=0(normal)]　あるから、[l
 //他のキャンペーンにもチャレンジしてみてネ！[;
-[size=small][color=normal][linestyle=normal][style=normal] gifts left to get.[l
-Keep going![;
+// [size=small][color=normal][linestyle=normal][style=normal] gifts left to get.[l
+// Keep going![;
 
-#WRITE(RtPtr, $16D50)
+// #WRITE(RtPtr, $16D50)
 // 0x8054b5c
 //プレゼントは　これで[color=peach][linestyle=1]オシマイ[color=0(normal)][linestyle=0(normal)]です。[l
-You finally got them all![;
+// You finally got them all![;
 
-#WRITE(RtPtr, $16D54)
+// #WRITE(RtPtr, $16D54)
 // 0x8054b88
 //パーフェクトキャンペーン、コンプリートです！[;
-PERFECT![;
+// PERFECT![;
 
 // Common (Rating)
 
@@ -524,6 +523,117 @@ Collect medals to[l
 take some drum[l
 lessons. You could[l
 be a master drummer![;
+
+#WRITE(RtPtr, $9DD5F0)
+// 0x8059658
+//ベーシック　１[;
+Basic 1[;
+
+#WRITE(RtPtr, $9DD600)
+// 0x8059648
+//ベーシック　２[;
+Basic 2[;
+
+#WRITE(RtPtr, $9DD610)
+// 0x8059638
+//ショート　１[;
+Short 1[;
+
+#WRITE(RtPtr, $9DD620)
+// 0x8059628
+//ショート　２[;
+Short 2[;
+
+#WRITE(RtPtr, $9DD630)
+// 0x8059618
+//ショート　３[;
+Short 3[;
+
+#WRITE(RtPtr, $9DD640)
+// 0x8059608
+//ショート　４[;
+Short 4[;
+
+#WRITE(RtPtr, $9DD650)
+// 0x80595f8
+//ショート　５[;
+Short 5[;
+
+#WRITE(RtPtr, $9DD660)
+// 0x80595e8
+//ショート　６[;
+Short 6[;
+
+#WRITE(RtPtr, $9DD670)
+// 0x80595d8
+//ショート　７[;
+Short 7[;
+
+#WRITE(RtPtr, $9DD680)
+// 0x80595c8
+//ショート　８[;
+Short 8[;
+
+#WRITE(RtPtr, $9DD690)
+// 0x80595b8
+//ショート　９[;
+Short 9[;
+
+#WRITE(RtPtr, $9DD6A0)
+// 0x80595ac
+//ロング　１[;
+Long 1[;
+
+#WRITE(RtPtr, $9DD6B0)
+// 0x80595a0
+//ロング　２[;
+Long 2[;
+
+#WRITE(RtPtr, $9DD6C0)
+// 0x8059594
+//ロング　３[;
+Long 3[;
+
+#WRITE(RtPtr, $9DD6D0)
+// 0x8059588
+//ロング　４[;
+Long 4[;
+
+#WRITE(RtPtr, $9DD6E0)
+// 0x805957c
+//ロング　５[;
+Long 5[;
+
+#WRITE(RtPtr, $9DD6F0)
+// 0x8059570
+//ロング　６[;
+Long 6[;
+
+#WRITE(RtPtr, $9DD700)
+// 0x8059560
+//ハイテク　１[;
+Technical 1[;
+
+#WRITE(RtPtr, $9DD710)
+// 0x8059550
+//ハイテク　２[;
+Technical 2[;
+
+// Common
+
+// CHECK ASM.ASM IF YOU WANNA CHANGE THOSE!!!
+
+#WRITE(RtPtr, $2808C)
+// 0x805a0c0
+//[l
+//評価 [;
+[l
+You scored [;
+
+#WRITE(RtPtr, $2816C)
+// 0x805a0cc
+// 点[;
+ points.[;
 
 // Staff Credits
 

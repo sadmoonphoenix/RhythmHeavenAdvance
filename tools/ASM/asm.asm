@@ -20,6 +20,19 @@ bl FixResultsCaps
 .org 0x08019CCA
 bl FixResultsCaps
 
+; "printf"'s location fix.
+; tl;dr: the game has a fixed space before the drum lessons's score 
+; or perfect game/gift is set, those fixes them.
+; fix: change the space
+
+; Drum Lessons's Score
+.org 0x0802806E
+.byte 12
+
+; Perfect Gift
+.org 0x08012D1A
+.byte 25
+
 .org 0x0801d174
 bl EndlessGamesPlural_Hook
 
