@@ -1,4 +1,4 @@
 # Rhythm Heaven Advance
 
-Project Discord: https://discord.gg/VnCKdW8VBJ
+Project's Discord: https://discord.gg/VnCKdW8VBJ<br>
 README coming soon!
