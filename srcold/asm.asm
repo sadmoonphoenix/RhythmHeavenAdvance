@@ -1,7 +1,7 @@
 ; General purpose binhacks, fix the But, capitalization, drum lessons plural patch, etc...
 
-.include "src/lz77hack.asm"
-.include "src/debug.asm"
+.include src/lz77hack.asm
+.include src/debug.asm
 
 .org 0x08019A2C
 bl FixResultsCaps
@@ -16,7 +16,6 @@ bl FixResultsCaps
 ; tl;dr: the game has a fixed space before the drum lessons's score 
 ; or perfect game/gift is set, those fixes them.
 ; fix: change the space
-; the byte is the number of character before it cutoffs
 
 ; Drum Lessons's Score
 .org 0x0802806E
@@ -37,6 +36,8 @@ bl OptionsDebugSequence_Hook
 .byte 0x01
 .org 0x08017C58
 .byte 0x00
+; .org 0x08017C1C
+; bl AutoPlay_Hook
 .endif
 
 ;eof

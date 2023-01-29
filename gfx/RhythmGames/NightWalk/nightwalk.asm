@@ -5,7 +5,7 @@
 .dw beba58_night1_intro_pal | 0x8000000
 
 .org 0x088ADBF4
-.import gfx/RhythmGames/NightWalk/8ADBF4_assembly0.bin
+.import "gfx/RhythmGames/NightWalk/8ADBF4_assembly0.bin"
 
 ;--
 .org 0x088AE2B0

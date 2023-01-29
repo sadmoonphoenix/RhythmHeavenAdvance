@@ -2,7 +2,7 @@
 ; and it do some binhacks to fix 
 
 .gba
-.open "build/rh-atlus.gba","build/rh-eng.gba", 0x08000000
+.open build/rh-atlus.gba,build/rh-eng.gba, 0x08000000
 
 _skiprhythmtest equ 1
 _debug equ 0
@@ -30,16 +30,16 @@ _autoplay equ 1 ; EXPERIMENTAL (VERY GLITCHY)
 .warning "Auto-Play Enabled, do NOT use for release!"
 .endif
 
-.include "src/relocate.asm"
+.include src/relocate.asm
 
-.include "gfx/Font/font.asm"
-.include "gfx/RhythmGames/RatRace/ratrace.asm"
-.include "gfx/RhythmGames/NightWalk/nightwalk.asm"
-.include "gfx/RhythmGames/KarateMan/karateman.asm"
-.include "gfx/RhythmGames/TheClappyTrio/clappy.asm"
+.include gfx/Font/font.asm
+.include gfx/RhythmGames/RatRace/ratrace.asm
+.include gfx/RhythmGames/NightWalk/nightwalk.asm
+.include gfx/RhythmGames/KarateMan/karateman.asm
+.include gfx/RhythmGames/TheClappyTrio/clappy.asm
 
-.include "src/asm_relocate.asm"
-.include "src/asm.asm"
+.include src/asm_relocate.asm
+.include src/asm.asm
 
 ; ALWAYS INCLUDE LAST - DO NOT INCLUDE ANYTHING AFTER THIS.
 
