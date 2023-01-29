@@ -621,6 +621,55 @@ Technical 2[;
 
 // Common
 
+#WRITE(RtPtr, $2519C)
+// 0x805a058
+//[l
+//ベリー　グッド！！[;
+[l
+Amazing![;
+
+#WRITE(RtPtr, $251C8)
+// 0x805a06c
+//[l
+//グー！[;
+[l
+Great![;
+
+#WRITE(RtPtr, $9E1788)
+// 0x805a074
+//[l
+//カンペキッス！！[;
+[l
+Unbelievable![;
+
+#WRITE(RtPtr, $9E1784)
+// 0x805a088
+//[l
+//バッチグー！！[;
+[l
+Very good![;
+
+#WRITE(RtPtr, $9E1780)
+// 0x805a098
+//[l
+//なかなかいいヨ！[;
+[l
+That's pretty good, man![;
+
+#WRITE(RtPtr, $9E177C)
+// 0x805a0ac
+//[l
+//まずまずだネ！[;
+[l
+Not bad![;
+
+#WRITE(RtPtr, $29980)
+// 0x805a3a0
+//今の演奏データですが、[l
+//セーブしときますか？[;
+Do you wanna save[l
+your performance?[;
+
 // CHECK ASM.ASM IF YOU WANNA CHANGE THOSE!!!
 
 #WRITE(RtPtr, $2808C)
@@ -634,6 +683,170 @@ You scored [;
 // 0x805a0cc
 // 点[;
  points.[;
+ 
+// Basic 1
+
+#WRITE(RtPtr, $A41F78)
+// 0x8061704
+//[l
+//今回は、スネアドラムという[l
+//タイコをたたいてみましょう。[l
+//[;
+[l
+To start off, let's give it a go[l
+with just the snare drum.[;
+
+#WRITE(RtPtr, $A41FD8)
+// 0x8061740
+//[l
+//Aボタンと十字ボタンの左、[l
+//どちらでもスネアドラムを[l
+//たたくことができるヨ！[;
+[l
+Hit the snare with [A_button] or by[l
+pressing Left on [D_pad]![;
+
+#WRITE(RtPtr, $A42038)
+// 0x806178c
+//[l
+//では　さっそくですが[l
+//レッスンをはじめまーす！[l
+//[;
+[l
+There's no time to waste![l
+Let's start the lesson![;
+
+#WRITE(RtPtr, $A41E9C)
+// 0x80613e4
+//よくきいてマネしてね。[l
+//好きなタイミングでどうぞ。[l
+//演奏を止めると、[l
+//お手本がきけるヨ！[;
+Listen carefully, then copy my[l
+pattern whenever you're[l
+ready. If you stop playing,[l
+I'll show it to you again![;
+
+#WRITE(RtPtr, $A41EAC)
+#WRITE(RtPtr, $A41EDC)
+// 0x80614cc
+//[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+[l
+I've added a new beat, man![l
+Can you spot it?[;
+
+#WRITE(RtPtr, $A420EC)
+// 0x80617bc
+//[l
+//上で光っているランプは、[l
+//タイミングランプです。[;
+[l
+The light display above us[l
+is the Timing Lamp.[;
+
+#WRITE(RtPtr, $A4214C)
+// 0x80617f0
+//[l
+//まん中のミドリがジャスト！[l
+//それより左はハシリ気味、[l
+//右はモタリ気味です。[;
+If the light's green, your[l
+timing is just right. On the left[l
+your timing is early, and on the[l
+right your timing is late.[;
+
+#WRITE(RtPtr, $A421AC)
+// 0x806183c
+//[l
+//うまく　できないときは、[l
+//上のランプを見てズレを[l
+//チェックしてみてネ！[;
+[l
+If you're struggling to get the[l
+timing right, check the display[l
+to see how far off you were.[;
+
+#WRITE(RtPtr, $A4220C)
+// 0x8061884
+//[l
+//では、つぎ行きまーす！[;
+[l
+Now onto the next pattern![;
+
+#WRITE(RtPtr, $A41EBC)
+// 0x8061578
+//[l
+//さらに１カ所、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+Now for a new beat![l
+Can you spot it?[;
+
+#WRITE(RtPtr, $A41ECC)
+// 0x80615e4
+//[l
+//またまた１カ所、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+I've added a new beat again![l
+Can you spot it?[;
+
+#WRITE(RtPtr, $A422B4)
+// 0x806189c
+//[l
+//演奏が速くて困ったら[l
+//スタートボタンを[l
+//押してネ！すると…[;
+[l
+If you're having trouble with[l
+playing fast, you can press[l
+the START Button and...[;
+
+#WRITE(RtPtr, $A42314)
+// 0x80618d8
+//[l
+//演奏が、ゆっくりに[l
+//なるんだヨ！[l
+//参考にしてみてネ。[l
+//[;
+[l
+The tempo slows down, man![l
+Use this to get a feel for the[l
+patterns![;
+
+#WRITE(RtPtr, $A42374)
+// 0x8061910
+//[l
+//もとのテンポに戻るには[l
+//再度スタートボタンを[l
+//押せばＯＫです。[;
+[l
+Press the START Button [l
+again to speed it back up and[l
+try it for real![;
+
+#WRITE(RtPtr, $A423D4)
+// 0x8061950
+//[l
+//ちなみにスロー演奏中は[l
+//レッスンが進まないヨ。[;
+[l
+The lesson won't advance in[l
+slow mode, by the way. You[l
+gotta do it at normal speed![;
+
+#WRITE(RtPtr, $A42434)
+// 0x8061980
+//[l
+//では、次いってみよう！[;
+[l
+Time to move on![;
 
 // Staff Credits
 

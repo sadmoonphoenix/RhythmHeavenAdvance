@@ -1,15 +1,7 @@
-.include tools/ASM/lz77hack.asm
-.include tools/ASM/debug.asm
+; General purpose binhacks, fix the But, capitalization, drum lessons plural patch, etc...
 
-.if _debugmenu==1
-;Skip Main Menu
-;0x089CDE20
-.org 0x0801CFD4
-.dw 0x089DDBCC ; Check https://docs.google.com/document/d/1gwQz-1zzkr3CLOBLtUMTfsk2Xtd1zmoMDKJRhPMbqwg for more infomation.
-;Skip Rhythm Introduction
-.org 0x0801D014
-.dw 0x089DDBCC
-.endif
+.include src/lz77hack.asm
+.include src/debug.asm
 
 .org 0x08019A2C
 bl FixResultsCaps

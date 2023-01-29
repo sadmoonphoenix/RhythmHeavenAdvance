@@ -42,5 +42,5 @@
 
 .org 0x088ad024
 .area 20h
-.import src/Graphics/RhythmGames/KarateMan/BE0480_karateman_tiles.agp
+.import gfx/RhythmGames/KarateMan/BE0480_karateman_tiles.agp
 .endarea

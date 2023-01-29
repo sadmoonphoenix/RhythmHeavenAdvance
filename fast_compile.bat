@@ -1,25 +1,27 @@
 @echo off
 
 :check
-if exist "ROM/rh-jpn.gba" (
+if exist "rh-jpn.gba" (
 	goto tools
 ) else (
 	goto nofile
 )
 
 :tools
-del "ROM\rh-atlus.gba"
-copy "ROM\rh-jpn.gba" "ROM\rh-atlus.gba"
-perl "tools\abcde\abcde.pl" -cm abcde::Atlas "ROM\rh-atlus.gba" "src\script.txt"
+mkdir build
+copy "rh-jpn.gba" "build\rh-atlus.gba"
+perl "tools\abcde\abcde.pl" -cm abcde::Atlas "build\rh-atlus.gba" "src\script.txt"
 
-tools\armips.exe tools/ASM/compile.asm
+tools\armips.exe src/main.asm
 echo Done, this script only and ONLY assemble the graphics and text into the ROM, if the graphics were updated, then it will not update them, you should compile them again. (Press any key to recompile!)
+
+del "build\rh-atlus.gba"
+
 pause > nul
 clear
 goto tools
 
 :nofile
-echo Couldn't find a Rhythm Tengoku (Rev 0) ROM inside the ROM folder, please follow the instruction in there
-echo Press any key after putting the ROM or leave the program.
-pause > nul
+echo Couldn't find a Rhythm Tengoku (Rev 0) ROM, please place one in the root of the project to continue.
+pause
 goto check

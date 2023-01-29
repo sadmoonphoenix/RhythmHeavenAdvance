@@ -1,7 +1,9 @@
+; General purpose binhacks, fix the But, capitalization, drum lessons plural patch, etc...
+
 .org 0x080B4D48
 .area (31*0x20)
 
-;Old Silver patch, not made by me - fixes the capitalization when you do a "Try Again, but..." - Shaffy
+;Old Silver patch, not made by me - fixes the capitalization when you do a "Try Again, but, xxx" - Shaffy
 FixResultsCaps:
 push r4,r14
 mov r4,0
@@ -101,8 +103,8 @@ pop r15
 
 
 
-.include tools/ASM/lz77hack_relocate.asm
-.include tools/ASM/debug_relocate.asm
+.include src/lz77hack_relocate.asm
+.include src/debug_relocate.asm
 .endarea
 
 ;eof

@@ -1,3 +1,5 @@
+; LZ77 hack REQUIRED to import graphics, credit to whom knows from Silver.
+
 LZ77CompressionEnabler:
 push r14
 ldr r4,[r5,0xC]

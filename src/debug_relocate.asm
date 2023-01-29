@@ -1,3 +1,5 @@
+; Debug purposes binhacks (unlocks stage, replace stages to test unused levels...)
+
 .if _oamluaconsolemessages==1
 .align 2
 OAMLuaConsoleMessageHook:
