@@ -1,5 +1,12 @@
 @echo off
 
+set perl-path="perl"
+
+if exist "tools/perl.exe" (
+	echo Found perl override, using that for compilation.
+	set perl-path="tools/perl.exe"
+)
+
 :check
 if exist "rh-jpn.gba" (
 	goto tools
@@ -10,7 +17,7 @@ if exist "rh-jpn.gba" (
 :tools
 mkdir build
 copy "rh-jpn.gba" "build\rh-atlus.gba"
-perl "tools\abcde\abcde.pl" -cm abcde::Atlas "build\rh-atlus.gba" "src\script.txt"
+%perl-path% "tools\abcde\abcde.pl" -cm abcde::Atlas "build\rh-atlus.gba" "src\script.txt"
 
 tools\4bmpp.exe -p gfx/RhythmGames/NightWalk/beba58_night1_intro.bmp
 tools\4bmpp.exe -p gfx/RhythmGames/KarateMan/BE0480_karateman_tiles.bmp
