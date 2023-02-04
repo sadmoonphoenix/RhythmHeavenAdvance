@@ -22,10 +22,12 @@ copy "rh-jpn.gba" "build\rh-atlus.gba"
 tools\4bmpp.exe -p gfx/RhythmGames/NightWalk/beba58_night1_intro.bmp
 tools\4bmpp.exe -p gfx/RhythmGames/KarateMan/BE0480_karateman_tiles.bmp
 tools\4bmpp.exe -p gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles.bmp
+tools\4bmpp.exe -p gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles.bmp
 
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/NightWalk/beba58_night1_intro.bin gfx/RhythmGames/NightWalk/beba58_night1_intro
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/KarateMan/BE0480_karateman_tiles.bin gfx/RhythmGames/KarateMan/BE0480_karateman_tiles
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles.bin gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles.bin gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles
 
 tools\armips.exe src/main.asm
 echo If no error was found during any of the steps, it should now be compiled. (Press any key to recompile!)

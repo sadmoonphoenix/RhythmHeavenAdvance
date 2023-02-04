@@ -37,6 +37,7 @@ _autoplay equ 1 ; EXPERIMENTAL (VERY GLITCHY)
 .include "gfx/RhythmGames/NightWalk/nightwalk.asm"
 .include "gfx/RhythmGames/KarateMan/karateman.asm"
 .include "gfx/RhythmGames/TheClappyTrio/clappy.asm"
+.include "gfx/RhythmGames/TheSnappyTrio/snappy.asm"
 
 .include "src/asm_relocate.asm"
 .include "src/asm.asm"
