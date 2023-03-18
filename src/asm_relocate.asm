@@ -63,29 +63,27 @@ bl EndlessGamesPlural
 bl 0x0801d388
 pop r15
 
-OptionsDebugSequence:
-push r1-r3
 
+OptionsDebugSequence:
+push r2
 ldr r2,=0x04000131
-ldrb r3,[r2]
-cmp r3,0x00
-bne @@nevermind
+ldrb r2,[r2]
+cmp r2,0x00
 beq @@accessdebug
+bne @@nevermind
 
 @@accessdebug:
-ldr r0,=0x089DDBCC
-ldr r1,=0x0300000C
-str r1,[r0]
-
+ldr r0,=0x089ddbcc
 @@nevermind:
-pop r1-r3
+
+pop r2
 mov r15,r14
 .pool
 
 OptionsDebugSequence_Hook:
 push r14
 bl OptionsDebugSequence
-bl 0x080006D0
+bl 0x08000584
 pop r15
 
 .include "src/lz77hack_relocate.asm"

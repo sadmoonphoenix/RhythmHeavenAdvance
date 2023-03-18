@@ -629,8 +629,8 @@
 8748=⑨
 8749=⑩
 874A=⑪
-874B=⑫
-874C=⑬
+874B=[L_button]
+874C=[R_button]
 874D=[A_button]
 874E=[B_button]
 874F=[D_pad]

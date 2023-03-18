@@ -1,11 +1,11 @@
 ; This file imports all of the data to the final ROM,
-; and it do some binhacks to fix 
+; and does some binhacks that you can toggle using the flags.
 
 .gba
 .open "build/rh-atlus.gba","build/rh-eng.gba", 0x08000000
 
 _skiprhythmtest equ 1
-_debug equ 0
+_debug equ 1
 _debugmenu equ 0
 _oamluaconsolemessages equ 1
 _spriteluaconsolemessages equ 1

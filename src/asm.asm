@@ -29,7 +29,7 @@ bl FixResultsCaps
 .org 0x0801d174
 bl EndlessGamesPlural_Hook
 
-.org 0x08016832
+.org 0x0801271a
 bl OptionsDebugSequence_Hook
 
 .if _autoplay==1

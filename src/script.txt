@@ -413,7 +413,7 @@ Also... [;
 #WRITE(RtPtr, $9D7B38)
 // 0x8054f0c
 //また、[;
-Again, [;[;
+Likewise, [;[;
 
 #WRITE(RtPtr, $19C98)
 // 0x8054f18
@@ -519,10 +519,10 @@ Drum Lessons[;
 //ドラムのレッスンを[l
 //うけてみよう。[l
 //上手になってネ！[;
-Collect medals to[l
-take some drum[l
-lessons. You could[l
-be a master drummer![;
+Collect medals to take[l
+some Drum Lessons.[l
+You could become[l
+a master drummer![;
 
 #WRITE(RtPtr, $9DD5F0)
 // 0x8059658
@@ -670,8 +670,7 @@ Not bad![;
 Do you wanna save[l
 your performance?[;
 
-// CHECK ASM.ASM IF YOU WANNA CHANGE THOSE!!!
-
+// CHECK ASM.ASM IF YOU WANNA CHANGE THIS!!!
 #WRITE(RtPtr, $2808C)
 // 0x805a0c0
 //[l
@@ -684,7 +683,8 @@ You scored [;
 // 点[;
  points.[;
  
-// Basic 1
+// Various Drum Lessons Text
+// (tl;dr: Shaffy is lazy & Thanks Silver.)
 
 #WRITE(RtPtr, $A41F78)
 // 0x8061704
@@ -717,6 +717,26 @@ There's no time to waste![l
 Let's start the lesson![;
 
 #WRITE(RtPtr, $A41E9C)
+#WRITE(RtPtr, $A42A1C)
+#WRITE(RtPtr, $A42B94)
+#WRITE(RtPtr, $A42D34)
+#WRITE(RtPtr, $A42EAC)
+#WRITE(RtPtr, $A43074)
+#WRITE(RtPtr, $A431EC)
+#WRITE(RtPtr, $A43648)
+#WRITE(RtPtr, $A41074)
+#WRITE(RtPtr, $5F208C)
+#WRITE(RtPtr, $5F24BC)
+#WRITE(RtPtr, $661124)
+#WRITE(RtPtr, $765948)
+#WRITE(RtPtr, $A4123C)
+#WRITE(RtPtr, $A4153C)
+#WRITE(RtPtr, $A41704)
+#WRITE(RtPtr, $A418CC)
+#WRITE(RtPtr, $A41AE4)
+#WRITE(RtPtr, $A41CD4)
+#WRITE(RtPtr, $A42510)
+#WRITE(RtPtr, $A4287C)
 // 0x80613e4
 //よくきいてマネしてね。[l
 //好きなタイミングでどうぞ。[l
@@ -729,10 +749,13 @@ I'll show it to you again![;
 
 #WRITE(RtPtr, $A41EAC)
 #WRITE(RtPtr, $A41EDC)
+#WRITE(RtPtr, $A4124C)
+#WRITE(RtPtr, $A41084)
 // 0x80614cc
 //[l
 //１カ所、音がふえるヨ！[l
 //わかるかな？[l
+//[;
 [l
 I've added a new beat, man![l
 Can you spot it?[;
@@ -752,9 +775,9 @@ is the Timing Lamp.[;
 //まん中のミドリがジャスト！[l
 //それより左はハシリ気味、[l
 //右はモタリ気味です。[;
-If the light's green, your[l
-timing is just right. On the left[l
-your timing is early, and on the[l
+If[1px]the light's green,[1px]your[1px]timing[l
+is just right. On the left your[l
+timing is early, and on the[l
 right your timing is late.[;
 
 #WRITE(RtPtr, $A421AC)
@@ -783,18 +806,7 @@ Now onto the next pattern![;
 //わかるかな？[l
 //[;
 [l
-Now for a new beat![l
-Can you spot it?[;
-
-#WRITE(RtPtr, $A41ECC)
-// 0x80615e4
-//[l
-//またまた１カ所、[l
-//音がふえるヨ！[l
-//わかるかな？[l
-//[;
-[l
-I've added a new beat again![l
+Now for a new beat!
 Can you spot it?[;
 
 #WRITE(RtPtr, $A422B4)
@@ -805,8 +817,8 @@ Can you spot it?[;
 //押してネ！すると…[;
 [l
 If you're having trouble with[l
-playing fast, you can press[l
-the START Button and...[;
+playing fast, you can press the[l
+START Button and...[;
 
 #WRITE(RtPtr, $A42314)
 // 0x80618d8
@@ -827,16 +839,15 @@ patterns![;
 //再度スタートボタンを[l
 //押せばＯＫです。[;
 [l
-Press the START Button [l
-again to speed it back up and[l
-try it for real![;
+Press the START Button again[l
+to speed it back up and try it[l
+for real![;
 
 #WRITE(RtPtr, $A423D4)
 // 0x8061950
 //[l
 //ちなみにスロー演奏中は[l
 //レッスンが進まないヨ。[;
-[l
 The lesson won't advance in[l
 slow mode, by the way. You[l
 gotta do it at normal speed![;
@@ -847,6 +858,1100 @@ gotta do it at normal speed![;
 //では、次いってみよう！[;
 [l
 Time to move on![;
+
+#WRITE(RtPtr, $A41ECC)
+// 0x80615e4
+//[l
+//またまた１カ所、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+And we'll add another[l
+beat right at the end![l
+Can you get it?[;
+
+#WRITE(RtPtr, $A425FC)
+// 0x8061d18
+//今回は、バスドラムと[l
+//スネアドラムという、[l
+//２つのタイコを使って[l
+//レッスンをしましょう。[;
+In this lesson,[l
+we'll play two drums:[l
+the bass drum and[l
+the snare drum.[;
+
+#WRITE(RtPtr, $A4265C)
+// 0x8061d70
+//[l
+//Bボタンと十字ボタンの下、[l
+//どちらでもバスドラムを[l
+//たたくことができるヨ！[;
+[l
+You can hit the bass drum[l
+with either the B Button or[l
+Down on the D-Pad.[;
+
+#WRITE(RtPtr, $A426BC)
+// 0x8061dbc
+//[l
+//しってると思うけど[l
+//スネアドラムはAボタンと[l
+//十字ボタンの左だからネ。[;
+I think you already know,[l
+but the snare drum is[l
+played with the A Button[l
+or Left on the D-Pad.[;
+
+#WRITE(RtPtr, $A4271C)
+// 0x8061e04
+//[l
+//では　ぼちぼち[l
+//はじめますネ〜[l
+//[;
+[l
+Keep that in mind[l
+as you play this set![;
+
+#WRITE(RtPtr, $A42520)
+// 0x8061a68
+//[l
+//１カ所、音が変わるヨ！[l
+//わかるかな？[;
+[l
+Now let's swap a beat[l
+on the bass for a beat[l
+on the snare drum.[;
+
+#WRITE(RtPtr, $A42530)
+// 0x8061ae4
+//[l
+//さらに１カ所、[l
+//音が変わるヨ！[l
+//わかるかな？[;
+[l
+Now we swap the second[l
+beat! Keep your focus.[;
+
+#WRITE(RtPtr, $A42540)
+// 0x8061b64
+//[l
+//こんどは１つ、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+This time, we're adding[l
+another bass beat.[l
+Can you get it?[;
+
+#WRITE(RtPtr, $A42550)
+// 0x8061c00
+//[l
+//さらに１つ、[l
+//音がふえるヨ！[l
+//わかるかな？[;
+[l
+We'll add another beat.[l
+Alternate B and Down[l
+and it'll be easy![;
+
+#WRITE(RtPtr, $A42560)
+// 0x8061cb0
+//[l
+//またまた１つ、[l
+//音がふえるヨ！[l
+//わかるかな？[;
+[l
+I've added a new beat again![l
+Can you spot it?[;
+
+#WRITE(RtPtr, $A41094)
+// 0x805f278
+//[l
+//さらに１カ所、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+Now we'll add another![l
+Can you get it?[;
+
+#WRITE(RtPtr, $A410A4)
+// 0x805f32c
+//[l
+//またまた１カ所、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+And we'll add one[l
+more than that![l
+Can you keep up?[;
+
+#WRITE(RtPtr, $A410B4)
+// 0x805f3f8
+//[l
+//そしてまたなんと！[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+Somehow, we'll fit[l
+in one more beat![l
+Can you do this?[;
+
+#WRITE(RtPtr, $A410C4)
+// 0x805f470
+//[l
+//これまたなんと！！[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+Surprise! We're adding[l
+in one last beat![l
+Can you fit it in?[;
+
+#WRITE(RtPtr, $A4288C)
+// 0x8061ef4
+//[l
+//バスとスネアを[l
+//交互にたたくヨ！[l
+//できるかな？[;
+[l
+Alternate the bass[l
+and snare drums.[l
+One two one two![;
+
+#WRITE(RtPtr, $A4289C)
+// 0x8061ffc
+//
+//バスドラムのタイミングを[l
+//１カ所、ずらしてみるヨ。[l
+//わかるかな？[;
+We'll going to change[l
+the timing of the[l
+bass by just a bit.[l
+Can you get it?[;
+
+#WRITE(RtPtr, $A428AC)
+// 0x80620e4
+//[l
+//こんどは１つ、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+This time we're[l
+adding a beat![l
+Do your best![;
+
+#WRITE(RtPtr, $A428BC)
+// 0x80621d4
+//[l
+//さらに１つ、[l
+//音がふえるヨ！[l
+//わかるかな？[;
+[l
+We'll add yet[l
+another beat![l
+Try to catch it![;
+
+#WRITE(RtPtr, $A42A2C)
+// 0x80623c0
+//タムっていうのを[l
+//たたいてみよう！[l
+//十字ボタンの右で[l
+//タムをたたくヨ！[;
+Now, let's try playing[l
+the “tom tom” drum.[l
+Hit it with Right[l
+on the D-Pad![;
+
+#WRITE(RtPtr, $A42A3C)
+// 0x8062488
+//タムだったところを[l
+//十字ボタンの上に[l
+//かえてみるヨ！[l
+//(ロールっていうみたい)[;
+Let's replace the tom tom[l
+with a drum “roll”.[l
+You can do a roll with[l
+Up on the D-Pad![;
+
+#WRITE(RtPtr, $A42A4C)
+// 0x8062558
+//[l
+//さっきと　ちがうところに[l
+//タムを１つ、ふやすヨ！[l
+//わかるかな？[l
+//[;
+Now we're going to add[l
+the tom tom back in,[l
+but in a different spot.[l
+Don't get confused![;
+
+#WRITE(RtPtr, $A4125C)
+// 0x805f6ac
+//さらに１つ、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//ヒント：十字ボタン上[;
+[l
+Now we add some hi-hat![l
+Push Up on the D-Pad.[l
+You can do this![;
+
+#WRITE(RtPtr, $A41370)
+// 0x805f9cc
+//十字ボタンの上で[l
+//たたいたパーツは[l
+//ハイハットっていう[l
+//シンバルです。[;
+[l
+Pressing Up on the D-Pad[l
+will hit a cymbal called[l
+the “hi-hat”.[;
+
+#WRITE(RtPtr, $A413D0)
+// 0x805fa10
+//ドラムセットによって[l
+//十字ボタンの上は[l
+//ハイハットだったり[l
+//ロールだったりします。[;
+[l
+Whether Up is a hi-hat[l
+or a drum roll depends[l
+on the drum set you use.[;
+
+#WRITE(RtPtr, $A41430)
+// 0x805fa60
+//[l
+//では、つぎ行きまーす！[;
+[l
+You can unlock[l
+different drums to[l
+play in the Studio![;
+
+#WRITE(RtPtr, $A4126C)
+// 0x805f740
+//[l
+//またまた１カ所、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+I added one more beat.[l
+This is starting to[l
+sound professional![;
+
+#WRITE(RtPtr, $A4127C)
+// 0x805f7f4
+//そしてまたなんと！[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//ヒント：十字ボタン右[;
+[l
+Let's add a tom tom[l
+right at the end![l
+Use Right for the tom tom![;
+
+#WRITE(RtPtr, $A4128C)
+// 0x805f8dc
+//[l
+//これまたなんと！！[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+This is the last one![l
+Add one more beat and[l
+you're all done![;
+
+#WRITE(RtPtr, $A41714)
+// 0x805ff7c
+//[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//ヒント：Rボタン[;
+[l
+Now we add a cymbal crash![l
+Hit the R Button at the[l
+same time as the bass![;
+
+#WRITE(RtPtr, $A41724)
+// 0x805ffe4
+//[l
+//さらに１カ所、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+Now we add a beat[l
+on the snare.[l
+Listen carefully![;
+
+#WRITE(RtPtr, $A41734)
+// 0x8060080
+//またまた１カ所、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//ヒント：十字ボタン右[;
+Add a tom tom by pushing[l
+Right on the D-Pad![l
+Remember that A or Left[l
+can be used for the snare![;
+
+#WRITE(RtPtr, $A41744)
+// 0x8060148
+//[l
+//そしてまたなんと！[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//[;
+Now we'll squeeze in[l
+one more snare right[l
+before the end![l
+This should be easy![;
+
+#WRITE(RtPtr, $A41754)
+// 0x8060220
+//[l
+//これまたなんと！！[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//[;
+You're not done yet![l
+Add one more snare[l
+hit at the end to[l
+wrap up this lesson![;
+
+
+#WRITE(RtPtr, $A41CE4)
+// 0x8061070
+//[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//ヒント：キックは前と同じ[;
+[l
+Now we add a snare hit[l
+right at the end.[l
+The bass beat is the same![;
+
+#WRITE(RtPtr, $A41CF4)
+// 0x8061110
+//さらに１カ所、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//ヒント：キックは前と同じ[;
+[l
+Now we add a snare hit[l
+on the second beat![l
+The bass is still the same![;
+
+#WRITE(RtPtr, $A41D04)
+// 0x80611c0
+//またまた１カ所、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//ヒント：十字ボタン上[;
+[l
+Now, add a hi-hat![l
+It's Up on the D-Pad![;
+
+#WRITE(RtPtr, $A41D14)
+// 0x8061288
+//[l
+//そしてまたなんと！[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+Now add another hi-hat![l
+Don't let your left and[l
+right hands get mixed up![;
+
+#WRITE(RtPtr, $A41D24)
+// 0x8061300
+//[l
+//これまたなんと！[l
+//ノリノリだヨ！[l
+//できるかな？[l
+//[;
+[l
+I think we need to add[l
+even more hi-hat![l
+This is getting exciting![;
+
+#WRITE(RtPtr, $A418DC)
+// 0x80603ec
+//[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//ヒント：Rボタン[;
+Add a cymbal crash[l
+with the R Button![l
+Hit it at the same[l
+time as the bass.[l[;
+
+#WRITE(RtPtr, $A418EC)
+// 0x8060454
+//[l
+//さらに１カ所、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+Now we add more snare![l
+This should be easy[l
+for you by now![;
+
+#WRITE(RtPtr, $A418FC)
+// 0x80604f0
+//[l
+//またまた１カ所、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+Add another beat of[l
+bass! This shouldn't[l
+be a problem either![;
+
+#WRITE(RtPtr, $A4190C)
+// 0x8060568
+//[l
+//そしてまたなんと！[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+Another bass beat![l
+Now it's starting[l
+to get a bit tricky![;
+
+#WRITE(RtPtr, $A4191C)
+// 0x8060628
+//[l
+//これまたなんと！！[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+Okay, let's add one[l
+more beat on that bass![l
+You're doing great![;
+
+#WRITE(RtPtr, $46F5D0)
+#WRITE(RtPtr, $6CFA10)
+#WRITE(RtPtr, $72F1B0)
+#WRITE(RtPtr, $A4192C)
+// 0x8060700
+//[l
+//またまたなんと！！[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+Let's add another[l
+beat on top of that![l
+Keep going![;
+
+#WRITE(RtPtr, $A4193C)
+// 0x80607f0
+//これでさいご！！[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//ヒント：両手[;
+We're going to add[l
+a beat on the snare![l
+You'll need both hands[l
+to pull this one off![;
+
+#WRITE(RtPtr, $A4154C)
+// 0x805fb60
+//[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//ヒント：両手[;
+[l
+Now we add more snare![l
+Use both hands for this![;
+
+#WRITE(RtPtr, $A4155C)
+// 0x805fc24
+//[l
+//さらに１カ所、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+And now we slip in[l
+another bass beat![l
+Piece of cake![;
+
+#WRITE(RtPtr, $A4156C)
+// 0x805fc90
+//[l
+//またまた１カ所、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+And another bass beat![l
+It's easiest if you use[l
+both Down and B for this![;
+
+#WRITE(RtPtr, $A4157C)
+// 0x805fd14
+//[l
+//そしてまたなんと！[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//[;
+Let's add just a little[l
+bit more bass! Push[l
+Start if you need to[l
+slow down to practice![;
+
+#WRITE(RtPtr, $A4158C)
+// 0x805fdbc
+//[l
+//これまたなんと！！[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//[;
+Oh, we're almost done![l
+Just one more beat of[l
+the bass! That's all[l
+that's left for today![;
+
+#WRITE(RtPtr, $A41AF4)
+// 0x80609dc
+//[l
+//キックを２回ずつだヨ！[l
+//できるかな？[l
+//ポイント：Bボタンだけで[;
+[l
+Now let's double the bass![l
+I recommend you only[l
+use B for this part![;
+
+#WRITE(RtPtr, $A41B04)
+// 0x8060af4
+//さらに１カ所、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//ヒント：キックは前と同じ[;
+Let's add a snare beat[l
+right before the end.[l
+The bass part doesn't[l
+change at all![;
+
+#WRITE(RtPtr, $A41B14)
+// 0x8060be0
+//[l
+//またまた１カ所、[l
+//音がふえるヨ！[l
+//わかるかな？[l
+//[;
+We're adding another[l
+snare beat immediately[l
+after that last one![l
+The bass is still the same![;
+
+#WRITE(RtPtr, $A41B24)
+// 0x8060cd0
+//[l
+//そしてまたなんと！[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//[;
+Okay, now some snare[l
+earlier in the set.[l
+Listen carefully and[l
+don't lose the beat![;
+
+#WRITE(RtPtr, $A41B34)
+// 0x8060de4
+//[l
+//これまたなんと！！[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//[;
+Another snare beat![l
+It's funny how such a[l
+simple change makes it[l
+so much harder![;
+
+#WRITE(RtPtr, $A41B44)
+// 0x8060f10
+//[l
+//またまたなんと！！[l
+//１カ所、音がふえるヨ！[l
+//わかるかな？[l
+//[;
+Hit the snare right near[l
+the start of the set![l
+It's a tricky move that[l
+will sound really great!![;
+
+#WRITE(RtPtr, $A43084)
+// 0x8063b58
+//[l
+//シンバルでキッチリと[l
+//まとめておこうネ！[l
+//これは、できるよネ？[l
+//[;
+[l
+You've got the basic beat![l
+Now bring it together[l
+with a cymbal crash![;
+
+#WRITE(RtPtr, $A43094)
+// 0x8063bc8
+//[l
+//チョットだけ　かえるヨ！[l
+//わかるかな？[l
+//[;
+[l
+Let's change the[l
+end just a tiny bit![l
+Try playing it now![;
+
+#WRITE(RtPtr, $A430A4)
+// 0x8063cd4
+//[l
+//１つだけ、音がふえるヨ！[l
+//わりとカンタンだから[l
+//がんばってネ！[l
+//[;
+[l
+Now let's add one beat![l
+It's a simple rhythm,[l
+but still do your best![;
+
+#WRITE(RtPtr, $A42D44)
+// 0x8062ee0
+//[l
+//シンバルとスネアで[l
+//キメてみよう！[l
+//できるかな？[;
+Add a cymbal right[l
+at the beginning,[l
+and one more beat[l
+of snare at the end![;
+
+#WRITE(RtPtr, $A42D54)
+// 0x8063024
+//[l
+//バスドラムを[l
+//チョットかえてみるネ。[l
+//できるかな？[l
+//[;
+We're changing the bass[l
+around just a little bit![l
+Listen carefully and[l
+keep with the rhythm![;
+
+#WRITE(RtPtr, $A42D64)
+// 0x8063184
+//バスドラムを[l
+//もうチョットだけ[l
+//かえてみるネ。[l
+//がんばって！！[l
+//[;
+[l
+Finally, we'll add one[l
+more beat on the bass![l
+Now it's up to you!![;
+
+#WRITE(RtPtr, $A42EBC)
+// 0x8063438
+//[l
+//スネアドラムを[l
+//かさねてみるネ！[l
+//ノリノリだヨ！[;
+[l
+Keep that bass going[l
+and add some snare![l
+This is a peppy beat![;
+
+#WRITE(RtPtr, $A42ECC)
+// 0x806354c
+//[l
+//シンバルでキッチリと[l
+//まとめておこうネ！[l
+//これは、できるよネ？[l
+//[;
+[l
+Bring it together[l
+with a cymbal crash![l
+We're still warming up![;
+
+#WRITE(RtPtr, $A42EDC)
+// 0x80635bc
+//スネアのパターンを[l
+//ちょっとかえるネ。[l
+//できると楽しいヨ！[l
+//きっと。[l
+//[;
+Okay, now let's change[l
+the end of that set.[l
+Doesn't this make it[l
+sound even more cool?[;
+
+#WRITE(RtPtr, $A42EEC)
+// 0x8063708
+//[l
+//１つだけ、音がふえるヨ。[l
+//いがいとムズい！！[l
+//がんばってネ！[;
+Add one more beat[l
+on top of the last set![l
+It's a hard one, but[l
+don't you give up yet!![;
+
+#WRITE(RtPtr, $A42EFC)
+// 0x8063870
+//[l
+//またまた１つ、[l
+//音がふえるヨ！[l
+//できたらカッコよすぎ！[;
+This is the last change![l
+If you can pull this[l
+set off, you're in the[l
+professional league![;
+
+#WRITE(RtPtr, $A42BA4)
+// 0x8062794
+//[l
+//シンバルとスネアで[l
+//キメてみよう！[l
+//できるかな？[;
+[l
+Next, let's tack on a[l
+cymbal and a snare![l
+Just follow my lead![;
+
+#WRITE(RtPtr, $A42BB4)
+// 0x80628f0
+//たったの１つ、音がふえるヨ。[l
+//でも　わりと　フクザツな[l
+//カンジに　なるんだ！[l
+//ついてこれるかな？[;
+[l
+Let's add one more beat![l
+It sounds complicated[l
+but it really isn't![;
+
+#WRITE(RtPtr, $A42BC4)
+// 0x8062a64
+//[l
+//おわりのところを[l
+//カッコよくしてみるネ！[l
+//がんばってみて！[l
+//[;
+We're going to make[l
+the last part sound[l
+a whole lot cooler![l
+Do your best to follow![;
+
+#WRITE(RtPtr, $A42BD4)
+// 0x8062be4
+//[l
+//アクセントをつけるヨ。[l
+//けっこうシブいかも〜！[l
+//やるしかない！！[;
+Now we add a cymbal[l
+to make it really flashy![l
+You have no choice but[l
+to follow my lead!![;
+
+#WRITE(RtPtr, $A431FC)
+// 0x80640d8
+//[l
+//スネアとシンバルで[l
+//きっちり、まとめよう！[l
+//がんばって！[l
+//[;
+[l
+Now we add a snare[l
+and a cymbal to the set![l
+This is easy for you![;
+
+#WRITE(RtPtr, $A4320C)
+// 0x806439c
+//[l
+//１ヵ所だけ、スネアを[l
+//タムにかえてみるヨ。[l
+//わかるかな？[;
+Change one snare into[l
+a tom tom instead![l
+Just go with the beat[l
+and you'll be just fine![;
+
+#WRITE(RtPtr, $A4321C)
+// 0x80645fc
+//[l
+//さいごにスネアをもう１つ！[l
+//手順をよく考えてみてネ。[l
+//がんばれ〜！[;
+Let's finish up by[l
+adding more snare![l
+Think carefully about the[l
+order you hit the drums!![;
+
+#WRITE(RtPtr, $A43440)
+// 0x8065500
+//[l
+//今回は、[l
+//１つ前のレッスンを[l
+//応用してみます。[;
+[l
+This lesson picks[l
+up from where the[l
+last lesson finished.[;
+
+#WRITE(RtPtr, $A434A0)
+// 0x8065530
+//[l
+//１つ前のレッスンを[l
+//クリアしてから、[l
+//挑戦してネ！[;
+[l
+If you haven't cleared[l
+the previous lesson, you[l
+had better go do that![;
+
+#WRITE(RtPtr, $A43500)
+// 0x8065564
+//[l
+//では、はじめまーす！[;
+[l
+You're good, then?[l
+Let's get started![;
+
+#WRITE(RtPtr, $A43364)
+// 0x8064874
+//[l
+//まずは、おさらいです。[l
+//がんばってネ！[;
+[l
+First, we review[l
+the last lesson![l
+Show me you remember![;
+
+#WRITE(RtPtr, $A43374)
+// 0x8064b30
+//[l
+//後半をかえてみます。[l
+//よ〜くきいて、[l
+//ちゃんとマネしてネ！[l
+//[;
+Now we're going to[l
+change the last half![l
+It's an odd beat, so[l
+listen very closely![;
+
+#WRITE(RtPtr, $A43384)
+// 0x8064d70
+//[l
+//シンバルをかさねて[l
+//ハデにしてみよう！[l
+//できるかな？[;
+Let's add some cymbals[l
+to really show off![l
+It's not that much[l
+different from before![;
+
+#WRITE(RtPtr, $A43394)
+// 0x8064fd8
+//[l
+//タムも入れて、もっと[l
+//ハデにしちゃおう！[l
+//イケイケ〜！[;
+[l
+Let's add in the tom tom[l
+to make this set shine![l
+Go, go, go!![;
+
+#WRITE(RtPtr, $A433A4)
+// 0x8065268
+//[l
+//さっき入れたタムを[l
+//ロールにかえてみよう！[l
+//シブすぎるかも！！[;
+Let's change that[l
+tom tom into a roll![l
+This might just be too[l
+cool for you to handle!![;
+
+#WRITE(RtPtr, $A43658)
+// 0x806582c
+//[l
+//ハイハットをいれて[l
+//カッコよくするヨ！[l
+//[;
+[l
+Let's make it a[l
+little bit cooler[l
+with some hi-hat![;
+
+#WRITE(RtPtr, $A43668)
+// 0x8065ad0
+//[l
+//さらに、もう少し[l
+//ハイハットをいれて[l
+//カッコよくするヨ！[l
+//[;
+If a little hi-hat makes[l
+it cool, then even[l
+more hi-hat makes[l
+it even more cool![;
+
+#WRITE(RtPtr, $A43678)
+// 0x8065d34
+//[l
+//さいごにスネアを[l
+//１つ追加しちゃうヨ！[l
+//わかるかな？[;
+[l
+Finally, we add[l
+a little snare![l
+Can you do this?[;
+
+#WRITE(RtPtr, $A438DC)
+// 0x8067638
+//[l
+//今回は、[l
+//１つ前のレッスンを[l
+//応用してみます。[;
+We're going to use[l
+the techniques you[l
+learned in the[l
+previous lesson![;
+
+#WRITE(RtPtr, $A4393C)
+// 0x8067668
+//[l
+//１つ前のレッスンを[l
+//クリアしてから、[l
+//挑戦してネ！[;
+[l
+If you haven't cleared[l
+the previous lesson this[l
+could be really difficult![;
+
+#WRITE(RtPtr, $A4399C)
+// 0x806769c
+//[l
+//では、はじめまーす！[;
+[l
+Are you all set?[l
+Let's get started!![;
+
+#WRITE(RtPtr, $A437C0)
+// 0x8065f9c
+//[l
+//まずは、おさらいです。[l
+//がんばってネ！[;
+[l
+We start with a review.[l
+Do your best for me![;
+
+#WRITE(RtPtr, $A437D0)
+// 0x8066258
+//[l
+//ここからが勝負です！[l
+//よ〜くきいて、[l
+//ちゃんとマネしてネ！[l
+//[;
+From this point on,[l
+it's the real deal![l
+Listen carefully and[l
+follow along closely![;
+
+#WRITE(RtPtr, $A437E0)
+// 0x8066480
+//[l
+//バスとスネアを[l
+//ちょっと　たすヨ！[l
+//できるかな？[;
+[l
+Now we add a little[l
+bass and snare![l
+Can you get it?[;
+
+#WRITE(RtPtr, $A437F0)
+// 0x80666c0
+//[l
+//バスドラムを１つ[l
+//ふやしてみるヨ。[l
+//がんばって！[;
+[l
+Let's add one bass beat.[l
+It's in a really tricky spot![l
+Do your very best![;
+
+#WRITE(RtPtr, $A43800)
+// 0x8066918
+//さらに、またまた[l
+//バスとスネアを追加！！[l
+//キミならできる！[l
+//がんばれ〜！！[l
+//[;
+Now we're adding some[l
+more bass and snare!![l
+I know you can handle it![l
+Put your heart into it!![;
+
+#WRITE(RtPtr, $A43810)
+// 0x8066ba4
+//[l
+//バスドラムを１つ[l
+//ふやしてみるヨ。[l
+//キメてネ！！[;
+[l
+Now add one bass beat![l
+Focus and hit it with[l
+all your strength!![;
+
+#WRITE(RtPtr, $A43820)
+// 0x8066e20
+//さっきのバスドラに[l
+//シンバルをかさねるヨ！[l
+//これは、ムズイ！！[l
+//ファイトー！！[;
+Stack a cymbal on the[l
+bass we just added![l
+No student of mine has[l
+ever gotten past this!![;
+
+#WRITE(RtPtr, $A43830)
+// 0x80670c4
+//[l
+//これまたムズイところに[l
+//スネアを１つ追加！！[l
+//もう、いくしかない！！！[;
+Again, we add a beat[l
+on the snare drum![l
+We're closing in on[l
+the grand finale!![;
+
+#WRITE(RtPtr, $A43840)
+// 0x8067370
+//これで　さいご！[l
+//タムを１つ追加するヨ！[l
+//流れるようなイカした[l
+//プレイをよろしくです！！[;
+This is the final lesson![l
+Add a tom tom, just one![l
+When you play, feel the[l
+rhythm within your soul!![;
+
 
 // Staff Credits
 
@@ -1005,7 +2110,7 @@ Look at all this stuff I punched away![;
 #WRITE(RtPtr, $9CE35C)
 // 0x80544ac
 //とりあえず、ごはん 食べとこう！[;
-For now, let's break for lunch![;
+Let's break for lunch now![;
 
 #WRITE(RtPtr, $9CE358)
 // 0x80544cc
@@ -1025,9 +2130,9 @@ Rhythm Tweezers[;
 //うっとうしい「毛」！[l
 //ぬいちゃえ、 [l
 //ぬいちゃえ！[;
+[l
 My roots are showing![l
-Can you pluck them off?[l
-Please, pluck them off![;
+Can you pluck them off?[;
 
 #WRITE(RtPtr, $9FB17C)
 // 0x805b544
@@ -1192,8 +2297,8 @@ Spaceball[;
 //どんと行け〜！[;
 Ignore[1px]the camera's[1px]wild[l
 zooms! Make the ball fly[l
-wildly away! Don't blink[l
-or wipe your tears![;
+wildly away! Don't blink![l
+Don't wipe your tears![;
 
 #WRITE(RtPtr, $A08DD0)
 // 0x805bff8
@@ -1484,7 +2589,7 @@ The silent ghosts sneaked past you.[;
 #WRITE(RtPtr, $A02EE0)
 // 0x805bac4
 //音が消えても　おちついている！[;
-You hit even when they were quiet.[;
+You hit them even when they were quiet.[;
 
 #WRITE(RtPtr, $A02EF4)
 // 0x805bae4
@@ -1537,7 +2642,7 @@ slice them all![;
 #WRITE(RtPtr, $A04600)
 // 0x805bd68
 //てき　を　きれ！[;
-　　　Ｓｌａｓｈ　ａｔ　ｔｈｅ　ｅｎｅｍｙ！[;
+　　　Ｓｌｉｃｅ　ｔｈｅ　ｅｎｅｍｉｅｓ！[;
 
 #WRITE(RtPtr, $A0496C)
 #WRITE(RtPtr, $A04C24)
@@ -1616,8 +2721,8 @@ Rat Race[;
 //大スキなチーズを[l
 //めざして[l
 //ストップ＆ゴー！！[;
-You are a rat. She is a[l
-cat. You love cheese.[l
+You are a rat. She is[l
+a cat. You love cheese.[l
 We have the ingredients[l
 for a tense encounter.[;
 
@@ -1996,7 +3101,7 @@ The ending was pitch perfect![;
 #WRITE(RtPtr, $9CE840)
 // 0x8052b7c
 //あー、楽しかった！[;
-What great fun! When's the next one?[;
+That was so much fun! I can't wait for next year![;
 
 #WRITE(RtPtr, $9CE83C)
 // 0x8052b90
@@ -2087,23 +3192,24 @@ That was really great![;
 #WRITE(RtPtr, $9CE8A0)
 // 0x80529a8
 //今回の熱気 ： すごい大会レベル！！[;
-That was as lively as... a huge tournament![;
+That was as lively as... a huge baseball tournament![;
+
 #WRITE(RtPtr, $9CE89C)
 // 0x80529cc
 //今回の熱気 ： 楽しくキャッチボールレベル[;
-That was as lively as... a game of catch.[;
+That was as lively as... a pleasant game of catch.[;
 
 #WRITE(RtPtr, $9CE898)
 // 0x80529f8
 //今回の熱気 ： ひとりで練習レベル[;
-That was as lively as... playing by yourself.[;
+That was as lively as... playing ball by yourself.[;
 
-// Wizard Waltz
+// Wizard's Waltz
 
 #WRITE(RtPtr, $9CE648)
 // 0x80534d8
 //まほうつかい[;
-Wizard Waltz[;
+Wizard's Waltz[;
 
 #WRITE(RtPtr, $9CE64C)
 // 0x805348c
@@ -2120,7 +3226,7 @@ use to cheer her up.[;
 #WRITE(RtPtr, $A139B4)
 // 0x805ca20
 //大魔道師の　おつげ[;
-The Great Sorcerer Reveals:[;
+The Great Sorcerer's Revelations:[;
 
 #WRITE(RtPtr, $A12C10)
 // 0x805c9b0
@@ -2145,17 +3251,17 @@ Your pauses were plainly perfect![;
 #WRITE(RtPtr, $9CE660)
 // 0x8053420
 //わーい、 わたし もう さみしくないヨ！[;
-I don't feel lonely with all these flowers![;
+Who could feel lonely with all these flowers?[;
 
 #WRITE(RtPtr, $9CE65C)
 // 0x8053448
 //もっと 花がさくと うれしいな〜。[;
-I'd love to see you grow more flowers.[;
+These will look SO lovely when they bloom![;
 
 #WRITE(RtPtr, $9CE658)
 // 0x805346c
 //こんなのヤダ〜、 こわいヨ〜！[;
-I hate these! They're scaring me![;
+...I'm scared![;
 
 // Showtime
 
@@ -2268,17 +3374,17 @@ The penguins are pleased.[;
 #WRITE(RtPtr, $9CE780)
 // 0x8052f68
 //やった！！ お客さん 楽しんでくれたー！！[;
-The Audience loved our show! Hooray![;
+They loved us out there![;
 
 #WRITE(RtPtr, $9CE77C)
 // 0x8052f94
 //ボクたち こんなもんじゃないはず…[;
-We really need to practice more...[;
+I know we're capable of more than this...[;
 
 #WRITE(RtPtr, $9CE778)
 // 0x8052fb8
 //お客さん、 おこってたネ…[;
-Everyone in the audience was furious...[;
+We've betrayed our audience...[;
 
 // Bunny Hop
 
@@ -2407,7 +3513,7 @@ Tram & Pauline[;
 Gather round, one and[l
 all! Tram and Pauline's[l
 acrobatic fox show[l
-is about to start![;
+is about to begin![;
 
 #WRITE(RtPtr, $A2E1FC)
 // 0x805dba0
@@ -2512,7 +3618,7 @@ We're the perfect duo![;
 #WRITE(RtPtr, $9CE75C)
 // 0x8053040
 //ちゅうとハンパでした…[;
-I think we've got half of our moves down...[;
+At least we only messed up half the show...[;
 
 #WRITE(RtPtr, $9CE758)
 // 0x8053058
@@ -2720,9 +3826,10 @@ Quiz Show[;
 
 #WRITE(RtPtr, $9CE80C)
 // 0x8052c58
-A simple quiz where[l
-you listen to the host's[l
-pattern, then copy it.[;
+Play a quiz where you[l
+listen to the host's[l
+pattern, then copy it.[l
+Simple, right?[;
 
 #WRITE(RtPtr, $A3DE80)
 // 0x805edf4
@@ -2936,7 +4043,7 @@ I won the grand prize! A world tour![;
 #WRITE(RtPtr, $9CE81C)
 // 0x8052c24
 //次回に向けて 勉強、勉強…Zzz[;
-Gotta study... for next time... Zzz...[;
+I have to study... for next time... Zzz...[;
 
 #WRITE(RtPtr, $9CE818)
 // 0x8052c44
@@ -3604,7 +4711,7 @@ Where's the challenge?[;
 #WRITE(RtPtr, $9CE4BC)
 // 0x8053cfc
 //けっこうな コンビネーションだったネ！[;
-We make a good team![;
+Nice combo![;
 
 #WRITE(RtPtr, $9CE4B8)
 // 0x8053d24
@@ -3625,7 +4732,7 @@ Ninja Bodyguard[;
 //フジヤマ（ふじさん）！！[;
 An enemy is attacking[l
 your lord! Block the[l
-arrows with your sword,[l
+arrows with your sword[l
 using [D_pad] and [A_button]![;
 
 #WRITE(RtPtr, $A012A0)
@@ -3671,7 +4778,7 @@ I cannot apologize enough, my lord![;
 #WRITE(RtPtr, $9CE4F8)
 // 0x8053bc8
 //ゲッ！ トノが きぜつしてる！！[;
-Nooooo! My lord has fainted![;
+My lord has fainted! Nooooo![;
 
 // Toss Team
 
@@ -4271,7 +5378,7 @@ Peer Review[;
 #WRITE(RtPtr, $A498AC)
 // 0x8067bc4
 //イマイチだったねぇ…[;
-Not exactly your best show...[;
+Not exactly our best show...[;
 
 #WRITE(RtPtr, $A498A8)
 // 0x8067bdc
@@ -4314,7 +5421,7 @@ I spent everything I had on this outfit![;
 #WRITE(RtPtr, $9CE848)
 // 0x8052b70
 //ボンダンス[;
-Bon Dance[;
+The Bon Dance[;
 
 #WRITE(RtPtr, $9CE84C)
 // 0x8052b34
@@ -4704,7 +5811,7 @@ cute voices![;
 #WRITE(RtPtr, $A4D838)
 // 0x8067d90
 //またやろな〜[;
-Ｌｅｔ’ｓ　ｔｏｔａｌｌｙ　ｄｏ　ｔｈａｔ　ａｇａｉｎ　ｓｏｍｅ　ｔｉｍｅ！[;
+Ｗｅ　ｓｈｏｕｌｄ　ｄｏ　ｔｈａｔ　ａｇａｉｎ　ｓｏｍｅｔｉｍｅ！[;
 
 #WRITE(RtPtr, $A4B558)
 // 0x8067d70
@@ -5033,9 +6140,8 @@ Rhythm Tweezers 2[;
 //ぬいちゃえ、 [l
 //ぬいちゃえ！[;
 My roots are growing[l
-back again![l
-Can you pluck them off!?[l
-Please pluck them off![;
+back! Can you pluck[l
+them off again?[;
 
 #WRITE(RtPtr, $9FB914)
 // 0x805b634
@@ -5082,7 +6188,7 @@ Why do you have to be so hairy!?[;
 #WRITE(RtPtr, $9CE508)
 // 0x8053b80
 //忍者の子孫[;
-Ninja Descendant[;
+Ninja Reincarnate[;
 
 #WRITE(RtPtr, $9CE50C)
 // 0x8053b44
@@ -5090,10 +6196,10 @@ Ninja Descendant[;
 //じいちゃんの[l
 //じいちゃんは[l
 //忍者なんだぜ。[;
-Your ancestors passed[l
-down the skills of a[l
-ninja. One day, you[l
-might just need them![;
+You know, my family's[l
+ancestors came from[l
+a long lineage of ninja[l
+bodyguards. Cool, right?[;
 
 #WRITE(RtPtr, $A02DF4)
 // 0x805ba68
@@ -5143,7 +6249,7 @@ You are... strong. Don't give up yet.[;
 #WRITE(RtPtr, $9CE518)
 // 0x8053b20
 //まけるな！ おまえが頼りなのだー！！[;
-Don't give up! We know you can do it![;
+Don't give up! We're counting on you![;
 
 // Night Walk 2
 
@@ -5359,7 +6465,7 @@ Bouncy Road 2[;
 //落とさないでネ！[;
 See that ball bouncing[l
 down the road?[l
-It's a very nice ball,[l
+It's a rather nice ball,[l
 so don't let it fall![;
 
 #WRITE(RtPtr, $9FF9E8)
@@ -5405,7 +6511,7 @@ We're working our hardest![;
 #WRITE(RtPtr, $9CE4D8)
 // 0x8053c78
 //エーン！ しっぱい！！[;
-Ow! We failed![;
+Ouch! We failed![;
 
 // Toss Team 2
 
@@ -5545,7 +6651,7 @@ Red thing production is at an all time high![;
 #WRITE(RtPtr, $9CE3FC)
 // 0x8054148
 //もっともっと 赤いモノを 生産だ！[;
-Producing more red things woudn't hurt![;
+Producing more of these red things woudn't hurt![;
 
 #WRITE(RtPtr, $9CE3F8)
 // 0x805416c
@@ -5661,7 +6767,7 @@ The silent ghosts sneaked past you.[;
 #WRITE(RtPtr, $A040B0)
 // 0x805bc1c
 //音が消えても　おちついている！[;
-You hit even when they were quiet.[;
+You hit them even when they were quiet.[;
 
 #WRITE(RtPtr, $A040C4)
 // 0x805bc3c
@@ -5691,7 +6797,7 @@ You ghosts stay and think about what you've done![;
 #WRITE(RtPtr, $9CE558)
 // 0x80539d0
 //うわー！ やられほうだいだ！[;
-Aargh! They slipped right past you![;
+Gah! They slipped right past you![;
 
 // Remix 8
 
@@ -6553,15 +7659,14 @@ Greetings[;
 //ありがとうございました。[;
 Greetings![l
 [l
-Thank you very much for[l
-purchasing Rhythm Heaven Advance.[l
-Oh, you've borrowed it from a friend? A-and[l
-it's u-used?[l
-Well, that's beside the point. I'm honored by your [l
-interest in this game.[l
-It's been nice meeting you![l
-[l
-I hope you get a lot of mileage out of this game![l
+Thank you very much for purchasing[l
+Rhythm Heaven Advance.[l
+Oh... you've borrowed it from a friend?
+A-and it's... u-used?[l
+Well, that's beside the point. The fact is, we're truly[l
+honored that you've put your interest into this game.[l
+It's been nice meeting you, and we hope this game[l
+gives you joy and fulfillment for years to come![l
 Thank you very much![;
 
 // How to Play
@@ -6630,17 +7735,19 @@ Plucking Letter[;
 #WRITE(RtPtr, $9D7EA8)
 // 0x80587c0
 //わたしは野菜をつくっているおじさんです。最近、うちの野菜たちにヒゲが生えるんです！とてもブキミだし、これでは売り物にならないんでヒゲをぬくんですが、これがまたキレイにぬけないのです。こまったわたしは気をまぎらわせようと、音楽をききながらノリノリで野菜たちの毛をぬきました。するとなんと！キレイにぬけるのです！しかもなんだか楽しいんです！音楽のチカラってすばらしいですね。みなさんもぜひ野菜の毛をぬいてみてください！[;
-I'm an old man who grows vegetables. [l
-One day, the vegetables started growing hair! [l
-It's so creepy! I can't sell them like this![l
-So I tried plucking the hairs, but I just[l
-couldn't pluck them clean.[l
+I'm an old gentleman who maintains a vegetable[l
+farm. So, one day, all my vegetables just started[l
+growing hair![l
+It was so creepy! I couldn't sell them like that![l
+I tried plucking the hairs, but I just couldn't get them[l
+all nice and smooth like a vegetable ought to be.[l
 Well, to lighten up the mood, I put on some music.[l
 Before I knew it, I found myself plucking to the beat.[l
-And... I plucked them clean! And it's somehow fun![l
+And... I plucked them clean! And it's even a little fun![l
 The power of music is really something else![l
-Everyone has got to try plucking hairs off[l
-of vegetables![;
+You've got to try plucking hairs off of your[l
+vegetables![l
+I can't recommend it enough![;
 
 // Rhythm Haiku Collection
 
@@ -7263,7 +8370,7 @@ Rhythm ≠ Sense of rhythm[l
 [l
 [linesize=large][size=small][linesize=small]
 Explanation: Rhythm is what ticks at a steady pace.[l
-A sense of rhythm is how you keep up with that pace,[l
+A sense of rhythm is how you maintain that pace,[l
 expressed naturally by way of flow.[;
 
 // Voices of Joy
@@ -7307,8 +8414,8 @@ Just by improving my sense of rhythm...[l
 [size=medium][linesize=medium]I've become... popular?[l
 [size=small][linesize=small][l
 Before I found "Rhythm Heaven Advance",[l
-I had no luck with women, but now I'm popular,[l
-and I've got a new lease on life![l
+I had no luck with women, but now I'm a real hot shot[l
+with a new lease on life![l
 [l
 [linealign=right]Mr. T, Age 38, Office Worker[l
 [linealign=left][size=small][linesize=small]Just by improving my sense of rhythm...[l
@@ -7373,39 +8480,37 @@ Blue: "Yeah? What?"[l
 Yellow: "I'll be playing rhythm!"[l
 Blue: "Wha? You can't 'play' rhythm, Yellow.[l
 It's not an instrument. Where did you hear that?"[l
-Yellow: "Well, I told the teacher I wanted[l
-to play drums, and they told me I should[l
-practice 'rhythm' first!"[l
+Yellow: "Well, I told the teacher I wanted to play[l
+drums,[l
+and they told me I should practice 'rhythm' first!"[l
 Blue: "Yellow, I think they meant you need to [l
 improve your sense of rhythm."[l
-Yellow: "Oh yeah, they said just that![l
-That's incredible![l
-But how did you know? Are you psychic?"[l
-Blue: "What do you mean 'how did I know'!?[l
+Yellow: "Oh yeah, they said exactly that! That's[l
+incredible! How did you know? Are you psychic?"[l
+Blue: "How did I- What do you mean 'how did I know'!?[l
 It's just common sense!"[l
-Yellow: "Hey, hey! No need to get so angry."[l
+Yellow: "Hey, man! No need to get so angry."[l
 Blue: "Ah... You know, you're right, I'm sorry..."[l
 Yellow: "Oop! Blue, your fly is down!"[l
 Blue: "Huh!? Wait, really?"[l
 Yellow: "No, I lied."[l
-Blue: "Why I outta...!"
-Yellow: "Man, that's kind of a[l
+Blue: "Why I outta...!"[l
+Yellow: "Why I outta- Man, that's kind of a[l
 cheesy line, don't you think?"[l
-Blue: "Shut up! Leave me alone"[l
+Blue: "Ugh... Leave me alone."[l
 Yellow: "GRAAAGH!"[l
 Blue: "Huh!? Why are you mad? What did I do?"[l
-Yellow: "Anyway, we were talking about my[l
-sense of rhythm, right?"[l
-Blue: "Yeah, that's true."[l
+Yellow: "Anyway, we were talking about my music[l
+class?"[l
+Blue: "Huh? Uh, yeah, that's right."[l
 Yellow: "Geez... way to derail the whole thing..."[l
 Blue: "Ah, I'm sorry... wait, I'M sorry?[l
 You were the one who-- by lying that my fly was down!"[l
 Yellow: "Hey hey, no need to get so angry."[l
-Blue: "Oh, shut up! Yeesh... anyway, we were talking[l
-about rhythm?"[l
-Yellow: "Right! So apparently you're supposed to[l
-practice to improve something[l
-called 'censor risms'...?"[l
+Blue: "Oh, that's rich coming from you! Anyway, your[l
+music class?"[l
+Yellow: "Right! So apparently I'm supposed to[l
+practice to improve something called 'censorisms'...?"[l
 Blue: "Your sense of rhythm! Idiot!"[l
 Both: "Thank you! You've been a wonderful audience!"[;
 
@@ -7428,11 +8533,10 @@ found a bizarre scroll in the back of storage.[l
 Written was the following:[l
 [l
 "To you who reads this: You did not come across[l
-this scroll by chance. I used the powers of ninjitsu[l
+this scroll by chance. I used the powers of ninjutsu[l
 to ensure that it would reach you. Do you understand?[l
 Indeed, the writer of this scroll is not only a ninja[l
 but your ancestor.[l
-[l
 The other day, I protected my lord from a[l
 storm of arrows.[l
 I risked my life. The night following this daunting task,[l
@@ -7473,30 +8577,31 @@ Final Letter[;
 //[l
 //[linealign=right]なぞのリズム組織代表[l
 //[linealign=right]スペースおじさん[;
-We received this Final Letter from[l
+You received this Final Letter from [l
 the Rhythm League.[l
 [l
-"Congratulations![l
-Getting a Perfect on Remix 8 was very impressive![l
-...is how I should be congratulating you, but I won't.[l
-You certainly did well in "Rhythm Heaven Advance".[l
-This is irrefutable and I fully recognize it.[l
-You are the best! The best of the best! ...is how I feel,[l
-but that's enough praise.[l
-In this game, any rhythm you experienced is[l
-just a tiny fraction of the whole world of it.[l
-If you are now more interested in rhythm,[l
-please use this opportunity to learn more about it![l
-Because flow is the best![l
-I can't recommend having it enough! ...and... well,[l
+"Congratulations on getting a Perfect on Remix 8! [l
+Such a feat certainly is impressive! ...is how I should [l
+be congratulating you, but I won't. [l
+You have performed outstandingly here in [l
+Rhythm Heaven Advance. [l
+That much is undeniable, and I fully recognize it.[l
+You are the best! One of the greatest! ...is how I feel, [l
+but that's enough praise. [l
+See, any rhythm you experienced in this game is just[l
+a tiny fraction of a world of rhythm.[l
+If this experience has made you more interested in[l
+rhythm at all, we strongly encourage learning more[l
+about it. Because developing your flow is the best![l
+It can't be recommended enough! And... well... ahem.[l
 I should stop getting excited and start recommending.[l
 We're serious.[l
-We really want you live with flow![l
-We believe you will lead a world of rhythm yourself![l
-In fact, we can ONLY believe in you to do it![l
+We really want you to develop your flow even further! [l
+We believe you have the potential to lead a world[l
+of rhythm![l
+In fact, we believe only in you![l
 You really are the best![l
 Thank you so much for playing!"[l
-[l
 [l
 [linealign=right]Rhythm League Representative[l
 [linealign=right]Space Gramps[;
@@ -7757,7 +8862,7 @@ DJ: "Unbelievable!"[l
 RM: "And if that wasn't enough, they left a little[l
 note for us."[l
 DJ: "What did it say?"[l
-RM: "It said 'Cakes are the GREATEST!'"[l
+RM: "It said 'Sweets are the GREATEST!'"[l
 DJ: "Oh wow. That's bold."[l
 RM: "Right!? It was enough to make me yell..."[l
 DJ: "You were like, "Hey! Who ATE IT!?"[l
@@ -7793,33 +8898,35 @@ A Certain Radio Station[;
 //[l
 //活動記録はここで終わっている。[l
 //いったい、隊長の身になにが！？[;
-April 16: I enlisted in the Marching Orders group![l
+April 16: I enlisted in the Marching Orders group! [l
 I'm gonna give it my all and help everybody I can![l
 [l
-April 20: Today I marched out of line with the others.[l
-Sarge got angry at me...[l
+April 20: Today I marched out of line with the others. [l
+Sarge gave me an earful for that one...[l
 [l
-April 28: Today we were cleaning the front of[l
-the station. [l
-An old lady came up to me and said "Thank you for[l
-keeping things clean" and gave me some candy.[l
-I was so happy![l
+April 28: Today we were assigned to clean the front[l
+of the station. This pleasant old lady came by and[l
+offered me some candy for my hard work.[l
+That made my whole day![l
 [l
-May 4: I've been pretty sluggish lately.[l
-I don't think this is what they mean by "spring fever".[l
-If I don't shape up soon, I might get shipped out...[l
+May 4: I've been pretty sluggish lately. [l
+I'm not sure if that's what they mean by[l
+"spring fever".[l
+If I don't shape up soon, I might get shipped out... [l
 [l
-May 8: There's something going on with Sarge... [l
-Yesterday, he told us about how he played with[l
-some rabbits up in outer space. Is he okay?[l
+May 8: Something's up with Sarge...[l
+Yesterday, he told us that he's been dancing with[l
+some rabbits up in outer space.[l
+Is he... okay? [l
 [l
-May 16: Recently, I've been seeing people who look[l
-just like Sarge. It's got to be my imagination, right?[l
+May 16: Recently, I've been coming across people[l
+who look just like Sarge...[l
+It's got to be my imagination, right?[l
 [l
-May 22: I saw it! Sarge is...[l
+May 22: You'll never believe it! Sarge is...[l
 [l
 The log ends here.[l
-What could've happened to Sarge?[;
+Just what could've been happening with Sarge? [;
 
 #WRITE(RtPtr, $9D7EE4)
 // 0x8057f50
@@ -7916,12 +9023,12 @@ A. She makes a mean rice ball![l
 Q. Why do you wear masks in the middle of games?[l
 A. Hm? What do you mean?[l
 [l
-Q. Or when you wore a full rabbit costume,[l
+Q. Like when you wore a full rabbit costume, [l
 for instance?[l
-A. I'm not sure what you're talking about.[l
+A. I don't know what you're talking about.[l
 [l
 Q. Please answer the question![l
-A. Uh... It's time for me to go. Sorry.[l
+A. Uh... It's time for me to go! Sorry![l
 [l
 He's just left his seat![l
 Seems there's been some kind of problem.[l
@@ -7949,13 +9056,13 @@ Spaceball Report[;
 //[size=medium][linesize=medium][linealign=center]リズムゲームの「クイズ」のヒミツ[l
 //[size=small][linesize=small][linesize=large][l
 //あのゲームは、[size=medium][linesize=medium]〜〜〜〜[size=small][linesize=small]ーがボタ[size=medium][linesize=medium]〜[size=small][linesize=small]をたたくと、たた[size=medium][linesize=medium]〜[size=small][linesize=small]た数だけカウントされますよね？実は、ゲームをほっと[size=medium][linesize=medium]〜[size=small][linesize=small]て、ボタ[size=medium][linesize=medium]〜[size=small][linesize=small]をたたきまくると、た[size=medium][linesize=medium]〜[size=small][linesize=small]へ[size=medium][linesize=medium]〜[size=small][linesize=small]なことがおきる[size=medium][linesize=medium]〜[size=small][linesize=small]です。と[size=medium][linesize=medium]〜[size=small][linesize=small]っても、まぁ、あまり期待しな[size=medium][linesize=medium]〜[size=small][linesize=small]でネ〜！[;
-The strange character who appears in Night Walk[l
-seems to really love music.[l
+There's this strange fellow who you might recognize [l
+from Night Walk. He seems to really love music. [l
 Apparently he's worked with music before,[l
-and landed a role in this game through connections.[l
-I ran into him in the city. All he said was "I love music!",[l
-and just disappeared up some stairs.[l
-I wonder if I'll ever meet that music-loving guy again.[l
+and landed a role in this game through connections. [l
+I ran into him in the city one time. All he said was [l
+"I love music!", and just disappeared up some stairs. [l
+I wonder if I'll ever meet that music-loving guy again. [l
 Come to think of it, I don't even know his name...[l
 [l
 Okay, time for a quiz![l
