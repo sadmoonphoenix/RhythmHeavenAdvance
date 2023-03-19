@@ -17,17 +17,32 @@ if exist "rh-jpn.gba" (
 :tools
 mkdir build
 copy "rh-jpn.gba" "build\rh-atlus.gba"
+
+echo -- Compile Text --
+
 %perl-path% "tools\abcde\abcde.pl" -cm abcde::Atlas "build\rh-atlus.gba" "src\script.txt"
+
+echo -- Compile Bitmap --
 
 tools\4bmpp.exe -p gfx/RhythmGames/NightWalk/beba58_night1_intro.bmp
 tools\4bmpp.exe -p gfx/RhythmGames/KarateMan/BE0480_karateman_tiles.bmp
 tools\4bmpp.exe -p gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles.bmp
 tools\4bmpp.exe -p gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles.bmp
 
+echo -- Compile Graphics --
+
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/NightWalk/beba58_night1_intro.bin gfx/RhythmGames/NightWalk/beba58_night1_intro
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/KarateMan/BE0480_karateman_tiles.bin gfx/RhythmGames/KarateMan/BE0480_karateman_tiles
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles.bin gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles.bin gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles
+
+echo -- Compile Audio --
+
+ffmpeg -y -i "sfx/DrumLessons/one.wav" -f s8 -ar 0x3443 -acodec pcm_s8 "sfx/DrumLessons/one.pcm"
+ffmpeg -y -i "sfx/DrumLessons/two.wav" -f s8 -ar 0x3443 -acodec pcm_s8 "sfx/DrumLessons/two.pcm"
+ffmpeg -y -i "sfx/DrumLessons/three.wav" -f s8 -ar 0x3443 -acodec pcm_s8 "sfx/DrumLessons/three.pcm"
+
+echo -- Compile Code --
 
 tools\armips.exe src/main.asm
 echo If no error was found during any of the steps, it should now be compiled. (Press any key to recompile!)

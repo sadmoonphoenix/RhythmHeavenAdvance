@@ -36,7 +36,7 @@ bl Debug_99Medals_Hook
 
 ;Load Seq. Call
 .org 0x089CFED4
-.dw 0x089CFF88
+; .dw 0x089CFF88
 
 ;Engine (BE)
 .org 0x089CFE30

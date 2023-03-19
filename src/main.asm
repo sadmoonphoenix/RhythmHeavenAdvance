@@ -33,19 +33,19 @@ _autoplay equ 1 ; EXPERIMENTAL (VERY GLITCHY)
 .include "src/relocate.asm"
 
 .include "gfx/Font/font.asm"
+.include "sfx/DrumLessons/drumlessons.asm"
 .include "gfx/RhythmGames/RatRace/ratrace.asm"
 .include "gfx/RhythmGames/NightWalk/nightwalk.asm"
 .include "gfx/RhythmGames/KarateMan/karateman.asm"
 .include "gfx/RhythmGames/TheClappyTrio/clappy.asm"
 .include "gfx/RhythmGames/TheSnappyTrio/snappy.asm"
 
+.include "code/DebugMenu/debugmenu.asm"
+
 .include "src/asm_relocate.asm"
 .include "src/asm.asm"
 
 ; ALWAYS INCLUDE LAST - DO NOT INCLUDE ANYTHING AFTER THIS.
-
-; .include src/Misc/DebugMenu/debugmenu_relocate.asm
-; .include src/Misc/DebugMenu/debugmenu.asm
 
 .close
 ;eof 
