@@ -4076,7 +4076,7 @@ jumps in the starlight?[;
 #WRITE(RtPtr, $9F5D14)
 // 0x805b220
 //[style=gold][linestyle=5]音楽が おわる前に 星でいっぱいにしてネ！[;
-[style=gold][linestyle=5]Let's try to reach the stars before the music ends![;
+[style=gold][linestyle=5]Let's reach the stars before the music ends![;
 
 #WRITE(RtPtr, $9F650C)
 // 0x805b250
@@ -9088,5 +9088,14 @@ It's nothing crazy or an[size=medium][linesize=medium]④[size=small][linesize=s
 // 0x80587ac
 //ナイトウォーク情報[;
 Night Walk Information[;
+
+// Debug Menu
+
+#WRITE(RtPtr, $1E388)
+// 0x805966c
+//シーケンス　テスト[;
+Ｄｅｂｕｇ　Ｍｅｎｕ[;
+
+// For the games, check debugmenu_relocate.asm
 
 //End of Script file.

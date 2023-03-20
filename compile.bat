@@ -38,9 +38,9 @@ tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tile
 
 echo -- Compile Audio --
 
-ffmpeg -y -i "sfx/DrumLessons/one.wav" -f s8 -ar 0x3443 -acodec pcm_s8 "sfx/DrumLessons/one.pcm"
-ffmpeg -y -i "sfx/DrumLessons/two.wav" -f s8 -ar 0x3443 -acodec pcm_s8 "sfx/DrumLessons/two.pcm"
-ffmpeg -y -i "sfx/DrumLessons/three.wav" -f s8 -ar 0x3443 -acodec pcm_s8 "sfx/DrumLessons/three.pcm"
+ffmpeg -y -i "sfx/DrumLessons/one.wav" -f s8 -ar 0x3443 -acodec pcm_s8 "sfx/DrumLessons/one.pcm" -loglevel error
+ffmpeg -y -i "sfx/DrumLessons/two.wav" -f s8 -ar 0x3443 -acodec pcm_s8 "sfx/DrumLessons/two.pcm" -loglevel error
+ffmpeg -y -i "sfx/DrumLessons/three.wav" -f s8 -ar 0x3443 -acodec pcm_s8 "sfx/DrumLessons/three.pcm" -loglevel error
 
 echo -- Compile Code --
 

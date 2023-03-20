@@ -11,6 +11,333 @@
 .org 0x08FF0000
 
 ; --- START TEXT ---
+ConcertName:
+.sjis "Ｃｏｎｃｅｒｔ"
+
+SickBeatsSPName:
+.sjis "Ｓｉｃｋ　Ｂｅａｔｓ　ＳＰ"
+
+QuizShowSPName:
+.sjis "Ｑｕｉｚ　Ｓｈｏｗ　ＳＰ"
+
+MannequinFactoryName:
+.sjis "Ｍａｎｎｅｑｕｉｎ　Ｆａｃｔｏｒｙ"
+
+MrUpbeatName:
+.sjis "Ｍｒ．　Ｕｐｂｅａｔ"
+
+Remix8Name:
+.sjis "Ｒｅｍｉｘ　８"
+
+Remix7Name:
+.sjis "Ｒｅｍｉｘ　７"
+
+Remix6Name:
+.sjis "Ｒｅｍｉｘ　６"
+
+Remix5Name:
+.sjis "Ｒｅｍｉｘ　５"
+
+Remix4Name:
+.sjis "Ｒｅｍｉｘ　４"
+
+Remix3Name:
+.sjis "Ｒｅｍｉｘ　３"
+
+Remix2Name:
+.sjis "Ｒｅｍｉｘ　２"
+
+Remix1Name:
+.sjis "Ｒｅｍｉｘ　１"
+
+TheBonOdoriName:
+.sjis "Ｔｈｅ Ｂｏｎ　Ｏｄｏｒｉ"
+
+BonDanceName:
+.sjis "Ｂｏｎ　Ｄａｎｃｅ"
+
+CatMachineName:
+.sjis "Ｃａｔ　Ｍａｃｈｉｎｅ"
+
+LoveConfessorName:
+.sjis "Ｌｏｖｅ　Ｃｏｎｆｅｓｓｏｒ"
+
+RapMachineName:
+.sjis "Ｒａｐ　Ｍａｃｈｉｎｅ"
+
+LessonShort1Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｓｈｏｒｔ　１）"
+
+LessonShort4Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｓｈｏｒｔ　４）"
+
+LessonShort8Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｓｈｏｒｔ　８）"
+
+LessonShort5Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｓｈｏｒｔ　５）"
+
+LessonShort7Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｓｈｏｒｔ　７）"
+
+LessonShort6Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｓｈｏｒｔ　６）"
+
+LessonShort9Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｓｈｏｒｔ　９）"
+
+LessonBasic1Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｂａｓｉｃ　１）"
+
+LessonBasic2Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｂａｓｉｃ　２）"
+
+LessonShort2Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｓｈｏｒｔ　２）"
+
+LessonShort3Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｓｈｏｒｔ　３）"
+
+LessonLong4Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｌｏｎｇ　４）"
+
+LessonLong2Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｌｏｎｇ　２）"
+
+LessonLong3Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｌｏｎｇ　３）"
+
+LessonLong1Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｌｏｎｇ　１）"
+
+LessonLong5Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｌｏｎｇ　５）"
+
+LessonLong6Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｌｏｎｇ　６）"
+
+LessonTechnical1Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｔｅｃｈｎｉｃａｌ　１）"
+
+LessonTechnical2Name:
+.sjis "Ｌｅｓｓｏｎ　（Ｔｅｃｈｎｉｃａｌ　２）"
+
+StudioDrumsName:
+.sjis "Ｓｔｕｄｉｏ　Ｄｒｕｍｓ"
+
+RhythmTestClickName:
+.sjis "Ｒｈｙｔｈｍ　Ｔｅｓｔ　（Ｃｌｉｃｋ）"
+
+RhythmTestCueName:
+.sjis "Ｒｈｙｔｈｍ　Ｔｅｓｔ　（Ｃｕｅ）"
+
+RhythmTestTrickyName:
+.sjis "Ｒｈｙｔｈｍ　Ｔｅｓｔ　（Ｔｒｉｃｋｙ）"
+
+RhythmTestFullName:
+.sjis "Ｒｈｙｔｈｍ　Ｔｅｓｔ　（Ｆｕｌｌ）"
+
+EmailName:
+.sjis "Ｅｍａｉｌ"
+
+QuizShowName:
+.sjis "Ｑｕｉｚ　Ｓｈｏｗ"
+
+RAPMENName:
+.sjis "ＲＡＰＭＥＮ"
+
+RAPWOMENbyYONEName:
+.sjis "ＲＡＰＷＯＭＥＮ　（ｂｙ　ＹＯＮＥ）"
+
+RAPWOMENByKAZUName:
+.sjis "ＲＡＰＷＯＭＥＮ　（Ｂｙ　ＫＡＺＵ）"
+
+SpaceDanceName:
+.sjis "Ｓｐａｃｅ　Ｄａｎｃｅ"
+
+CosmicDanceName:
+.sjis "Ｃｏｓｍｉｃ　Ｄａｎｃｅ"
+
+ShowtimeName:
+.sjis "Ｓｈｏｗｔｉｍｅ"
+
+RIQDataCheckName:
+.sjis "Ｒ－ＩＱ　Ｄａｔａ　Ｃｈｅｃｋ"
+
+OpeningTypeBName:
+.sjis "Ｏｐｅｎｉｎｇ　（Ｔｙｐｅ　Ｂ）"
+
+OpeningTypeAName:
+.sjis "Ｏｐｅｎｉｎｇ　（Ｔｙｐｅ　Ａ）"
+
+TramPaulineName:
+.sjis "Ｔｒａｍ　＆　Ｐａｕｌｉｎｅ"
+
+TossTeamName:
+.sjis "Ｔｏｓｓ　Ｔｅａｍ"
+
+TossTeam2Name:
+.sjis "Ｔｏｓｓ　Ｔｅａｍ　２"
+
+DrumGirlsName:
+.sjis "Ｄｒｕｍ　Ｇｉｒｌｓ"
+
+PowerCalligraphyName:
+.sjis "Ｐｏｗｅｒ　Ｃａｌｌｉｇｒａｐｈｙ"
+
+RatRaceName:
+.sjis "Ｒａｔ　Ｒａｃｅ"
+
+FlashMemoryTestName:
+.sjis "Ｆｌａｓｈ　Ｍｅｍｏｒｙ　Ｔｅｓｔ"
+
+FireworkFestivalName:
+.sjis "Ｆｉｒｅｗｏｒｋ　Ｆｅｓｔｉｖａｌ"
+
+MetronomeName:
+.sjis "Ｍｅｔｒｏｎｏｍｅ"
+
+BunnyHopName:
+.sjis "Ｂｕｎｎｙ　Ｈｏｐ"
+
+DanceLesson1Name:
+.sjis "Ｄａｎｃｅ　Ｌｅｓｓｏｎ　１"
+
+WizardsWaltzName:
+.sjis "Ｗｉｚａｒｄ’ｓ　Ｗａｌｔｚ"
+
+MarchingOrdersName:
+.sjis "Ｍａｒｃｈｉｎｇ　Ｏｒｄｅｒｓ"
+
+MarchingOrders2Name:
+.sjis "Ｍａｒｃｈｉｎｇ　Ｏｒｄｅｒｓ　２"
+
+HorseMachineName:
+.sjis "Ｈｏｒｓｅ　Ｍａｃｈｉｎｅ"
+
+TapTrialName:
+.sjis "Ｔａｐ　Ｔｒｉａｌ"
+
+TurboTapTrialName:
+.sjis "Ｔｕｒｂｏ　Ｔａｐ　Ｔｒｉａｌ"
+
+SamuraiSliceName:
+.sjis "Ｓａｍｕｒａｉ　Ｓｌｉｃｅ"
+
+SpaceballName:
+.sjis "Ｓｐａｃｅｂａｌｌ"
+
+Spaceball2Name:
+.sjis "Ｓｐａｃｅｂａｌｌ　２"
+
+SneakySpiritsName:
+.sjis "Ｓｎｅａｋｙ　Ｓｐｉｒｉｔｓ"
+
+SneakySpirits2Name:
+.sjis "Ｓｎｅａｋｙ　Ｓｐｉｒｉｔｓ　２"
+
+NinjaBodyguardName:
+.sjis "Ｎｉｎｊａ　Ｂｏｄｙｇｕａｒｄ"
+
+NinjaReincarnateName:
+.sjis "Ｎｉｎｊａ　Ｒｅｉｎｃａｒｎａｔｅ"
+
+BouncyRoadName:
+.sjis "Ｂｏｕｎｃｙ　Ｒｏａｄ"
+
+BouncyRoad2Name:
+.sjis "Ｂｏｕｎｃｙ　Ｒｏａｄ　２"
+
+SickBeatsName:
+.sjis "Ｓｉｃｋ　Ｂｅａｔｓ"
+
+RhythmTweezersName:
+.sjis "Ｒｈｙｔｈｍ　Ｔｗｅｅｚｅｒｓ"
+
+RhythmTweezers2Name:
+.sjis "Ｒｈｙｔｈｍ　Ｔｗｅｅｚｅｒｓ　２"
+
+NightWalkName:
+.sjis "Ｎｉｇｈｔ　Ｗａｌｋ"
+
+NightWalk2Name:
+.sjis "Ｎｉｇｈｔ　Ｗａｌｋ　２"
+
+PolyrhythmName:
+.sjis "Ｐｏｌｙｒｈｙｔｈｍ"
+
+Polyrhythm2Name:
+.sjis "Ｐｏｌｙｒｈｙｔｈｍ　２"
+
+TheClappyTrioName:
+.sjis "Ｔｈｅ　Ｃｌａｐｐｙ　Ｔｒｉｏ"
+
+TheSnappyTrioName:
+.sjis "Ｔｈｅ　Ｓｎａｐｐｙ　Ｔｒｉｏ"
+
+KarateManName:
+.sjis "Ｋａｒａｔｅ　Ｍａｎ"
+
+KarateMan2Name:
+.sjis "Ｋａｒａｔｅ　Ｍａｎ　２"
+
+RIQTitleName:
+.sjis "Ｒ－ＩＱ　（Ｔｉｔｌｅ）"
+
+RIQMenuName:
+.sjis "Ｒ－ＩＱ　（Ｍｅｎｕ）"
+
+RIQGameName:
+.sjis "Ｒ－ＩＱ　（Ｇａｍｅ）"
+
+RIQLetterName:
+.sjis "Ｒ－ＩＱ　（Ｌｅｔｔｅｒ）"
+
+RIQStudioName:
+.sjis "Ｒ－ＩＱ　（Ｓｔｕｄｉｏ）"
+
+RIQOptionName:
+.sjis "Ｒ－ＩＱ　（Ｏｐｔｉｏｎ）"
+
+RIQResultName:
+.sjis "Ｒ－ＩＱ　（Ｒｅｓｕｌｔ）"
+
+RIQResult2Name:
+.sjis "Ｒ－ＩＱ　（Ｒｅｓｕｌｔ　２）"
+
+RIQResult3Name:
+.sjis "Ｒ－ＩＱ　（Ｒｅｓｕｌｔ　３）"
+
+RIQResult4Name:
+.sjis "Ｒ－ＩＱ　（Ｒｅｓｕｌｔ　４）"
+
+RIQEmailName:
+.sjis "Ｒ－ＩＱ　（Ｅｍａｉｌ）"
+
+RIQPerfectName:
+.sjis "Ｒ－ＩＱ　（Ｐｅｒｆｅｃｔ）"
+
+RIQCafeName:
+.sjis "Ｒ－ＩＱ　（Ｃａｆｅ）"
+
+RIQMinigameName:
+.sjis "Ｒ－ＩＱ　（Ｍｉｎｉｇａｍｅ）"
+
+RIQDrumLessonsName:
+.sjis "Ｒ－ＩＱ　（Ｄｒｕｍ　Ｌｅｓｓｏｎｓ）"
+
+RIQToysName:
+.sjis "Ｒ－ＩＱ　（Ｔｏｙｓ）"
+
+EndingGameClearedName:
+.sjis "Ｅｎｄｉｎｇ　（Ｇａｍｅ　Ｃｌｅａｒｅｄ）"
+
+EndingExtraViewingsName:
+.sjis "Ｅｎｄｉｎｇ　（Ｅｘｔｒａ　Ｖｉｅｗｉｎｇｓ）"
+
+SaveDataClearName:
+.sjis "Ｓａｖｅ　Ｄａｔａ　Ｃｌｅａｒ"
+
 TanookiMonkeyName:
 .sjis "Ｔａｎｏｏｋｉ　＆　Ｍｏｎｋｅｙ"
 
@@ -30,573 +357,572 @@ DebugMenuEntries:
 ; -- Engine Code
 .dw 0x089D6F44
 ; -- Text Code
-.dw 0x08059F84
+.dw ConcertName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D6C8C
 ; -- Text Code
-.dw 0x08059F6C
+.dw SickBeatsSPName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D6BA4
 ; -- Text Code
-.dw 0x08059F54
+.dw QuizShowSPName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D69E0
 ; -- Text Code
-.dw 0x08059F40
+.dw MannequinFactoryName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D6804
 ; -- Text Code
-.dw 0x08059F34
+.dw MrUpbeatName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D74FC
 ; -- Text Code
-.dw 0x08059F24
+.dw Remix8Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D712C
 ; -- Text Code
-.dw 0x08059F14
+.dw Remix7Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D7408
 ; -- Text Code
-.dw 0x08059F04
+.dw Remix6Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D7220
 ; -- Text Code
-.dw 0x08059EF4
+.dw Remix5Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D671C
 ; -- Text Code
-.dw 0x08059EE4
+.dw Remix4Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D7038
 ; -- Text Code
-.dw 0x08059ED4
+.dw Remix3Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D6628
 ; -- Text Code
-.dw 0x08059EC4
+.dw Remix2Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D2764
 ; -- Text Code
-.dw 0x08059EB4
+.dw Remix1Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D6088
 ; -- Text Code
-.dw 0x08059EA8
+.dw TheBonOdoriName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D7314
 ; -- Text Code
-.dw 0x08059E9C
+.dw BonDanceName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D5DC4
 ; -- Text Code
-.dw 0x08059E88
+.dw CatMachineName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D5EAC
 ; -- Text Code
-.dw 0x08059E74
+.dw LoveConfessorName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D5F94
 ; -- Text Code
-.dw 0x08059E5C
-
-; -- Engine Code
-.dw 0x089D4C8C
-; -- Text Code
-.dw 0x08059E44
-
-; -- Engine Code
-.dw 0x089D4D74
-; -- Text Code
-.dw 0x08059E2C
-
-; -- Engine Code
-.dw 0x089D4E5C
-; -- Text Code
-.dw 0x08059E14
-
-; -- Engine Code
-.dw 0x089D4F44
-; -- Text Code
-.dw 0x08059DF8
-
-; -- Engine Code
-.dw 0x089D502C
-; -- Text Code
-.dw 0x08059DDC
-
-; -- Engine Code
-.dw 0x089D51FC
-; -- Text Code
-.dw 0x08059DC0
-
-; -- Engine Code
-.dw 0x089D5114
-; -- Text Code
-.dw 0x08059DAC
+.dw RapMachineName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D52E4
 ; -- Text Code
-.dw 0x08059D98
+.dw LessonBasic1Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D53CC
 ; -- Text Code
-.dw 0x08059D7C
+.dw LessonBasic2Name | 0x8000000
+
+; -- Engine Code
+.dw 0x089D4C8C
+; -- Text Code
+.dw LessonShort1Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D54B4
 ; -- Text Code
-.dw 0x08059D60
+.dw LessonShort2Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D559C
 ; -- Text Code
-.dw 0x08059D40
+.dw LessonShort3Name | 0x8000000
 
 ; -- Engine Code
-.dw 0x089D5684
+.dw 0x089D4D74
 ; -- Text Code
-.dw 0x08059D28
+.dw LessonShort4Name | 0x8000000
 
 ; -- Engine Code
-.dw 0x089D576C
+.dw 0x089D4F44
 ; -- Text Code
-.dw 0x08059D10
+.dw LessonShort5Name | 0x8000000
 
 ; -- Engine Code
-.dw 0x089D5854
+.dw 0x089D51FC
 ; -- Text Code
-.dw 0x08059CF8
+.dw LessonShort6Name | 0x8000000
+
+; -- Engine Code
+.dw 0x089D502C
+; -- Text Code
+.dw LessonShort7Name | 0x8000000
+
+; -- Engine Code
+.dw 0x089D4E5C
+; -- Text Code
+.dw LessonShort8Name | 0x8000000
+
+; -- Engine Code
+.dw 0x089D5114
+; -- Text Code
+.dw LessonShort9Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D593C
 ; -- Text Code
-.dw 0x08059CE0
+.dw LessonLong1Name | 0x8000000
+
+; -- Engine Code
+.dw 0x089D576C
+; -- Text Code
+.dw LessonLong2Name | 0x8000000
+
+; -- Engine Code
+.dw 0x089D5854
+; -- Text Code
+.dw LessonLong3Name | 0x8000000
+
+; -- Engine Code
+.dw 0x089D5684
+; -- Text Code
+.dw LessonLong4Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D5A24
 ; -- Text Code
-.dw 0x08059CC8
+.dw LessonLong5Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D5B0C
 ; -- Text Code
-.dw 0x08059CB0
+.dw LessonLong6Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D5BF4
 ; -- Text Code
-.dw 0x08059C98
+.dw LessonTechnical1Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D5CDC
 ; -- Text Code
-.dw 0x08059C80
+.dw LessonTechnical2Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D48EC
 ; -- Text Code
-.dw 0x08059C6C
+.dw StudioDrumsName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D4464
 ; -- Text Code
-.dw 0x08059C4C
+.dw RhythmTestClickName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D454C
 ; -- Text Code
-.dw 0x08059C2C
+.dw RhythmTestCueName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D4634
 ; -- Text Code
-.dw 0x08059C0C
+.dw RhythmTestTrickyName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D4804
 ; -- Text Code
-.dw 0x08059BEC
+.dw RhythmTestFullName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D80D0
 ; -- Text Code
-.dw 0x08059BE0
+.dw EmailName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D42A0
 ; -- Text Code
-.dw 0x08059BD8
+.dw QuizShowName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D40D0
 ; -- Text Code
-.dw 0x08059BCC
+.dw RAPMENName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D6440
 ; -- Text Code
-.dw 0x08059BA8
+.dw RAPWOMENbyYONEName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D6534
 ; -- Text Code
-.dw 0x08059B84
+.dw RAPWOMENByKAZUName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D3E18
 ; -- Text Code
-.dw 0x08059B74
+.dw SpaceDanceName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D68F8
 ; -- Text Code
-.dw 0x08059B64
+.dw CosmicDanceName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D3C48
 ; -- Text Code
-.dw 0x08059B54
+.dw ShowtimeName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089CDAD8
 ; -- Text Code
-.dw 0x08059B3C
+.dw RIQDataCheckName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D3A6C
 ; -- Text Code
-.dw 0x08059B1C
+.dw OpeningTypeBName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D3984
 ; -- Text Code
-.dw 0x08059AFC
+.dw OpeningTypeAName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D35FC
 ; -- Text Code
-.dw 0x08059AEC
+.dw TramPaulineName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D3268
 ; -- Text Code
-.dw 0x08059ADC
+.dw TossTeamName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D3174
 ; -- Text Code
-.dw 0x08059AC8
+.dw TossTeam2Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D2F98
 ; -- Text Code
-.dw 0x08059AB8
+.dw DrumGirlsName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D2DD4
 ; -- Text Code
-.dw 0x08059AA4
+.dw PowerCalligraphyName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D2C04
 ; -- Text Code
-.dw 0x08059A94
+.dw RatRaceName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089DE05C
 ; -- Text Code
-.dw 0x08059A7C
+.dw FlashMemoryTestName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D2A34
 ; -- Text Code
-.dw 0x08059A74
+.dw FireworkFestivalName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D2940
 ; -- Text Code
-.dw 0x08059A64
+.dw MetronomeName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D2858
 ; -- Text Code
-.dw 0x08059A58
+.dw BunnyHopName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D2670
 ; -- Text Code
-.dw 0x08059A44
+.dw DanceLesson1Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D24A0
 ; -- Text Code
-.dw 0x08059A34
+.dw WizardsWaltzName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D21DC
 ; -- Text Code
-.dw 0x08059A28
+.dw MarchingOrdersName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D23AC
 ; -- Text Code
-.dw 0x08059A18
+.dw MarchingOrders2Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D1F18
 ; -- Text Code
-.dw 0x08059A04
+.dw HorseMachineName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D1C6C
 ; -- Text Code
-.dw 0x080599F4
+.dw TapTrialName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D6258
 ; -- Text Code
-.dw 0x080599E4
+.dw TurboTapTrialName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D15F0
 ; -- Text Code
-.dw 0x080599D8
+.dw SamuraiSliceName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D18CC
 ; -- Text Code
-.dw 0x080599C8
+.dw SpaceballName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D19C0
 ; -- Text Code
-.dw 0x080599B4
+.dw Spaceball2Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D132C
 ; -- Text Code
-.dw 0x080599A4
+.dw SneakySpiritsName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D14FC
 ; -- Text Code
-.dw 0x08059990
+.dw SneakySpirits2Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D1068
 ; -- Text Code
-.dw 0x08059984
+.dw NinjaBodyguardName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D1238
 ; -- Text Code
-.dw 0x08059974
+.dw NinjaReincarnateName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D0DA4
 ; -- Text Code
-.dw 0x08059960
+.dw BouncyRoadName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D0F74
 ; -- Text Code
-.dw 0x08059948
+.dw BouncyRoad2Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D0AE0
 ; -- Text Code
-.dw 0x08059934
+.dw SickBeatsName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D081C
 ; -- Text Code
-.dw 0x08059924
+.dw RhythmTweezersName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D09EC
 ; -- Text Code
-.dw 0x08059910
+.dw RhythmTweezers2Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D0540
 ; -- Text Code
-.dw 0x080598FC
+.dw NightWalkName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D0634
 ; -- Text Code
-.dw 0x080598E4
+.dw NightWalk2Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D0358
 ; -- Text Code
-.dw 0x080598D8
+.dw PolyrhythmName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D044C
 ; -- Text Code
-.dw 0x080598C8
+.dw Polyrhythm2Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D0188
 ; -- Text Code
-.dw 0x080598B0
+.dw TheClappyTrioName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D634C
 ; -- Text Code
-.dw 0x08059898
+.dw TheSnappyTrioName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089CFED0
 ; -- Text Code
-.dw 0x0805988C
+.dw KarateManName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D0728
 ; -- Text Code
-.dw 0x0805987C
+.dw KarateMan2Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089DD47C
 ; -- Text Code
-.dw 0x08059864
+.dw RIQTitleName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089CDE20
 ; -- Text Code
-.dw 0x0805984C
+.dw RIQMenuName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089CDF08
 ; -- Text Code
-.dw 0x08059834
+.dw RIQGameName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089CDC24
 ; -- Text Code
-.dw 0x08059818
+.dw RIQLetterName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D85B4
 ; -- Text Code
-.dw 0x08059800
+.dw RIQStudioName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089CFC1C
 ; -- Text Code
-.dw 0x080597E4
+.dw RIQOptionName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D7634
 ; -- Text Code
-.dw 0x080597CC
+.dw RIQResultName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D77E4
 ; -- Text Code
-.dw 0x080597B0
+.dw RIQResult2Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D7964
 ; -- Text Code
-.dw 0x08059794
+.dw RIQResult3Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D7C18
 ; -- Text Code
-.dw 0x08059778
+.dw RIQResult4Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089CD2CC
 ; -- Text Code
-.dw 0x08059760
+.dw RIQEmailName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089CFD60
 ; -- Text Code
-.dw 0x08059744
+.dw RIQPerfectName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089CDA0C
 ; -- Text Code
-.dw 0x08059728
+.dw RIQCafeName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089DD8AC
 ; -- Text Code
-.dw 0x0805970C
+.dw RIQMinigameName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089DD8EC
 ; -- Text Code
-.dw 0x080596EC
+.dw RIQDrumLessonsName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089DD86C
 ; -- Text Code
-.dw 0x080596D4
+.dw RIQToysName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089CDA0C
 ; -- Text Code
-.dw 0x08059728
+.dw RIQCafeName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D6D74
 ; -- Text Code
-.dw 0x080596B8
-
+.dw EndingGameClearedName | 0x8000000
 ; -- Engine Code
 .dw 0x089D6E5C
 ; -- Text Code
-.dw 0x0805969C
+.dw EndingExtraViewingsName | 0x8000000
 
 ; -- Engine Code
 .dw 0x089DE0C8
 ; -- Text Code
-.dw 0x0805968C
-; Tanooki & Monkey
+.dw SaveDataClearName
+
 ; -- Engine Code
 .dw TanookiMonkeyScript | 0x8000000
 ; -- Text Code
 .dw TanookiMonkeyName | 0x8000000
-; Unused Lesson 1
+
 ; -- Engine Code
 .dw SamuraiDrum1Script | 0x8000000
 ; -- Text Code
 .dw SamuraiDrum1 | 0x8000000
-; Unused Lesson 2
+
 ; -- Engine Code
 .dw SamuraiDrum2Script | 0x8000000
 ; -- Text Code
 .dw SamuraiDrum2 | 0x8000000
-; Unused Lesson 3
+
 ; -- Engine Code
 .dw SamuraiDrum3Script | 0x8000000
 ; -- Text Code
 .dw SamuraiDrum3 | 0x8000000
-; End
+
 .dw 0x00000000
 .dw 0x00000000
 ; --- END
