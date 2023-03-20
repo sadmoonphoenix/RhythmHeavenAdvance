@@ -53,10 +53,9 @@ Well, see you later![;
 //それは潜在的に[l
 //みんなが持っている[l
 //ものなんです。[;
-Hey man![l
-Everyone's got the[l
-potential to have a good[l
-sense of rhythm, you know.[;
+Sense of rhythm--[l
+Everyone has one in some[l
+form or fashion.[;
 
 #WRITE(RtPtr, $A33B74)
 // 0x805e03c
@@ -72,17 +71,17 @@ be sharpened like any skill.[;
 //さて、まずは[l
 //あなたのリズム感を[l
 //かるく見てみましょう。[;
-Wanna know how sharp[l
-yours is? Then how about[l
-we take a quick look?[;
+Why don't we take a[l
+quick look at your[l
+sense of rhythm?[;
 
 #WRITE(RtPtr, $A33C70)
 // 0x805e0a8
 //どうでしたか？[l
 //納得のいく結果が[l
 //出せましたか？[;
-How'd you do? Got a[l
-good score, I hope?[;
+How did you do? Did you get[l
+a score you're happy with?[;
 
 #WRITE(RtPtr, $A33CAC)
 // 0x805e0d8
@@ -108,7 +107,7 @@ sharper and sharper![;
 // 0x805e15c
 //では、またあとで[l
 //お会いしましょう。[;
-Well, catch you 'round.[;
+With that, I'll see you 'round![;
 
 // Rhythm Test
 
@@ -260,12 +259,12 @@ The producer says... "You should play at our place, too!"[;
 #WRITE(RtPtr, $9CEA1C)
 // 0x8052494
 //オーナー「キミ、なかなか スジあるヨ」[;
-The owner says... "You've got great skills."[;
+The owner says... "You've got great skills, you know!"[;
 
 #WRITE(RtPtr, $9CEA18)
 // 0x80524bc
 //おばちゃん「またつぎ、がんばりなよ！」[;
-The cleaner says... "I know you can do it, try your best!"[;
+The cleaner says... "I know you can do it, keep it up!"[;
 
 // Options
 
@@ -3745,7 +3744,7 @@ Let us aim for the stars![;
 #WRITE(RtPtr, $9CE798)
 // 0x8052efc
 //ブ、 ブラックホールだー！！[;
-Our despair lead us into a black hole![;
+Our despair has lead us into a black hole![;
 
 // Remix 3
 
@@ -3805,7 +3804,7 @@ That was really great![;
 #WRITE(RtPtr, $9CE8C0)
 // 0x8052920
 //今回のラブ ： ラブラブでーす！！[;
-Their love ended in... a loving marriage![;
+Their love ended in... a tender marriage![;
 
 #WRITE(RtPtr, $9CE8BC)
 // 0x8052944
@@ -7141,7 +7140,7 @@ Mannequin Factory[;
 //[l
 //[l
 //おつかれさま！[;
-Hey, man! You did it![;
+Hey! You did it![;
 
 #WRITE(RtPtr, $A5FABC)
 // 0x8069ddc
@@ -7150,8 +7149,8 @@ Hey, man! You did it![;
 //良くなっていると[l
 //うれしいな。[;
 You worked hard out there![l
-Think your sense of[l
-rhythm's gotten a little[l
+So, do you think your sense[l
+of rhythm has gotten a little[l
 better now?[;
 
 #WRITE(RtPtr, $A5FBC4)
@@ -7192,7 +7191,7 @@ Well, here we go![;
 //[l
 //こんにちは！[;
 [l
-Welcome back, man![;
+Hey! Welcome back![;
 
 #WRITE(RtPtr, $A5FFFC)
 // 0x8069ef8
@@ -9139,5 +9138,85 @@ You have an accurate biological clock![;
 // 0x805cd44
 //電波時計なみの正確さ！！[;
 Incredible! You're as precise as an atomic clock![;
+
+// Unused Drum Lesson 1
+
+#WRITE(RtPtr, $A21950)
+// 0x805d438
+//[l
+//あ、　どうも。[l
+//ドラム侍です。[;
+Oh, hi there.[l
+I'm Samurai Drummer[;
+
+#WRITE(RtPtr, $A219A4)
+// 0x805d458
+//タイコは　お好きですか？[l
+//キライじゃないですよね。[l
+//では、　私が　いろいろと[l
+//お世話しますね。[;
+You like drums?[l
+I don't hate them, you know.[l
+I always take good care[l
+of mine.[;
+
+#WRITE(RtPtr, $A219F8)
+// 0x805d4b4
+//簡単なレクチャーを[l
+//してさしあげます。[l
+//まぁ、　気をラクにして[l
+//おつきあいください。[;
+Let me give you a bit of a[l
+lecture.[l
+...Relax! It'll be a fun one![;
+
+#WRITE(RtPtr, $A21A4C)
+// 0x805d508
+//さっそく　レッスン　１　です。[l
+//私が見本をやりますから[l
+//マネしてくださいネ。[;
+First off, Lesson 1.[l
+I'll play you a pattern and[l
+you copy after me.[;
+
+#WRITE(RtPtr, $A21AAC)
+// 0x805d554
+//[l
+//では、　いきます。[;
+[l
+Okay! Here we go![;
+
+#WRITE(RtPtr, $A21BB4)
+// 0x805d568
+//[l
+//はい、　どうぞ。[;
+[l
+Go ahead when you're ready.[;
+
+#WRITE(RtPtr, $A21C74)
+// 0x805d57c
+//いまのは、　冗談です。[l
+//ごめんなさい。[;
+Alright, I'm kidding![l
+Sorry about that.[;
+
+#WRITE(RtPtr, $A21D28)
+// 0x805d5a4
+//でも、　出来るように[l
+//精一杯　お世話しますので[l
+//がんばってみてください。[;
+I'll try to make sure[l
+you're having a good time.[l
+Just try your best.[;
+
+#WRITE(RtPtr, $A21D7C)
+// 0x805d5ec
+//[l
+//では、　次回をお楽しみに。[l
+//さようなら。[;
+I'll see you soon[l
+for the next lesson.[l
+Goodbye![;
+
 
 //End of Script file.

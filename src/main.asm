@@ -9,7 +9,7 @@ _debug equ 1
 _debugmenu equ 0
 _oamluaconsolemessages equ 1
 _spriteluaconsolemessages equ 1
-_autoplay equ 1 ; EXPERIMENTAL (VERY GLITCHY)
+_autoplay equ 0 ; EXPERIMENTAL (VERY GLITCHY)
 
 .if _skiprhythmtest ==1
 .warning "Rhythm Test will be skipped, do NOT use for release!"

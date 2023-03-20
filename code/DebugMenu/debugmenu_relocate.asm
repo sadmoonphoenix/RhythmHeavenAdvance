@@ -341,14 +341,38 @@ SaveDataClearName:
 TanookiMonkeyName:
 .sjis "Ｔａｎｏｏｋｉ　＆　Ｍｏｎｋｅｙ"
 
-SamuraiDrum1:
-.sjis "Ｕｎｕｓｅｄ　Ｌｅｓｓｏｎ　１"
+SamuraiDrum1Name:
+.sjis "Ｕｎｕｓｅｄ　Ｄｒｕｍ　Ｌｅｓｓｏｎ　１"
 
-SamuraiDrum2:
-.sjis "Ｕｎｕｓｅｄ　Ｌｅｓｓｏｎ　２"
+SamuraiDrum2Name:
+.sjis "Ｕｎｕｓｅｄ　Ｄｒｕｍ　Ｌｅｓｓｏｎ　２"
 
-SamuraiDrum3:
-.sjis "Ｕｎｕｓｅｄ　Ｌｅｓｓｏｎ　３"
+SamuraiDrum3Name:
+.sjis "Ｕｎｕｓｅｄ　Ｄｒｕｍ　Ｌｅｓｓｏｎ　３"
+
+SpaceballTest1Name:
+.sjis "Ｓｐａｃｅｂａｌｌ　（Ｔｅｓｔ　１）"
+
+SpaceballTest2Name:
+.sjis "Ｓｐａｃｅｂａｌｌ　（Ｔｅｓｔ　２）"
+
+BouncyRoadTest1Name:
+.sjis "Ｂｏｕｎｃｙ　Ｒｏａｄ　（Ｔｅｓｔ　１）"
+
+BouncyRoadTest2Name:
+.sjis "Ｂｏｕｎｃｙ　Ｒｏａｄ　（Ｔｅｓｔ　２）"
+
+MarchOrder2UnusedName:
+.sjis "Ｍａｒｃｈｉｎｇ　Ｏｒｄｅｒｓ　２　（Ｕｎｕｓｅｄ）"
+
+TapTrialTestName:
+.sjis "Ｔａｐ　Ｔｒｉａｌ　（Ｔｅｓｔ）"
+
+HorseMachineUnusedName:
+.sjis "Ｈｏｒｓｅ　Ｍａｃｈｉｎｅ　（Ｕｎｕｓｅｄ）"
+
+TheClappyTrioTestName:
+.sjis "Ｔｈｅ　Ｃｌａｐｐｙ　Ｔｒｉｏ　（Ｔｅｓｔ）"
 
 ; --- END TEXT ---
 
@@ -911,17 +935,57 @@ DebugMenuEntries:
 ; -- Engine Code
 .dw SamuraiDrum1Script | 0x8000000
 ; -- Text Code
-.dw SamuraiDrum1 | 0x8000000
+.dw SamuraiDrum1Name | 0x8000000
 
 ; -- Engine Code
 .dw SamuraiDrum2Script | 0x8000000
 ; -- Text Code
-.dw SamuraiDrum2 | 0x8000000
+.dw SamuraiDrum2Name | 0x8000000
 
 ; -- Engine Code
 .dw SamuraiDrum3Script | 0x8000000
 ; -- Text Code
-.dw SamuraiDrum3 | 0x8000000
+.dw SamuraiDrum3Name | 0x8000000
+
+; -- Engine Code
+.dw SpaceballTest1Script | 0x8000000
+; -- Text Code
+.dw SpaceballTest1Name | 0x8000000
+
+; -- Engine Code
+.dw SpaceballTest2Script | 0x8000000
+; -- Text Code
+.dw SpaceballTest2Name | 0x8000000
+
+; -- Engine Code
+.dw BouncyRoadTest1Script | 0x8000000
+; -- Text Code
+.dw BouncyRoadTest1Name | 0x8000000
+
+; -- Engine Code
+.dw BouncyRoadTest2Script | 0x8000000
+; -- Text Code
+.dw BouncyRoadTest2Name | 0x8000000
+
+; -- Engine Code
+.dw MarchOrder2UnusedScript | 0x8000000
+; -- Text Code
+.dw MarchOrder2UnusedName | 0x8000000
+
+; -- Engine Code
+.dw TapTrialTestScript | 0x8000000
+; -- Text Code
+.dw TapTrialTestName | 0x8000000
+
+; -- Engine Code
+.dw HorseMachineUnusedScript | 0x8000000
+; -- Text Code
+.dw HorseMachineUnusedName | 0x8000000
+
+; -- Engine Code
+.dw TheClappyTrioTestScript | 0x8000000
+; -- Text Code
+.dw TheClappyTrioTestName | 0x8000000
 
 .dw 0x00000000
 .dw 0x00000000
@@ -1008,3 +1072,141 @@ SamuraiDrum3Script:
 .dw 0x00000000
 ; This stangely looks like a size entry, I have no idea how it works...
 .dw 0x0000FFFF
+
+; Spaceball (Test 1) Debug Load Sequence
+
+; Entrypoint Script
+SpaceballTest1Entrypoint:
+.import "code/DebugMenu/entrypoint.bin"
+.dw 0x089D160C
+SpaceballTest1Script:
+; Load Function
+.dw 0x0801D86D
+.dw SpaceballTest1Entrypoint | 0x8000000
+.dw 0x0801D8D9
+.dw 0x00000000
+.dw 0x00000000
+.dw 0x00000000
+; This stangely looks like a size entry, I have no idea how it works...
+.dw 0x0000FFFF
+
+; Spaceball (Test 2) Debug Load Sequence
+
+; Entrypoint Script
+SpaceballTest2Entrypoint:
+.import "code/DebugMenu/entrypoint.bin"
+.dw 0x089d1700
+SpaceballTest2Script:
+; Load Function
+.dw 0x0801D86D
+.dw SpaceballTest2Entrypoint | 0x8000000
+.dw 0x0801D8D9
+.dw 0x00000000
+.dw 0x00000000
+.dw 0x00000000
+; This stangely looks like a size entry, I have no idea how it works...
+.dw 0x0000FFFF
+
+; Bouncy Road (Test 1) Debug Load Sequence
+
+; Entrypoint Script
+BouncyRoadTest1Entrypoint:
+.import "code/DebugMenu/entrypoint.bin"
+.dw 0x089D0AFC
+BouncyRoadTest1Script:
+; Load Function
+.dw 0x0801D86D
+.dw BouncyRoadTest1Entrypoint | 0x8000000
+.dw 0x0801D8D9
+.dw 0x00000000
+.dw 0x00000000
+.dw 0x00000000
+; This stangely looks like a size entry, I have no idea how it works...
+.dw 0x0000FFFF
+
+; Bouncy Road (Test 2) Debug Load Sequence
+
+; Entrypoint Script
+BouncyRoadTest2Entrypoint:
+.import "code/DebugMenu/entrypoint.bin"
+.dw 0x089D0BE4
+BouncyRoadTest2Script:
+; Load Function
+.dw 0x0801D86D
+.dw BouncyRoadTest2Entrypoint | 0x8000000
+.dw 0x0801D8D9
+.dw 0x00000000
+.dw 0x00000000
+.dw 0x00000000
+; This stangely looks like a size entry, I have no idea how it works...
+.dw 0x0000FFFF
+
+; Marching Orders 2 (Unused) Debug Load Sequence
+
+; Entrypoint Script
+MarchOrder2UnusedEntrypoint:
+.import "code/DebugMenu/entrypoint.bin"
+.dw 0x089D1F34
+MarchOrder2UnusedScript:
+; Load Function
+.dw 0x0801D86D
+.dw MarchOrder2UnusedEntrypoint | 0x8000000
+.dw 0x0801D8D9
+.dw 0x00000000
+.dw 0x00000000
+.dw 0x00000000
+; This stangely looks like a size entry, I have no idea how it works...
+.dw 0x0000FFFF
+
+; Tap Trial (Test) Debug Load Sequence
+
+; Entrypoint Script
+TapTrialTestEntrypoint:
+.import "code/DebugMenu/entrypoint.bin"
+.dw 0x089D19DC
+TapTrialTestScript:
+; Load Function
+.dw 0x0801D86D
+.dw TapTrialTestEntrypoint | 0x8000000
+.dw 0x0801D8D9
+.dw 0x00000000
+.dw 0x00000000
+.dw 0x00000000
+; This stangely looks like a size entry, I have no idea how it works...
+.dw 0x0000FFFF
+
+; Horse Machine (Unused) Debug Load Sequence
+
+; Entrypoint Script
+HorseMachineUnusedEntrypoint:
+.import "code/DebugMenu/entrypoint.bin"
+.dw 0x089D1D64
+HorseMachineUnusedScript:
+; Load Function
+.dw 0x0801D86D
+.dw HorseMachineUnusedEntrypoint | 0x8000000
+.dw 0x0801D8D9
+.dw 0x00000000
+.dw 0x00000000
+.dw 0x00000000
+; This stangely looks like a size entry, I have no idea how it works...
+.dw 0x0000FFFF
+
+; The Clappy Trio (Test) Debug Load Sequence
+
+; Entrypoint Script
+TheClappyTrioTestEntrypoint:
+.import "code/DebugMenu/entrypoint.bin"
+.dw 0x089CFFC8
+TheClappyTrioTestScript:
+; Load Function
+.dw 0x0801D86D
+.dw TheClappyTrioTestEntrypoint | 0x8000000
+.dw 0x0801D8D9
+.dw 0x00000000
+.dw 0x00000000
+.dw 0x00000000
+; This stangely looks like a size entry, I have no idea how it works...
+.dw 0x0000FFFF
+
+
