@@ -51,7 +51,7 @@ Remix1Name:
 .sjis "Ｒｅｍｉｘ　１"
 
 TheBonOdoriName:
-.sjis "Ｔｈｅ Ｂｏｎ　Ｏｄｏｒｉ"
+.sjis "Ｔｈｅ　Ｂｏｎ　Ｏｄｏｒｉ"
 
 BonDanceName:
 .sjis "Ｂｏｎ　Ｄａｎｃｅ"

@@ -9098,4 +9098,46 @@ Night Walk Information[;
 
 // For the games, check debugmenu_relocate.asm
 
+// Metronome
+
+#WRITE(RtPtr, $35770)
+// 0x805a694
+//音にあわせて、　Ａボタンを押しましょう。[;
+Press [A_button] in time with the signal.[;
+
+#WRITE(RtPtr, $35774)
+// 0x805a6c0
+//計測中[;
+Measuring...[;
+
+#WRITE(RtPtr, $35778)
+// 0x805a6c8
+//計測おわり！ さて、 結果は…[;
+Finished measuring! Your rhythm score is...[;
+
+#WRITE(RtPtr, $A19A84)
+// 0x805ccc8
+//だいぶ、　努力が必要かも…[;
+You'll have to put in a lot of effort...[;
+
+#WRITE(RtPtr, $A19A80)
+// 0x805cce4
+//もう少し、　がんばりましょう。[;
+You'll need to try a little harder.[;
+
+#WRITE(RtPtr, $A19A7C)
+// 0x805cd04
+//人並みの正確さをお持ちです。[;
+You're as accurate as any person could be.[;
+
+#WRITE(RtPtr, $A19A78)
+// 0x805cd24
+//正確な体内時計をお持ちです！[;
+You have an accurate biological clock![;
+
+#WRITE(RtPtr, $A19A74)
+// 0x805cd44
+//電波時計なみの正確さ！！[;
+Incredible! You're as precise as an atomic clock![;
+
 //End of Script file.
