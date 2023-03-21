@@ -1,0 +1,9 @@
+.org 0x0890A160
+.import Directory/90A160_assembly0.bin
+;--
+.org 0x0890A1DA
+.import Directory/90A1DA_assembly1.bin
+;--
+.org 0x0890A254
+.import Directory/90A254_assembly2.bin
+;--

@@ -10,6 +10,7 @@
 .include "gfx/RhythmGames/TheClappyTrio/clappy_relocate.asm"
 .include "gfx/RhythmGames/TheSnappyTrio/snappy_relocate.asm"
 .include "gfx/HealthSafety/healthsafety_relocate.asm"
+.include "gfx/MainMenu/mainmenu_relocate.asm"
 
 .include "code/DebugMenu/debugmenu_relocate.asm"
 ;eof
