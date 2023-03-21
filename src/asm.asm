@@ -5,8 +5,8 @@
 
 .org 0x08019A2C
 bl FixResultsCaps
-; .org 0x08019B80 ; And..
-; bl FixResultsCaps
+.org 0x08019B80 ; And..
+bl FixResultsCaps
 .org 0x08019C80
 bl FixResultsCaps
 .org 0x08019CCA

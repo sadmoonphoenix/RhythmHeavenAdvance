@@ -40,7 +40,7 @@
 .org 0x08BE0480
 .dw BE0480_karateman_tiles | 0x80000000
 
-.org 0x088ad024
-.area 20h
-.import "gfx/RhythmGames/KarateMan/BE0480_karateman_tiles.agp"
-.endarea
+; .org 0x088ad024
+; .area 20h
+; .import "gfx/RhythmGames/KarateMan/BE0480_karateman_tiles.agp"
+; .endarea

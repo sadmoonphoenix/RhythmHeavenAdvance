@@ -25,7 +25,7 @@ echo -- Compile Text --
 echo -- Compile Bitmap --
 
 tools\4bmpp.exe -p gfx/RhythmGames/NightWalk/beba58_night1_intro.bmp
-tools\4bmpp.exe -p gfx/RhythmGames/KarateMan/BE0480_karateman_tiles.bmp
+REM tools\4bmpp.exe -p gfx/RhythmGames/KarateMan/BE0480_karateman_tiles.bmp
 tools\4bmpp.exe -p gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles.bmp
 tools\4bmpp.exe -p gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles.bmp
 
