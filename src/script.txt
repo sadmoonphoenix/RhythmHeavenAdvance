@@ -2,7 +2,7 @@
 // by Shaffy (2022-2023)
 
 // Contributors:
-// Shaffy / Butter (sA) / Cash Banooka / Captain Stage / vincells
+// Shaffy / Butter 🧈 (somethingAccurate) / Cash Banooka / Captain Stage / vincells
 // 
 // Managed by Shaffy
 // (C)2022-2023 Advance Team
@@ -247,7 +247,7 @@ Incredible! You're as precise as an atomic clock![;
 [size=medium][linesize=medium][style=bold][linestyle=4][linealign=right]Band LIVE! [l
 [size=small][linesize=small][style=gold][linestyle=5][linealign=left]♪　Cosmic Dance[l
 [size=small][linesize=small][style=gold][linestyle=5]♪　The Snappy Trio[l
-[size=small][linesize=small][style=gold][linestyle=5]♪　Turbo Tap Trial[l
+[size=small][linesize=small][style=gold][linestyle=5]♪　Tap Trial 2[l
 [l
 [;
 
@@ -291,7 +291,7 @@ The cleaner says... "I know you can do it, keep it up!"[;
 //[color=peach][linestyle=1][linesize=large]ステレオ　　ヘッドホンならこっち！オススメ！[l
 //モノラル　　本体のスピーカーならこっち。[;
 [color=pink][linestyle=3][linealign=center]Sound Mode[l
-[color=normal][linealign=left]Stereo[color=peach]  [1px]For[1px]dual-speaker[1px]systems. (NDS,[1px]etc...)[l
+[color=normal][linealign=left]Stereo[color=peach]  [1px]For[1px]dual-speaker[1px]systems. (DS,[1px]etc...)[l
 [color=normal][linealign=left]Mono[color=peach]      For[1px]single-speaker[1px]systems.[1px](GBA,[1px]etc...)[;
 
 // Game Select [[Beautiful padding I know x)
@@ -412,12 +412,12 @@ Also... [;
 #WRITE(RtPtr, $9D7B38)
 // 0x8054f0c
 //また、[;
-Likewise, [;[;
+Likewise, [;
 
 #WRITE(RtPtr, $19C98)
 // 0x8054f18
 //…でもで[;
-...but [;[;[;
+...but [;
 
 #WRITE(RtPtr, $19D54)
 // 0x8054f24
@@ -432,7 +432,7 @@ Plus, [;
 #WRITE(RtPtr, $9D7B4C)
 // 0x8054f3c
 //う〜ん．．．[;
-Yeah...[;
+Hm...[;
 
 #WRITE(RtPtr, $9D7B48)
 // 0x8054f4c
@@ -456,7 +456,7 @@ I guess that was all right.[;
 #WRITE(RtPtr, $9CE968)
 // 0x80526b8
 //喫茶カウンセル
-Consultant Café[;
+Café Counselling[;
 
 #WRITE(RtPtr, $9CE96C)
 // 0x8052678
@@ -2833,7 +2833,7 @@ Sick Beats[;
 //「大変です！[l
 //バイキン発生です！！[l
 //先生、たすけて〜」[;
-[color=pink]Assistant memo:[l
+[color=pink]Assistant's memo:[l
 "We've got an outbreak[l
 of an unknown virus![l
 Help us, Dr. Cutlery!"[;
@@ -3772,7 +3772,7 @@ Good luck and have fun![;
 #WRITE(RtPtr, $A61F74)
 // 0x806a118
 //[style=gold][linestyle=5]　作詞　作曲　　つんく[;
-[style=gold][linestyle=5]　Music:　　TSUNKU[;
+[style=gold][linestyle=5]　Music:　　TSUNKU♂[;
 
 #WRITE(RtPtr, $A620C4)
 // 0x806a134
@@ -3825,10 +3825,9 @@ Quiz Show[;
 
 #WRITE(RtPtr, $9CE80C)
 // 0x8052c58
-Play a quiz where you[l
-listen to the host's[l
-pattern, then copy it.[l
-Simple, right?[;
+Play a simple quiz where[l 
+you listen to the host's[l
+pattern, then copy it.[;
 
 #WRITE(RtPtr, $A3DE80)
 // 0x805edf4
@@ -4939,7 +4938,7 @@ We've been tossed out![;
 #WRITE(RtPtr, $9CE688)
 // 0x8053394
 //花火[;
-Firework Festival[;
+Fireworks[;
 
 #WRITE(RtPtr, $9CE68C)
 // 0x8053358
@@ -5312,7 +5311,7 @@ Good luck and have fun![;
 //編曲[l
 //　　　　　　　　湯浅　公一[;
 Music:[l
-　　　　　　　　TSUNKU[l
+　　　　　　　　TSUNKU♂[l
 Arrangement:[l
 　　　　　　　　Yuasa Koichi[;
 
@@ -5867,7 +5866,7 @@ No... This isn't right.[;
 #WRITE(RtPtr, $9CE5E8)
 // 0x80536f0
 //スーパータップ[;
-Turbo Tap Trial[;
+Tap Trial 2[;
 
 #WRITE(RtPtr, $9CE5EC)
 // 0x80536a8
@@ -6671,9 +6670,9 @@ Spaceball 2[;
 //視覚に頼るな！[l
 //涙もふくな〜！[;
 Ignore the camera's wild[l
-zooms! Just believe in[l
-yourself and make the[l
-ball fly wildly away![;
+zooms! Make the ball zoom[l
+wildly away! Don't blink![l
+Don't wipe your tears![;
 
 #WRITE(RtPtr, $A0A24C)
 // 0x805c0c4
@@ -6928,7 +6927,7 @@ Horse Machine[;
 #WRITE(RtPtr, $9DD4C8)
 // 0x80594dc
 //告白 マシーン[;
-Love Confessor[;
+Confession Machine[;
 
 // Rap Machine
 
@@ -8652,7 +8651,7 @@ Lyrics Card ③[;
 //寂しく想い出させる[;
 WISH - Can't Wait for You[l
 Song: Sohshi Tanaka[l
-Music: TSUNKU[l
+Music: TSUNKU♂[l
 Arrangement: Yuasa Kouichi[l
 [l
 Kimi o matenakute Kon'ya sayonara[l
@@ -8725,7 +8724,7 @@ Lyrics Card ②[;
 //[;
 Honey Sweet Angel of Love[l
 Song: Ami Tokito[l
-Music: TSUNKU[l
+Music: TSUNKU♂[l
 Arrangement: Suzuki "Daichi" Hideyuki[l
 [l
 [l
@@ -8776,7 +8775,7 @@ Honey Sweet Angel[;
 //は〜　盆踊り〜[;
 The☆Bon Odori[l
 Song: Ami Tokito[l
-Music: TSUNKU[l
+Music: TSUNKU♂[l
 [l
 [l
 Haa~[l
@@ -9218,5 +9217,394 @@ I'll see you soon[l
 for the next lesson.[l
 Goodbye![;
 
+// Studio
+
+#WRITE(RtPtr, $9D83C4)
+// 0x8058f60
+Perfect[;
+
+#WRITE(RtPtr, $9D83B8)
+// 0x8058f70
+Superb[;
+
+#WRITE(RtPtr, $9D83AC)
+// 0x8058f7c
+OK[;
+
+#WRITE(RtPtr, $9D83A0)
+// 0x8058f84
+//やりなおし[;
+Try Again[;
+
+#WRITE(RtPtr, $9D8394)
+// 0x8058f90
+//喫茶カウンセル[;
+Café Counselling[;
+
+#WRITE(RtPtr, $9D8388)
+// 0x8058fa0
+//ゲームセレクト２[;
+Game Select 2[;
+
+#WRITE(RtPtr, $9D837C)
+// 0x8058fb4
+//スタッフクレジット[;
+Staff Credits[;
+
+#WRITE(RtPtr, $9D8370)
+// 0x8058fc8
+//オープニング[;
+Opening[;
+
+#WRITE(RtPtr, $9D8364)
+// 0x8058fd8
+//リズム資料室[;
+Rhythm Archives[;
+
+#WRITE(RtPtr, $9D8358)
+// 0x8058fe8
+//ゲームセレクト[;
+Game Select[;
+
+#WRITE(RtPtr, $9D834C)
+// 0x8058ff8
+//メニュー[;
+Menu[;
+
+#WRITE(RtPtr, $9D8340)
+// 0x8059004
+//タイトル[;
+Title[;
+
+#WRITE(RtPtr, $9D8334)
+// 0x8059010
+//リミックス６[;
+Remix 6[;
+
+#WRITE(RtPtr, $9D8328)
+// 0x8059020
+//リミックス８[;
+Remix 8[;
+
+#WRITE(RtPtr, $9D831C)
+// 0x8059030
+//リミックス７[;
+Remix 7[;
+
+#WRITE(RtPtr, $9D8310)
+// 0x8059040
+//花火[;
+Fireworks[;
+
+#WRITE(RtPtr, $9D8304)
+// 0x8059048
+//トスボーイズ[;
+Toss Team[;
+
+#WRITE(RtPtr, $9D82F8)
+// 0x8059058
+//ホッピングロード[;
+Bouncy Road[;
+
+#WRITE(RtPtr, $9D82EC)
+// 0x805906c
+//ポリリズム[;
+Polyrhythm[;
+
+#WRITE(RtPtr, $9D82E0)
+// 0x8059078
+//リズムお習字[;
+Power Calligraphy[;
+
+#WRITE(RtPtr, $9D82D4)
+// 0x8059088
+//クイズ[;
+Quiz Show[;
+
+#WRITE(RtPtr, $9D82C8)
+// 0x8059090
+//トランとポリン[;
+Tram & Pauline[;
+
+#WRITE(RtPtr, $9D82BC)
+// 0x80590a0
+//ウサギとび[;
+Bunny Hop[;
+
+#WRITE(RtPtr, $9D82B0)
+// 0x80590ac
+//ショータイム[;
+Showtime[;
+
+#WRITE(RtPtr, $9D82A4)
+// 0x80590bc
+//バイキンはかせ[;
+Sick Beats[;
+
+#WRITE(RtPtr, $9D8298)
+// 0x80590cc
+//こっそりラット[;
+Rat Race[;
+
+#WRITE(RtPtr, $9D828C)
+// 0x80590dc
+//ゐあひ斬り[;
+Samurai Slice[;
+
+#WRITE(RtPtr, $9D8280)
+// 0x80590e8
+//しろいおばけ[;
+Sneaky Spirits[;
+
+#WRITE(RtPtr, $9D8274)
+// 0x80590f8
+//エアーバッター[;
+Spaceball[;
+
+#WRITE(RtPtr, $9D8268)
+// 0x8059108
+//マーチャ[;
+Marching Orders[;
+
+#WRITE(RtPtr, $9D825C)
+// 0x8059114
+//まほうつかい[;
+Wizard's Waltz[;
+
+#WRITE(RtPtr, $9D8250)
+// 0x8059124
+//スーパータップ[;
+Tap Trial 2[;
+
+#WRITE(RtPtr, $9D8244)
+// 0x8059134
+//バリバリ三人衆[;
+The Snappy Trio[;
+
+#WRITE(RtPtr, $9D8238)
+// 0x8059144
+//リズム脱毛[;
+Rhythm Tweezers[;
+
+#WRITE(RtPtr, $9D822C)
+// 0x8059150
+//コスモダンス[;
+Cosmic Dance[;
+
+#WRITE(RtPtr, $9D8220)
+// 0x8059160
+//ボンダンス[;
+Bon Dance[;
+
+#WRITE(RtPtr, $9D8214)
+// 0x805916c
+//ザ☆ぼんおどり[;
+The☆Bon Odori[;
+
+#WRITE(RtPtr, $9D8208)
+// 0x805917c
+//ナイトウォーク[;
+Night Walk[;
+
+#WRITE(RtPtr, $9D8200)
+// 0x805918c
+//WISH 君を待て…[;
+WISH - Can't Wait...[;
+
+#WRITE(RtPtr, $9D81FC)
+// 0x805919c
+//WISH 君を待てなくて[;
+WISH - Can't Wait for You[;
+
+#WRITE(RtPtr, $9D81F4)
+// 0x80591b0
+//恋のハニースイ■…[;
+Honey Sweet...[;
+
+#WRITE(RtPtr, $9D81F0)
+// 0x80591c4
+//恋のハニースイ■トエンジェル[;
+Honey Sweet Angel of Love[;
+
+#WRITE(RtPtr, $9D81E4)
+// 0x80591e4
+//スペースダンス[;
+Space Dance[;
+
+#WRITE(RtPtr, $9D81D8)
+// 0x80591f4
+//タップダンズ[;
+Tap Trial[;
+
+#WRITE(RtPtr, $9D81CC)
+// 0x8059204
+//パチパチ三人衆[;
+The Clappy Trio[;
+
+#WRITE(RtPtr, $9D81C0)
+// 0x8059214
+//カラテ家[;
+Karate Man[;
+
+#WRITE(RtPtr, $9D81B4)
+// 0x8059220
+//サイレント[;
+Silence[;
+
+// Studio Menu
+
+#WRITE(RtPtr, $9D8428)
+#WRITE(RtPtr, $9D8438)
+// 0x80593ec
+//チェック[;
+// --- Literal
+//Check[;
+// --- Edited
+Bookmark[;
+
+#WRITE(RtPtr, $9D8424)
+#WRITE(RtPtr, $9D8434)
+// 0x80593f8
+//ならびかえ[;
+Sort[;
+
+#WRITE(RtPtr, $9D8420)
+// 0x8059404
+//ドラミング[;
+Drum[;
+
+#WRITE(RtPtr, $9D841C)
+#WRITE(RtPtr, $9D842C)
+// 0x8059410
+//リスニング[;
+Play[;
+
+#WRITE(RtPtr, $9D8430)
+// 0x805941c
+//データ消去[;
+Erase Data[;
+
+// Studio Drum
+
+#WRITE(RtPtr, $9D8408)
+// 0x805922c
+//さむらいドラム[;
+Samurai Drum[;
+
+#WRITE(RtPtr, $9D8404)
+// 0x805923c
+//風切るドラム[;
+Swift Drum[;
+
+#WRITE(RtPtr, $9D8400)
+// 0x805924c
+//タップなドラム[;
+Tap Drum[;
+
+#WRITE(RtPtr, $9D83FC)
+// 0x805925c
+//音効なドラム[;
+Sound FX Drum[;
+
+#WRITE(RtPtr, $9D83F8)
+// 0x805926c
+//カカトテクなドラム ２[;
+Heel Drop Drum 2[;
+
+#WRITE(RtPtr, $9D83F4)
+// 0x8059284
+//カカトテクなドラム １[;
+Heel Drop Drum 1[;
+
+#WRITE(RtPtr, $9D83F0)
+// 0x805929c
+//ハットテクなドラム[;
+Hi-Hat Drum[;
+
+#WRITE(RtPtr, $9D83EC)
+// 0x80592b0
+//ハードなドラム[;
+Heavy Drum[;
+
+#WRITE(RtPtr, $9D83E8)
+// 0x80592c0
+//ライトなドラム[;
+Light Drum[;
+
+#WRITE(RtPtr, $9D83E4)
+// 0x80592d0
+//アジアなドラム[;
+Asian Drum[;
+
+#WRITE(RtPtr, $9D83E0)
+// 0x80592e0
+//マットなドラム[;
+Matte Drum[;
+
+#WRITE(RtPtr, $9D83DC)
+// 0x80592f0
+//テクノなドラム[;
+Techno Drum[;
+
+#WRITE(RtPtr, $9D83D8)
+// 0x8059300
+//パワーなドラム[;
+Power Drum[;
+
+#WRITE(RtPtr, $9D83D4)
+// 0x8059310
+//ドライなドラム[;
+Dry Drum[;
+
+#WRITE(RtPtr, $9D83D0)
+// 0x8059320
+//フツーなドラム[;
+Standard Drum[;
+
+// Studio Warning
+
+#WRITE(RtPtr, $9D8418)
+// 0x8059340
+//メモリが少なくなってきてます。[l
+//このまま演奏する？[;
+Save memory is running low.[l
+Do you want to perform anyway?[;
+
+#WRITE(RtPtr, $9D8414)
+// 0x8059374
+//演奏データは10コしか残せません。[l
+//データは残らないけど演奏する？[;
+There's no more room for[l
+saving, perform anyway?[;
+
+#WRITE(RtPtr, $9D8410)
+// 0x80593b4
+//メモリがいっぱいです。[l
+//データは残らないけど演奏する？[;
+Your memory is full.[l
+Perform anyway?[;
+
+#WRITE(RtPtr, $1BD90)
+// 0x805942c
+//チェックのついている曲が、[l
+//ひとつもありません。[;
+There are currently[l
+no songs selected.[;
+
+#WRITE(RtPtr, $1BDE0)
+// 0x805945c
+//リスニングではチェックのある曲だ
+//け再生します。　よろしいですか■？[;
+Only selected songs[l
+will be played. Is that OK?[;
+
+#WRITE(RtPtr, $1BF60)
+// 0x80594a0
+//この演奏データを削除するヨ！[l
+//ホントにOK？[;
+Delete this drum performance![l
+Are you sure?[;
+
+// Making this script was very painful, I hope you do enjoy Advance a lot though! - Shaffy
 
 //End of Script file.

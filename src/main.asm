@@ -34,6 +34,7 @@ _autoplay equ 0 ; EXPERIMENTAL (VERY GLITCHY)
 
 .include "gfx/Font/font.asm"
 .include "sfx/DrumLessons/drumlessons.asm"
+.include "sfx/TempoUp/RhythmTweezers/tweezers.asm"
 .include "gfx/RhythmGames/RatRace/ratrace.asm"
 .include "gfx/RhythmGames/NightWalk/nightwalk.asm"
 .include "gfx/RhythmGames/KarateMan/karateman.asm"
@@ -41,13 +42,11 @@ _autoplay equ 0 ; EXPERIMENTAL (VERY GLITCHY)
 .include "gfx/RhythmGames/TheSnappyTrio/snappy.asm"
 .include "gfx/HealthSafety/healthsafety.asm"
 .include "gfx/MainMenu/mainmenu.asm"
+.include "gfx/Options/options.asm"
 
 .include "code/DebugMenu/debugmenu.asm"
 
 .include "src/asm_relocate.asm"
 .include "src/asm.asm"
 
-; ALWAYS INCLUDE LAST - DO NOT INCLUDE ANYTHING AFTER THIS.
-
 .close
-;eof 

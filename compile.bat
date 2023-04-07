@@ -36,6 +36,7 @@ tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tile
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles.bin gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles
 tools\DSDecmp.exe -c lz10 gfx/HealthSafety/D1AD4C_healthsafety_tile.bin gfx/HealthSafety/D1AD4C_healthsafety_tile
 tools\DSDecmp.exe -c lz10 gfx/MainMenu/CCB298_mainmenu_tile.bin gfx/MainMenu/CCB298_mainmenu_tile
+tools\DSDecmp.exe -c lz10 gfx/Options/C76CA4_options_tile.bin gfx/Options/C76CA4_options_tile
 
 echo -- Compile Tile Maps ---
 
@@ -46,6 +47,7 @@ echo -- Compile Audio --
 ffmpeg -y -i "sfx/DrumLessons/one.wav" -f s8 -ar 0x3443 -acodec pcm_s8 "sfx/DrumLessons/one.pcm" -loglevel error
 ffmpeg -y -i "sfx/DrumLessons/two.wav" -f s8 -ar 0x3443 -acodec pcm_s8 "sfx/DrumLessons/two.pcm" -loglevel error
 ffmpeg -y -i "sfx/DrumLessons/three.wav" -f s8 -ar 0x3443 -acodec pcm_s8 "sfx/DrumLessons/three.pcm" -loglevel error
+REM Rhythm Tweezers (Tempo Up)
 
 echo -- Compile Code --
 

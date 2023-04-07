@@ -8,8 +8,6 @@
 ; _9DDBE8_dmenu_entries:
 ; .import "src/Misc/DebugMenu/9DDBE8_dmenu_entries.bin"
 
-.org 0x08FF0000
-
 ; --- START TEXT ---
 ConcertName:
 .sjis "Ｃｏｎｃｅｒｔ"
