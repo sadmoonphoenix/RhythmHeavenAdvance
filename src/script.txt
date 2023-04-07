@@ -2294,7 +2294,7 @@ Spaceball[;
 //心でボールを打て！[l
 //視覚に頼るな！[l
 //どんと行け〜！[;
-Ignore[1px]the camera's[1px]wild[l
+Ignore the camera's[1px]wild[l
 zooms! Make the ball fly[l
 wildly away! Don't blink![l
 Don't wipe your tears![;
@@ -6670,9 +6670,9 @@ Spaceball 2[;
 //視覚に頼るな！[l
 //涙もふくな〜！[;
 Ignore the camera's wild[l
-zooms! Make the ball zoom[l
-wildly away! Don't blink![l
-Don't wipe your tears![;
+zooms! Just believe in[l
+yourself and make the[l
+ball zoom wildly away![;
 
 #WRITE(RtPtr, $A0A24C)
 // 0x805c0c4
@@ -6927,7 +6927,7 @@ Horse Machine[;
 #WRITE(RtPtr, $9DD4C8)
 // 0x80594dc
 //告白 マシーン[;
-Confession Machine[;
+Confession[1px]Machine[;
 
 // Rap Machine
 
@@ -9457,9 +9457,6 @@ Silence[;
 #WRITE(RtPtr, $9D8438)
 // 0x80593ec
 //チェック[;
-// --- Literal
-//Check[;
-// --- Edited
 Bookmark[;
 
 #WRITE(RtPtr, $9D8424)
@@ -9604,6 +9601,1215 @@ will be played. Is that OK?[;
 //ホントにOK？[;
 Delete this drum performance![l
 Are you sure?[;
+
+// Café Counselling's Script
+
+#WRITE(RtPtr, $9CD2F8)
+// 0x804f3ec
+//[l
+//[l
+//では　また。[l
+//[l
+//[;
+[l
+[l
+Come back soon![l
+[l
+[;
+
+#WRITE(RtPtr, $9CD2F4)
+// 0x804f400
+//[l
+//いま　ちょっと　しこみ中なので[l
+//また　あとで　きてくださいね。[l
+//[l
+//[;
+[l
+I'm a little busy right now,[l
+since I only just opened,[l
+but we'll talk more later.[l
+[;
+
+#WRITE(RtPtr, $9CD2F0)
+// 0x804f444
+//[l
+//わたしに　できることが　あれば、[l
+//[style=gold][linestyle=5]ちからに　なりますよ[style=4(normal)][linestyle=8]。[l
+//[l
+//[;
+[l
+If there's anything I can[l
+do to help, well, [style=gold][linestyle=5]that's
+[style=gold][linestyle=5]what I'm here for.[style=normal][linestyle=8][l
+[;
+
+#WRITE(RtPtr, $9CD2EC)
+// 0x804f488
+//[l
+//ここは　いわゆる　キッサ店です。[l
+//ゲームが　[style=gold][linestyle=5]うまくできないとき[style=4(normal)][linestyle=8]や[l
+//つかれたときにでも　おいで下さい。[;
+[l
+Feel free to come on by anytime you
+find the games [style=gold][linestyle=5]too hard to play[style=normal][linestyle=8] or
+you just need to take a break.[l
+[;
+
+// #WRITE(RtPtr, $131EA8)
+#WRITE(RtPtr, $9CD2E8)
+// 0x804f4f4
+//[l
+//いらっしゃいませ。[l
+//こちらに　来たのは　はじめてですね？[l
+//[l
+//[;
+[l
+Welcome to the café.[l
+This your first time here?[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD300)
+// 0x804f530
+//[l
+//[l
+//しばらく　してから　きてね■。[l
+//[l
+//[;
+[l
+I've got some other customers[l
+to deal with. We'll talk later.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD310)
+// 0x804f554
+//[l
+//あまり　ムキに　ならずに[l
+//楽しんで下さいね…[l
+//[l
+//[;
+[l
+Try not to get all worked up out[l
+there. Make sure to have a good time.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD30C)
+// 0x804f584
+//[l
+//それと同時に　音楽に　ノるのが[l
+//楽しくなるとも思うんです。[l
+//[l
+//[;
+[l
+I'm sure playing together[l
+with the music will be pretty[l
+fun all its own.[l
+[;
+
+#WRITE(RtPtr, $9CD308)
+// 0x804f5c4
+//[l
+//なんどか　やるうちに　コツが[l
+//つかめると　思いますよ。[l
+//[l
+//[;
+[l
+Give it some practice and you'll do[l
+fine. I'm sure of it![l
+[l
+[;
+
+#WRITE(RtPtr, $9CD31C)
+// 0x804f600
+//[l
+//パーフェクト　がんばってくださいね。[l
+//ではまた。[l
+//[l
+//[;
+[l
+Good luck on those Perfect Campaigns![l
+See you around.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD318)
+// 0x804f634
+//[l
+//大きい声をだして　すみません。[l
+//なんだか　うれしかったものですから…[l
+//[l
+//[;
+[l
+...Sorry for yelling. I just got a little[l
+excited.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD328)
+// 0x804f67c
+//[l
+//ゲーム　楽しんでくださいね。[l
+//ではまた。[l
+//[l
+//[;
+[l
+Enjoy the game at your own pace,[l
+alright? See you around.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD324)
+// 0x804f6a8
+//[l
+//そうですか。[l
+//ウワサ話なんて　してしまい[l
+//しつれいしました。[;
+[l
+Is that so? My bad then.[l
+Guess that's why you shouldn't put[l
+so much stock in a rumor.[l
+[;
+
+#WRITE(RtPtr, $9CD338)
+// 0x804f764
+//[l
+//そうそう、[l
+//お祝いに　ささやかでは　ありますが[l
+//スタジオの曲をふやしておきました。[l
+//[;
+[l
+I know it's not much of a gift,[l
+but I've opened up more studio songs for you.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD33C)
+// 0x804f720
+//[l
+//いやいや、しかし　なんと　まぁ[l
+//コンプリートですか。[l
+//やりますな■。[;
+[l
+So I guess that means you've collected [l
+everything?[l
+Impressive![l
+[;
+
+#WRITE(RtPtr, $9CD340)
+// 0x804f6e4
+//[l
+//おつかれでしょう？[l
+//少し　休んでくださいネ。[l
+//では　また。[;
+[l
+Good work out there, my friend.[l
+You've really earned a break.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD334)
+// 0x804f7b8
+//[l
+//なんだか　私も、すっごく[l
+//うれしくって　ウルウルです…[l
+//[l
+//[;
+[l
+I'm so proud of you. Moved to tears,[l
+even![l
+[l
+[;
+
+#WRITE(RtPtr, $9CD330)
+// 0x804f7f4
+//[l
+//もう、そこまで　やりこんだら[l
+//リズム感　かなり　良くなって[l
+//いるでしょうネ！[;
+[l
+If you've made it this far, then your[l
+sense of rhythm has just got to be[l
+a step above the rest![l
+[;
+
+#WRITE(RtPtr, $9CD358)
+// 0x804f840
+//[size=large][linesize=large][style=gold][linestyle=5][l
+//[l
+//アンビリーバボー!![size=small][linesize=small][style=4(normal)][linestyle=8][;
+[size=large][linesize=large][style=gold][linestyle=5][l
+[l
+Now, that's perfect![size=small][linesize=small][style=normal][linestyle=8][;
+
+#WRITE(RtPtr, $9CD354)
+// 0x804f868
+//[size=large][linesize=large][style=gold][linestyle=5][l
+//[l
+//グッド　ジョブ!![size=small][linesize=small][style=4(normal)][linestyle=8][;
+[size=large][linesize=large][style=gold][linestyle=5][l
+[l
+Great job![size=small][linesize=small][style=normal][linestyle=8][;
+
+#WRITE(RtPtr, $9CD350)
+// 0x804f88c
+//[size=large][linesize=large][style=gold][linestyle=5][l
+//[l
+//おめでとー!![size=small][linesize=small][style=4(normal)][linestyle=8][;
+[size=large][linesize=large][style=gold][linestyle=5][l
+[l
+Congratulations![size=small][linesize=small][style=normal][linestyle=8][;
+
+#WRITE(RtPtr, $9CD34C)
+// 0x804f8ac
+//[size=large][linesize=large][style=gold][linestyle=5][l
+//[l
+//やるじゃなーい!![size=small][linesize=small][style=4(normal)][linestyle=8][;
+[size=large][linesize=large][style=gold][linestyle=5][l
+[l
+Amazing![size=small][linesize=small][style=4(normal)][linestyle=8][;
+
+#WRITE(RtPtr, $9CD348)
+// 0x804f8d0
+//[size=large][linesize=large][style=gold][linestyle=5][l
+//[l
+//すごいじゃなーい!![size=small][linesize=small][style=4(normal)][linestyle=8][;
+[size=large][linesize=large][style=gold][linestyle=5][l
+[l
+That's great![size=small][linesize=small][style=normal][linestyle=8][;
+
+// #WRITE(RtPtr, $F305C)
+// #WRITE(RtPtr, $193674)
+// #WRITE(RtPtr, $397CF0)
+#WRITE(RtPtr, $9CD36C)
+// 0x804f8f8
+//[size=large][linesize=large][style=gold][linestyle=5][l
+//[l
+//感動したー！[size=small][linesize=small][style=4(normal)][linestyle=8][;
+[size=large][linesize=large][style=gold][linestyle=5][l
+[l
+I'm impressed![size=small][linesize=small][style=normal][linestyle=8][;
+
+#WRITE(RtPtr, $9CD368)
+// 0x804f918
+//[size=large][linesize=large][style=gold][linestyle=5][l
+//[l
+//グッド　ラック！[size=small][linesize=small][style=4(normal)][linestyle=8][;
+[size=large][linesize=large][style=gold][linestyle=5][l
+[l
+Good luck![size=small][linesize=small][style=normal][linestyle=8][;
+
+#WRITE(RtPtr, $9CD364)
+// 0x804f93c
+//[size=large][linesize=large][style=gold][linestyle=5][l
+//[l
+//イケイケー！[size=small][linesize=small][style=4(normal)][linestyle=8][;
+[size=large][linesize=large][style=gold][linestyle=5][l
+[l
+Keep going![size=small][linesize=small][style=normal][linestyle=8][;
+
+#WRITE(RtPtr, $9CD360)
+// 0x804f95c
+//[size=large][linesize=large][style=gold][linestyle=5][l
+//[l
+//ファイトー！[size=small][linesize=small][style=4(normal)][linestyle=8][;
+[size=large][linesize=large][style=gold][linestyle=5][l
+[l
+Give it your all![size=small][linesize=small][style=normal][linestyle=8][;
+
+#WRITE(RtPtr, $9CD35C)
+// 0x804f97c
+//[size=large][linesize=large][style=gold][linestyle=5][l
+//[l
+//がんばれー！[size=small][linesize=small][style=4(normal)][linestyle=8][;
+[size=large][linesize=large][style=gold][linestyle=5][l
+[l
+Go for it![size=small][linesize=small][style=normal][linestyle=8][;
+
+#WRITE(RtPtr, $9CD3AC)
+// 0x804fc0c
+//[l
+//ま、ぼちぼち　やっていきましょうネ。[l
+//では　また。[l
+//[l
+//[;
+[l
+Well, let's take it one step at a time.[l
+See you around.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD3A8)
+// 0x804fc44
+//[l
+//空白を　カウントするってのは[l
+//ムズいもんですね■。[l
+//[l
+//[;
+[l
+Counting those silent beats...[l
+It's tricky, don't you think?[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD3A4)
+// 0x804fc7c
+//[l
+//なかなか　どうして　２つめのテストが　うまく　できないんですヨ。[l
+//[l
+//[;
+[l
+That second test gives me quite[l
+a bit of trouble.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD3A0)
+// 0x804fcc0
+//[l
+//私も　ときどき　やるんですけど[l
+//６５点くらいが　限界なんですよねぇ…[l
+//[l
+//[;
+[l
+I've been giving it a spin lately.[l
+Seems like 65 points is my limit.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD39C)
+// 0x804fd08
+//[l
+//それはそうと、[l
+//最近　「リズム感測定」してます？[l
+//[l
+//[;
+[l
+Say, have you tried doing the[l
+Rhythm Test again?[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD400)
+// 0x80500c0
+//[l
+//お客さんは　人間ですよね？[l
+//まぁ、私は　犬ですが　これからも[l
+//なかよくしてくださいネ■。[;
+[l
+You're a human, right? They say I'm[l
+supposed to be your best friend.[l
+We'd better get along then. Ahahaha![l
+[;
+
+#WRITE(RtPtr, $9CD3FC)
+// 0x8050118
+//[l
+//いやはや、このトシになると[l
+//時がたつのが　はやいですねぇ。[l
+//[l
+//[;
+[l
+Time goes by pretty fast when you're[l
+as old as I am.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD3F8)
+// 0x8050158
+//[l
+//かれこれ　９才で　もう　けっこう[l
+//いいトシなんです。[l
+//[l
+//[;
+[l
+I'm nine years old. Pretty spry[l
+for my age if I say so.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD3F4)
+// 0x8050190
+//[l
+//それはそうと、[l
+//実は　私　犬なんですヨ。[l
+//[l
+//[;
+[l
+By the way, I'm actually a dog.[l
+[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD414)
+// 0x80501bc
+//[l
+//まぁ、私には　詳しい理屈なんて[l
+//わからないですけどネ。ははは。[l
+//[l
+//[;
+[l
+Maybe if I studied this stuff I'd know,[l
+but I don't! Sorry! Heh.[l
+[l
+[;
+
+#WRITE(RtPtr, $771C8)
+#WRITE(RtPtr, $BD6D8)
+#WRITE(RtPtr, $D187C)
+#WRITE(RtPtr, $D49EC)
+#WRITE(RtPtr, $E66D0)
+#WRITE(RtPtr, $148C34)
+#WRITE(RtPtr, $1AE1C8)
+#WRITE(RtPtr, $1B7C04)
+#WRITE(RtPtr, $1DA088)
+#WRITE(RtPtr, $20190C)
+#WRITE(RtPtr, $20272C)
+#WRITE(RtPtr, $2163E0)
+#WRITE(RtPtr, $29B210)
+#WRITE(RtPtr, $29C0F0)
+#WRITE(RtPtr, $2D4B58)
+#WRITE(RtPtr, $2DB53C)
+#WRITE(RtPtr, $38DAD8)
+#WRITE(RtPtr, $38EBB8)
+#WRITE(RtPtr, $391BD0)
+#WRITE(RtPtr, $3BAAC4)
+#WRITE(RtPtr, $455B78)
+#WRITE(RtPtr, $4ADFB4)
+#WRITE(RtPtr, $4DFCDC)
+#WRITE(RtPtr, $4F4800)
+#WRITE(RtPtr, $5E872C)
+#WRITE(RtPtr, $61D2CC)
+#WRITE(RtPtr, $634D7C)
+#WRITE(RtPtr, $641144)
+#WRITE(RtPtr, $6703A0)
+#WRITE(RtPtr, $67CBFC)
+#WRITE(RtPtr, $6DC254)
+#WRITE(RtPtr, $6E24D4)
+#WRITE(RtPtr, $6F7690)
+#WRITE(RtPtr, $70A9A0)
+#WRITE(RtPtr, $7AE03C)
+#WRITE(RtPtr, $7DA178)
+#WRITE(RtPtr, $809E44)
+#WRITE(RtPtr, $8161F8)
+#WRITE(RtPtr, $83781C)
+#WRITE(RtPtr, $848F4C)
+#WRITE(RtPtr, $873714)
+#WRITE(RtPtr, $9CD410)
+// 0x8050200
+//[l
+//音楽って　フシギですよね■。[l
+//どうして　あんなにも　心を[l
+//ゆさぶるんでしょうね。[;
+[l
+Music's weird like that. Why does[l
+it have such power over our feelings,[l
+do you think?[l
+[;
+
+#WRITE(RtPtr, $9CD40C)
+// 0x8050250
+//[l
+//けっこう古いレコードなんかを　出してきて　当時を　思い出したりすると、ホッとするんです。[;
+[l
+Dusting off a favorite record of mine[l
+and taking a nostalgia trip...[l
+That never fails to put me at ease.[l
+[;
+
+#WRITE(RtPtr, $9CD408)
+// 0x80502ac
+//[l
+//それはそうと、悲しいときって[l
+//どうしてますか？[l
+//私は　もっぱら　音楽を　ききますねぇ。[;
+[l
+So, when you're sad, what do[l
+you do to cheer yourself up?[l
+Me, I listen to music.[l
+[;
+
+#WRITE(RtPtr, $128C90)
+#WRITE(RtPtr, $13BCD0)
+#WRITE(RtPtr, $1C8804)
+#WRITE(RtPtr, $1CBCB0)
+#WRITE(RtPtr, $2E9C5C)
+#WRITE(RtPtr, $632D44)
+#WRITE(RtPtr, $8979C0)
+#WRITE(RtPtr, $9CD42C)
+// 0x8050304
+//[l
+//でも　もし、ドラムで　選挙演説とか[l
+//ボンゴで　夫婦ゲンカとかあったら[l
+//やかましそうですネ。ははは。[;
+[l
+But if you had percussive election
+speeches or bongo arguments...
+Expect a lot of noise. Ahahaha![l
+[;
+
+#WRITE(RtPtr, $9CD428)
+// 0x8050368
+//[l
+//このまえ　いらっしゃった　お客さんが[l
+//教えてくれたんですけど、ちょっと[l
+//面白そうじゃないですか？[;
+[l
+At least that's what a customer[l
+once told me. Doesn't that sound[l
+fun?[l
+[;
+
+#WRITE(RtPtr, $9CD424)
+// 0x80503c8
+//[l
+//タイコの大きな音で　リズムをきざんで[l
+//はなれた人と　コミュニケーションを[l
+//とるらしいんですヨ。[;
+[l
+Like, bang out a message into one[l
+of those taiko drums, and you could[l
+communicate acres apart.[l
+[;
+
+#WRITE(RtPtr, $9CD420)
+// 0x8050428
+//[l
+//リズムパターンに　言葉や　意味を　対応させて、会話をするんだそうです。[l
+//[l
+//[;
+[l
+You can put words and meanings[l
+behind different rhythms like morse[l
+code and talk without speaking.[l
+[;
+
+#WRITE(RtPtr, $9CD41C)
+// 0x8050474
+//[l
+//それはそうと、リズムで[l
+//会話ができるって　知ってました？[l
+//[l
+//[;
+[l
+I heard you can hold a conversation[l
+with only rhythm.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD444)
+// 0x80504b0
+//[l
+//ご存知でしたら　つまらない話でしたネ。[l
+//すみません。ではまた。[l
+//[l
+//[;
+[l
+But you probably already knew that,[l
+right? Sorry if I bored you.[l
+See you around.[l
+[;
+
+#WRITE(RtPtr, $9CD440)
+// 0x80504f4
+//[l
+//メダルを　集めると　いろいろな[l
+//おまけが　遊べるようになるので[l
+//がんばって　集めてくださいネ。[;
+[l
+And those medals let you unlock[l
+some prizes. Sounds like it[l
+would be worth your while.[l
+[;
+
+#WRITE(RtPtr, $9CD43C)
+// 0x8050554
+//[l
+//で、「ハイレベル」をとると[l
+//メダルが　もらえるんです。[l
+//[l
+//[;
+[l
+And, if you get a Superb,[l
+you also get a medal.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD438)
+// 0x8050590
+//[l
+//ゲームの成績は「やりなおし」「平凡」「ハイレベル」の３つが、あるんですヨ。[l
+//[l
+//[;
+[l
+There are three ranks you can get:[l
+Try Again, OK, and Superb.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD434)
+// 0x80505e0
+//[l
+//それはそうと、ゲームで[l
+//「ハイレベル」っていう成績を[l
+//とったことありますか？[;
+[l
+By the way, have you ever gotten a[l
+Superb rank on a game?[l
+[l
+[;
+
+#WRITE(RtPtr, $10D04)
+// 0x805062c
+//[l
+//お、きたきた！[l
+//待ってたヨ■！！[l
+//[l
+//[;
+[l
+Oh! You're finally here![l
+I've been waiting for you![l
+[l
+[;
+
+#WRITE(RtPtr, $10D3C)
+// 0x8050650
+//[l
+//ゲーム　すすんでますか？[l
+//がんばって　くださいね■。[l
+//[l
+//[;
+[l
+Are you enjoying those Rhythm[l
+Games? Keep up the good work![l
+[l
+[;
+
+#WRITE(RtPtr, $10D44)
+// 0x8050688
+//[l
+//だいぶ　つかれたのでは　ないですか？[l
+//ときどき　休んだほうが　よいですよ。[l
+//[l
+//[;
+[l
+Are you getting tired? It's a good[l
+idea to take a break once in a while.[l
+[l
+[;
+
+#WRITE(RtPtr, $10D40)
+// 0x80506d8
+//[l
+//かなり　はまってますねぇ。[l
+//すこしは　休んでくださいね。[l
+//[l
+//[;
+[l
+You've been keeping busy, haven't you?[l
+Wouldn't you like to take a break?[l
+[l
+[;
+
+#WRITE(RtPtr, $10EE8)
+// 0x805071c
+//そうそう、[;
+So hey, I hear you got a Perfect rating in[;
+
+#WRITE(RtPtr, $10EF0)
+#WRITE(RtPtr, $10F5C)
+// 0x8050730
+//[style=4(normal)][linestyle=8]で[l
+//[;
+[style=normal][linestyle=8] ![l
+[;
+
+#WRITE(RtPtr, $10EF4)
+// 0x8050738
+//パーフェクト　だしたんだって！？[;
+[;
+
+#WRITE(RtPtr, $10F54)
+// 0x805075c
+//そういえば、[;
+Has [;
+
+#WRITE(RtPtr, $10F60)
+// 0x805076c
+//行きづまってませんか？[l
+//[l
+//[;
+been giving you some trouble?[l
+[l
+[;
+
+#WRITE(RtPtr, $10FBC)
+// 0x8050788
+//う■む…　[;
+Hm...[;
+
+#WRITE(RtPtr, $10FC4)
+// 0x8050794
+//[style=4(normal)][linestyle=8]に[l
+//[;
+[style=normal][linestyle=8]I don't know...[l
+[;
+
+#WRITE(RtPtr, $10FC8)
+// 0x805079c
+//てこずってるんですねぇ。[l
+//[l
+//[;
+Has it been giving you some trouble?[l
+[l
+[;
+
+#WRITE(RtPtr, $11024)
+// 0x80507b8
+//ウワサを　きいたんですけど、[l
+//[;
+It's just a rumor I heard, but...[;
+
+#WRITE(RtPtr, $1102C)
+// 0x80507d8
+//[style=4(normal)][linestyle=8]　ばかり[l
+//[;
+[l
+[style=normal][linestyle=8]Well...[;
+
+#WRITE(RtPtr, $11030)
+// 0x80507e8
+//してるみたいですね。[;
+[l
+So... [l
+has been keeping you busy, huh?[l
+Can't stop playing it?[l
+[;
+
+#WRITE(RtPtr, $11048)
+#WRITE(RtPtr, $C74FB0)
+#WRITE(RtPtr, $C74FE8)
+// 0x8050800
+//[l
+//[l
+//あ、　ちょっと　思い出しました！[l
+//[l
+//[;
+[l
+Hey, I just remembered something![l
+[l
+[l
+[;
+
+#WRITE(RtPtr, $11094)
+// 0x8050828
+//そうそう、[l
+//もうすぐ[;
+Say, I heard tell that there's a chance[l
+for a Perfect coming up in[;
+
+#WRITE(RtPtr, $1109C)
+// 0x805083c
+//[style=4(normal)][linestyle=8]で、[l
+//パーフェクトキャンペーンを[l
+//するそうですヨ。[;
+[style=normal][linestyle=8],[l
+looks like there's going[l
+to be a Perfect Campaign.[;
+
+#WRITE(RtPtr, $110F4)
+// 0x8050874
+//[l
+//これからも　がんばってね。[l
+//おうえん　してるからね■！[l
+//[l
+//[;
+[l
+Keep working hard out there.[l
+I'm rooting for you![l
+[l
+[;
+
+#WRITE(RtPtr, $11100)
+// 0x80508b0
+//う■ん、もし　よければ　なんだけどね、[l
+//[style=gold][linestyle=5]進めるようにしておく[style=4(normal)][linestyle=8]けど…？[l
+//[l
+//　　　　　　　　「おねがいします」[l
+//　　　　　　　　「けっこうです」[;
+Because I can make it so you can[l
+just [style=gold][linestyle=5]skip that game altogether.[style=normal][linestyle=8] What do you say?[l
+[l
+　　　　　　　　"Please!"[l
+　　　　　　　　"No, thanks."[;
+              
+#WRITE(RtPtr, $1116C)
+// 0x8050944
+//[l
+//[l
+//[size=large][linesize=large][style=gold][linestyle=5]まかせとき！[size=small][linesize=small][style=4(normal)][linestyle=8][;
+[l
+[l
+[size=large][linesize=large][style=gold][linestyle=5]Leave it to me![size=small][linesize=small][style=normal][linestyle=8][;
+
+#WRITE(RtPtr, $9CD370)
+// 0x804fa50
+//[l
+//それはそうと、リズム感って　人間にとって　どういうものなんでしょうねぇ。[l
+//[l
+//[;
+[l
+By the way, is a sense of rhythm any[l
+different for humans?[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD374)
+// 0x804fa10
+//[l
+//ま、私なんかは　あんまり[l
+//いしきすることも　ないんですがね。[l
+//[l
+//[;
+[l
+Well, not like my rhythm couldn't do with[l
+a bit of work, but...[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD378)
+// 0x804f9c0
+//[l
+//でも、リズム感が　よくなると　きっと　ちょっと　ハッピーに　なるんでしょうね。[;
+[l
+When your sense of rhythm[l
+improves... that's gotta be[l
+euphoric, huh?[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD37C)
+// 0x804f99c
+//[l
+//[l
+//私も　ゲーム　してみようかな…[l
+//[l
+//[;
+[l
+Maybe I should try some of those[l
+Rhythm Games myself...[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD384)
+// 0x804fbbc
+//[l
+//それはそうと、この世界でよく聞く[l
+//「ウラ」って　どういうものか[l
+//知ってますか？[;
+[l
+You've probably heard of something[l
+called an offbeat. Do you know what[l
+that is?[l
+[;
+
+#WRITE(RtPtr, $9CD388)
+// 0x804fb7c
+//[l
+//ま、私も　それほど　詳しくはないので　アレなんですけどネ。[l
+//[l
+//[;
+[l
+I'm no expert myself, but I think[l
+I've got the jist of it.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD38C)
+// 0x804fb40
+//[l
+//たとえば、音楽にあわせて[l
+//自然に手をたたくとしますね。[l
+//[l
+//[;
+[l
+So, suppose you're clapping to[l
+the beat of some music, right?[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD390)
+// 0x804fae8
+//[l
+//その　手びょうしと手びょうしの[l
+//ちょうど　まん中のタイミングが[l
+//「ウラ」なんだそうです。[;
+[l
+Well, the offbeat is supposed to be[l
+the exact point right inbetween each[l
+of your claps.[l
+[;
+
+#WRITE(RtPtr, $9CD394)
+// 0x804fa9c
+//[l
+//まぁ、そういうモン　らしいです。[l
+//テキトーで　ごめんなさいネ。[l
+//では　また。[;
+[l
+At least I think so. I'm not so great at[l
+explaining this stuff, but I hope it helps.[l
+See you around.[l
+[;
+
+#WRITE(RtPtr, $9CD3B4)
+// 0x804fe88
+//[l
+//それはそうと、おまけコーナーの　ドラムレッスンって　やったことあります？[l
+//[l
+//[;
+[l
+You ever check out the Drum[l
+Lessons in the Bonus Corner?[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD3B8)
+// 0x804fe38
+//[l
+//私は　週に１回だけ　レッスンを[l
+//うけてるんですが、なかなか[l
+//上達しませんねぇ。[;
+[l
+I've been taking lessons every week,[l
+but I never seem to get any better.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD3BC)
+// 0x804fddc
+//[l
+//先生が、こういうのは　すききらいが[l
+//あるから、ムリして　しないでネって[l
+//言ってましたけど、[;
+[l
+Teacher told me that I have a[l
+bit of a problem pacing myself, that[l
+I shouldn't push myself so much.[l
+[; 
+
+#WRITE(RtPtr, $9CD3C4)
+// 0x804fd3c
+//[l
+//ま、楽器は　すぐには　うまくならないでしょうし、じっくりと　つきあってみましょうかね…[;
+[l
+I guess no one can master the drums[l
+in a day, though. We should take[l
+our time with that stuff.[l
+[;
+
+#WRITE(RtPtr, $9CD3C0)
+// 0x804fd94
+//[l
+//レッスンを　やりだすと　これが[l
+//なかなか　やめられないんですよね■。[l
+//[l
+//[;
+[l
+You'll find it's hard to quit[l
+once you start a lesson.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD3CC)
+// 0x804ff94
+//[l
+//それはそうと、[l
+//なんだか　今　すごく　ねむいのです…[l
+//[l
+//[;
+[l
+Man, am I tired...[l
+[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD3D0)
+// 0x804ff68
+//[l
+//[l
+//きのう　おそくまで　遊んでたからなぁ…[l
+//[l
+//[;
+[l
+I was up last night playing until[l
+who-knows-when...[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD3D4)
+// 0x804ff24
+//[l
+//あ、いや、こっちの話です。[l
+//ひとりごとですので…　すみませんね。[l
+//[l
+//[;
+[l
+Oops! Sorry. I'm talking to myself again.[l
+Don't mind me.[l
+[l
+[;
+
+#WRITE(RtPtr, $9CD3D8)
+// 0x804fed4
+//[l
+//こんど　ドライブでも　行きませんか？[l
+//ま、よかったら　ですけどネ。[l
+//では　また。[;
+[l
+Maybe some other time I can tell[l
+you all about it... if that's fine with you.[l
+See you around.[l
+[;
+
+#WRITE(RtPtr, $9CD3E0)
+// 0x8050094
+//[l
+//それはそうと、[l
+//コーヒー　入りましたヨ。[l
+//[l
+//[;
+[l
+So, I made you some coffee.[l
+[l
+[l[;
+
+#WRITE(RtPtr, $9CD3E4)
+// 0x805004c
+//[l
+//え？　たのんでないって？　あぁ、これは　おとなりから　なんですが…[l
+//[l
+//[;
+[l
+Wait, you didn't order coffee?[l
+Oh, this is from the person[l
+sitting next to you. His treat.[l
+[;
+
+#WRITE(RtPtr, $9CD3E8)
+// 0x805000c
+//[l
+//ま、まぁ　無口な方ですが[l
+//なかよくしたいんじゃないですか？[l
+//[l
+//[;
+[l
+He's not much for words, but[l
+he's pretty friendly, and I guess[l
+generous too.[l
+[;
+
+#WRITE(RtPtr, $9CD3EC)
+// 0x804ffcc
+//[l
+//私は、コーヒーを　入れるだけしか[l
+//できませんが…　ははは…[l
+//[l
+//[;
+[l
+Me? I can make coffee, but...[l
+need to work on the rest. Heh...[l
+[l
+[;
+
+#WRITE(RtPtr, $1117C)
+// 0x8050964
+//そうですか。[l
+//じぶんの　チカラで[l
+//がんばるんですね。[l
+//エライ！！[;
+[l
+That's the spirit! Stay[l
+confident, and stick[l
+to it.[l
+[;
+
+#WRITE(RtPtr, $11188)
+// 0x80509a4
+//[l
+//次のゲーム　どんなのでしょうね。[l
+//うまくできると　いいね■。[l
+//ではまた。[;
+[l
+...And that's done. Hey, maybe the[l
+next couple of games will give you the[l
+edge you need to finish that last one![l
+[;
+
+#WRITE(RtPtr, $11198)
+// 0x80509ec
+//[l
+//[l
+//では　がんばってくださいね■。[l
+//[l
+//[;
+[l
+I'll be here, cheering you on from[l
+behind the counter![l
+[l
+[;
+
+#WRITE(RtPtr, $111B4)
+#WRITE(RtPtr, $8001DC)
+// 0x8050a10
+//[style=gold][linestyle=5]パーフェクト　キャンペーン[style=4(normal)][linestyle=8]　に　そなえて　れんしゅうですか？[l
+//[l
+//　　　　　　　　「そうなんです」[l
+//　　　　　　　　「ちがいますヨ」[;
+Are you just practicing so[l
+you can have a go [style=gold][linestyle=5]at[l
+[style=gold][linestyle=5]getting a Perfect?[style=normal][linestyle=8][l
+　　　　　　　　"That's right!"[l
+　　　　　　　　"I haven't."[;
+            
+#WRITE(RtPtr, $11210)
+// 0x8050a98
+//[l
+//がんばって　パーフェクト、[l
+//とってくださいネ！[l
+//[l
+//[;
+[l
+I think you've got a good[l
+chance of clearing it.[l
+I'll be rooting for you![l
+[;
+
+#WRITE(RtPtr, $1121C)
+// 0x8050acc
+//[l
+//とうとう、[l
+//パーフェクト　キャンペーンを[l
+//コンプリートしたんだって！？[;
+[l
+At long last...[l
+You have completed[l
+the Perfect Campaign![l
+[;
+#WRITE(RtPtr, $11238)
+#WRITE(RtPtr, $9962C)
+#WRITE(RtPtr, $59D978)
+#WRITE(RtPtr, $784334)
+// 0x8050b14
+//[size=large][linesize=large][style=gold][linestyle=5][l
+//[l
+//めちゃすごーい!![size=small][linesize=small][style=4(normal)][linestyle=8][;
+[size=large][linesize=large][style=gold][linestyle=5][l
+[l
+Now, that's perfect![size=small][linesize=small][style=normal][linestyle=8][l
+[l
+[;
 
 // Making this script was very painful, I hope you do enjoy Advance a lot though! - Shaffy
 
