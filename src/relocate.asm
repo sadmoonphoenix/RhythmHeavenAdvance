@@ -13,6 +13,7 @@
 .include "gfx/RhythmGames/Polyrhythm/polyrhythm_relocate.asm"
 .include "gfx/HealthSafety/healthsafety_relocate.asm"
 .include "gfx/MainMenu/mainmenu_relocate.asm"
+.include "gfx/Studio/studio_relocate.asm"
 .include "gfx/Options/options_relocate.asm"
 
 .include "code/DebugMenu/debugmenu_relocate.asm"
