@@ -47,3 +47,7 @@ XD625B6_assembly3:
 .align 4
 BE0480_karateman_tiles:
 .import "gfx/RhythmGames/KarateMan/BE0480_karateman_tiles.cdat"
+
+.align 4
+BE9F5C_karateman_intro:
+.import "gfx/RhythmGames/KarateMan/BE9F5C_karateman_intro.cdat"

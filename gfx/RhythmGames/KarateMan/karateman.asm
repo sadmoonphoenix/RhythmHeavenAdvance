@@ -35,12 +35,29 @@
 .org 0x088ACF1C
 .dw XD625B6_assembly3
 
+; Prologue
+
+.org 0x088AD958
+.import "gfx\RhythmGames\KarateMan\Prologue/8AD958_assembly0.bin"
+;--
+.org 0x088AD960
+.import "gfx\RhythmGames\KarateMan\Prologue/8AD960_assembly1.bin"
+;--
+.org 0x088AD974
+.import "gfx\RhythmGames\KarateMan\Prologue/8AD974_assembly2.bin"
+;--
+.org 0x088AD99A
+.import "gfx\RhythmGames\KarateMan\Prologue/8AD99A_assembly3.bin"
+;--
+.org 0x088AD9D2
+.import "gfx\RhythmGames\KarateMan\Prologue/8AD9D2_assembly4.bin"
+;--
+
+
 ;--
 
 .org 0x08BE0480
 .dw BE0480_karateman_tiles | 0x80000000
 
-; .org 0x088ad024
-; .area 20h
-; .import "gfx/RhythmGames/KarateMan/BE0480_karateman_tiles.agp"
-; .endarea
+.org 0x08BE9F5C
+.dw BE9F5C_karateman_intro | 0x80000000
