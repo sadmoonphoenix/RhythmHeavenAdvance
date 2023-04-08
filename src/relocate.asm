@@ -10,6 +10,7 @@
 .include "gfx/RhythmGames/KarateMan/karateman_relocate.asm"
 .include "gfx/RhythmGames/TheClappyTrio/clappy_relocate.asm"
 .include "gfx/RhythmGames/TheSnappyTrio/snappy_relocate.asm"
+.include "gfx/RhythmGames/Polyrhythm/polyrhythm_relocate.asm"
 .include "gfx/HealthSafety/healthsafety_relocate.asm"
 .include "gfx/MainMenu/mainmenu_relocate.asm"
 .include "gfx/Options/options_relocate.asm"
