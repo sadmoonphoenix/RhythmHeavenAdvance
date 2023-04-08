@@ -38,11 +38,13 @@ tools\DSDecmp.exe -c lz10 gfx/HealthSafety/D1AD4C_healthsafety_tile.bin gfx/Heal
 tools\DSDecmp.exe -c lz10 gfx/MainMenu/CCB298_mainmenu_tile.bin gfx/MainMenu/CCB298_mainmenu_tile
 tools\DSDecmp.exe -c lz10 gfx/Options/C76CA4_options_tile.bin gfx/Options/C76CA4_options_tile
 tools\DSDecmp.exe -c lz10 gfx/Studio/CD5D64_studio_bgtile.bin gfx/Studio/CD5D64_studio_bgtile
+tools\DSDecmp.exe -c lz10 gfx/RhythmArchives/CC77A4_archives_bgtile.bin gfx/RhythmArchives/CC77A4_archives_bgtile
 
 echo -- Compile Tile Maps ---
 
 tools\rhcomp.exe gfx/HealthSafety/D1AD4C_healthsafety_tile_map.bin
 tools\rhcomp.exe gfx/Studio/CD5D64_studio_bgmap.bin
+tools\rhcomp.exe gfx/RhythmArchives/CC77A4_archives_bgmap.bin
 
 echo -- Compile Audio --
 

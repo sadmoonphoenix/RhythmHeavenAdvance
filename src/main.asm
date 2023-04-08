@@ -43,6 +43,7 @@ _autoplay equ 0 ; EXPERIMENTAL (VERY GLITCHY)
 .include "gfx/RhythmGames/Polyrhythm/polyrhythm.asm"
 .include "gfx/HealthSafety/healthsafety.asm"
 .include "gfx/Studio/studio.asm"
+.include "gfx/RhythmArchives/archives.asm"
 .include "gfx/MainMenu/mainmenu.asm"
 .include "gfx/Options/options.asm"
 
