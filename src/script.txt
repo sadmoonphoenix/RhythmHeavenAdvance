@@ -9449,7 +9449,7 @@ Karate Man[;
 #WRITE(RtPtr, $9D81B4)
 // 0x8059220
 //サイレント[;
-Silence[;
+Shuffle Play[;
 
 // Studio Menu
 
