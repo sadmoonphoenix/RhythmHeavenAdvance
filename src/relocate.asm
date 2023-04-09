@@ -4,7 +4,7 @@
 
 .include "gfx/Font/font_relocate.asm"
 .include "sfx/DrumLessons/drumlessons_relocate.asm"
-.include "sfx/TempoUp/RhythmTweezers/tweezers_relocate.asm"
+; .include "sfx/TempoUp/RhythmTweezers/tweezers_relocate.asm"
 ; .include "sfx/SpaceDance/space_relocate.asm"
 .include "gfx/RhythmGames/RatRace/ratrace_relocate.asm"
 .include "gfx/RhythmGames/NightWalk/nightwalk_relocate.asm"

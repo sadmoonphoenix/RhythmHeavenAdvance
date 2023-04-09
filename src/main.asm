@@ -34,7 +34,7 @@ _autoplay equ 0 ; EXPERIMENTAL (VERY GLITCHY)
 
 .include "gfx/Font/font.asm"
 .include "sfx/DrumLessons/drumlessons.asm"
-.include "sfx/TempoUp/RhythmTweezers/tweezers.asm"
+; .include "sfx/TempoUp/RhythmTweezers/tweezers.asm"
 ; .include "sfx/SpaceDance/space.asm"
 .include "gfx/RhythmGames/RatRace/ratrace.asm"
 .include "gfx/RhythmGames/NightWalk/nightwalk.asm"
