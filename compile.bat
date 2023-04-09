@@ -41,6 +41,8 @@ tools\DSDecmp.exe -c lz10 gfx/MainMenu/CCB298_mainmenu_tile.bin gfx/MainMenu/CCB
 tools\DSDecmp.exe -c lz10 gfx/Options/C76CA4_options_tile.bin gfx/Options/C76CA4_options_tile
 tools\DSDecmp.exe -c lz10 gfx/Studio/CD5D64_studio_bgtile.bin gfx/Studio/CD5D64_studio_bgtile
 tools\DSDecmp.exe -c lz10 gfx/RhythmArchives/CC77A4_archives_bgtile.bin gfx/RhythmArchives/CC77A4_archives_bgtile
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/ResultScreen/CD4A50_result_tile.bin gfx/RhythmGames/ResultScreen/CD4A50_result_tile
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/PowerCalligraphy/BF8A30_power_intro.bin gfx/RhythmGames/PowerCalligraphy/BF8A30_power_intro
 
 echo -- Compile Tile Maps ---
 

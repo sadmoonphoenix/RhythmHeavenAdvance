@@ -43,6 +43,8 @@ _autoplay equ 0 ; EXPERIMENTAL (VERY GLITCHY)
 .include "gfx/RhythmGames/TheSnappyTrio/snappy.asm"
 .include "gfx/RhythmGames/Polyrhythm/polyrhythm.asm"
 .include "gfx/RhythmGames/BouncyRoad/bouncy.asm"
+.include "gfx/RhythmGames/ResultScreen/result.asm"
+.include "gfx/RhythmGames/PowerCalligraphy/power.asm"
 .include "gfx/HealthSafety/healthsafety.asm"
 .include "gfx/Studio/studio.asm"
 .include "gfx/RhythmArchives/archives.asm"

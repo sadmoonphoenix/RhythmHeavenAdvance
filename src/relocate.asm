@@ -13,6 +13,8 @@
 .include "gfx/RhythmGames/TheSnappyTrio/snappy_relocate.asm"
 .include "gfx/RhythmGames/Polyrhythm/polyrhythm_relocate.asm"
 .include "gfx/RhythmGames/BouncyRoad/bouncy_relocate.asm"
+.include "gfx/RhythmGames/ResultScreen/result_relocate.asm"
+.include "gfx/RhythmGames/PowerCalligraphy/power_relocate.asm"
 .include "gfx/HealthSafety/healthsafety_relocate.asm"
 .include "gfx/MainMenu/mainmenu_relocate.asm"
 .include "gfx/RhythmArchives/archives_relocate.asm"
