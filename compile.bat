@@ -43,6 +43,10 @@ tools\DSDecmp.exe -c lz10 gfx/Studio/CD5D64_studio_bgtile.bin gfx/Studio/CD5D64_
 tools\DSDecmp.exe -c lz10 gfx/RhythmArchives/CC77A4_archives_bgtile.bin gfx/RhythmArchives/CC77A4_archives_bgtile
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/ResultScreen/CD4A50_result_tile.bin gfx/RhythmGames/ResultScreen/CD4A50_result_tile
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/PowerCalligraphy/BF8A30_power_intro.bin gfx/RhythmGames/PowerCalligraphy/BF8A30_power_intro
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TapTrial/C26340_tap_intro.bin gfx/RhythmGames/TapTrial/C26340_tap_intro
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/MarchingOrders/BFA204_marching_intro.bin gfx/RhythmGames/MarchingOrders/BFA204_marching_intro
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/MarchingOrders2/BFC8F4_marching2_intro.bin gfx/RhythmGames/MarchingOrders2/BFC8F4_marching2_intro
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/SneakySpirits/BE0FF8_sneaky_intro.bin gfx/RhythmGames/SneakySpirits/BE0FF8_sneaky_intro
 
 echo -- Compile Tile Maps ---
 

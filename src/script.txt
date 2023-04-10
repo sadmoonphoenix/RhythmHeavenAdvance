@@ -5419,7 +5419,7 @@ I spent everything I had on this outfit![;
 #WRITE(RtPtr, $9CE848)
 // 0x8052b70
 //ボンダンス[;
-The Bon Dance[;
+Bon Dance[;
 
 #WRITE(RtPtr, $9CE84C)
 // 0x8052b34
