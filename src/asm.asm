@@ -27,7 +27,7 @@ bl FixResultsCaps
 .byte 25
 
 .org 0x0801d174
-bl EndlessGamesPlural_Hook
+; bl EndlessGamesPlural_Hook
 
 .org 0x0801271a
 bl OptionsDebugSequence_Hook

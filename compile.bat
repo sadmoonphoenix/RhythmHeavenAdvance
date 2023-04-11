@@ -43,6 +43,8 @@ tools\DSDecmp.exe -c lz10 gfx/Studio/CD5D64_studio_bgtile.bin gfx/Studio/CD5D64_
 tools\DSDecmp.exe -c lz10 gfx/RhythmArchives/CC77A4_archives_bgtile.bin gfx/RhythmArchives/CC77A4_archives_bgtile
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/ResultScreen/CD4A50_result_tile.bin gfx/RhythmGames/ResultScreen/CD4A50_result_tile
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/PowerCalligraphy/BF8A30_power_intro.bin gfx/RhythmGames/PowerCalligraphy/BF8A30_power_intro
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/Polyrhythm/c00010_built1_intro2.bin gfx/RhythmGames/Polyrhythm/c00010_built1_intro2
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/Polyrhythm/c0212c_built1_intro1.bin gfx/RhythmGames/Polyrhythm/c0212c_built1_intro1
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TapTrial/C26340_tap_intro.bin gfx/RhythmGames/TapTrial/C26340_tap_intro
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/MarchingOrders/BFA204_marching_intro.bin gfx/RhythmGames/MarchingOrders/BFA204_marching_intro
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/MarchingOrders2/BFC8F4_marching2_intro.bin gfx/RhythmGames/MarchingOrders2/BFC8F4_marching2_intro
@@ -53,12 +55,57 @@ echo -- Compile Tile Maps ---
 tools\rhcomp.exe gfx/HealthSafety/D1AD4C_healthsafety_tile_map.bin
 tools\rhcomp.exe gfx/Studio/CD5D64_studio_bgmap.bin
 tools\rhcomp.exe gfx/RhythmArchives/CC77A4_archives_bgmap.bin
+tools\rhcomp.exe gfx/RhythmGames/Polyrhythm/C02628_built1_intro1map.bin
 
 echo -- Compile Audio --
 
-ffmpeg -y -i "sfx/DrumLessons/one.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/DrumLessons/one.pcm" -loglevel error
-ffmpeg -y -i "sfx/DrumLessons/two.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/DrumLessons/two.pcm" -loglevel error
-ffmpeg -y -i "sfx/DrumLessons/three.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/DrumLessons/three.pcm" -loglevel error
+REM ffmpeg -y -i "sfx/DrumLessons/one.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/DrumLessons/one.pcm" -loglevel error
+REM ffmpeg -y -i "sfx/DrumLessons/two.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/DrumLessons/two.pcm" -loglevel error
+REM ffmpeg -y -i "sfx/DrumLessons/three.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/DrumLessons/three.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/6FCCE8_remix5_music_0.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/6FCCE8_remix5_music_0.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/703D60_remix5_music_1.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/703D60_remix5_music_1.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/70A898_remix5_music_2.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/70A898_remix5_music_2.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/716DA4_remix5_music_3.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/716DA4_remix5_music_3.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/7251F8_remix5_music_4.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/7251F8_remix5_music_4.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/730FCC_remix5_music_5.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/730FCC_remix5_music_5.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/737894_remix5_music_6.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/737894_remix5_music_6.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/73E77C_remix5_music_7.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/73E77C_remix5_music_7.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/744E60_remix5_music_8.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/744E60_remix5_music_8.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/74A9A4_remix5_music_9.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/74A9A4_remix5_music_9.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/751808_remix5_music_10.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/751808_remix5_music_10.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/75870C_remix5_music_11.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/75870C_remix5_music_11.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/75E670_remix5_music_12.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/75E670_remix5_music_12.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/765294_remix5_music_13.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/765294_remix5_music_13.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/76BE38_remix5_music_14.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/76BE38_remix5_music_14.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/772F3C_remix5_music_15.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/772F3C_remix5_music_15.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/774F60_remix5_music_16.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/774F60_remix5_music_16.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/7770BC_remix5_music_17.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/7770BC_remix5_music_17.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/778BB4_remix5_music_18.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/778BB4_remix5_music_18.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/77FE60_remix5_music_19.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/77FE60_remix5_music_19.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/784644_remix5_music_20.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/784644_remix5_music_20.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/78C590_remix5_music_21.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/78C590_remix5_music_21.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix5/7912A0_remix5_music_22.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix5/7912A0_remix5_music_22.pcm" -loglevel error
+
+REM ffmpeg.exe -y -i "sfx/Remix3/64b0b8_remix3_0.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/64b0b8_remix3_0.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/654188_remix3_1.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/654188_remix3_1.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/65783c_remix3_2.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/65783c_remix3_2.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/65c083_remix3_3.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/65c083_remix3_3.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/661bb7_remix3_4.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/661bb7_remix3_4.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/66699c_remix3_5.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/66699c_remix3_5.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/66fc92_remix3_6.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/66fc92_remix3_6.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/67b7b9_remix3_7.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/67b7b9_remix3_7.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/67ce68_remix3_8.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/67ce68_remix3_8.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/685fb1_remix3_9.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/685fb1_remix3_9.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/68b861_remix3_10.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/68b861_remix3_10.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/690e26_remix3_11.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/690e26_remix3_11.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/692868_remix3_12.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/692868_remix3_12.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/69858b_remix3_13.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/69858b_remix3_13.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/69ad4b_remix3_14.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/69ad4b_remix3_14.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/6a10ec_remix3_15.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/6a10ec_remix3_15.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/6a90fe_remix3_16.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/6a90fe_remix3_16.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/6b0af1_remix3_17.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/6b0af1_remix3_17.pcm" -loglevel error
+REM ffmpeg.exe -y -i "sfx/Remix3/6c3a59_remix3_18.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/Remix3/6c3a59_remix3_18.pcm" -loglevel error
+
 REM Rhythm Tweezers (Tempo Up)
 REM ffmpeg -y -i "sfx/SpaceDance/voices/and1.ogg" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/SpaceDance/voices/and1.pcm" -loglevel error
 REM ffmpeg -y -i "sfx/SpaceDance/voices/and2.ogg" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/SpaceDance/voices/and2.pcm" -loglevel error
