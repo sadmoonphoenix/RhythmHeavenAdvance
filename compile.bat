@@ -49,6 +49,8 @@ tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TapTrial/C26340_tap_intro.bin gfx/Rhyt
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/MarchingOrders/BFA204_marching_intro.bin gfx/RhythmGames/MarchingOrders/BFA204_marching_intro
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/MarchingOrders2/BFC8F4_marching2_intro.bin gfx/RhythmGames/MarchingOrders2/BFC8F4_marching2_intro
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/SneakySpirits/BE0FF8_sneaky_intro.bin gfx/RhythmGames/SneakySpirits/BE0FF8_sneaky_intro
+tools\DSDecmp.exe -c lz10 gfx/RhythmToys/RapMachine/CDBACC_rapmachine_bg.bin gfx/RhythmToys/RapMachine/CDBACC_rapmachine_bg
+tools\DSDecmp.exe -c lz10 gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_bg.bin gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_bg
 
 echo -- Compile Tile Maps ---
 
@@ -56,6 +58,10 @@ tools\rhcomp.exe gfx/HealthSafety/D1AD4C_healthsafety_tile_map.bin
 tools\rhcomp.exe gfx/Studio/CD5D64_studio_bgmap.bin
 tools\rhcomp.exe gfx/RhythmArchives/CC77A4_archives_bgmap.bin
 tools\rhcomp.exe gfx/RhythmGames/Polyrhythm/C02628_built1_intro1map.bin
+REM I honestly have no idea how this one works, it's not a tile map...
+tools\rhcomp.exe gfx/Common/CCCA5C_common_tiles.bin
+tools\rhcomp.exe gfx/RhythmToys/RapMachine/CDBACC_rapmachine_map.bin
+tools\rhcomp.exe gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_map.bin
 
 echo -- Compile Audio --
 

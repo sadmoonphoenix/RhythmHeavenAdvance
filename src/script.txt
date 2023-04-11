@@ -6922,7 +6922,7 @@ Horse Machine[;
 //レッスン４　「シュウホ」[;
 Ｌｅｓｓｏｎ　４：　Ｇａｌｌｏｐｉｎｇ[;
 
-// Love Confessor
+// Confession Machine
 
 #WRITE(RtPtr, $9DD4C8)
 // 0x80594dc

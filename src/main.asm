@@ -33,11 +33,6 @@ _autoplay equ 0 ; EXPERIMENTAL (VERY GLITCHY)
 .include "src/relocate.asm"
 
 .include "gfx/Font/font.asm"
-.include "sfx/DrumLessons/drumlessons.asm"
-; .include "sfx/Remix3/remix3.asm"
-; .include "sfx/Remix5/remix5.asm"
-; .include "sfx/TempoUp/RhythmTweezers/tweezers.asm"
-; .include "sfx/SpaceDance/space.asm"
 .include "gfx/RhythmGames/RatRace/ratrace.asm"
 .include "gfx/RhythmGames/NightWalk/nightwalk.asm"
 .include "gfx/RhythmGames/KarateMan/karateman.asm"
@@ -54,8 +49,16 @@ _autoplay equ 0 ; EXPERIMENTAL (VERY GLITCHY)
 .include "gfx/RhythmGames/SneakySpirits/sneaky.asm"
 .include "gfx/Studio/studio.asm"
 .include "gfx/MainMenu/mainmenu.asm"
+.include "gfx/RhythmToys/rhythmtoys.asm"
 .include "gfx/RhythmArchives/archives.asm"
 .include "gfx/Options/options.asm"
+.include "gfx/Common/common.asm"
+
+.include "sfx/DrumLessons/drumlessons.asm"
+; .include "sfx/Remix3/remix3.asm"
+; .include "sfx/Remix5/remix5.asm"
+; .include "sfx/TempoUp/RhythmTweezers/tweezers.asm"
+; .include "sfx/SpaceDance/space.asm"
 
 .include "code/DebugMenu/debugmenu.asm"
 
