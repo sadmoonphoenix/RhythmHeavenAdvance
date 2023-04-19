@@ -1,13 +1,3 @@
-; tanooki_monkey_entrypoint:
-; .import "src/Misc/DebugMenu/tanooki_monkey_entrypoint.bin"
-
-; .align 8
-; tanooki_monkey_text:
-; .import "src/Misc/DebugMenu/tanooki_monkey_text.bin"
-
-; _9DDBE8_dmenu_entries:
-; .import "src/Misc/DebugMenu/9DDBE8_dmenu_entries.bin"
-
 ; --- START TEXT ---
 ConcertName:
 .sjis "Ｃｏｎｃｅｒｔ"

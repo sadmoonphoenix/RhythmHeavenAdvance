@@ -52,6 +52,7 @@ tools\DSDecmp.exe -c lz10 gfx/Options/C76CA4_options_tile.bin gfx/Options/C76CA4
 tools\DSDecmp.exe -c lz10 gfx/RhythmArchives/CC77A4_archives_bgtile.bin gfx/RhythmArchives/CC77A4_archives_bgtile
 tools\DSDecmp.exe -c lz10 gfx/RhythmToys/RapMachine/CDBACC_rapmachine_bg.bin gfx/RhythmToys/RapMachine/CDBACC_rapmachine_bg
 tools\DSDecmp.exe -c lz10 gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_bg.bin gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_bg
+tools\DSDecmp.exe -c lz10 gfx/Perfect/CCC138_perfect_bg.bin gfx/Perfect/CCC138_perfect_bg
 
 echo -- Compile Tile Maps ---
 
@@ -63,6 +64,7 @@ REM I honestly have no idea how this one works, it's not a tile map...
 tools\rhcomp.exe gfx/Common/CCCA5C_common_tiles.bin
 tools\rhcomp.exe gfx/RhythmToys/RapMachine/CDBACC_rapmachine_map.bin
 tools\rhcomp.exe gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_map.bin
+tools\rhcomp.exe gfx/Perfect/CCC138_perfect_map.bin
 
 echo -- Compile Audio --
 
