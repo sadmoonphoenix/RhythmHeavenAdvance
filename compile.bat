@@ -36,21 +36,23 @@ tools\DSDecmp.exe -c lz10 gfx/RhythmGames/KarateMan/BE9F5C_karateman_intro.bin g
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles.bin gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles.bin gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/BouncyRoad/BEE430_bouncy_intro.bin gfx/RhythmGames/BouncyRoad/BEE430_bouncy_intro
-tools\DSDecmp.exe -c lz10 gfx/HealthSafety/D1AD4C_healthsafety_tile.bin gfx/HealthSafety/D1AD4C_healthsafety_tile
-tools\DSDecmp.exe -c lz10 gfx/MainMenu/CCB298_mainmenu_tile.bin gfx/MainMenu/CCB298_mainmenu_tile
-tools\DSDecmp.exe -c lz10 gfx/Options/C76CA4_options_tile.bin gfx/Options/C76CA4_options_tile
-tools\DSDecmp.exe -c lz10 gfx/Studio/CD5D64_studio_bgtile.bin gfx/Studio/CD5D64_studio_bgtile
-tools\DSDecmp.exe -c lz10 gfx/RhythmArchives/CC77A4_archives_bgtile.bin gfx/RhythmArchives/CC77A4_archives_bgtile
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/ResultScreen/CD4A50_result_tile.bin gfx/RhythmGames/ResultScreen/CD4A50_result_tile
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/PowerCalligraphy/BF8A30_power_intro.bin gfx/RhythmGames/PowerCalligraphy/BF8A30_power_intro
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/Polyrhythm/c00010_built1_intro2.bin gfx/RhythmGames/Polyrhythm/c00010_built1_intro2
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/Polyrhythm/c0212c_built1_intro1.bin gfx/RhythmGames/Polyrhythm/c0212c_built1_intro1
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TapTrial/C26340_tap_intro.bin gfx/RhythmGames/TapTrial/C26340_tap_intro
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/MarchingOrders/BFA204_marching_intro.bin gfx/RhythmGames/MarchingOrders/BFA204_marching_intro
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/MarchingOrders2/BFC8F4_marching2_intro.bin gfx/RhythmGames/MarchingOrders2/BFC8F4_marching2_intro
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/SneakySpirits/BE0FF8_sneaky_intro.bin gfx/RhythmGames/SneakySpirits/BE0FF8_sneaky_intro
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/MarchingOrders2/BFC8F4_marching2_intro.bin gfx/RhythmGames/MarchingOrders2/BFC8F4_marching2_intro
+tools\DSDecmp.exe -c lz10 gfx/GameSelect/CC9854_gameselect_bg.bin gfx/GameSelect/CC9854_gameselect_bg
+tools\DSDecmp.exe -c lz10 gfx/HealthSafety/D1AD4C_healthsafety_tile.bin gfx/HealthSafety/D1AD4C_healthsafety_tile
+tools\DSDecmp.exe -c lz10 gfx/MainMenu/CCB298_mainmenu_tile.bin gfx/MainMenu/CCB298_mainmenu_tile
+tools\DSDecmp.exe -c lz10 gfx/Studio/CD5D64_studio_bgtile.bin gfx/Studio/CD5D64_studio_bgtile
+tools\DSDecmp.exe -c lz10 gfx/Options/C76CA4_options_tile.bin gfx/Options/C76CA4_options_tile
+tools\DSDecmp.exe -c lz10 gfx/RhythmArchives/CC77A4_archives_bgtile.bin gfx/RhythmArchives/CC77A4_archives_bgtile
 tools\DSDecmp.exe -c lz10 gfx/RhythmToys/RapMachine/CDBACC_rapmachine_bg.bin gfx/RhythmToys/RapMachine/CDBACC_rapmachine_bg
 tools\DSDecmp.exe -c lz10 gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_bg.bin gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_bg
+tools\DSDecmp.exe -c lz10 gfx/GameSelect/ConfessionMachine/CC9854_gameselect_bg.bin gfx/GameSelect/ConfessionMachine/CC9854_gameselect_bg
 
 echo -- Compile Tile Maps ---
 

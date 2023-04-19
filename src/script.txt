@@ -10811,6 +10811,224 @@ Now, that's perfect![size=small][linesize=small][style=normal][linestyle=8][l
 [l
 [;
 
+// R-IQ (Result)
+
+#WRITE(RtPtr, $19970)
+// 0x8054ec4
+//:1＊＊＊＊:0　　さいてん　　:1＊＊＊＊[;
+:1＊＊＊＊:0　　Ｇｒａｄｅ　　:1＊＊＊＊[;
+
+#WRITE(RtPtr, $9D79A0)
+// 0x8054c30
+//なっとくの　せいかくさ[;
+// --- Literal
+//[;
+// --- Edited
+[;
+
+#WRITE(RtPtr, $9D799C)
+// 0x8054c48
+//リズムかん　バッチシさ[;
+Ｒｈｙｔｈｍ　Ｓｅｎｓｅ[;
+
+#WRITE(RtPtr, $9D7998)
+// 0x8054c60
+//プロから　みた　ピッタシさ[;
+// --- Literal
+//[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D79B0)
+// 0x8054c7c
+//あたまの　かいてん　スピード[;
+Reflexes[;
+
+#WRITE(RtPtr, $9D79AC)
+// 0x8054c9c
+//てきおう　のうりょく[;
+// --- Literal
+//Adaptation Ability[;
+// --- Edited
+Ａｄａｐｔａｂｉｌｉｔｙ[;
+
+#WRITE(RtPtr, $9D79A8)
+// 0x8054cb4
+//テクニック　レベル[;
+Ｔｅｃｈｎｉｑｕｅ　Ｌｅｖｅｌ[;
+
+#WRITE(RtPtr, $9D79C0)
+// 0x8054cc8
+//てがたい　かんじ[;
+Ｓｔｅａｄｉｎｅｓｓ[;
+
+#WRITE(RtPtr, $9D79BC)
+// 0x8054cdc
+//ここ　イッパツ[;
+// --- Literal
+//[;
+// --- Edited
+[;
+
+#WRITE(RtPtr, $9D79B8)
+// 0x8054cec
+//せきにんかん[;
+Ｒｅｓｐｏｎｓｉｂｉｌｉｔｙ[;
+
+#WRITE(RtPtr, $9D79D0)
+// 0x8054cfc
+//ほどほどの　せいかくさ[;
+// --- Literal
+//[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D79CC)
+// 0x8054d14
+//いっぱんてき　バッチシど[;
+// --- Literal
+//[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D79C8)
+// 0x8054d30
+//シロートめの　ピッタシさ[;
+// --- Literal
+//[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D79E0)
+// 0x8054d4c
+//おちつき[;
+// --- Literal
+//Calmness/composure[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D79DC)
+// 0x8054d58
+//ごうりてき　さいのう[;
+// --- Literal
+//Reasoning Ability[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D79D8)
+// 0x8054d70
+//せつやく　のうりょく[;
+// --- Literal
+//Economising Ability[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D79F0)
+// 0x8054d88
+//いっかんせい　みたいなもの[;
+// --- Literal
+//[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D79EC)
+// 0x8054da4
+//リズムの　しん[;
+// --- Literal
+//[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D79E8)
+// 0x8054db4
+//あんていの　ほど[;
+// --- Literal
+//[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D7A00)
+// 0x8054dc8
+//まえむきな　しせい[;
+// --- Literal
+//[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D79FC)
+// 0x8054ddc
+//どうたい　しりょく[;
+// --- Literal
+//[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D79F8)
+// 0x8054df0
+//やるき[;
+// --- Literal
+//[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D7A10)
+// 0x8054df8
+//ちゅういぶかさ[;
+// --- Literal
+//[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D7A0C)
+// 0x8054e08
+//じゅうなんせい[;
+// --- Literal
+//[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D7A08)
+// 0x8054e18
+//りんきおうへん[;
+// --- Literal
+//[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D7A30)
+// 0x8054e28
+//にんげんせい[;
+// --- Literal
+//[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D7A2C)
+// 0x8054e38
+//そだちの　よさ[;
+// --- Literal
+//[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D7A28)
+// 0x8054e48
+//けつえきがた（すいそく）[;
+// --- Literal
+//[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D7A24)
+// 0x8054e64
+//きのうの　やしょく[;
+// --- Literal
+//Tonight's dinner.[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D7A20)
+// 0x8054e78
+//あしたの　てんき[;
+// --- Literal
+//Tomorrow's weather.[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D7A1C)
+// 0x8054e8c
+//ことしの　きんせん　うん[;
+// --- Literal
+//This year's money fortune.[;
+// --- Edited
+[;
+#WRITE(RtPtr, $9D7A18)
+// 0x8054ea8
+//らいねんの　れんあい　うん[;
+// --- Literal
+//Next year's love fortune.[;
+// --- Edited
+[;
+
 // Making this script was very painful, I hope you do enjoy Advance a lot though! - Shaffy
 
 //End of Script file.

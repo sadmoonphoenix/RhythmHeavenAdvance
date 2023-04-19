@@ -21,6 +21,7 @@
 .include "gfx/MainMenu/mainmenu_relocate.asm"
 .include "gfx/RhythmToys/rhythmtoys_relocate.asm"
 .include "gfx/RhythmArchives/archives_relocate.asm"
+.include "gfx/GameSelect/gameselect_relocate.asm"
 .include "gfx/Options/options_relocate.asm"
 .include "gfx/Common/common_relocate.asm"
 
