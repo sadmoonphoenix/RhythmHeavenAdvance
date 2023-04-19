@@ -29,4 +29,4 @@
 ; .include "sfx/TempoUp/RhythmTweezers/tweezers_relocate.asm"
 ; .include "sfx/SpaceDance/space_relocate.asm"
 
-.include "code/DebugMenu/debugmenu_relocate.asm"
+.include "src/DebugMenu/debugmenu_relocate.asm"

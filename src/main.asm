@@ -61,7 +61,7 @@ _autoplay equ 0 ; EXPERIMENTAL (VERY GLITCHY)
 ; .include "sfx/TempoUp/RhythmTweezers/tweezers.asm"
 ; .include "sfx/SpaceDance/space.asm"
 
-.include "code/DebugMenu/debugmenu.asm"
+.include "src/DebugMenu/debugmenu.asm"
 
 .include "src/asm_relocate.asm"
 .include "src/asm.asm"
