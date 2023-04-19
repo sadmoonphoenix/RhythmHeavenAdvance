@@ -993,7 +993,7 @@ DebugMenuEntries:
 
 ; Entrypoint Script
 TanookiMonkeyEntrypoint:
-.import "code/DebugMenu/entrypoint.bin"
+.import "src/DebugMenu/entrypoint.bin"
 .dw TanookiMonkeyBeatScript | 0x8000000
 TanookiMonkeyScript:
 ; Load Function
@@ -1024,7 +1024,7 @@ TanookiMonkeyBeatScript:
 
 ; Entrypoint Script
 SamuraiDrum1Entrypoint:
-.import "code/DebugMenu/entrypoint.bin"
+.import "src/DebugMenu/entrypoint.bin"
 .dw 0x089d2fd8
 SamuraiDrum1Script:
 ; Load Function
@@ -1041,7 +1041,7 @@ SamuraiDrum1Script:
 
 ; Entrypoint Script
 SamuraiDrum2Entrypoint:
-.import "code/DebugMenu/entrypoint.bin"
+.import "src/DebugMenu/entrypoint.bin"
 .dw 0x089D3384
 SamuraiDrum2Script:
 ; Load Function
@@ -1058,7 +1058,7 @@ SamuraiDrum2Script:
 
 ; Entrypoint Script
 SamuraiDrum3Entrypoint:
-.import "code/DebugMenu/entrypoint.bin"
+.import "src/DebugMenu/entrypoint.bin"
 .dw 0x089D3F34
 SamuraiDrum3Script:
 ; Load Function
@@ -1075,7 +1075,7 @@ SamuraiDrum3Script:
 
 ; Entrypoint Script
 SpaceballTest1Entrypoint:
-.import "code/DebugMenu/entrypoint.bin"
+.import "src/DebugMenu/entrypoint.bin"
 .dw 0x089D160C
 SpaceballTest1Script:
 ; Load Function
@@ -1092,7 +1092,7 @@ SpaceballTest1Script:
 
 ; Entrypoint Script
 SpaceballTest2Entrypoint:
-.import "code/DebugMenu/entrypoint.bin"
+.import "src/DebugMenu/entrypoint.bin"
 .dw 0x089d1700
 SpaceballTest2Script:
 ; Load Function
@@ -1109,7 +1109,7 @@ SpaceballTest2Script:
 
 ; Entrypoint Script
 BouncyRoadTest1Entrypoint:
-.import "code/DebugMenu/entrypoint.bin"
+.import "src/DebugMenu/entrypoint.bin"
 .dw 0x089D0AFC
 BouncyRoadTest1Script:
 ; Load Function
@@ -1126,7 +1126,7 @@ BouncyRoadTest1Script:
 
 ; Entrypoint Script
 BouncyRoadTest2Entrypoint:
-.import "code/DebugMenu/entrypoint.bin"
+.import "src/DebugMenu/entrypoint.bin"
 .dw 0x089D0BE4
 BouncyRoadTest2Script:
 ; Load Function
@@ -1143,7 +1143,7 @@ BouncyRoadTest2Script:
 
 ; Entrypoint Script
 MarchOrder2UnusedEntrypoint:
-.import "code/DebugMenu/entrypoint.bin"
+.import "src/DebugMenu/entrypoint.bin"
 .dw 0x089D1F34
 MarchOrder2UnusedScript:
 ; Load Function
@@ -1160,7 +1160,7 @@ MarchOrder2UnusedScript:
 
 ; Entrypoint Script
 TapTrialTestEntrypoint:
-.import "code/DebugMenu/entrypoint.bin"
+.import "src/DebugMenu/entrypoint.bin"
 .dw 0x089D19DC
 TapTrialTestScript:
 ; Load Function
@@ -1177,7 +1177,7 @@ TapTrialTestScript:
 
 ; Entrypoint Script
 HorseMachineUnusedEntrypoint:
-.import "code/DebugMenu/entrypoint.bin"
+.import "src/DebugMenu/entrypoint.bin"
 .dw 0x089D1D64
 HorseMachineUnusedScript:
 ; Load Function
@@ -1194,7 +1194,7 @@ HorseMachineUnusedScript:
 
 ; Entrypoint Script
 TheClappyTrioTestEntrypoint:
-.import "code/DebugMenu/entrypoint.bin"
+.import "src/DebugMenu/entrypoint.bin"
 .dw 0x089CFFC8
 TheClappyTrioTestScript:
 ; Load Function
