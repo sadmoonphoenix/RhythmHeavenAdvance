@@ -52,7 +52,6 @@ tools\DSDecmp.exe -c lz10 gfx/Options/C76CA4_options_tile.bin gfx/Options/C76CA4
 tools\DSDecmp.exe -c lz10 gfx/RhythmArchives/CC77A4_archives_bgtile.bin gfx/RhythmArchives/CC77A4_archives_bgtile
 tools\DSDecmp.exe -c lz10 gfx/RhythmToys/RapMachine/CDBACC_rapmachine_bg.bin gfx/RhythmToys/RapMachine/CDBACC_rapmachine_bg
 tools\DSDecmp.exe -c lz10 gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_bg.bin gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_bg
-tools\DSDecmp.exe -c lz10 gfx/GameSelect/ConfessionMachine/CC9854_gameselect_bg.bin gfx/GameSelect/ConfessionMachine/CC9854_gameselect_bg
 
 echo -- Compile Tile Maps ---
 
@@ -133,15 +132,31 @@ REM ffmpeg -y -i "sfx/SpaceDance/voices/sit2.ogg" -acodec pcm_s8 -ar 13379 -ac 1
 echo -- Compile Code --
 
 tools\armips.exe src/main.asm
-echo If no error was found during any of the steps, it should now be compiled. (Press any key to recompile!)
+if %ERRORLEVEL% NEQ 0 (
+    goto fail
+)
 
+echo Building complete! (Press any key to recompile!)
 del "build\rh-atlus.gba"
 
 pause > nul
+
 clear
-goto tools
+goto check
 
 :nofile
-echo Couldn't find a Rhythm Tengoku (Rev 0) ROM, please place one in the root of the project to continue.
+echo Couldn't find a Rhythm Tengoku ROM, please place one in the root of the project to continue.
 pause
+goto check
+
+:fail
+color 4f
+
+echo Building failed! (Press any key to recompile!)
+del "build\rh-atlus.gba"
+
+pause > nul
+
+color 0f
+clear
 goto check

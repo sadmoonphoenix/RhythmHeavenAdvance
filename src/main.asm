@@ -6,9 +6,8 @@
 
 _skiprhythmtest equ 0
 _debug equ 0
-_debugmenu equ 0
-_oamluaconsolemessages equ 0
-_spriteluaconsolemessages equ 0
+_oamluaconsolemessages equ 1
+_spriteluaconsolemessages equ 1
 _autoplay equ 0 ; EXPERIMENTAL (VERY GLITCHY)
 
 .if _skiprhythmtest ==1
@@ -16,9 +15,6 @@ _autoplay equ 0 ; EXPERIMENTAL (VERY GLITCHY)
 .endif
 .if _debug ==1
 .warning "Debug flag enabled! This will result in every part of the game already unlocked, do NOT use for release!"
-.endif
-.if _debugmenu ==1
-.warning "Debug Menu enabled, do NOT use for release!"
 .endif
 .if _oamluaconsolemessages ==1
 .warning "OAM Log Enabled, while not deadly, should be disabled because it might cause lag, or/and more..."
@@ -28,6 +24,14 @@ _autoplay equ 0 ; EXPERIMENTAL (VERY GLITCHY)
 .endif
 .if _autoplay ==1
 .warning "Auto-Play Enabled, do NOT use for release!"
+.endif
+
+; -- Version Checking --
+gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
+.if gameVersion == 0x24
+.error "Your ROM of Rhythm Tengoku is uncompatible! (Rev 1 detected, you need a Rev 0 ROM)"
+.elseif gameVersion == 0x26
+.error "Your ROM of Rhythm Tengoku is uncompatible! (Kiosk Demo detected, you need a Rev 0 ROM)"
 .endif
 
 .include "src/relocate.asm"
