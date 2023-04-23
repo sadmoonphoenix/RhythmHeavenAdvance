@@ -1,5 +1,6 @@
 .include "gfx/RhythmToys/RapMachine/rapmachine_relocate.asm"
 .include "gfx/RhythmToys/ConfessionMachine/confessionmachine_relocate.asm"
+.include "gfx/RhythmToys/CatMachine/catmachine_relocate.asm"
 
 .align 4
 CD8388_rhythmtoys_obj:

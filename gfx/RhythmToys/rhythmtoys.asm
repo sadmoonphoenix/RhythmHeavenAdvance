@@ -1,5 +1,6 @@
 .include "gfx/RhythmToys/RapMachine/rapmachine.asm"
 .include "gfx/RhythmToys/ConfessionMachine/confessionmachine.asm"
+.include "gfx/RhythmToys/CatMachine/catmachine.asm"
 
 .org 0x08CD8388
 .dw CD8388_rhythmtoys_obj | 0x80000000

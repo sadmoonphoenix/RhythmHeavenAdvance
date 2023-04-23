@@ -60,6 +60,7 @@ tools\DSDecmp.exe -c lz10 gfx/Options/C76CA4_options_tile.bin gfx/Options/C76CA4
 tools\DSDecmp.exe -c lz10 gfx/RhythmArchives/CC77A4_archives_bgtile.bin gfx/RhythmArchives/CC77A4_archives_bgtile
 tools\DSDecmp.exe -c lz10 gfx/RhythmToys/RapMachine/CDBACC_rapmachine_bg.bin gfx/RhythmToys/RapMachine/CDBACC_rapmachine_bg
 tools\DSDecmp.exe -c lz10 gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_bg.bin gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_bg
+tools\DSDecmp.exe -c lz10 gfx/RhythmToys/CatMachine/CDA118_catmachine_bg.bin gfx/RhythmToys/CatMachine/CDA118_catmachine_bg
 tools\DSDecmp.exe -c lz10 gfx/RhythmToys/CD8388_rhythmtoys_obj.bin gfx/RhythmToys/CD8388_rhythmtoys_obj
 tools\DSDecmp.exe -c lz10 gfx/RhythmToys/CD8DA0_rhythmtoys_bg.bin gfx/RhythmToys/CD8DA0_rhythmtoys_bg
 tools\DSDecmp.exe -c lz10 gfx/EndlessGames/CC3B7C_endlessgames_obj.bin gfx/EndlessGames/CC3B7C_endlessgames_obj
@@ -80,6 +81,7 @@ REM I honestly have no idea how this one works, it's not a tile map...
 tools\rhcomp.exe gfx/Common/CCCA5C_common_tiles.bin
 tools\rhcomp.exe gfx/RhythmToys/RapMachine/CDBACC_rapmachine_map.bin
 tools\rhcomp.exe gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_map.bin
+tools\rhcomp.exe gfx/RhythmToys/CatMachine/CDA118_catmachine_bg_map.bin
 tools\rhcomp.exe gfx/RhythmToys/CD8DA0_rhythmtoys_bg_map.bin
 tools\rhcomp.exe gfx/EndlessGames/CC4670_endlessgames_bg_map.bin
 tools\rhcomp.exe gfx/DrumLessons/CC6914_drumlessons_bg_map.bin
