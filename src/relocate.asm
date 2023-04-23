@@ -20,6 +20,7 @@
 .include "gfx/Studio/studio_relocate.asm"
 .include "gfx/MainMenu/mainmenu_relocate.asm"
 .include "gfx/RhythmToys/rhythmtoys_relocate.asm"
+.include "gfx/EndlessGames/endlessgames_relocate.asm"
 .include "gfx/RhythmArchives/archives_relocate.asm"
 .include "gfx/GameSelect/gameselect_relocate.asm"
 .include "gfx/Options/options_relocate.asm"
