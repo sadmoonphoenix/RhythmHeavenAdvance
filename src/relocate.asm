@@ -16,6 +16,7 @@
 .include "gfx/RhythmGames/MarchingOrders/marching_relocate.asm"
 .include "gfx/RhythmGames/MarchingOrders2/marching2_relocate.asm"
 .include "gfx/RhythmGames/SneakySpirits/sneaky_relocate.asm"
+.include "gfx/RhythmGames/QuizShow/quizshow_relocate.asm"
 .include "gfx/HealthSafety/healthsafety_relocate.asm"
 .include "gfx/Studio/studio_relocate.asm"
 .include "gfx/MainMenu/mainmenu_relocate.asm"

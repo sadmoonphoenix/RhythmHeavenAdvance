@@ -45,6 +45,8 @@ tools\DSDecmp.exe -c lz10 gfx/RhythmGames/MarchingOrders/BFA204_marching_intro.b
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/SneakySpirits/BE0FF8_sneaky_intro.bin gfx/RhythmGames/SneakySpirits/BE0FF8_sneaky_intro
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/MarchingOrders2/BFC8F4_marching2_intro.bin gfx/RhythmGames/MarchingOrders2/BFC8F4_marching2_intro
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TempoUp/KarateMan/karateman_extra_tiles.bin gfx/RhythmGames/TempoUp/KarateMan/karateman_extra_tiles
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/QuizShow/C7C8E0_quizshow_obj.bin gfx/RhythmGames/QuizShow/C7C8E0_quizshow_obj
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/QuizShow/C7D2AC_quizshow_bg.bin gfx/RhythmGames/QuizShow/C7D2AC_quizshow_bg
 tools\DSDecmp.exe -c lz10 gfx/GameSelect/CC9854_gameselect_bg.bin gfx/GameSelect/CC9854_gameselect_bg
 tools\DSDecmp.exe -c lz10 gfx/GameSelect/CC9148_gameselect_obj.bin gfx/GameSelect/CC9148_gameselect_obj
 tools\DSDecmp.exe -c lz10 gfx/HealthSafety/D1AD4C_healthsafety_tile.bin gfx/HealthSafety/D1AD4C_healthsafety_tile
@@ -68,6 +70,7 @@ tools\rhcomp.exe gfx/HealthSafety/D1AD4C_healthsafety_tile_map.bin
 tools\rhcomp.exe gfx/Studio/CD5D64_studio_bgmap.bin
 tools\rhcomp.exe gfx/RhythmArchives/CC77A4_archives_bgmap.bin
 tools\rhcomp.exe gfx/RhythmGames/Polyrhythm/C02628_built1_intro1map.bin
+tools\rhcomp.exe gfx/RhythmGames/QuizShow/C7D2AC_quizshow_bg_map.bin
 REM I honestly have no idea how this one works, it's not a tile map...
 tools\rhcomp.exe gfx/Common/CCCA5C_common_tiles.bin
 tools\rhcomp.exe gfx/RhythmToys/RapMachine/CDBACC_rapmachine_map.bin
