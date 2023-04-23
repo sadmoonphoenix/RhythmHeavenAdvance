@@ -67,6 +67,7 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 ; .include "sfx/SpaceDance/space.asm"
 
 .include "src/DebugMenu/debugmenu.asm"
+.include "src/TempoUp/KarateMan/karateman.asm"
 
 .include "src/asm_relocate.asm"
 .include "src/asm.asm"

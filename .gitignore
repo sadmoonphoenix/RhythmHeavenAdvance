@@ -18,5 +18,8 @@ build/*
 *.bak
 flipscfg.bin
 
+# Temporary personal files (like W.I.P. additions...)
+temp_*.*
+
 # Shaffy's personal folder to not clutter the project.
 ShaffyOnly/*
