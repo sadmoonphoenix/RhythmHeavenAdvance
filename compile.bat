@@ -48,6 +48,7 @@ tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TempoUp/KarateMan/karateman_extra_tile
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/QuizShow/C7C8E0_quizshow_obj.bin gfx/RhythmGames/QuizShow/C7C8E0_quizshow_obj
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/QuizShow/C7D2AC_quizshow_bg.bin gfx/RhythmGames/QuizShow/C7D2AC_quizshow_bg
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/RhythmTweezers/BEE62C_tweezers_intro_obj.bin gfx/RhythmGames/RhythmTweezers/BEE62C_tweezers_intro_obj
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/RatRace/C21F88_ratrace_intro_obj.bin gfx/RhythmGames/RatRace/C21F88_ratrace_intro_obj
 tools\DSDecmp.exe -c lz10 gfx/GameSelect/CC9854_gameselect_bg.bin gfx/GameSelect/CC9854_gameselect_bg
 tools\DSDecmp.exe -c lz10 gfx/GameSelect/CC9148_gameselect_obj.bin gfx/GameSelect/CC9148_gameselect_obj
 tools\DSDecmp.exe -c lz10 gfx/HealthSafety/D1AD4C_healthsafety_tile.bin gfx/HealthSafety/D1AD4C_healthsafety_tile
