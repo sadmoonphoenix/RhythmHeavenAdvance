@@ -52,6 +52,7 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 .include "gfx/RhythmGames/SneakySpirits/sneaky.asm"
 .include "gfx/RhythmGames/QuizShow/quizshow.asm"
 .include "gfx/RhythmGames/RhythmTweezers/tweezers.asm"
+.include "gfx/RhythmGames/NinjaBodyguard/bodyguard.asm"
 .include "gfx/HealthSafety/healthsafety.asm"
 .include "gfx/Studio/studio.asm"
 .include "gfx/MainMenu/mainmenu.asm"
