@@ -27,32 +27,29 @@ strb r2,[r0,r4]
 pop r4,r15
 
 MenuPluralTilesLookupTable:
-;order top_no_s,bottom_no_s,top_with_s,bottom_no_s
+;order top_no_s,top_with_s
 ;rhythmtoys
-.dh 0x408E,0x409B,0x40B2,0x40B3
+.dh 0x40DC,0x40FA
 ;endless
-.dh 0x40AC,0x40B8,0x40CF,0x40D0
+.dh 0x40FB,0x413E
 ;drumblessons
-.dh 0x60CA,0x60CB,0x60A7,0x60B3
+.dh 0x6178,0x613C
 
 ;Adapt the plural of Metals in endless games
 EndlessGamesPlural:
 push r1-r4
-ldr r1,=0x0600ec56
+ldr r1,=0x0600ec4c
 ldr r4,=MenuPluralTilesLookupTable
 ldr r2,[r5]
 ldrb r2,[r2,0x18]
-lsl r2,r2,3
+lsl r2,r2,2
 add r4,r4,r2
 cmp r0,1
 beq @@writetiles
-add r4,r4,4
+add r4,r4,2 
 @@writetiles:
 ldrh r2,[r4]
-ldrh r3,[r4,2]
 strh r2,[r1]
-mov r2,0x40
-strh r3,[r1,r2]
 pop r1-r4
 mov r15,r14
 .pool

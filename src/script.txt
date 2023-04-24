@@ -3825,7 +3825,7 @@ Quiz Show[;
 
 #WRITE(RtPtr, $9CE80C)
 // 0x8052c58
-Play a simple quiz where[l 
+Play a simple quiz where[l
 you listen to the host's[l
 pattern, then copy it.[;
 
@@ -5364,9 +5364,9 @@ The Snappy Trio[;
 //着てきたヨ！[l
 //カッコイイ！！[;
 Look at the trio in their[l
-Western[1px]outfits![1px]So[1px]cool![l
-Dare we say they look...[l
-snappy?[;
+Western outfits![l
+So cool! Dare we say[l
+they look... snappy?[;
 
 #WRITE(RtPtr, $A498F0)
 // 0x8067c74
