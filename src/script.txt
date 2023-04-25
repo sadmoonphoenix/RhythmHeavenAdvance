@@ -2,7 +2,7 @@
 // by Shaffy (2022-2023)
 
 // Contributors:
-// Shaffy / Butter 🧈 (somethingAccurate) / Cash Banooka / Captain Stage / vincells
+// Shaffy / Butter 🧈 (somethingAccurate) / Cash Banooka / Captain Stage / vincells / sadmoonphoenix
 // 
 // Managed by Shaffy
 // (C)2022-2023 Advance Team
@@ -53,17 +53,17 @@ Well, see you later![;
 //それは潜在的に[l
 //みんなが持っている[l
 //ものなんです。[;
-Sense of rhythm--[l
-Everyone has one in some[l
-form or fashion.[;
+Rhythm--[l
+Everyone has it in some [l
+way shape or form.[;
 
 #WRITE(RtPtr, $A33B74)
 // 0x805e03c
 //リズム感は[l
 //意識していれば[l
 //どんどん良くなります。[;
-And with some mindfulness,[l
-that sense of rhythm can[l
+And with some practice,[l
+your rhythm can[l
 be sharpened like any skill.[;
 
 #WRITE(RtPtr, $A33BB0)
@@ -73,7 +73,7 @@ be sharpened like any skill.[;
 //かるく見てみましょう。[;
 Why don't we take a[l
 quick look at your[l
-sense of rhythm?[;
+skill?[;
 
 #WRITE(RtPtr, $A33C70)
 // 0x805e0a8
@@ -88,8 +88,8 @@ a score you're happy with?[;
 //潜在的なリズム感は[l
 //訓練によって[l
 //成長するんです。[;
-Well, your sense of[l
-rhythm can only grow[l
+Well, you can only get[l
+better at keeping your rhythm[l
 with some practice, so...[;
 
 #WRITE(RtPtr, $A33CE8)
@@ -100,7 +100,7 @@ with some practice, so...[;
 //みがいてみてください。[;
 Leap into some of these[l
 games and you might[l
-just find it getting[l
+just find your skill getting[l
 sharper and sharper![;
 
 #WRITE(RtPtr, $A33D24)
@@ -114,7 +114,7 @@ With that, I'll see you 'round![;
 #WRITE(RtPtr, $A40CD4)
 // 0x805f078
 //あなたのリズム感をしらべましょう[;
-Let's find out how good your rhythm is.[;
+Let's find out how well you can mantain your rhythm.[;
 
 #WRITE(RtPtr, $A40CF8)
 // 0x805f09c
@@ -170,7 +170,7 @@ Press [A_button] in time with the signal.[;
 #WRITE(RtPtr, $A402E0)
 // 0x805efb4
 //そのまま、キープしつづけて下さい[;
-Keep it up like this![;
+Keep it up![;
 
 #WRITE(RtPtr, $A40CB0)
 // 0x805efd8
@@ -190,7 +190,7 @@ You're as accurate as any person could be.[;
 #WRITE(RtPtr, $A40CA4)
 // 0x805f034
 //正確な体内時計をお持ちです！[;
-You have an accurate biological clock![;
+Your internal clock is very accurate![;
 
 #WRITE(RtPtr, $A40CA0)
 // 0x805f054
@@ -283,7 +283,7 @@ The cleaner says... "I know you can do it, keep it up!"[;
 //やりなおします。よく考えてネ！[;
 [color=pink][linestyle=3][linealign=center]Clear Data[l
 [linealign=center][color=peach]This will delete [color=gray]all[color=peach] of your data and start[l
-[color=peach]you over from the beginning. [color=gray]Think wisely![color=peach][;
+[color=peach]you over from the beginning. [color=gray]Are you sure?[color=peach][;
 
 #WRITE(RtPtr, $9CFB14)
 // 0x80549fc
