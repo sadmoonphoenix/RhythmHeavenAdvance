@@ -19,10 +19,12 @@
 .include "gfx/RhythmGames/QuizShow/quizshow_relocate.asm"
 .include "gfx/RhythmGames/RhythmTweezers/tweezers_relocate.asm"
 .include "gfx/RhythmGames/NinjaBodyguard/bodyguard_relocate.asm"
+.include "gfx/RhythmGames/TheBonOdori/bonodori_relocate.asm"
+.include "gfx/RhythmGames/TossTeam/tossteam_relocate.asm"
 .include "gfx/HealthSafety/healthsafety_relocate.asm"
 .include "gfx/Studio/studio_relocate.asm"
 .include "gfx/MainMenu/mainmenu_relocate.asm"
-
+;
 .include "gfx/RhythmToys/rhythmtoys_relocate.asm"
 .include "gfx/EndlessGames/endlessgames_relocate.asm"
 .include "gfx/DrumLessons/drumlessons_relocate.asm"
@@ -35,6 +37,8 @@
 .include "sfx/DrumLessons/drumlessons_relocate.asm"
 ; .include "sfx/TempoUp/RhythmTweezers/tweezers_relocate.asm"
 ; .include "sfx/SpaceDance/space_relocate.asm"
+;
+;
 
 .include "src/DebugMenu/debugmenu_relocate.asm"
 .include "src/TempoUp/KarateMan/karateman_relocate.asm"

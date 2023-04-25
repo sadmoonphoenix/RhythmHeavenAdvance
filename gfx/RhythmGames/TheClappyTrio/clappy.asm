@@ -1,3 +1,9 @@
+.org 0x08C61654
+.dw C61654_clappy_obj | 0x80000000
+
+.org 0x088E9D1A
+.import "gfx/RhythmGames/TheClappyTrio/8E9D1A_assembly0.bin"
+
 .org 0x088AFA14
 .import "gfx/RhythmGames/TheClappyTrio/8AFA14_assembly0.bin"
 
