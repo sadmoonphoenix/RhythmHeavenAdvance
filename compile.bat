@@ -34,12 +34,14 @@ tools\DSDecmp.exe -c lz10 gfx/RhythmGames/NightWalk/beba58_night1_intro.bin gfx/
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/KarateMan/BE0480_karateman_tiles.bin gfx/RhythmGames/KarateMan/BE0480_karateman_tiles
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/KarateMan/BE9F5C_karateman_intro.bin gfx/RhythmGames/KarateMan/BE9F5C_karateman_intro
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles.bin gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TheClappyTrio/C61654_clappy_obj.bin gfx/RhythmGames/TheClappyTrio/C61654_clappy_obj
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles.bin gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/BouncyRoad/BEE430_bouncy_intro.bin gfx/RhythmGames/BouncyRoad/BEE430_bouncy_intro
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/ResultScreen/CD4A50_result_tile.bin gfx/RhythmGames/ResultScreen/CD4A50_result_tile
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/PowerCalligraphy/BF8A30_power_intro.bin gfx/RhythmGames/PowerCalligraphy/BF8A30_power_intro
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/Polyrhythm/c00010_built1_intro2.bin gfx/RhythmGames/Polyrhythm/c00010_built1_intro2
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/Polyrhythm/c0212c_built1_intro1.bin gfx/RhythmGames/Polyrhythm/c0212c_built1_intro1
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/Polyrhythm/c00010_polyrhythm_intro_obj.bin gfx/RhythmGames/Polyrhythm/c00010_polyrhythm_intro_obj
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/Polyrhythm/c0212c_polyrhythm_intro_bg.bin gfx/RhythmGames/Polyrhythm/c0212c_polyrhythm_intro_bg
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/Polyrhythm/C781AC_polyrhythm_obj.bin gfx/RhythmGames/Polyrhythm/C781AC_polyrhythm_obj
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TapTrial/C26340_tap_intro.bin gfx/RhythmGames/TapTrial/C26340_tap_intro
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/MarchingOrders/BFA204_marching_intro.bin gfx/RhythmGames/MarchingOrders/BFA204_marching_intro
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/SneakySpirits/BE0FF8_sneaky_intro.bin gfx/RhythmGames/SneakySpirits/BE0FF8_sneaky_intro
@@ -51,6 +53,8 @@ tools\DSDecmp.exe -c lz10 gfx/RhythmGames/RhythmTweezers/BEE62C_tweezers_intro_o
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/RatRace/C21F88_ratrace_intro_obj.bin gfx/RhythmGames/RatRace/C21F88_ratrace_intro_obj
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/NinjaBodyguard/C22EE4_bodyguard_intro_obj.bin gfx/RhythmGames/NinjaBodyguard/C22EE4_bodyguard_intro_obj
 tools\DSDecmp.exe -c lz10 gfx/RhythmGames/NinjaBodyguard/C23A3C_bodyguard_intro_bg.bin gfx/RhythmGames/NinjaBodyguard/C23A3C_bodyguard_intro_bg
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TheBonOdori/BE75B8_bonodori_intro_obj.bin gfx/RhythmGames/TheBonOdori/BE75B8_bonodori_intro_obj
+tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TossTeam/C2A208_tossteam_intro_obj.bin gfx/RhythmGames/TossTeam/C2A208_tossteam_intro_obj
 tools\DSDecmp.exe -c lz10 gfx/GameSelect/CC9854_gameselect_bg.bin gfx/GameSelect/CC9854_gameselect_bg
 tools\DSDecmp.exe -c lz10 gfx/GameSelect/CC9148_gameselect_obj.bin gfx/GameSelect/CC9148_gameselect_obj
 tools\DSDecmp.exe -c lz10 gfx/HealthSafety/D1AD4C_healthsafety_tile.bin gfx/HealthSafety/D1AD4C_healthsafety_tile
@@ -74,7 +78,7 @@ echo -- Compile Tile Maps ---
 tools\rhcomp.exe gfx/HealthSafety/D1AD4C_healthsafety_tile_map.bin
 tools\rhcomp.exe gfx/Studio/CD5D64_studio_bgmap.bin
 tools\rhcomp.exe gfx/RhythmArchives/CC77A4_archives_bgmap.bin
-tools\rhcomp.exe gfx/RhythmGames/Polyrhythm/C02628_built1_intro1map.bin
+tools\rhcomp.exe gfx/RhythmGames/Polyrhythm/c0212c_polyrhythm_intro_bg_map.bin
 tools\rhcomp.exe gfx/RhythmGames/QuizShow/C7D2AC_quizshow_bg_map.bin
 tools\rhcomp.exe gfx/RhythmGames/NinjaBodyguard/C23A3C_bodyguard_intro_bg_map.bin
 REM I honestly have no idea how this one works, it's not a tile map...
