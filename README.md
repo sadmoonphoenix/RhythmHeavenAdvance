@@ -26,4 +26,4 @@ On Linux systems, you need to install Perl and Mono from your native package man
 Launch compile.bat
 
 ## Building (Linux and MacOS)
-Launch compile.sh
+Launch compile.sh: ``` chmod +x compile.sh; ./compile.sh ``` or ``` bash compile.sh ```
