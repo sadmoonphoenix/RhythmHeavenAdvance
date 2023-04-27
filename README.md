@@ -12,9 +12,6 @@ A full README is coming soon!
 
 * Linux and MacOS requirements: Bash, Perl and Mono
 
-* Linux-only requirements: Coreutils or Busybox
-
-
 On Linux systems, you need to install Perl and Mono from your native package manager if you haven't already
 
 * Debian: ``` apt install perl mono-runtime ```
