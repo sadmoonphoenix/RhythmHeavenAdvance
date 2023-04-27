@@ -1,40 +1,7 @@
 #!/bin/bash
 
-function package_install_debian () {
-    packages=""
-    if [[ $(dpkg -l perl) != *"ii  perl"* ]]
-    then
-        packages+="perl"
-    fi
-    if [[ $(dpkg -l mono-runtime) != *"ii  mono-runtime"* ]]
-    then
-        packages+="mono-runtime"
-    fi
-
-    if [[ $packages != "" ]]
-    then
-        echo "Installing missing packages: $packages"
-        if [[ $(id -u) != "0" ]]
-        then
-            echo "This step requires root access"
-            sudo apt install $packages
-        else
-            apt install $packages
-        fi
-    fi
-}
-
-function package_check_linux () {
-    systeminfo=$(uname -a)
-    if [[ $systeminfo == *"Debian"* ]]
-    then
-        package_install_debian
-    fi
-}
-
 echo "You must have a system wide installation of Perl and Mono"
 
-package_check_linux
 
 function nofile {
     read -p "Couldn't find a Rhythm Tengoku ROM, please place a Rev. 0 ROM named \"rh-jpn.gba\" in the root of the project."
