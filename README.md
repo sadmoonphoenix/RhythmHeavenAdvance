@@ -15,7 +15,7 @@ A full README is coming soon!
 * Linux-only requirements: Coreutils or Busybox
 
 
-On Linux systems, it's recommended to install Perl and Mono from your native package manager
+On Linux systems, you need to install Perl and Mono from your native package manager if you haven't already
 
 * Debian: ``` apt install perl mono-runtime ```
 * Fedora: ``` dnf install perl mono-core ```
