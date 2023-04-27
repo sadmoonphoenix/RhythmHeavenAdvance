@@ -1,21 +1,22 @@
 #!/bin/bash
 
 function package_install_debian () {
-    packages=   ""
+    packages=""
     if [[ $(dpkg -l perl) != *"ii  perl"* ]]
     then
         packages+="perl"
     fi
-    if [[ $(dpkg -l mono-runtime) != *"ii  mono-runtime"* ]] && [[ $1 == "0" ]]
+    if [[ $(dpkg -l mono-runtime) != *"ii  mono-runtime"* ]]
     then
         packages+="mono-runtime"
     fi
 
     if [[ $packages != "" ]]
     then
-        echo "Installing missing packages, this step requires root access"
+        echo "Installing missing packages: $packages"
         if [[ $(id -u) != "0" ]]
         then
+            echo "This step requires root access"
             sudo apt install $packages
         else
             apt install $packages
@@ -27,26 +28,13 @@ function package_check_linux () {
     systeminfo=$(uname -a)
     if [[ $systeminfo == *"Debian"* ]]
     then
-        if [[ $1 == "0" || $1 == "mono" ]]
-        then
-            package_install_debian "0"
-        else
-            package_install_debian "1"
-        fi
+        package_install_debian
     fi
 }
 
-echo "You must have a system wide installation of md5sum, Perl and/or Mono/Wine"
-echo "";    echo "0. Mono     1. Wine"
-echo "Choose either Mono or Wine to compile"
-read compile_choice
-if [[ $compile_choice != "0" ]] && [[ $compile_choice != "1" ]] && [[ $compile_choice != "wine" ]] && [[ $compile_choice != "mono" ]]
-then
-    echo "The choice you gave isn't one of the available, defaulting to Mono"
-    compile_choice="0" #Default to mono
-fi
+echo "You must have a system wide installation of Perl and Mono"
 
-package_check_linux $compile_choice
+package_check_linux
 
 function nofile {
     read -p "Couldn't find a Rhythm Tengoku ROM, please place a Rev. 0 ROM named \"rh-jpn.gba\" in the root of the project."
@@ -113,23 +101,13 @@ done
 echo "-- Compile Graphics --"
 for file in $(cat for_script/graphics_to_compile.md | sed 1,1d)
 do
-    if [[ $compile_choice == "0" ]] || [[ $compile_choice == "mono" ]]
-    then
-        mono tools/win/DSDecmp.exe -c lz10 $file.bin $file
-    else
-        wine tools/win/DSDecmp.exe -c lz10 $file.bin $file
-    fi
+    mono tools/win/DSDecmp.exe -c lz10 $file.bin $file
 done
 
 echo "-- Compile Tile Maps --"
 for file in $(cat for_script/tilemaps_to_compile.md | sed 1,1d)
 do
-    if [[ $compile_choice == "0" ]] || [[ $compile_choice == "mono" ]]
-    then
-        mono tools/win/rhcomp.exe $file
-    else
-        wine tools/win/rhcomp.exe $file
-    fi
+    mono tools/win/rhcomp.exe $file
 done
 
 echo "-- Compile Audio (Unimplemented, skipping) --"
