@@ -41,19 +41,19 @@ perl "tools/abcde/abcde.pl" -cm abcde::Atlas "build/rh-atlus.gba" "src/script.tx
 echo "-- Compile Bitmap --"
 for file in $(cat for_script/bitmaps_to_compile.md | sed 1,1d)
 do
-    WINEDEBUG=fixme-all wine tools/4bmpp.exe -p $file
+    WINEDEBUG=fixme-all wine tools/win/4bmpp.exe -p $file
 done
 
 echo "-- Compile Graphics --"
 for file in $(cat for_script/graphics_to_compile.md | sed 1,1d)
 do
-    mono tools/DSDecmp.exe -c lz10 $file.bin $file
+    mono tools/win/DSDecmp.exe -c lz10 $file.bin $file
 done
 
 echo "-- Compile Tile Maps --"
 for file in $(cat for_script/tilemaps_to_compile.md | sed 1,1d)
 do
-    WINEDEBUG=fixme-all wine tools/rhcomp.exe $file
+    mono tools/win/rhcomp.exe $file
 done
 
 echo "-- Compile Audio (Unimplemented, contained in repo) --"
@@ -123,11 +123,11 @@ echo "-- Compile Audio (Unimplemented, contained in repo) --"
 
 echo "-- Compile Code --"
 
-if ! [ $(uname -o) == "Darwin"]
+if ! [ $(uname -o) == "Darwin" ]
 then
-    armips=tools/armips
+    armips=tools/lin/armips
 else
-    armips=tools/armips_darwin
+    armips=tools/osx/armips
 fi
 
 chmod a+x $armips

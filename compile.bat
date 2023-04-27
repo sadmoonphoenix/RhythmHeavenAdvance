@@ -1,10 +1,10 @@
-@echo off
+  @echo off
 
 set perl-path="perl"
 
-if exist "tools/perl.exe" (
+if exist "tools\win\perl.exe" (
 	echo Found perl override, using that for compilation.
-	set perl-path="tools/perl.exe"
+	set perl-path="tools\win\perl.exe"
 )
 
 :check
@@ -28,12 +28,10 @@ setlocal EnableDelayedExpansion
 
 for /f "skip=1 delims=" %%f in (for_script/bitmaps_to_compile.md) do (
   set "file=%%f"
-  tools\4bmpp.exe -p !file!
+  tools\win\4bmpp.exe -p !file!
 )
 
 endlocal
-
-tools\4bmpp.exe -p gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles.bmp
 
 echo -- Compile Graphics --
 
@@ -41,7 +39,7 @@ setlocal EnableDelayedExpansion
 
 for /f "skip=1 delims=" %%f in (for_script/graphics_to_compile.md) do (
   set "file=%%f"
-  tools\DSDecmp.exe -c lz10 !file!.bin !file!
+  tools\win\DSDecmp.exe -c lz10 !file!.bin !file!
 )
 
 endlocal
@@ -52,7 +50,7 @@ setlocal EnableDelayedExpansion
 
 for /f "skip=1 delims=" %%f in (for_script/tilemaps_to_compile.md) do (
   set "file=%%f"
-  tools\rhcomp.exe !file!
+  tools\win\rhcomp.exe !file!
 )
 
 endlocal
