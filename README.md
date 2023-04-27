@@ -18,6 +18,7 @@ A full README is coming soon!
 On Linux systems, it's recommended to install Perl and Mono from your native package manager
 
 * Debian: ``` apt install perl mono-runtime ```
+* Fedora: ``` dnf install perl mono-core ```
 
 ## Building (Windows)
 Launch compile.bat
