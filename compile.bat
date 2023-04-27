@@ -2,9 +2,9 @@
 
 set perl-path="perl"
 
-if exist "tools/perl.exe" (
+if exist "tools\win\perl.exe" (
 	echo Found perl override, using that for compilation.
-	set perl-path="tools/perl.exe"
+	set perl-path="tools\win\perl.exe"
 )
 
 :check
@@ -24,74 +24,38 @@ echo -- Compile Text --
 
 echo -- Compile Bitmap --
 
-tools\4bmpp.exe -p gfx/RhythmGames/NightWalk/beba58_night1_intro.bmp
-tools\4bmpp.exe -p gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles.bmp
-tools\4bmpp.exe -p gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles.bmp
+setlocal EnableDelayedExpansion
+
+for /f "skip=1 delims=" %%f in (for_script/bitmaps_to_compile.md) do (
+  set "file=%%f"
+  tools\win\4bmpp.exe -p !file!
+)
+
+endlocal
 
 echo -- Compile Graphics --
 
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/NightWalk/beba58_night1_intro.bin gfx/RhythmGames/NightWalk/beba58_night1_intro
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/KarateMan/BE0480_karateman_tiles.bin gfx/RhythmGames/KarateMan/BE0480_karateman_tiles
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/KarateMan/BE9F5C_karateman_intro.bin gfx/RhythmGames/KarateMan/BE9F5C_karateman_intro
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles.bin gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TheClappyTrio/C61654_clappy_obj.bin gfx/RhythmGames/TheClappyTrio/C61654_clappy_obj
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles.bin gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/BouncyRoad/BEE430_bouncy_intro.bin gfx/RhythmGames/BouncyRoad/BEE430_bouncy_intro
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/ResultScreen/CD4A50_result_tile.bin gfx/RhythmGames/ResultScreen/CD4A50_result_tile
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/PowerCalligraphy/BF8A30_power_intro.bin gfx/RhythmGames/PowerCalligraphy/BF8A30_power_intro
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/Polyrhythm/c00010_polyrhythm_intro_obj.bin gfx/RhythmGames/Polyrhythm/c00010_polyrhythm_intro_obj
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/Polyrhythm/c0212c_polyrhythm_intro_bg.bin gfx/RhythmGames/Polyrhythm/c0212c_polyrhythm_intro_bg
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/Polyrhythm/C781AC_polyrhythm_obj.bin gfx/RhythmGames/Polyrhythm/C781AC_polyrhythm_obj
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TapTrial/C26340_tap_intro.bin gfx/RhythmGames/TapTrial/C26340_tap_intro
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/MarchingOrders/BFA204_marching_intro.bin gfx/RhythmGames/MarchingOrders/BFA204_marching_intro
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/SneakySpirits/BE0FF8_sneaky_intro.bin gfx/RhythmGames/SneakySpirits/BE0FF8_sneaky_intro
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/MarchingOrders2/BFC8F4_marching2_intro.bin gfx/RhythmGames/MarchingOrders2/BFC8F4_marching2_intro
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TempoUp/KarateMan/karateman_extra_tiles.bin gfx/RhythmGames/TempoUp/KarateMan/karateman_extra_tiles
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/QuizShow/C7C8E0_quizshow_obj.bin gfx/RhythmGames/QuizShow/C7C8E0_quizshow_obj
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/QuizShow/C7D2AC_quizshow_bg.bin gfx/RhythmGames/QuizShow/C7D2AC_quizshow_bg
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/RhythmTweezers/BEE62C_tweezers_intro_obj.bin gfx/RhythmGames/RhythmTweezers/BEE62C_tweezers_intro_obj
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/RatRace/C21F88_ratrace_intro_obj.bin gfx/RhythmGames/RatRace/C21F88_ratrace_intro_obj
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/NinjaBodyguard/C22EE4_bodyguard_intro_obj.bin gfx/RhythmGames/NinjaBodyguard/C22EE4_bodyguard_intro_obj
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/NinjaBodyguard/C23A3C_bodyguard_intro_bg.bin gfx/RhythmGames/NinjaBodyguard/C23A3C_bodyguard_intro_bg
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TheBonOdori/BE75B8_bonodori_intro_obj.bin gfx/RhythmGames/TheBonOdori/BE75B8_bonodori_intro_obj
-tools\DSDecmp.exe -c lz10 gfx/RhythmGames/TossTeam/C2A208_tossteam_intro_obj.bin gfx/RhythmGames/TossTeam/C2A208_tossteam_intro_obj
-tools\DSDecmp.exe -c lz10 gfx/GameSelect/CC9854_gameselect_bg.bin gfx/GameSelect/CC9854_gameselect_bg
-tools\DSDecmp.exe -c lz10 gfx/GameSelect/CC9148_gameselect_obj.bin gfx/GameSelect/CC9148_gameselect_obj
-tools\DSDecmp.exe -c lz10 gfx/HealthSafety/D1AD4C_healthsafety_tile.bin gfx/HealthSafety/D1AD4C_healthsafety_tile
-tools\DSDecmp.exe -c lz10 gfx/MainMenu/CCB298_mainmenu_tile.bin gfx/MainMenu/CCB298_mainmenu_tile
-tools\DSDecmp.exe -c lz10 gfx/Studio/CD5D64_studio_bgtile.bin gfx/Studio/CD5D64_studio_bgtile
-tools\DSDecmp.exe -c lz10 gfx/Options/C76CA4_options_tile.bin gfx/Options/C76CA4_options_tile
-tools\DSDecmp.exe -c lz10 gfx/RhythmArchives/CC77A4_archives_bgtile.bin gfx/RhythmArchives/CC77A4_archives_bgtile
-tools\DSDecmp.exe -c lz10 gfx/RhythmToys/RapMachine/CDBACC_rapmachine_bg.bin gfx/RhythmToys/RapMachine/CDBACC_rapmachine_bg
-tools\DSDecmp.exe -c lz10 gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_bg.bin gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_bg
-tools\DSDecmp.exe -c lz10 gfx/RhythmToys/CatMachine/CDA118_catmachine_bg.bin gfx/RhythmToys/CatMachine/CDA118_catmachine_bg
-tools\DSDecmp.exe -c lz10 gfx/RhythmToys/CD8388_rhythmtoys_obj.bin gfx/RhythmToys/CD8388_rhythmtoys_obj
-tools\DSDecmp.exe -c lz10 gfx/RhythmToys/CD8DA0_rhythmtoys_bg.bin gfx/RhythmToys/CD8DA0_rhythmtoys_bg
-tools\DSDecmp.exe -c lz10 gfx/EndlessGames/CC3B7C_endlessgames_obj.bin gfx/EndlessGames/CC3B7C_endlessgames_obj
-tools\DSDecmp.exe -c lz10 gfx/EndlessGames/CC4670_endlessgames_bg.bin gfx/EndlessGames/CC4670_endlessgames_bg
-tools\DSDecmp.exe -c lz10 gfx/DrumLessons/CC5E8C_drumlessons_obj.bin gfx/DrumLessons/CC5E8C_drumlessons_obj
-tools\DSDecmp.exe -c lz10 gfx/DrumLessons/CC6914_drumlessons_bg.bin gfx/DrumLessons/CC6914_drumlessons_bg
-tools\DSDecmp.exe -c lz10 gfx/Perfect/CCC138_perfect_bg.bin gfx/Perfect/CCC138_perfect_bg
+setlocal EnableDelayedExpansion
+
+for /f "skip=1 delims=" %%f in (for_script/graphics_to_compile.md) do (
+  set "file=%%f"
+  tools\win\DSDecmp.exe -c lz10 !file!.bin !file!
+)
+
+endlocal
 
 echo -- Compile Tile Maps ---
 
-tools\rhcomp.exe gfx/HealthSafety/D1AD4C_healthsafety_tile_map.bin
-tools\rhcomp.exe gfx/Studio/CD5D64_studio_bgmap.bin
-tools\rhcomp.exe gfx/RhythmArchives/CC77A4_archives_bgmap.bin
-tools\rhcomp.exe gfx/RhythmGames/Polyrhythm/c0212c_polyrhythm_intro_bg_map.bin
-tools\rhcomp.exe gfx/RhythmGames/QuizShow/C7D2AC_quizshow_bg_map.bin
-tools\rhcomp.exe gfx/RhythmGames/NinjaBodyguard/C23A3C_bodyguard_intro_bg_map.bin
-REM I honestly have no idea how this one works, it's not a tile map...
-tools\rhcomp.exe gfx/Common/CCCA5C_common_tiles.bin
-tools\rhcomp.exe gfx/RhythmToys/RapMachine/CDBACC_rapmachine_map.bin
-tools\rhcomp.exe gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_map.bin
-tools\rhcomp.exe gfx/RhythmToys/CatMachine/CDA118_catmachine_bg_map.bin
-tools\rhcomp.exe gfx/RhythmToys/CD8DA0_rhythmtoys_bg_map.bin
-tools\rhcomp.exe gfx/EndlessGames/CC4670_endlessgames_bg_map.bin
-tools\rhcomp.exe gfx/DrumLessons/CC6914_drumlessons_bg_map.bin
-tools\rhcomp.exe gfx/Perfect/CCC138_perfect_map.bin
+setlocal EnableDelayedExpansion
 
-echo -- Compile Audio --
+for /f "skip=1 delims=" %%f in (for_script/tilemaps_to_compile.md) do (
+  set "file=%%f"
+  tools\win\rhcomp.exe !file!
+)
+
+endlocal
+
+echo -- Compile Audio (Unimplemented, skipping) --
 
 REM ffmpeg -y -i "sfx/DrumLessons/one.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/DrumLessons/one.pcm" -loglevel error
 REM ffmpeg -y -i "sfx/DrumLessons/two.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/DrumLessons/two.pcm" -loglevel error

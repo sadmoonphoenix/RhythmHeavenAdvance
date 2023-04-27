@@ -38,19 +38,19 @@
 ; Prologue
 
 .org 0x088AD958
-.import "gfx\RhythmGames\KarateMan\Prologue/8AD958_assembly0.bin"
+.import "gfx/RhythmGames/KarateMan/Prologue/8AD958_assembly0.bin"
 ;--
 .org 0x088AD960
-.import "gfx\RhythmGames\KarateMan\Prologue/8AD960_assembly1.bin"
+.import "gfx/RhythmGames/KarateMan/Prologue/8AD960_assembly1.bin"
 ;--
 .org 0x088AD974
-.import "gfx\RhythmGames\KarateMan\Prologue/8AD974_assembly2.bin"
+.import "gfx/RhythmGames/KarateMan/Prologue/8AD974_assembly2.bin"
 ;--
 .org 0x088AD99A
-.import "gfx\RhythmGames\KarateMan\Prologue/8AD99A_assembly3.bin"
+.import "gfx/RhythmGames/KarateMan/Prologue/8AD99A_assembly3.bin"
 ;--
 .org 0x088AD9D2
-.import "gfx\RhythmGames\KarateMan\Prologue/8AD9D2_assembly4.bin"
+.import "gfx/RhythmGames/KarateMan/Prologue/8AD9D2_assembly4.bin"
 ;--
 
 
