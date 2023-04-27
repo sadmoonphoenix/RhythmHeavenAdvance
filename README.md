@@ -8,11 +8,16 @@ A full README is coming soon!
 
 ## Requirements
 
-* A japanese ROM of Rhythm Heaven (you have to get it yourself for legal reasons)
+* A legally obtained ROM of Rhythm Tengoku (Rev 0) (CRC32: 349D7025)
 
-* Linux and MacOS requirements: Bash, Perl, Mono or Wine
+* Linux and MacOS requirements: Bash, Perl and Mono
 
 * Linux-only requirements: Coreutils or Busybox
+
+
+On Linux systems, it's recommended to install Perl and Mono from your native package manager
+
+* Debian: ``` apt install perl mono-runtime ```
 
 ## Building (Windows)
 Launch compile.bat
