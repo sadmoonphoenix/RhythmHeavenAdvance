@@ -11,7 +11,10 @@ function check {
     fi
 }
 
+check
+
 function tools {
+    echo "-- Made Build Directory --"
     mkdir build
     cp rn-jpn.gba build/rh-atlus.gba
 }
