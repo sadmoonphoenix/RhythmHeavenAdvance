@@ -2,6 +2,27 @@
 
 echo "Notice: The following programs must be installed system-wide: Mono, Perl, Wine (hopefully to be replaced with binaries soon)"
 
+function nofile {
+read -p "Couldn't find a Rhythm Tengoku ROM, please place a Rev. 0 ROM named \"rh-jpn.gba\" in the root of the project."
+check
+}
+
+function fail {
+rm -f build/rh-atlus.gba
+read -p "Building failed! (Press enter to recompile!)"
+
+clear
+check
+}
+
+function tools {
+    echo "-- Remove Existing Build Directory, if needed"
+    rm -rf build
+    mkdir build
+    echo "-- Made Build Directory --"
+    cp rh-jpn.gba build/rh-atlus.gba
+}
+
 function check {
     if [ -e "rh-jpn.gba" ];
     then 
@@ -13,12 +34,6 @@ function check {
 
 check
 
-function tools {
-    echo "-- Made Build Directory --"
-    mkdir build
-    cp rn-jpn.gba build/rh-atlus.gba
-}
-
 echo "-- Compile Text --"
 
 perl "tools/abcde/abcde.pl" -cm abcde::Atlas "build/rh-atlus.gba" "src/script.txt"
@@ -26,9 +41,9 @@ perl "tools/abcde/abcde.pl" -cm abcde::Atlas "build/rh-atlus.gba" "src/script.tx
 echo "-- Compile Bitmap --"
 
 
-wine tools/4bmpp.exe -p gfx/RhythmGames/NightWalk/beba58_night1_intro.bmp
-wine tools/4bmpp.exe -p gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles.bmp
-wine tools/4bmpp.exe -p gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles.bmp
+WINEDEBUG=fixme-all wine tools/4bmpp.exe -p gfx/RhythmGames/NightWalk/beba58_night1_intro.bmp
+WINEDEBUG=fixme-all wine tools/4bmpp.exe -p gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles.bmp
+WINEDEBUG=fixme-all wine tools/4bmpp.exe -p gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles.bmp
 
 echo "-- Compile Graphics --"
 
@@ -77,21 +92,21 @@ mono tools/DSDecmp.exe -c lz10 gfx/Perfect/CCC138_perfect_bg.bin gfx/Perfect/CCC
 
 echo -- Compile Tile Maps ---
 
-wine tools/rhcomp.exe gfx/HealthSafety/D1AD4C_healthsafety_tile_map.bin
-wine tools/rhcomp.exe gfx/Studio/CD5D64_studio_bgmap.bin
-wine tools/rhcomp.exe gfx/RhythmArchives/CC77A4_archives_bgmap.bin
-wine tools/rhcomp.exe gfx/RhythmGames/Polyrhythm/c0212c_polyrhythm_intro_bg_map.bin
-wine tools/rhcomp.exe gfx/RhythmGames/QuizShow/C7D2AC_quizshow_bg_map.bin
-wine tools/rhcomp.exe gfx/RhythmGames/NinjaBodyguard/C23A3C_bodyguard_intro_bg_map.bin
+WINEDEBUG=fixme-all wine tools/rhcomp.exe gfx/HealthSafety/D1AD4C_healthsafety_tile_map.bin
+WINEDEBUG=fixme-all wine tools/rhcomp.exe gfx/Studio/CD5D64_studio_bgmap.bin
+WINEDEBUG=fixme-all wine tools/rhcomp.exe gfx/RhythmArchives/CC77A4_archives_bgmap.bin
+WINEDEBUG=fixme-all wine tools/rhcomp.exe gfx/RhythmGames/Polyrhythm/c0212c_polyrhythm_intro_bg_map.bin
+WINEDEBUG=fixme-all wine tools/rhcomp.exe gfx/RhythmGames/QuizShow/C7D2AC_quizshow_bg_map.bin
+WINEDEBUG=fixme-all wine tools/rhcomp.exe gfx/RhythmGames/NinjaBodyguard/C23A3C_bodyguard_intro_bg_map.bin
 # I honestly have no idea how this one works, it's not a tile map...
-wine tools/rhcomp.exe gfx/Common/CCCA5C_common_tiles.bin
-wine tools/rhcomp.exe gfx/RhythmToys/RapMachine/CDBACC_rapmachine_map.bin
-wine tools/rhcomp.exe gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_map.bin
-wine tools/rhcomp.exe gfx/RhythmToys/CatMachine/CDA118_catmachine_bg_map.bin
-wine tools/rhcomp.exe gfx/RhythmToys/CD8DA0_rhythmtoys_bg_map.bin
-wine tools/rhcomp.exe gfx/EndlessGames/CC4670_endlessgames_bg_map.bin
-wine tools/rhcomp.exe gfx/DrumLessons/CC6914_drumlessons_bg_map.bin
-wine tools/rhcomp.exe gfx/Perfect/CCC138_perfect_map.bin
+WINEDEBUG=fixme-all wine tools/rhcomp.exe gfx/Common/CCCA5C_common_tiles.bin
+WINEDEBUG=fixme-all wine tools/rhcomp.exe gfx/RhythmToys/RapMachine/CDBACC_rapmachine_map.bin
+WINEDEBUG=fixme-all wine tools/rhcomp.exe gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_map.bin
+WINEDEBUG=fixme-all wine tools/rhcomp.exe gfx/RhythmToys/CatMachine/CDA118_catmachine_bg_map.bin
+WINEDEBUG=fixme-all wine tools/rhcomp.exe gfx/RhythmToys/CD8DA0_rhythmtoys_bg_map.bin
+WINEDEBUG=fixme-all wine tools/rhcomp.exe gfx/EndlessGames/CC4670_endlessgames_bg_map.bin
+WINEDEBUG=fixme-all wine tools/rhcomp.exe gfx/DrumLessons/CC6914_drumlessons_bg_map.bin
+WINEDEBUG=fixme-all wine tools/rhcomp.exe gfx/Perfect/CCC138_perfect_map.bin
 
 echo -- Compile Audio --
 
@@ -158,8 +173,8 @@ echo -- Compile Audio --
 # ffmpeg -y -i "sfx/SpaceDance/voices/sit1.ogg" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/SpaceDance/voices/sit1.pcm" -loglevel error
 # ffmpeg -y -i "sfx/SpaceDance/voices/sit2.ogg" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/SpaceDance/voices/sit2.pcm" -loglevel error
 
-echo -- Compile Code --
-
+echo "-- Compile Code --"
+chmod a+x tools/armips
 if ! tools/armips src/main.asm
 then
     fail
@@ -170,16 +185,3 @@ read -p "Building complete! (Press enter to recompile!)"
 
 clear
 check
-
-function nofile {
-read -p "Couldn't find a Rhythm Tengoku ROM, please place one in the root of the project."
-exit
-}
-
-function fail {
-rm -f build/rh-atlus.gba
-read -p "Building failed! (Press enter to recompile!)"
-
-clear
-check
-}
