@@ -1,18 +1,26 @@
 #!/bin/bash
 
-echo "You must have a system wide installation of Perl and Mono"
+echo "You must have a system wide installation of md5sum (gnu or busybox), Perl and/or Mono/Wine"
+echo "0. Mono     1. Wine"
+echo "Choose either Mono or Wine to compile"
+read compile_choice
+if [[ $compile_choice != "0" ]] && [[ $compile_choice != "1" ]] && [[ $compile_choice != "wine" ]] && [[ $compile_choice != "mono" ]]
+then
+    echo "The choice you gave isn't one of the available, defaulting to Mono"
+    compile_choice="0" #Default to mono
+fi
 
 function nofile {
-read -p "Couldn't find a Rhythm Tengoku ROM, please place a Rev. 0 ROM named \"rh-jpn.gba\" in the root of the project."
-check
+    read -p "Couldn't find a Rhythm Tengoku ROM, please place a Rev. 0 ROM named \"rh-jpn.gba\" in the root of the project."
+    check
 }
 
 function fail {
-rm -f build/rh-atlus.gba
-read -p "Building failed! (Press enter to recompile!)"
+    rm -f build/rh-atlus.gba
+    read -p "Building failed! (Press enter to recompile!)"
 
-clear
-check
+    clear
+    check
 }
 
 function tools {
@@ -67,13 +75,23 @@ done
 echo "-- Compile Graphics --"
 for file in $(cat for_script/graphics_to_compile.md | sed 1,1d)
 do
-    mono tools/win/DSDecmp.exe -c lz10 $file.bin $file
+    if [[ $compile_choice == "0" ]] || [[ $compile_choice == "mono" ]]
+    then
+        mono tools/win/DSDecmp.exe -c lz10 $file.bin $file
+    else
+        wine tools/win/DSDecmp.exe -c lz10 $file.bin $file
+    fi
 done
 
 echo "-- Compile Tile Maps --"
 for file in $(cat for_script/tilemaps_to_compile.md | sed 1,1d)
 do
-    mono tools/win/rhcomp.exe $file
+    if [[ $compile_choice == "0" ]] || [[ $compile_choice == "mono" ]]
+    then
+        mono tools/win/rhcomp.exe $file
+    else
+        wine tools/win/rhcomp.exe $file
+    fi
 done
 
 echo "-- Compile Audio (Unimplemented, skipping) --"
