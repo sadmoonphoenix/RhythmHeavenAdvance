@@ -122,8 +122,16 @@ echo "-- Compile Audio (Unimplemented, contained in repo) --"
 # ffmpeg -y -i "sfx/SpaceDance/voices/sit2.ogg" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/SpaceDance/voices/sit2.pcm" -loglevel error
 
 echo "-- Compile Code --"
-chmod a+x tools/armips
-if ! tools/armips src/main.asm
+
+if ! [ $(uname -o) == "Darwin"]
+then
+    armips=tools/armips
+else
+    armips=tools/armips_darwin
+fi
+
+chmod a+x $armips
+if ! $armips src/main.asm
 then
     fail
 fi
