@@ -10,12 +10,17 @@ A full README is coming soon!
 
 * A japanese ROM of Rhythm Heaven (you have to get it yourself for legal reasons)
 
-* Linux-specific requirements: Bash, Coreutils or Busybox, Perl, Mono/Wine
+* Linux and MacOS requirements: Bash, Perl, Mono or Wine
+
+* Linux-only requirements: Coreutils or Busybox
 
 ## Building (Windows)
 Launch compile.bat
 
 ## Building (Linux)
-Launch compile.sh or, alternatively, launch compile.bat with Wine
+Launch compile.sh or, alternatively, launch compile.bat with Wine.
 
-You will be prompted to choose between Wine and Mono, choose whichever you like or have installed in your system
+You will be prompted to choose between Wine and Mono, choose whichever you like or have installed in your system.
+
+## Building (MacOS)
+Launch compile.sh and choose Mono. You can try and choose Wine, but it's not tested or known if it works.
