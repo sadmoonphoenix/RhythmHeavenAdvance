@@ -20,6 +20,7 @@ On Linux systems, you need to install Perl and Mono from your native package man
 * Debian: ``` apt install perl mono-runtime ```
 * Fedora: ``` dnf install perl mono-core ```
 * Arch/Manjaro: ``` pacman -S perl mono ```
+* OpenSUSE: ``` zypper in perl mono-core ```
 
 ## Building (Windows)
 Launch compile.bat
