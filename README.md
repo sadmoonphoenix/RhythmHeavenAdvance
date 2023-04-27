@@ -22,10 +22,5 @@ On Linux systems, it's recommended to install Perl and Mono from your native pac
 ## Building (Windows)
 Launch compile.bat
 
-## Building (Linux)
-Launch compile.sh or, alternatively, launch compile.bat with Wine.
-
-You will be prompted to choose between Wine and Mono, choose whichever you like or have installed in your system.
-
-## Building (MacOS)
-Launch compile.sh and choose Mono. You can try and choose Wine, but it's not tested or known if it works.
+## Building (Linux and MacOS)
+Launch compile.sh
