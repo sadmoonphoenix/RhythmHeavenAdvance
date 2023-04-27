@@ -1,0 +1,15 @@
+# List files to run with rhcomp INCLUDING .bin file extension
+gfx/HealthSafety/D1AD4C_healthsafety_tile_map.bin
+gfx/Studio/CD5D64_studio_bgmap.bin
+gfx/RhythmArchives/CC77A4_archives_bgmap.bin
+gfx/RhythmGames/Polyrhythm/c0212c_polyrhythm_intro_bg_map.bin
+gfx/RhythmGames/QuizShow/C7D2AC_quizshow_bg_map.bin
+gfx/RhythmGames/NinjaBodyguard/C23A3C_bodyguard_intro_bg_map.bin
+gfx/Common/CCCA5C_common_tiles.bin
+gfx/RhythmToys/RapMachine/CDBACC_rapmachine_map.bin
+gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_map.bin
+gfx/RhythmToys/CatMachine/CDA118_catmachine_bg_map.bin
+gfx/RhythmToys/CD8DA0_rhythmtoys_bg_map.bin
+gfx/EndlessGames/CC4670_endlessgames_bg_map.bin
+gfx/DrumLessons/CC6914_drumlessons_bg_map.bin
+gfx/Perfect/CCC138_perfect_map.bin
