@@ -1,4 +1,4 @@
-  @echo off
+@echo off
 
 set perl-path="perl"
 
@@ -55,7 +55,7 @@ for /f "skip=1 delims=" %%f in (for_script/tilemaps_to_compile.md) do (
 
 endlocal
 
-echo -- Compile Audio --
+echo -- Compile Audio (Unimplemented, skipping) --
 
 REM ffmpeg -y -i "sfx/DrumLessons/one.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/DrumLessons/one.pcm" -loglevel error
 REM ffmpeg -y -i "sfx/DrumLessons/two.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/DrumLessons/two.pcm" -loglevel error

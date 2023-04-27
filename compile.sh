@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Notice: The following programs must be installed system-wide: Mono, Perl, Wine (hopefully to be replaced with binaries soon)"
+echo "You must have a system wide installation of Perl and Mono"
 
 function nofile {
 read -p "Couldn't find a Rhythm Tengoku ROM, please place a Rev. 0 ROM named \"rh-jpn.gba\" in the root of the project."
@@ -26,8 +26,28 @@ function tools {
 function check {
     if [ -e "rh-jpn.gba" ];
     then 
-        tools
+        if ! [ $(uname -o) == "Darwin" ]
+        then
+            if $(md5sum -c md5sum.txt --status)
+            then
+                echo "-- File Passed Checks --"
+                tools
+            else
+                echo "-- File Failed Checks --"
+                nofile
+            fi
+        else
+            if $(md5 md5sum.txt)
+            then
+                echo "-- File Passed Checks --"
+                tools
+            else
+                echo "-- File Failed Checks --"
+                nofile
+            fi
+        fi
     else
+        echo "-- File Failed Checks --"
         nofile
     fi
 }
@@ -41,7 +61,7 @@ perl "tools/abcde/abcde.pl" -cm abcde::Atlas "build/rh-atlus.gba" "src/script.tx
 echo "-- Compile Bitmap --"
 for file in $(cat for_script/bitmaps_to_compile.md | sed 1,1d)
 do
-    WINEDEBUG=fixme-all wine tools/win/4bmpp.exe -p $file
+    tools/lin/4bmpp -p $file
 done
 
 echo "-- Compile Graphics --"
@@ -56,7 +76,7 @@ do
     mono tools/win/rhcomp.exe $file
 done
 
-echo "-- Compile Audio (Unimplemented, contained in repo) --"
+echo "-- Compile Audio (Unimplemented, skipping) --"
 
 # ffmpeg -y -i "sfx/DrumLessons/one.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/DrumLessons/one.pcm" -loglevel error
 # ffmpeg -y -i "sfx/DrumLessons/two.wav" -acodec pcm_s8 -ar 13379 -ac 1 -f s8 "sfx/DrumLessons/two.pcm" -loglevel error
