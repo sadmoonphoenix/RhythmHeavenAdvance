@@ -169,8 +169,8 @@ clear
 check
 
 function nofile {
-read -p "Couldn't find a Rhythm Tengoku ROM, please place one in the root of the project, then press enter."
-check
+read -p "Couldn't find a Rhythm Tengoku ROM, please place one in the root of the project."
+exit
 }
 
 function fail {
