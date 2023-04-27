@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "You must have a system wide installation of md5sum (gnu or busybox), Perl and/or Mono/Wine"
-echo "0. Mono     1. Wine"
+echo "You must have a system wide installation of md5sum, Perl and/or Mono/Wine"
+echo ""; echo "0. Mono     1. Wine"
 echo "Choose either Mono or Wine to compile"
 read compile_choice
 if [[ $compile_choice != "0" ]] && [[ $compile_choice != "1" ]] && [[ $compile_choice != "wine" ]] && [[ $compile_choice != "mono" ]]
