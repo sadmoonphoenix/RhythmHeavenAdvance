@@ -2004,7 +2004,8 @@ Karate Man[;
 The key to karate,[l
 like all things, is rhythm.[l
 Now, let us throw some[l
-stuff for you to punch.[;
+stuff for you to punch.[l
+hi, should work[;
 
 #WRITE(RtPtr, $9EF2B0)
 // 0x805abec

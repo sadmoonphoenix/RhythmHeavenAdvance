@@ -1,7 +1,6 @@
 @echo off
 
 set perl-path="perl"
-setlocal EnableDelayedExpansion
 
 if exist "tools\win\perl.exe" (
 	echo Found perl override, using that for compilation.
@@ -66,9 +65,9 @@ tools\win\armips.exe src/main.asm
 if %ERRORLEVEL% NEQ 0 (
     goto fail
 )
-color 0f
 
-echo Building complete! (Press any key to recompile!)
+color 0f
+echo Building complete (Press any key to recompile!)
 del "build\rh-atlus.gba"
 
 pause > nul
@@ -84,7 +83,7 @@ goto check
 :fail
 color 4f
 
-echo Building failed! (Press any key to recompile!)
+echo Building failed (Press any key to recompile!)
 del "build\rh-atlus.gba"
 
 pause > nul

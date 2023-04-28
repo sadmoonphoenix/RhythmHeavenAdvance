@@ -24,6 +24,15 @@ gfx/RhythmGames/NinjaBodyguard/C22EE4_bodyguard_intro_obj
 gfx/RhythmGames/NinjaBodyguard/C23A3C_bodyguard_intro_bg
 gfx/RhythmGames/TheBonOdori/BE75B8_bonodori_intro_obj
 gfx/RhythmGames/TossTeam/C2A208_tossteam_intro_obj
+gfx/RhythmGames/Remix1/c04fec_remix1_intro_obj
+gfx/RhythmGames/Remix2/c06f74_remix2_intro_obj
+gfx/RhythmGames/Remix3/c092e0_remix3_intro_obj
+gfx/RhythmGames/Remix4/c0b644_remix4_intro_obj
+gfx/RhythmGames/Remix5/c0e864_remix5_intro_obj
+gfx/RhythmGames/Remix6/c13400_remix6_intro_obj
+gfx/RhythmGames/Remix7/c173c0_remix7_intro_obj
+gfx/RhythmGames/Remix8/c1a47c_remix8_intro_obj
+gfx/RhythmGames/Remix8/c5badc_tweezers_remix8_obj
 gfx/GameSelect/CC9854_gameselect_bg
 gfx/GameSelect/CC9148_gameselect_obj
 gfx/HealthSafety/D1AD4C_healthsafety_tile
