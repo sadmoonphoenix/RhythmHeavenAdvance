@@ -1,6 +1,6 @@
 ; Sample Pointer (One!)
 .org 0x08AA5140
-.dw drum_lessons_one
+.dw sample_drumlessons_one
 
 ; Sample Length (One!)
 .org 0x08AA512C
@@ -16,7 +16,7 @@
 
 ; Sample Pointer (Two!)
 .org 0x08AA5170
-.dw drum_lessons_two
+.dw sample_drumlessons_two
 
 ; Sample Length (Two!)
 .org 0x08AA515C
@@ -28,7 +28,7 @@
 
 ; Sample Pointer (Three!)
 .org 0x08AA5188
-.dw drum_lessons_three
+.dw sample_drumlessons_three
 
 ; Sample Length (Three!)
 .org 0x08AA5174

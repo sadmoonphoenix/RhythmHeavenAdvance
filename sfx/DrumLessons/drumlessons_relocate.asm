@@ -1,11 +1,11 @@
 .align 2
-drum_lessons_one:
-.import "sfx/DrumLessons/one.pcm"
+sample_drumlessons_one:
+.import "sfx/DrumLessons/sample_drumlessons_one.pcm"
 
 .align 2
-drum_lessons_two:
-.import "sfx/DrumLessons/two.pcm"
+sample_drumlessons_two:
+.import "sfx/DrumLessons/sample_drumlessons_two.pcm"
 
 .align 2
-drum_lessons_three:
-.import "sfx/DrumLessons/three.pcm"
+sample_drumlessons_three:
+.import "sfx/DrumLessons/sample_drumlessons_three.pcm"
