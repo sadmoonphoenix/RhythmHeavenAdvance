@@ -78,9 +78,10 @@ done
 
 echo "-- Compile Audio --"
 
-for file in $(cat for_script/bitmaps_to_compile.md | sed 1,1d)
+for file in $(cat for_script/sound_to_compile.md | sed 1,1d)
 do
-    tools/lin/4bmpp -p $file
+  echo $file
+  ffmpeg -y -i $file.wav -acodec pcm_s8 -ar 13379 -ac 1 -f s8 $file.pcm -loglevel error
 done
 
 echo "-- Compile Code --"
