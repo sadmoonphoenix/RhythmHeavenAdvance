@@ -2,17 +2,18 @@
 
 echo "You must have a system wide installation of Perl and Mono"
 
+
 function nofile {
-read -p "Couldn't find a Rhythm Tengoku ROM, please place a Rev. 0 ROM named \"rh-jpn.gba\" in the root of the project."
-check
+    read -p "Couldn't find a Rhythm Tengoku ROM, please place a Rev. 0 ROM named \"rh-jpn.gba\" in the root of the project."
+    check
 }
 
 function fail {
-rm -f build/rh-atlus.gba
-read -p "Building failed! (Press enter to recompile!)"
+    rm -f build/rh-atlus.gba
+    read -p "Building failed! (Press enter to recompile!)"
 
-clear
-check
+    clear
+    check
 }
 
 function tools {
