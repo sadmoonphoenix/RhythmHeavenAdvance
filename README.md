@@ -1,26 +1,81 @@
 # Rhythm Heaven Advance
+![Rhythm Heaven Advance](images/logo.svg?raw=true "Rhythm Heaven Advance")
 
-**There is no full release yet**, you can compile yourself though.<br>
-Project's Discord (Playtesting builds available there): https://discord.gg/VnCKdW8VBJ<br>
-A full README is coming soon!
+This repository is for the unofficial English localisation of Rhythm Tengoku, **Rhythm Heaven Advance**.
 
-# How to build
+**There is no full release yet**, you can compile it yourself though.
+Project's Discord (*playtesting* builds available there): https://discord.gg/VnCKdW8VBJ
 
-## Requirements
+# Installation
+You will need:
+* A legally obtained ROM of Rhythm Tengoku **(Rev 0)** (CRC32: `349D7025`)
+* An IPS patcher (like this one: https://www.marcrobledo.com/RomPatcher.js/)
 
-* A legally obtained ROM of Rhythm Tengoku (Rev 0) (CRC32: 349D7025)
+And you just patch your ROM!
 
-* Linux and MacOS requirements: Bash, Perl and Mono
+# Contribution
+Everyone can contribute! So if you want to contribute, please join our [Discord server](https://discord.gg/VnCKdW8VBJ) where we need the helping hands for now in:
+* Proof-reading
+* Graphics Designers
+* Voice Actors
+* Playtesters
 
-On Linux systems, you need to install Perl and Mono from your native package manager if you haven't already
+# Building
+You'll need a legally obtained ROM of Rhythm Tengoku (Rev 0) (CRC32: 349D7025) for all systems.
 
+### Windows
+If you want to be able to edit the audio files on Windows you'll need to have FFmpeg on the root of project or in your path!
+1. Open a command prompt.
+2. Download the Rhythm Heaven Advance repository.
+	```batch
+	git clone https://github.com/ShaffySwitcher/RhythmHeavenAdvance
+	cd RhythmHeavenSilver
+	```
+	or you could also just download the source directly from GitHub [here](https://github.com/ShaffySwitcher/RhythmHeavenSilver/archive/refs/heads/master.zip).
+3. Put a Rhythm Tengoku (Rev 0) (CRC32: `349D7025`) ROM named "rh-jpn.gba" at the root of the project.
+4. Compile.
+	```batch
+	compile.bat
+	```
+	or by simply clicking on "compile.bat" with your mouse.
+	
+If compiling worked you should have an ROM of Rhythm Heaven Advance into the "build" folder called "rh-eng.gba"!
+	
+### Dependencies
+On Linux & MacOS you need to install Perl and Mono and FFmpeg!
+
+On Linux systems, you can install them from your native package manager if you haven't already:
 * Debian: ``` apt install perl mono-runtime ```
 * Fedora: ``` dnf install perl mono-core ```
 * Arch/EndeavourOS/Manjaro: ``` pacman -S perl mono ```
 * OpenSUSE: ``` zypper in perl mono-core ```
+	
+### Linux & MacOS
 
-## Building (Windows)
-Launch compile.bat
+1. Open a terminal.
+2. Download the Rhythm Heaven Advance repository.
+	```bash
+	git clone https://github.com/ShaffySwitcher/RhythmHeavenAdvance
+	cd RhythmHeavenSilver
+	```
+	or you could also just download the source directly from GitHub [here](https://github.com/ShaffySwitcher/RhythmHeavenSilver/archive/refs/heads/master.zip).
+3. Put a Rhythm Tengoku (Rev 0) (CRC32: `349D7025`) ROM named "rh-jpn.gba" at the root of the project.
+4. Compile.
+    ```bash 
+    chmod +x compile.sh; ./compile.sh
+    ```
+    or
+    ```bash
+    bash compile.sh
+    ```
+    
+If compiling worked you should have an ROM of Rhythm Heaven Advance into the "build" folder called "rh-eng.gba"!
 
-## Building (Linux and MacOS)
-Launch compile.sh: ``` chmod +x compile.sh; ./compile.sh ``` or ``` bash compile.sh ```
+# Credits
+*T.B.D.*
+
+# Contact
+If you have any questions feel free to join the [Discord server](https://discord.gg/VnCKdW8VBJ), or contact to me directly on Discord! (Shaffy#3991)
+
+# Links
+Rhythm Heaven Advance's Official Website (W.I.P.): https://shaffy.fr/advance/
