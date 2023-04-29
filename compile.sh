@@ -59,26 +59,26 @@ echo "-- Compile Text --"
 perl "tools/abcde/abcde.pl" -cm abcde::Atlas "build/rh-atlus.gba" "src/script.txt"
 
 echo "-- Compile Bitmap --"
-for file in $(cat for_script/bitmaps_to_compile.md | sed 1,1d)
+for file in $(cat src/bitmaps_to_compile.md | sed 1,1d)
 do
     tools/lin/4bmpp -p $file
 done
 
 echo "-- Compile Graphics --"
-for file in $(cat for_script/graphics_to_compile.md | sed 1,1d)
+for file in $(cat src/graphics_to_compile.md | sed 1,1d)
 do
     mono tools/win/DSDecmp.exe -c lz10 $file.bin $file
 done
 
 echo "-- Compile Tile Maps --"
-for file in $(cat for_script/tilemaps_to_compile.md | sed 1,1d)
+for file in $(cat src/tilemaps_to_compile.md | sed 1,1d)
 do
     mono tools/win/rhcomp.exe $file
 done
 
 echo "-- Compile Audio --"
 
-for file in $(cat for_script/bitmaps_to_compile.md | sed 1,1d)
+for file in $(cat src/bitmaps_to_compile.md | sed 1,1d)
 do
     tools/lin/4bmpp -p $file
 done

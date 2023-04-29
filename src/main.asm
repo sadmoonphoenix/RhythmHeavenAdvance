@@ -63,6 +63,7 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 .include "gfx/RhythmGames/Remix6/remix6.asm"
 .include "gfx/RhythmGames/Remix7/remix7.asm"
 .include "gfx/RhythmGames/Remix8/remix8.asm"
+.include "gfx/RhythmGames/SpaceDance/spacedance.asm"
 .include "gfx/HealthSafety/healthsafety.asm"
 .include "gfx/Studio/studio.asm"
 .include "gfx/MainMenu/mainmenu.asm"

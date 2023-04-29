@@ -25,7 +25,7 @@ echo -- Compile Text --
 echo -- Compile Bitmap --
 
 setlocal EnableDelayedExpansion
-for /f "skip=1 delims=" %%f in (for_script/bitmaps_to_compile.md) do (
+for /f "skip=1 delims=" %%f in (src/bitmaps_to_compile.md) do (
   set "file=%%f"
   tools\win\4bmpp.exe -p !file!
 )
@@ -34,7 +34,7 @@ endlocal
 echo -- Compile Graphics --
 
 setlocal EnableDelayedExpansion
-for /f "skip=1 delims=" %%f in (for_script/graphics_to_compile.md) do (
+for /f "skip=1 delims=" %%f in (src/graphics_to_compile.md) do (
   set "file=%%f"
   tools\win\DSDecmp.exe -c lz10 !file!.bin !file!
 )
@@ -43,7 +43,7 @@ endlocal
 echo -- Compile Tile Maps ---
 
 setlocal EnableDelayedExpansion
-for /f "skip=1 delims=" %%f in (for_script/tilemaps_to_compile.md) do (
+for /f "skip=1 delims=" %%f in (src/tilemaps_to_compile.md) do (
   set "file=%%f"
   tools\win\rhcomp.exe !file!
 )
@@ -52,7 +52,7 @@ endlocal
 echo -- Compile Audio --
 
 setlocal EnableDelayedExpansion
-for /f "skip=1 delims=" %%f in (for_script/sounds_to_compile.md) do (
+for /f "skip=1 delims=" %%f in (src/sounds_to_compile.md) do (
   set "file=%%f"
   echo !file!
   ffmpeg -y -i !file!.wav -acodec pcm_s8 -ar 13379 -ac 1 -f s8 !file!.pcm -loglevel error
