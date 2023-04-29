@@ -2,17 +2,18 @@
 
 echo "You must have a system wide installation of Perl and Mono"
 
+
 function nofile {
-read -p "Couldn't find a Rhythm Tengoku ROM, please place a Rev. 0 ROM named \"rh-jpn.gba\" in the root of the project."
-check
+    read -p "Couldn't find a Rhythm Tengoku ROM, please place a Rev. 0 ROM named \"rh-jpn.gba\" in the root of the project."
+    check
 }
 
 function fail {
-rm -f build/rh-atlus.gba
-read -p "Building failed! (Press enter to recompile!)"
+    rm -f build/rh-atlus.gba
+    read -p "Building failed! (Press enter to recompile!)"
 
-clear
-check
+    clear
+    check
 }
 
 function tools {
@@ -78,9 +79,10 @@ done
 
 echo "-- Compile Audio --"
 
-for file in $(cat src/bitmaps_to_compile.md | sed 1,1d)
+for file in $(cat src/sounds_to_compile.md | sed 1,1d)
 do
-    tools/lin/4bmpp -p $file
+  echo $file
+  ffmpeg -y -i $file.wav -acodec pcm_s8 -ar 13379 -ac 1 -f s8 $file.pcm -loglevel error
 done
 
 echo "-- Compile Code --"
