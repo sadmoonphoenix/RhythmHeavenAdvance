@@ -13,6 +13,7 @@ You will need:
 
 And you just patch your ROM!
 
+
 # Contribution
 Everyone can contribute! So if you want to contribute, please join our [Discord server](https://discord.gg/VnCKdW8VBJ) where we need the helping hands for now in:
 * Proof-reading
