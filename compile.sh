@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "You must have a system wide installation of Perl and Mono"
+echo "You must have a system wide installation of Perl, Mono and FFmpeg. See the README"
 
 
 function nofile {
@@ -65,18 +65,26 @@ bitmapToDo=$(wc -l src/bitmaps_to_compile.md)
 bitmapCounter=1
 for file in $(cat src/bitmaps_to_compile.md | sed 1,1d)
 do
-    echo "Proccessing... ($bitmapCounter/$bitmapToDo) $file
+    echo "\e[1A\e[KProccessing... ($bitmapCounter/$bitmapToDo) $file"
     tools/lin/4bmpp -p $file
-    
+    bitmapCounter=$((bitmapCounter+1))
 done
 
 echo "-- Compile Graphics --"
+echo "Waiting..."
+graphicToDo=$(wc -l src/graphics_to_compile.md)
+graphicCounter=1
 for file in $(cat src/graphics_to_compile.md | sed 1,1d)
 do
+    echo "\e[1A\e[KProccessing... ($graphicCounter/$graphicToDo) $file"
     mono tools/win/DSDecmp.exe -c lz10 $file.bin $file
+    graphicCounter=$((graphicCounter+1))
 done
 
 echo "-- Compile Tile Maps --"
+echo "Waiting..."
+tileToDo=$(wc -l src/tilemaps_to_compile.md)
+tileCounter=1
 for file in $(cat src/tilemaps_to_compile.md | sed 1,1d)
 do
     mono tools/win/rhcomp.exe $file
