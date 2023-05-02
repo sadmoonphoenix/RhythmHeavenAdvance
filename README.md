@@ -17,7 +17,7 @@ And you just patch your ROM!
 # Contribution
 Everyone can contribute! So if you want to contribute, please join our [Discord server](https://discord.gg/VnCKdW8VBJ) where we need the helping hands for now in:
 * Proof-reading
-* Graphics Designers
+* Graphic Designers
 * Voice Actors
 * Playtesters
 
@@ -25,14 +25,14 @@ Everyone can contribute! So if you want to contribute, please join our [Discord 
 You'll need a legally obtained ROM of Rhythm Tengoku (Rev 0) (CRC32: 349D7025) for all systems.
 
 ### Windows
-If you want to be able to edit the audio files on Windows you'll need to have FFmpeg on the root of project or in your path!
+If you want to be able to edit the audio files on Windows you'll need to have FFmpeg on the root of project or in your PATH (system-wide installation)!
 1. Open a command prompt.
 2. Download the Rhythm Heaven Advance repository.
 	```batch
 	git clone https://github.com/ShaffySwitcher/RhythmHeavenAdvance
 	cd RhythmHeavenAdvance
 	```
-	or you could also just download the source directly from GitHub [here](https://github.com/ShaffySwitcher/RhythmHeavenSilver/archive/refs/heads/master.zip).
+	or you could also just download the source directly from GitHub [here](https://github.com/ShaffySwitcher/RhythmHeavenSilver/archive/refs/heads/master.zip) (not recommended).
 3. Put a Rhythm Tengoku (Rev 0) (CRC32: `349D7025`) ROM named "rh-jpn.gba" at the root of the project.
 4. Compile.
 	```batch
@@ -62,7 +62,7 @@ On macOS systems, you can install [Homebrew](https://brew.sh/) and then run the 
 	git clone https://github.com/ShaffySwitcher/RhythmHeavenAdvance
 	cd RhythmHeavenAdvance
 	```
-	or you could also just download the source directly from GitHub [here](https://github.com/ShaffySwitcher/RhythmHeavenAdvance/archive/refs/heads/master.zip).
+	or you could also just download the source directly from GitHub [here](https://github.com/ShaffySwitcher/RhythmHeavenAdvance/archive/refs/heads/master.zip) (not recommended).
 3. Put a Rhythm Tengoku (Rev 0) (CRC32: `349D7025`) ROM named "rh-jpn.gba" at the root of the project.
 4. Compile.
     ```bash 
