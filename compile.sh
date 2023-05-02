@@ -69,6 +69,7 @@ do
     tools/lin/4bmpp -p $file
     bitmapCounter=$((bitmapCounter+1))
 done
+echo "\e[1A\e[Kecho "\e[1A\e[KProccessing... Done"
 
 echo "-- Compile Graphics --"
 echo "Waiting..."
@@ -80,6 +81,7 @@ do
     mono tools/win/DSDecmp.exe -c lz10 $file.bin $file
     graphicCounter=$((graphicCounter+1))
 done
+echo "\e[1A\e[Kecho "\e[1A\e[KProccessing... Done"
 
 echo "-- Compile Tile Maps --"
 echo "Waiting..."
@@ -87,16 +89,23 @@ tileToDo=$(wc -l src/tilemaps_to_compile.md)
 tileCounter=1
 for file in $(cat src/tilemaps_to_compile.md | sed 1,1d)
 do
+    echo "\e[1A\e[KProccessing... ($tileCounter/$tileToDo) $file"
     mono tools/win/rhcomp.exe $file
+    tileCounter=$((graphicCounter+1))
 done
+echo "\e[1A\e[Kecho "\e[1A\e[KProccessing... Done"
 
 echo "-- Compile Audio --"
-
+echo "Waiting..."
+audioToDo=$(wc -l src/sounds_to_compile.md)
+audioCounter=1
 for file in $(cat src/sounds_to_compile.md | sed 1,1d)
 do
-  echo $file
+  echo "\e[1A\e[KProccessing... ($audioCounter/$audioToDo) $file"
   ffmpeg -y -i $file.wav -acodec pcm_s8 -ar 13379 -ac 1 -f s8 $file.pcm -loglevel error
+  audioCounter=$((audioCounter+1))
 done
+echo "\e[1A\e[Kecho "\e[1A\e[KProccessing... Done"
 
 echo "-- Compile Code --"
 
