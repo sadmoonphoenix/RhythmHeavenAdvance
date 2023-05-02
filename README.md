@@ -62,7 +62,7 @@ On macOS systems, you can install [Homebrew](https://brew.sh/) and then run the 
 	git clone https://github.com/ShaffySwitcher/RhythmHeavenAdvance
 	cd RhythmHeavenAdvance
 	```
-	or you could also just download the source directly from GitHub [here](https://github.com/ShaffySwitcher/RhythmHeavenSilver/archive/refs/heads/master.zip).
+	or you could also just download the source directly from GitHub [here](https://github.com/ShaffySwitcher/RhythmHeavenAdvance/archive/refs/heads/master.zip).
 3. Put a Rhythm Tengoku (Rev 0) (CRC32: `349D7025`) ROM named "rh-jpn.gba" at the root of the project.
 4. Compile.
     ```bash 
