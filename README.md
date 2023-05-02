@@ -30,7 +30,7 @@ If you want to be able to edit the audio files on Windows you'll need to have FF
 2. Download the Rhythm Heaven Advance repository.
 	```batch
 	git clone https://github.com/ShaffySwitcher/RhythmHeavenAdvance
-	cd RhythmHeavenSilver
+	cd RhythmHeavenAdvance
 	```
 	or you could also just download the source directly from GitHub [here](https://github.com/ShaffySwitcher/RhythmHeavenSilver/archive/refs/heads/master.zip).
 3. Put a Rhythm Tengoku (Rev 0) (CRC32: `349D7025`) ROM named "rh-jpn.gba" at the root of the project.
@@ -43,21 +43,24 @@ If you want to be able to edit the audio files on Windows you'll need to have FF
 If compiling worked you should have an ROM of Rhythm Heaven Advance into the "build" folder called "rh-eng.gba"!
 	
 ### Dependencies
-On Linux & MacOS you need to install Perl and Mono and FFmpeg!
+On Linux & macOS you need to install Perl and Mono and FFmpeg! Git will be included in the commands below, in case your distro doesn't ship it. 
 
 On Linux systems, you can install them from your native package manager if you haven't already:
-* Debian: ``` apt install perl mono-runtime ```
-* Fedora: ``` dnf install perl mono-core ```
-* Arch/EndeavourOS/Manjaro: ``` pacman -S perl mono ```
-* OpenSUSE: ``` zypper in perl mono-core ```
+* Debian/Ubuntu: ```sudo apt install perl mono-runtime ffmpeg git```
+* Fedora: ```sudo dnf install perl mono-core ffmpeg-free git```
+* Arch: ```sudo pacman -S perl mono ffmpeg git```
+* OpenSUSE: ```sudo zypper in perl mono-core ffmpeg git-core```
+
+On macOS systems, you can install [Homebrew](https://brew.sh/) and then run the following commands to install what you need:
+```brew install perl mono ffmpeg```
 	
-### Linux & MacOS
+### Linux & macOS
 
 1. Open a terminal.
 2. Download the Rhythm Heaven Advance repository.
 	```bash
 	git clone https://github.com/ShaffySwitcher/RhythmHeavenAdvance
-	cd RhythmHeavenSilver
+	cd RhythmHeavenAdvance
 	```
 	or you could also just download the source directly from GitHub [here](https://github.com/ShaffySwitcher/RhythmHeavenSilver/archive/refs/heads/master.zip).
 3. Put a Rhythm Tengoku (Rev 0) (CRC32: `349D7025`) ROM named "rh-jpn.gba" at the root of the project.
