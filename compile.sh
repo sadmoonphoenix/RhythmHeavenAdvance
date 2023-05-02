@@ -60,9 +60,14 @@ echo "-- Compile Text --"
 perl "tools/abcde/abcde.pl" -cm abcde::Atlas "build/rh-atlus.gba" "src/script.txt"
 
 echo "-- Compile Bitmap --"
+echo "Waiting..."
+bitmapToDo=$(wc -l src/bitmaps_to_compile.md)
+bitmapCounter=1
 for file in $(cat src/bitmaps_to_compile.md | sed 1,1d)
 do
+    echo "Proccessing... ($bitmapCounter/$bitmapToDo) $file
     tools/lin/4bmpp -p $file
+    
 done
 
 echo "-- Compile Graphics --"
