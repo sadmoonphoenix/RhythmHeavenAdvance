@@ -43,12 +43,12 @@ If you want to be able to edit the audio files on Windows you'll need to have FF
 If compiling worked you should have an ROM of Rhythm Heaven Advance into the "build" folder called "rh-eng.gba"!
 	
 ### Dependencies
-On Linux & macOS you need to install Perl and Mono and FFmpeg! Git will be included in the commands below, in case your distro doesn't ship it. 
+On Linux & macOS you need to install Perl, Mono and FFmpeg! Git will be included in the commands below, in case your distro doesn't ship it. 
 
 On Linux systems, you can install them from your native package manager if you haven't already:
 * Debian/Ubuntu: ```sudo apt install perl mono-runtime ffmpeg git```
 * Fedora: ```sudo dnf install perl mono-core ffmpeg-free git```
-* Arch: ```sudo pacman -S perl mono ffmpeg git```
+* Arch: ```sudo pacman -S perl mono ffmpeg git --needed```
 * OpenSUSE: ```sudo zypper in perl mono-core ffmpeg git-core```
 
 On macOS systems, you can install [Homebrew](https://brew.sh/) and then run the following commands to install what you need:
