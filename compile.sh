@@ -2,6 +2,25 @@
 
 echo "You must have a system wide installation of Perl and Mono"
 
+function checkzenity {
+    if ! command -v zenity &> /dev/null
+    then
+        echo "Zenity is not installed. Falling back to terminal interface"
+    else
+        echo "Zenity is installed."
+
+if [[ $XDG_CURRENT_DESKTOP == *"KDE"* ]]
+then
+    if ! command -v kdialog &> /dev/null
+    then
+        echo "KDialog is not installed. Will try to fall back to Zenity"
+        checkzenity
+    else
+        echo "Kdialog is installed."
+    fi
+else
+    checkzenity
+   
 
 function nofile {
     read -p "Couldn't find a Rhythm Tengoku ROM, please place a Rev. 0 ROM named \"rh-jpn.gba\" in the root of the project."
