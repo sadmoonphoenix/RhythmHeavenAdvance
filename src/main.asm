@@ -63,7 +63,7 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 .include "gfx/RhythmGames/Remix6/remix6.asm"
 .include "gfx/RhythmGames/Remix7/remix7.asm"
 .include "gfx/RhythmGames/Remix8/remix8.asm"
-.include "gfx/RhythmGames/SpaceDance/spacedance.asm"
+; .include "gfx/RhythmGames/SpaceDance/spacedance.asm"
 .include "gfx/HealthSafety/healthsafety.asm"
 .include "gfx/Studio/studio.asm"
 .include "gfx/MainMenu/mainmenu.asm"
@@ -78,7 +78,7 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 .include "gfx/Perfect/perfect.asm"
 
 .include "sfx/DrumLessons/drumlessons.asm"
-; .include "sfx/Remix3/remix3.asm"
+; .include "sfx/MarchingOrders/marching.asm"
 ; .include "sfx/Remix5/remix5.asm"
 ; .include "sfx/TempoUp/RhythmTweezers/tweezers.asm"
 ; .include "sfx/SpaceDance/space.asm"
