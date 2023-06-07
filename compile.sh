@@ -178,7 +178,10 @@ then
 fi
 
 rm -f build/rh-atlus.gba
-read -p "Building complete! (Press enter to recompile!)"
 
-clear
-check
+case $interface in
+    0) echo "-- Done! --";;
+    1) zenity --notification --window-icon="info" --text="Done!";;
+    2) kdialog --title "Rhythm Heaven Advance patcher" --passivepopup "Done!";;
+esac
+exit
