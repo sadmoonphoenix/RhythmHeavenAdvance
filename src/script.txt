@@ -251,7 +251,7 @@ Incredible! You're as precise as an atomic clock![;
 [l
 [;
 
-// #WRITE(RtPtr, $9CEA20)
+#WRITE(RtPtr, $9CEA20)
 // 0x8052464
 //プロデューサー「うちで、ガンバってみない？」[;
 The producer says... "You should play at our place, too!"[;
@@ -276,6 +276,7 @@ The cleaner says... "I know you can do it, keep it up!"[;
 [color=pink][linestyle=3][linealign=center]Are you sure?[l
 [color=peach][linestyle=1]　　  　　 Yes[l
 　　 　 No[;
+
 #WRITE(RtPtr, $9CFB18)
 // 0x8054998
 //[color=pink][linestyle=3][linealign=center]データのクリア[l

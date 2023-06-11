@@ -7,5 +7,6 @@ However from what I remember:
 - gfxLocator.lua: VERY useful script to locate OAM and Sprite into the ROM. (Only works with the log flag in the compile.asm file)
 - TileMap Studio: It's in the name.
 - Palette Tool: Converts PAL <--> AGP
+- Sound Tool: Converts PCM <--> ASM_RELOCATE
 
 - Shaffy, 2022-2023.

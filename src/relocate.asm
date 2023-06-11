@@ -44,10 +44,10 @@
 .include "gfx/Perfect/perfect_relocate.asm"
 
 .include "sfx/DrumLessons/drumlessons_relocate.asm"
+;
+;
 ; .include "sfx/TempoUp/RhythmTweezers/tweezers_relocate.asm"
 ; .include "sfx/SpaceDance/space_relocate.asm"
-;
-;
 
 .include "src/DebugMenu/debugmenu_relocate.asm"
 .include "src/TempoUp/KarateMan/karateman_relocate.asm"
