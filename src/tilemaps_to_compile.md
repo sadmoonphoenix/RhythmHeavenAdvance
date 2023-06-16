@@ -11,5 +11,6 @@ gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_map.bin
 gfx/RhythmToys/CatMachine/CDA118_catmachine_bg_map.bin
 gfx/RhythmToys/CD8DA0_rhythmtoys_bg_map.bin
 gfx/EndlessGames/CC4670_endlessgames_bg_map.bin
+gfx/EndlessGames/MannequinFactory/C34478_slapface_bg_map.bin
 gfx/DrumLessons/CC6914_drumlessons_bg_map.bin
 gfx/Perfect/CCC138_perfect_map.bin

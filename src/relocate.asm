@@ -39,6 +39,7 @@
 .include "gfx/RhythmToys/rhythmtoys_relocate.asm"
 .include "gfx/EndlessGames/endlessgames_relocate.asm"
 .include "gfx/EndlessGames/MrUpbeat/upbeat_relocate.asm"
+.include "gfx/EndlessGames/MannequinFactory/slapface_relocate.asm"
 .include "gfx/DrumLessons/drumlessons_relocate.asm"
 .include "gfx/RhythmArchives/archives_relocate.asm"
 .include "gfx/GameSelect/gameselect_relocate.asm"
