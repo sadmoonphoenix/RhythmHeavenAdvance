@@ -78,6 +78,7 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 .include "gfx/MedalCorner/medalcorner.asm"
 .include "gfx/RhythmToys/rhythmtoys.asm"
 .include "gfx/EndlessGames/endlessgames.asm"
+.include "gfx/EndlessGames/MrUpbeat/upbeat.asm"
 .include "gfx/DrumLessons/drumlessons.asm"
 .include "gfx/RhythmArchives/archives.asm"
 .include "gfx/GameSelect/gameselect.asm"

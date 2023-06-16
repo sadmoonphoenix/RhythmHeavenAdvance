@@ -22,6 +22,9 @@ flipscfg.bin
 temp_*.*
 temp_*/
 
-
 # Shaffy's personal folder to not clutter the project.
 ShaffyOnly/*
+
+# OAM Editor leftovers...
+info.txt
+info_relocate.txt
