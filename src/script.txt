@@ -9641,7 +9641,7 @@ but we'll talk more later.[l
 //[;
 [l
 If there's anything I can[l
-do to help, well, [style=gold][linestyle=5]that's
+do to help, well, [style=gold][linestyle=5]that's[l
 [style=gold][linestyle=5]what I'm here for.[style=normal][linestyle=8][l
 [;
 
@@ -9652,8 +9652,8 @@ do to help, well, [style=gold][linestyle=5]that's
 //ゲームが　[style=gold][linestyle=5]うまくできないとき[style=4(normal)][linestyle=8]や[l
 //つかれたときにでも　おいで下さい。[;
 [l
-Feel free to come on by anytime you
-find the games [style=gold][linestyle=5]too hard to play[style=normal][linestyle=8] or
+Feel free to come on by anytime you[l
+find the games [style=gold][linestyle=5]too hard to play[style=normal][linestyle=8] or[l
 you just need to take a break.[l
 [;
 
