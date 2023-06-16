@@ -38,5 +38,3 @@ bl OptionsDebugSequence_Hook
 .org 0x08017C58
 .byte 0x00
 .endif
-
-;eof

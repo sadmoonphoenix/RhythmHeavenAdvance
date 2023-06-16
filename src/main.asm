@@ -4,34 +4,40 @@
 .gba
 .open "build/rh-atlus.gba","build/rh-eng.gba", 0x08000000
 
-_skiprhythmtest equ 0
-_debug equ 0
-_oamluaconsolemessages equ 1
-_spriteluaconsolemessages equ 1
-_autoplay equ 0 ; EXPERIMENTAL (VERY GLITCHY)
+_skiprhythmtest equ 0				; Skips the Rhythm Test when you don't have a save file.
+_debug equ 0						; Various Debug hacks, unlock everything, etc...
+_oamluaconsolemessages equ 1		; Logs OAM loads in RAM (for the gfxLocator.lua script)
+_spriteluaconsolemessages equ 1		; Logs Sprite loads in RAM (for the gfxLocator.lua script)
+_autoplay equ 0						; Experimental Autoplay for various reasons (getting perfects, etc...) (DOESN'T ALWAYS WORK!)
+; If you're looking for the Debug Menu it's actually now in-game, you need to press L & R when loading into Game Select from the Main Menu.
 
 .if _skiprhythmtest ==1
-.warning "Rhythm Test will be skipped, do NOT use for release!"
+	.warning "Rhythm Test will be skipped, do NOT use for release!"
 .endif
+
 .if _debug ==1
-.warning "Debug flag enabled! This will result in every part of the game already unlocked, do NOT use for release!"
+	.warning "Debug flag enabled! This will result in every part of the game already unlocked, do NOT use for release!"
 .endif
+
 .if _oamluaconsolemessages ==1
-.warning "OAM Log Enabled, while not deadly, should be disabled because it might cause lag, or/and more..."
+	.warning "OAM Log Enabled, while not deadly, should be disabled because it might cause lag, or/and more..."
 .endif
+
 .if _spriteluaconsolemessages ==1
-.warning "Sprite Log Enabled, while not deadly, should be disabled because it might cause lag, or/and more..."
+	.warning "Sprite Log Enabled, while not deadly, should be disabled because it might cause lag, or/and more..."
 .endif
+
 .if _autoplay ==1
-.warning "Auto-Play Enabled, do NOT use for release!"
+	.warning "Auto-Play Enabled, do NOT use for release!"
 .endif
 
 ; -- Version Checking --
 gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
+
 .if gameVersion == 0x24
-.error "Your ROM of Rhythm Tengoku is uncompatible! (Rev 1 detected, you need a Rev 0 ROM)"
+	.error "Your ROM of Rhythm Tengoku is uncompatible! (Rev 1 detected, you need a Rev 0 ROM)"
 .elseif gameVersion == 0x26
-.error "Your ROM of Rhythm Tengoku is uncompatible! (Kiosk Demo detected, you need a Rev 0 ROM)"
+	.error "Your ROM of Rhythm Tengoku is uncompatible! (Kiosk Demo detected, you need a Rev 0 ROM)"
 .endif
 
 .include "src/relocate.asm"
@@ -55,6 +61,7 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 .include "gfx/RhythmGames/NinjaBodyguard/bodyguard.asm"
 .include "gfx/RhythmGames/TheBonOdori/bonodori.asm"
 .include "gfx/RhythmGames/TossTeam/tossteam.asm"
+.include "gfx/RhythmGames/TramPauline/tramp.asm"
 .include "gfx/RhythmGames/Remix1/remix1.asm"
 .include "gfx/RhythmGames/Remix2/remix2.asm"
 .include "gfx/RhythmGames/Remix3/remix3.asm"

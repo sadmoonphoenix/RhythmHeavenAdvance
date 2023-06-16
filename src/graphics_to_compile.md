@@ -34,6 +34,7 @@ gfx/RhythmGames/Remix7/c173c0_remix7_intro_obj
 gfx/RhythmGames/Remix8/c1a47c_remix8_intro_obj
 gfx/RhythmGames/Remix8/c5badc_tweezers_remix8_obj
 gfx/RhythmGames/SpaceDance/c24f60_spacedance_intro_obj
+gfx/RhythmGames/TramPauline/C30910_tramp_intro_obj
 gfx/GameSelect/CC9854_gameselect_bg
 gfx/GameSelect/CC9148_gameselect_obj
 gfx/HealthSafety/D1AD4C_healthsafety_tile
