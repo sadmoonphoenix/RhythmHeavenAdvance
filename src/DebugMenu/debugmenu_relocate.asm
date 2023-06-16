@@ -147,7 +147,7 @@ CosmicDanceName:
 .sjis "Ｃｏｓｍｉｃ　Ｄａｎｃｅ"
 
 ShowtimeName:
-.sjis "Ｓｈｏｗｔｉｍｅ"
+.sjis "Ｓｈｏｗｔｉｍｅ！"
 
 RIQDataCheckName:
 .sjis "Ｒ－ＩＱ　Ｄａｔａ　Ｃｈｅｃｋ"
@@ -206,8 +206,8 @@ HorseMachineName:
 TapTrialName:
 .sjis "Ｔａｐ　Ｔｒｉａｌ"
 
-TurboTapTrialName:
-.sjis "Ｔｕｒｂｏ　Ｔａｐ　Ｔｒｉａｌ"
+TapTrial2Name:
+.sjis "Ｔａｐ　Ｔｒｉａｌ　２"
 
 SamuraiSliceName:
 .sjis "Ｓａｍｕｒａｉ　Ｓｌｉｃｅ"
@@ -714,7 +714,7 @@ DebugMenuEntries:
 ; -- Engine Code
 .dw 0x089D6258
 ; -- Text Code
-.dw TurboTapTrialName | 0x8000000
+.dw TapTrial2Name | 0x8000000
 
 ; -- Engine Code
 .dw 0x089D15F0
