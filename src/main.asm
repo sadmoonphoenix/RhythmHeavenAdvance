@@ -62,6 +62,7 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 .include "gfx/RhythmGames/TheBonOdori/bonodori.asm"
 .include "gfx/RhythmGames/TossTeam/tossteam.asm"
 .include "gfx/RhythmGames/TramPauline/tramp.asm"
+.include "gfx/RhythmGames/SickBeats/sickbeats.asm"
 .include "gfx/RhythmGames/Remix1/remix1.asm"
 .include "gfx/RhythmGames/Remix2/remix2.asm"
 .include "gfx/RhythmGames/Remix3/remix3.asm"

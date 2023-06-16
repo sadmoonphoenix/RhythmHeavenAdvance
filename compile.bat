@@ -1,5 +1,7 @@
 @echo off
 
+REM clean this out lol
+
 set perl-path="perl"
 
 if exist "tools\win\perl.exe" (
@@ -72,7 +74,7 @@ del "build\rh-atlus.gba"
 
 pause > nul
 
-clear
+cls
 goto check
 
 :nofile
