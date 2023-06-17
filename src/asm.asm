@@ -35,6 +35,12 @@ bl FixResultsCaps
 .org 0x0801271a
 bl OptionsDebugSequence_Hook
 
+.org 0x08012826
+bl AltMainMusicSequence_Hook
+
+; .org 0x0800BF84
+; bl Funny_Hook
+
 .if _autoplay==1
 .org 0x08017C54
 .byte 0x01

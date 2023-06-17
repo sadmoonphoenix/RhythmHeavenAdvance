@@ -47,11 +47,11 @@ EndlessGamesPlural:
 	cmp r0,1
 	beq @@writetiles
 	add r4,r4,2 
-	@@writetiles:
-		ldrh r2,[r4]
-		strh r2,[r1]
-		pop r1-r4
-		mov r15,r14
+@@writetiles:
+	ldrh r2,[r4]
+	strh r2,[r1]
+	pop r1-r4
+	mov r15,r14
 .pool
 
 EndlessGamesPlural_Hook:
@@ -66,20 +66,55 @@ OptionsDebugSequence:
 	ldrb r2,[r2]
 	cmp r2,0x00
 	beq @@accessdebug
-	bne @@nevermind
+	b @@nevermind
 
-	@@accessdebug:
-		ldr r0,=0x089ddbcc
-	@@nevermind:
+@@accessdebug:
+	ldr r0,=0x089ddbcc
+@@nevermind:
 	pop r2
 	mov r15,r14
 .pool
 
 OptionsDebugSequence_Hook:
-push r14
-bl OptionsDebugSequence
-bl 0x08000584
-pop r15
+	push r14
+	bl OptionsDebugSequence
+	bl 0x08000584
+	pop r15
+
+AltMainMusicSequence:
+	push r14,r1-r3
+	ldr r1, =0x04000130
+	ldr r2,[r1]
+	ldr r3,=0x00000204
+	tst r2,r3
+	bne @@return
+	mov r0, 0x98
+	bl 0x0800bdf8
+	ldr r0, =0x08a9b44c
+@@return:
+	pop r14,r1-r3
+	mov r15,r14
+.pool
+
+AltMainMusicSequence_Hook:
+	push r14
+	bl AltMainMusicSequence
+	
+	bl 0x0800bf7c
+	pop r15
+	
+; Funny:
+	; push r14
+	; ldr r0, =0x00000000
+	; pop r14
+	; mov r15,r14
+	
+; Funny_Hook:
+	; push r14
+	; bl Funny
+	
+	; bl 0x0800bed0
+	; pop r15
 
 .include "src/lz77hack_relocate.asm"
 .include "src/debug_relocate.asm"

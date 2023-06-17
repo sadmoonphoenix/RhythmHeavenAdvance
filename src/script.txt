@@ -9787,8 +9787,8 @@ so much stock in a rumor.[l
 //[;
 [l
 I know it's not much of a gift,[l
-but I've opened up more studio songs for you.[l
-[l
+but I've opened up more studio songs for[l
+you.[l
 [;
 
 #WRITE(RtPtr, $9CD33C)
@@ -9823,8 +9823,8 @@ You've really earned a break.[l
 //[l
 //[;
 [l
-I'm so proud of you. Moved to tears,[l
-even![l
+I'm so proud of you. Moved to[l
+tears, even![l
 [l
 [;
 
@@ -10813,7 +10813,7 @@ the Perfect Campaign![l
 //めちゃすごーい!![size=small][linesize=small][style=4(normal)][linestyle=8][;
 [size=large][linesize=large][style=gold][linestyle=5][l
 [l
-Now, that's perfect![size=small][linesize=small][style=normal][linestyle=8][l
+Crazy awesome![size=small][linesize=small][style=normal][linestyle=8][l
 [l
 [;
 
