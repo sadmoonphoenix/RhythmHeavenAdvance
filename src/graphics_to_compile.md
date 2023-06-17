@@ -13,6 +13,7 @@ gfx/RhythmGames/Polyrhythm/c0212c_polyrhythm_intro_bg
 gfx/RhythmGames/Polyrhythm/C781AC_polyrhythm_obj
 gfx/RhythmGames/TapTrial/C26340_tap_intro
 gfx/RhythmGames/MarchingOrders/BFA204_marching_intro
+gfx/RhythmGames/MarchingOrders/C6C658_marching_obj
 gfx/RhythmGames/SneakySpirits/BE0FF8_sneaky_intro
 gfx/RhythmGames/MarchingOrders2/BFC8F4_marching2_intro
 gfx/RhythmGames/TempoUp/KarateMan/karateman_extra_tiles

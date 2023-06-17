@@ -2,6 +2,10 @@
 BFA204_marching_intro:
 .import "gfx/RhythmGames/MarchingOrders/BFA204_marching_intro.cdat"
 
+.align 4
+C6C658_marching_obj:
+.import "gfx/RhythmGames/MarchingOrders/C6C658_marching_obj.cdat"
+
 .align 2
 X8B0808_assembly1:
 .import "gfx/RhythmGames/MarchingOrders/8B0808_assembly1.bin"
@@ -29,3 +33,7 @@ X8B08FC_assembly6:
 .align 2
 X8B094C_assembly7:
 .import "gfx/RhythmGames/MarchingOrders/8B094C_assembly7.bin"
+
+.align 2
+X8F1188_assembly3:
+.import "gfx/RhythmGames/MarchingOrders/8F1188_assembly3.bin"
