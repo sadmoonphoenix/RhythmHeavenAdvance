@@ -1,3 +1,6 @@
+.org 0x08CD5288
+.dw CD5288_studio_obj | 0x80000000
+
 .org 0x08CD5D64
 .dw CD5D64_studio_bgtile | 0x80000000
 

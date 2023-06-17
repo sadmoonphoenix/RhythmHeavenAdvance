@@ -44,6 +44,7 @@ gfx/GameSelect/CC9854_gameselect_bg
 gfx/GameSelect/CC9148_gameselect_obj
 gfx/HealthSafety/D1AD4C_healthsafety_tile
 gfx/MainMenu/CCB298_mainmenu_tile
+gfx/Studio/CD5288_studio_obj
 gfx/Studio/CD5D64_studio_bgtile
 gfx/Options/C76CA4_options_tile
 gfx/RhythmArchives/CC77A4_archives_bgtile
