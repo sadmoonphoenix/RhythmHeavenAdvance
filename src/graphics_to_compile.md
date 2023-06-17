@@ -53,6 +53,8 @@ gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_bg
 gfx/RhythmToys/CatMachine/CDA118_catmachine_bg
 gfx/RhythmToys/CD8388_rhythmtoys_obj
 gfx/RhythmToys/CD8DA0_rhythmtoys_bg
+gfx/RhythmTest/C6A638_rtest_bg
+gfx/RhythmTest/C6A350_rtest_obj
 gfx/EndlessGames/CC3B7C_endlessgames_obj
 gfx/EndlessGames/CC4670_endlessgames_bg
 gfx/DrumLessons/CC5E8C_drumlessons_obj

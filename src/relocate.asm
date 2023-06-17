@@ -44,6 +44,7 @@
 .include "gfx/DrumLessons/drumlessons_relocate.asm"
 .include "gfx/RhythmArchives/archives_relocate.asm"
 .include "gfx/GameSelect/gameselect_relocate.asm"
+.include "gfx/RhythmTest/rtest_relocate.asm"
 .include "gfx/Options/options_relocate.asm"
 .include "gfx/Common/common_relocate.asm"
 .include "gfx/Perfect/perfect_relocate.asm"
