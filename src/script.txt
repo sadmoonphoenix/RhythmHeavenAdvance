@@ -806,7 +806,7 @@ Now onto the next pattern![;
 //わかるかな？[l
 //[;
 [l
-Now for a new beat!
+Now for a new beat![l
 Can you spot it?[;
 
 #WRITE(RtPtr, $A422B4)
@@ -817,8 +817,8 @@ Can you spot it?[;
 //押してネ！すると…[;
 [l
 If you're having trouble with[l
-playing fast, you can press the[l
-START Button and...[;
+playing fast, you can press[l
+the START Button and...[;
 
 #WRITE(RtPtr, $A42314)
 // 0x80618d8
@@ -839,9 +839,9 @@ patterns![;
 //再度スタートボタンを[l
 //押せばＯＫです。[;
 [l
-Press the START Button again[l
-to speed it back up and try it[l
-for real![;
+Press the START Button[l
+again to speed it back up[l
+and try it for real![;
 
 #WRITE(RtPtr, $A423D4)
 // 0x8061950

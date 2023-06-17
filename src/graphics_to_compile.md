@@ -57,4 +57,6 @@ gfx/EndlessGames/CC3B7C_endlessgames_obj
 gfx/EndlessGames/CC4670_endlessgames_bg
 gfx/DrumLessons/CC5E8C_drumlessons_obj
 gfx/DrumLessons/CC6914_drumlessons_bg
+gfx/DrumLessons/C4EFE4_drumlessons_lesson_obj
+gfx/DrumLessons/C4FC44_drumlessons_lesson_bg
 gfx/Perfect/CCC138_perfect_bg
