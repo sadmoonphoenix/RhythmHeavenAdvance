@@ -309,99 +309,103 @@ The cleaner says... "I know you can do it, keep it up!"[;
 
 // Perfect
 
-// #WRITE(RtPtr, $12DC0)
+#WRITE(RtPtr, $12DC0)
 // 0x8050bdc
 // ただいま「[;
-// If you get a Perfect on[l"[;
+If you get a Perfect on[l"[;
 
-// #WRITE(RtPtr, $12DC4)
+#WRITE(RtPtr, $12DC4)
 // 0x8050be8
 // 」でパーフェクトを達成すると[;
-// " right now,[;
+"[1px]right[1px]now,[1px][;
 
-// #WRITE(RtPtr, $12DC8)
+#WRITE(RtPtr, $12DC8)
 // 0x8050c08
 //もれなく[;
 // [l
-// [l[;
+you can get [;
 
-// #WRITE(RtPtr, $12DCC)
+#WRITE(RtPtr, $12DCC)
 // 0x8050c14
 //「[;
-// "[;
+"[;
 
-// #WRITE(RtPtr, $12DD0)
+#WRITE(RtPtr, $12DD0)
 // 0x8050c18
 //」[;
-// "[;
+"[l[;
 
-// #WRITE(RtPtr, $12DD4)
+#WRITE(RtPtr, $12DD4)
 // 0x8050c1c
 //の曲[;
-// 's song[;
+'s song [;
  
-// #WRITE(RtPtr, $12DD8)
+#WRITE(RtPtr, $12DD8)
 // 0x8050c24
 //をプレゼント!![;
-// [las a bonus.[;
+as a bonus.[;
 
 // You got a Perfect!
 
-// #WRITE(RtPtr, $16D00)
+#WRITE(RtPtr, $16D00)
 // 0x8054acc
 //[color=peach][linestyle=1][linealign=center][size=small][linesize=small][style=4(normal)][linestyle=8]「[;
-// [color=peach][linestyle=1][linealign=center][size=small][linesize=small][style=normal][linestyle=8]"[;
+You've earned [color=peach][linestyle=1][linealign=center][size=small][linesize=small][style=normal][linestyle=8]"[;
 
-// #WRITE(RtPtr, $16D04)
+#WRITE(RtPtr, $16D04)
 // 0x8054ae0
 //」[;
-// "[;
+"[;
 
-// #WRITE(RtPtr, $16D08)
+#WRITE(RtPtr, $16D08)
 // 0x8054ae4
 //の曲[;
-// [;
+'s song [;
 
-// #WRITE(RtPtr, $16D0C)
+#WRITE(RtPtr, $16D0C)
 // 0x8054aec
 //[color=0(normal)][linestyle=0(normal)]をプレゼント！[l
 //[;
-// [color=normal][linestyle=normal][lYou've earned a gift![;
+[color=normal][linestyle=normal][lYou've earned a gift! [;
 
-// #WRITE(RtPtr, $9CFC7C)
+#WRITE(RtPtr, $9CFC80)
+// 0x8054a74
+//（リズム資料室で　見れるヨ）[l
+//[;
+Read it at the Archives![l[;
+
+#WRITE(RtPtr, $9CFC7C)
 // 0x8054a94
 //（スタジオで　たたけるヨ）[l
- // Read it at the Rhythm Library![l
-// [;
+Play at in the Studio![l[;
 
-// #WRITE(RtPtr, $9CFC78)
+#WRITE(RtPtr, $9CFC78)
 // 0x8054ab0
 //（スタジオで　きけるヨ） [l
 //[;
- // Listen to it in the Studio![l
-// [;
+Listen at the Studio![l[;
 
-// #WRITE(RtPtr, $16D14)
+#WRITE(RtPtr, $16D14)
 // 0x8054b00
 //プレゼントは　あと　[color=peach][linestyle=1][;
-// There are now [color=peach][linestyle=1][;
+There are now [color=peach][linestyle=1][;
 
-// #WRITE(RtPtr, $16D18)
+#WRITE(RtPtr, $16D18)
 // 0x8054b1c
 //コ[color=0(normal)][linestyle=0(normal)]　あるから、[l
 //他のキャンペーンにもチャレンジしてみてネ！[;
-// [size=small][color=normal][linestyle=normal][style=normal] gifts left to get.[l
-// Keep going![;
+[size=small][color=normal][linestyle=normal][style=normal] gifts left to get.[l
+Keep going![;
 
-// #WRITE(RtPtr, $16D50)
+#WRITE(RtPtr, $16D50)
 // 0x8054b5c
 //プレゼントは　これで[color=peach][linestyle=1]オシマイ[color=0(normal)][linestyle=0(normal)]です。[l
-// You finally got them all![;
+You finally got them all[color=normal][linestyle=normal]! [;
 
-// #WRITE(RtPtr, $16D54)
+#WRITE(RtPtr, $16D54)
 // 0x8054b88
 //パーフェクトキャンペーン、コンプリートです！[;
-// PERFECT![;
+PERFECT![;
 
 // Common (Rating)
 

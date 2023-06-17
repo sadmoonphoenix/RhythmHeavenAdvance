@@ -12,11 +12,10 @@ bl FixResultsCaps
 .org 0x08019CCA
 bl FixResultsCaps
 
-; "printf"'s location fix.
-; tl;dr: the game has a fixed space before the drum lessons's score 
-; or perfect game/gift is set, those fixes them.
-; fix: change the space
-; the byte is the number of character before it cutoffs
+; basically the game prints to a buffer using memcpy(dest, src, size), this patches the size
+; because else if we change the text it overflows!
+
+;func_0804f210
 
 ; Drum Lessons's Score
 .org 0x0802806E
@@ -25,6 +24,10 @@ bl FixResultsCaps
 ; Perfect Gift
 .org 0x08012D1A
 .byte 25
+
+; Congratulaions!
+.org 0x08016C70
+.byte 30
 
 .org 0x0801d174
 ; bl EndlessGamesPlural_Hook
