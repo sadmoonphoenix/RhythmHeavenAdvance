@@ -4,6 +4,17 @@
 .org 0x08CC9148
 .dw CC9148_gameselect_obj | 0x80000000
 
+.org 0x08CC9E14
+.dw CC9854_gameselect_bg_map_dat | 0x8000000
+
+.org 0x08CC9E14+4
+.dw CC9854_gameselect_bg_map_rle | 0x8000000
+
+.org 0x08CC9E14+8
+.dw CC9854_gameselect_bg_map_rle_end - CC9854_gameselect_bg_map_rle
+
+; ----------------------------------------
+
 .org 0x08902944
 .import "gfx/GameSelect/902944_assembly0.bin"
 

@@ -6,6 +6,15 @@ CC9854_gameselect_bg:
 CC9148_gameselect_obj:
 .import "gfx/GameSelect/CC9148_gameselect_obj.cdat"
 
+.align 4
+CC9854_gameselect_bg_map_dat:
+.import "gfx/GameSelect/CC9854_gameselect_bg_map.dat"
+
+.align 4
+CC9854_gameselect_bg_map_rle:
+.import "gfx/GameSelect/CC9854_gameselect_bg_map.rle"
+CC9854_gameselect_bg_map_rle_end:
+
 ; ----------------------------------------
 
 .align 2
