@@ -1,6 +1,12 @@
 .org 0x08C21F88
 .dw C21F88_ratrace_intro_obj | 0x80000000
 
+.org 0x08C86E74
+.dw C86E74_ratrace_obj | 0x80000000
+
+.org 0x088FDDDA
+.import "gfx/RhythmGames/RatRace/8FDDDA_assembly0.bin"
+
 .org 0x088FD4B0
 .import "gfx/RhythmGames/RatRace/8FD4B0_assembly0.bin"
 

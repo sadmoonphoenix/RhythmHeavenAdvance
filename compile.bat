@@ -91,5 +91,5 @@ del "build\rh-atlus.gba"
 pause > nul
 
 color 0f
-clear
+cls
 goto check

@@ -22,6 +22,7 @@ gfx/RhythmGames/QuizShow/C7C8E0_quizshow_obj
 gfx/RhythmGames/QuizShow/C7D2AC_quizshow_bg
 gfx/RhythmGames/RhythmTweezers/BEE62C_tweezers_intro_obj
 gfx/RhythmGames/RatRace/C21F88_ratrace_intro_obj
+gfx/RhythmGames/RatRace/C86E74_ratrace_obj
 gfx/RhythmGames/NinjaBodyguard/C22EE4_bodyguard_intro_obj
 gfx/RhythmGames/NinjaBodyguard/C23A3C_bodyguard_intro_bg
 gfx/RhythmGames/TheBonOdori/BE75B8_bonodori_intro_obj

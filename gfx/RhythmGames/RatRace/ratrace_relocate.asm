@@ -2,6 +2,10 @@
 C21F88_ratrace_intro_obj:
 .import "gfx/RhythmGames/RatRace/C21F88_ratrace_intro_obj.cdat"
 
+.align 4
+C86E74_ratrace_obj:
+.import "gfx/RhythmGames/RatRace/C86E74_ratrace_obj.cdat"
+
 .align 2
 X8FD536_assembly4:
 .import "gfx/RhythmGames/RatRace/8FD536_assembly4.bin"
