@@ -88,6 +88,8 @@ AltMainMusicSequence:
 	ldr r3,=0x00000204
 	tst r2,r3
 	bne @@return
+	; ldr r0, =0x08A9B8AC
+	; bl 0x08002634
 	mov r0, 0x98
 	bl 0x0800bdf8
 	ldr r0, =0x08a9b44c

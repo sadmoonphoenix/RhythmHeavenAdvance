@@ -21,5 +21,14 @@
 .import "gfx/RhythmGames/TheSnappyTrio/8AFD50_assembly6.bin"
 ;--
 
+.org 0x088EA44A
+.import "gfx/RhythmGames/TheSnappyTrio/8EA44A_assembly0.bin"
+;--
+.org 0x088EA458
+.import "gfx/RhythmGames/TheSnappyTrio/8EA458_assembly0.bin"
+
 .org 0x08BF374C
 .dw BF374C_snappy_intro_tiles | 0x80000000
+
+.org 0x08C62D18
+.dw C62D18_snappy_obj | 0x80000000
