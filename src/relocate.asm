@@ -19,6 +19,7 @@
 .include "gfx/RhythmGames/QuizShow/quizshow_relocate.asm"
 .include "gfx/RhythmGames/RhythmTweezers/tweezers_relocate.asm"
 .include "gfx/RhythmGames/NinjaBodyguard/bodyguard_relocate.asm"
+.include "gfx/RhythmGames/NinjaReincarnate/descendant_relocate.asm"
 .include "gfx/RhythmGames/TheBonOdori/bonodori_relocate.asm"
 .include "gfx/RhythmGames/TossTeam/tossteam_relocate.asm"
 .include "gfx/RhythmGames/TramPauline/tramp_relocate.asm"
