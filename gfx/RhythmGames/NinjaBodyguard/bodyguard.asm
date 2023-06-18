@@ -13,6 +13,17 @@
 .org 0x08C23CD0+8
 .dw C23A3C_bodyguard_intro_bg_map_rle_end - C23A3C_bodyguard_intro_bg_map_rle
 
+.org 0x08CB28A4
+.dw CB28A4_bodyguard_prologue | 0x80000000
+
+.org 0x08CB2B54
+.dw CB28A4_bodyguard_prologue_map_dat | 0x8000000
+
+.org 0x08CB2B54+4
+.dw CB28A4_bodyguard_prologue_map_rle | 0x8000000
+
+.org 0x08CB2B54+8
+.dw CB28A4_bodyguard_prologue_map_rle_end - CB28A4_bodyguard_prologue_map_rle
 
 .org 0x088B4010
 .import "gfx/RhythmGames/NinjaBodyguard/8B4010_assembly0.bin"
