@@ -6,6 +6,7 @@ gfx/RhythmGames/TheClappyTrio/BF16B4_clappy_intro_tiles
 gfx/RhythmGames/TheClappyTrio/C61654_clappy_obj
 gfx/RhythmGames/TheSnappyTrio/BF374C_snappy_intro_tiles
 gfx/RhythmGames/TheSnappyTrio/C62D18_snappy_obj
+gfx/RhythmGames/Spaceball/BE2298_spaceball_intro_obj
 gfx/RhythmGames/BouncyRoad/BEE430_bouncy_intro
 gfx/RhythmGames/ResultScreen/CD4A50_result_tile
 gfx/RhythmGames/PowerCalligraphy/BF8A30_power_intro
