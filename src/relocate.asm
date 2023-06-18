@@ -32,7 +32,7 @@
 .include "gfx/RhythmGames/Remix6/remix6_relocate.asm"
 .include "gfx/RhythmGames/Remix7/remix7_relocate.asm"
 .include "gfx/RhythmGames/Remix8/remix8_relocate.asm"
-; .include "gfx/RhythmGames/SpaceDance/spacedance_relocate.asm"
+.include "gfx/RhythmGames/SpaceDance/spacedance_relocate.asm"
 .include "gfx/HealthSafety/healthsafety_relocate.asm"
 .include "gfx/Studio/studio_relocate.asm"
 .include "gfx/MainMenu/mainmenu_relocate.asm"
