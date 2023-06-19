@@ -32,6 +32,7 @@ gfx/RhythmGames/NinjaReincarnate/C24200_ninjadescendant_intro_obj
 gfx/RhythmGames/TheBonOdori/BE75B8_bonodori_intro_obj
 gfx/RhythmGames/TossTeam/C2A208_tossteam_intro_obj
 gfx/RhythmGames/SickBeats/D198BC_sickbeats_obj
+gfx/RhythmGames/Showtime/BEC134_showtime_intro_obj
 gfx/RhythmGames/RAPMEN/C82710_rapmen_obj
 gfx/EndlessGames/MrUpbeat/C702D0_upbeat_obj
 gfx/EndlessGames/MannequinFactory/C34478_slapface_bg
