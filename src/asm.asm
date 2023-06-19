@@ -23,7 +23,7 @@ bl FixResultsCaps
 
 ; Perfect Gift
 .org 0x08012D1A
-.byte 15
+.byte 25
 
 ; Congratulaions!
 .org 0x08016C70

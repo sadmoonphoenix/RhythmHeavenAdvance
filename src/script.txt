@@ -312,18 +312,18 @@ The cleaner says... "I know you can do it, keep it up!"[;
 #WRITE(RtPtr, $12DC0)
 // 0x8050bdc
 // ただいま「[;
-If you get a Perfect on[l"[;
+[linealign=center]Get a perfect on[l"[;
 
 #WRITE(RtPtr, $12DC4)
 // 0x8050be8
 // 」でパーフェクトを達成すると[;
-"[1px]right[1px]now,[1px][;
+"[l[;
 
 #WRITE(RtPtr, $12DC8)
 // 0x8050c08
 //もれなく[;
 // [l
-you can get [;
+and you'll receive[l[;
 
 #WRITE(RtPtr, $12DCC)
 // 0x8050c14
@@ -333,17 +333,17 @@ you can get [;
 #WRITE(RtPtr, $12DD0)
 // 0x8050c18
 //」[;
-"[l[;
+"[;
 
 #WRITE(RtPtr, $12DD4)
 // 0x8050c1c
 //の曲[;
-'s song [;
+'s song[;
  
 #WRITE(RtPtr, $12DD8)
 // 0x8050c24
 //をプレゼント!![;
-as a bonus.[;
+.[;
 
 // You got a Perfect!
 

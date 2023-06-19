@@ -21,6 +21,7 @@ gfx/RhythmGames/MarchingOrders2/BFC8F4_marching2_intro
 gfx/RhythmGames/TempoUp/KarateMan/karateman_extra_tiles
 gfx/RhythmGames/QuizShow/C7C8E0_quizshow_obj
 gfx/RhythmGames/QuizShow/C7D2AC_quizshow_bg
+gfx/RhythmGames/QuizShow/C02A34_quizshow_intro_obj
 gfx/RhythmGames/RhythmTweezers/BEE62C_tweezers_intro_obj
 gfx/RhythmGames/RatRace/C21F88_ratrace_intro_obj
 gfx/RhythmGames/RatRace/C86E74_ratrace_obj
