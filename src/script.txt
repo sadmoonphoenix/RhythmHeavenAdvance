@@ -4316,10 +4316,10 @@ RAPMEN[;
 //やってきた！[l
 //アツいラップで[l
 //大コーフンだぜ！[;
-The RAPMEN have[l
-some new rivals![l
-Don't be distracted[l
-by their cute voices![;
+The coolest rapping[l
+duo has arrived! Their[l
+hot rapping skills are[l
+the talk of the town![;
 
 #WRITE(RtPtr, $A3A780)
 // 0x805ea44
@@ -5723,10 +5723,10 @@ RAPWOMEN[;
 //ライバルが登場だ！[l
 //キュートなボイスに[l
 //もう メロメロ！[;
-The RAPMEN have new[l
-rivals! Don't let yourself[l
-get distracted by their[l
-cute voices![;
+The RAPMEN have[l
+some new rivals![l
+Don't be distracted[l
+by their cute voices![;
 
 #WRITE(RtPtr, $A4B5D0)
 // 0x8067d84
