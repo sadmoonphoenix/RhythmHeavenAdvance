@@ -3155,7 +3155,7 @@ some dance lessons![;
 #WRITE(RtPtr, $A525C8)
 // 0x8068008
 //アセるー！！[;
-Ｄｏｎ’ｔ　ｆａｌｌ　ｂａｃｋ！;
+Ｄｏｎ’ｔ　ｆａｌｌ　ｂａｃｋ！[;
 
 #WRITE(RtPtr, $A525F8)
 // 0x8068018
@@ -6655,7 +6655,7 @@ Red thing production is at an all time high![;
 #WRITE(RtPtr, $9CE3FC)
 // 0x8054148
 //もっともっと 赤いモノを 生産だ！[;
-Producing more of these red things woudn't hurt![;
+Producing more of these red things wouldn't hurt![;
 
 #WRITE(RtPtr, $9CE3F8)
 // 0x805416c
@@ -7693,7 +7693,7 @@ Well, it's a pretty straightforward game.[l
 What can I really say...?[l
 Oh, right, the idea is to play along to the music,[l
 so try to feel the flow when you play. That's my advice![l
-And that's about it. Pleased to meet you, by the way![;
+And that's about it. Pleasure to meet you, by the way![;
 
 // From the Barista
 
@@ -9847,7 +9847,7 @@ a step above the rest![l
 //アンビリーバボー!![size=small][linesize=small][style=4(normal)][linestyle=8][;
 [size=large][linesize=large][style=gold][linestyle=5][l
 [l
-Now, that's perfect![size=small][linesize=small][style=normal][linestyle=8][;
+That's perfect![size=small][linesize=small][style=normal][linestyle=8][;
 
 #WRITE(RtPtr, $9CD354)
 // 0x804f868
@@ -9874,7 +9874,7 @@ Congratulations![size=small][linesize=small][style=normal][linestyle=8][;
 //やるじゃなーい!![size=small][linesize=small][style=4(normal)][linestyle=8][;
 [size=large][linesize=large][style=gold][linestyle=5][l
 [l
-Amazing![size=small][linesize=small][style=4(normal)][linestyle=8][;
+Amazing![size=small][linesize=small][style=normal][linestyle=8][;
 
 #WRITE(RtPtr, $9CD348)
 // 0x804f8d0
@@ -10412,17 +10412,19 @@ Hey, I just remembered something![l
 // 0x8050828
 //そうそう、[l
 //もうすぐ[;
-Say, I heard tell that there's a chance[l
-for a Perfect coming up in[;
+// Say, I heard tell that there's a chance[l
+// for a Perfect coming up in[;
+ask shaffy to fix this later because[l
+i don't understand how this works...[;
 
 #WRITE(RtPtr, $1109C)
 // 0x805083c
 //[style=4(normal)][linestyle=8]で、[l
 //パーフェクトキャンペーンを[l
 //するそうですヨ。[;
-[style=normal][linestyle=8],[l
-looks like there's going[l
-to be a Perfect Campaign.[;
+// [style=normal][linestyle=8],[l
+// looks like there's going[l
+// to be a Perfect Campaign.[;
 
 #WRITE(RtPtr, $110F4)
 // 0x8050874
@@ -10489,9 +10491,8 @@ a bit of work, but...[l
 //[l
 //でも、リズム感が　よくなると　きっと　ちょっと　ハッピーに　なるんでしょうね。[;
 [l
-When your sense of rhythm[l
-improves... that's gotta be[l
-euphoric, huh?[l
+When your sense of rhythm improves...[l
+that's gotta be euphoric, huh?[l
 [l
 [;
 
