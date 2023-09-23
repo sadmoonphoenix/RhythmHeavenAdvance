@@ -33,6 +33,7 @@ gfx/RhythmGames/TheBonOdori/BE75B8_bonodori_intro_obj
 gfx/RhythmGames/TossTeam/C2A208_tossteam_intro_obj
 gfx/RhythmGames/BunnyHop/C1F214_bunnyhop_intro_obj
 gfx/RhythmGames/SickBeats/D198BC_sickbeats_obj
+gfx/RhythmGames/SickBeats/C31E6C_sickbeats_intro_obj
 gfx/RhythmGames/Showtime/BEC134_showtime_intro_obj
 gfx/RhythmGames/RAPMEN/C82710_rapmen_obj
 gfx/RhythmGames/RAPMEN/C1F4B4_rapmen_intro_obj
