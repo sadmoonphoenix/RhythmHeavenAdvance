@@ -42,6 +42,26 @@ X8ACB98_assembly2:
 XD625B6_assembly3:
 .import "gfx/RhythmGames/KarateMan/Hit/D625B6_assembly3.bin"
 
+; Tutorial
+
+;--
+.align 2
+X8ACBD0_assembly1:
+.import "gfx/RhythmGames/KarateMan/Tutorial/8ACBD0_assembly1.bin"
+
+;--
+.align 2
+X8ACBEA_assembly2:
+.import "gfx/RhythmGames/KarateMan/Tutorial/8ACBEA_assembly2.bin"
+
+;--
+.align 2
+X8ACC04_assembly3:
+.import "gfx/RhythmGames/KarateMan/Tutorial/8ACC04_assembly3.bin"
+
+;--
+
+
 ;--
 
 .align 4

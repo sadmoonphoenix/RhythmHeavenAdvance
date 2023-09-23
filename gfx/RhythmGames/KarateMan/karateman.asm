@@ -53,6 +53,18 @@
 .import "gfx/RhythmGames/KarateMan/Prologue/8AD9D2_assembly4.bin"
 ;--
 
+; Tutorial
+
+.org 0x088ACF5C
+.dw X8ACBD0_assembly1
+
+;--
+.org 0x088ACF64
+.dw X8ACBEA_assembly2
+
+;--
+.org 0x088ACF6C
+.dw X8ACC04_assembly3
 
 ;--
 
