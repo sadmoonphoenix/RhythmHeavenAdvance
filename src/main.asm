@@ -52,6 +52,7 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 .include "gfx/RhythmGames/BouncyRoad/bouncy.asm"
 .include "gfx/RhythmGames/ResultScreen/result.asm"
 .include "gfx/RhythmGames/PowerCalligraphy/power.asm"
+.include "gfx/RhythmGames/BunnyHop/bunnyhop.asm"
 .include "gfx/RhythmGames/TapTrial/tap.asm"
 .include "gfx/RhythmGames/MarchingOrders/marching.asm"
 .include "gfx/RhythmGames/MarchingOrders2/marching2.asm"
