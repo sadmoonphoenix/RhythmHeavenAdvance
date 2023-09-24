@@ -32,6 +32,7 @@ gfx/RhythmGames/NinjaReincarnate/C24200_ninjadescendant_intro_obj
 gfx/RhythmGames/TheBonOdori/BE75B8_bonodori_intro_obj
 gfx/RhythmGames/TossTeam/C2A208_tossteam_intro_obj
 gfx/RhythmGames/BunnyHop/C1F214_bunnyhop_intro_obj
+gfx/RhythmGames/SamuraiSlice/BF6678_samurai_intro_obj
 gfx/RhythmGames/SickBeats/D198BC_sickbeats_obj
 gfx/RhythmGames/SickBeats/C31E6C_sickbeats_intro_obj
 gfx/RhythmGames/Showtime/BEC134_showtime_intro_obj
@@ -61,6 +62,7 @@ gfx/RhythmArchives/CC77A4_archives_bgtile
 gfx/RhythmToys/RapMachine/CDBACC_rapmachine_bg
 gfx/RhythmToys/ConfessionMachine/CDD0D4_confessionmachine_bg
 gfx/RhythmToys/CatMachine/CDA118_catmachine_bg
+gfx/RhythmToys/HorseMachine/D08208_horsemachine_obj
 gfx/RhythmToys/CD8388_rhythmtoys_obj
 gfx/RhythmToys/CD8DA0_rhythmtoys_bg
 gfx/RhythmTest/C6A638_rtest_bg

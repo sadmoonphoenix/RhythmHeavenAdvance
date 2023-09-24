@@ -13,6 +13,7 @@
 .include "gfx/RhythmGames/ResultScreen/result_relocate.asm"
 .include "gfx/RhythmGames/PowerCalligraphy/power_relocate.asm"
 .include "gfx/RhythmGames/BunnyHop/bunnyhop_relocate.asm"
+.include "gfx/RhythmGames/SamuraiSlice/slice_relocate.asm"
 .include "gfx/RhythmGames/TapTrial/tap_relocate.asm"
 .include "gfx/RhythmGames/MarchingOrders/marching_relocate.asm"
 .include "gfx/RhythmGames/MarchingOrders2/marching2_relocate.asm"
