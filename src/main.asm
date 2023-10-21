@@ -1,15 +1,15 @@
 ; This file imports all of the data to the final ROM,
 ; and does some binhacks that you can toggle using the flags.
 
-.gba
-.open "build/rh-atlus.gba","build/rh-eng.gba", 0x08000000
+.include "src/options.asm"
 
-_skiprhythmtest equ 0				; Skips the Rhythm Test when you don't have a save file.
-_debug equ 0						; Various Debug hacks, unlock everything, etc...
-_oamluaconsolemessages equ 1		; Logs OAM loads in RAM (for the gfxLocator.lua script)
-_spriteluaconsolemessages equ 1		; Logs Sprite loads in RAM (for the gfxLocator.lua script)
-_autoplay equ 0						; Experimental Autoplay for various reasons (getting perfects, etc...) (DOESN'T ALWAYS WORK!)
-; If you're looking for the Debug Menu it's actually now in-game, you need to press L & R when loading into Game Select from the Main Menu.
+.gba
+
+.if _useJapaneseText == 1
+    .open "rh-jpn.gba","build/rh-eng.gba", 0x08000000
+.else
+    .open "build/rh-atlus.gba","build/rh-eng.gba", 0x08000000
+.endif
 
 .if _skiprhythmtest ==1
 	.warning "Rhythm Test will be skipped, do NOT use for release!"
