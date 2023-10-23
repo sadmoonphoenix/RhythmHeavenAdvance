@@ -14,3 +14,11 @@ CC4670_endlessgames_bg_map_dat:
 CC4670_endlessgames_bg_map_rle:
 .import "gfx/EndlessGames/CC4670_endlessgames_bg_map.rle"
 CC4670_endlessgames_bg_map_rle_end:
+
+.align 2
+X90041C_assembly0:
+.import "gfx/EndlessGames/90041C_assembly0.bin"
+
+.align 2
+X9003DC_assembly0:
+.import "gfx/EndlessGames/9003DC_assembly0.bin"

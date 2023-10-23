@@ -12,3 +12,12 @@
 
 .org 0x08CC4A00+8
 .dw CC4670_endlessgames_bg_map_rle_end - CC4670_endlessgames_bg_map_rle
+
+.org 0x08900444
+.dw X90041C_assembly0
+
+.org 0x08900454
+.dw X9003DC_assembly0
+
+.org 0x089003FC
+.import "gfx/EndlessGames/9003FC_assembly0.bin"
