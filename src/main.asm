@@ -93,6 +93,7 @@ gameVersion equ readbyte("build/rh-atlus.gba", 0xBD)
 .include "gfx/Options/options.asm"
 .include "gfx/Common/common.asm"
 .include "gfx/Perfect/perfect.asm"
+.include "gfx/Results/results.asm"
 
 .include "sfx/DrumLessons/drumlessons.asm"
 ; .include "sfx/MarchingOrders/marching.asm"

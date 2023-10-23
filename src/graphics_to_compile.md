@@ -74,3 +74,4 @@ gfx/DrumLessons/CC6914_drumlessons_bg
 gfx/DrumLessons/C4EFE4_drumlessons_lesson_obj
 gfx/DrumLessons/C4FC44_drumlessons_lesson_bg
 gfx/Perfect/CCC138_perfect_bg
+gfx/Results/CD4F58_results_obj
