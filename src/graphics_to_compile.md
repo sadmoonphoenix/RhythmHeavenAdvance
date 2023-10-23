@@ -36,6 +36,7 @@ gfx/RhythmGames/SamuraiSlice/BF6678_samurai_intro_obj
 gfx/RhythmGames/SickBeats/D198BC_sickbeats_obj
 gfx/RhythmGames/SickBeats/C31E6C_sickbeats_intro_obj
 gfx/RhythmGames/Showtime/BEC134_showtime_intro_obj
+gfx/RhythmGames/Fireworks/BEF660_fireworks_obj
 gfx/RhythmGames/RAPMEN/C82710_rapmen_obj
 gfx/RhythmGames/RAPMEN/C1F4B4_rapmen_intro_obj
 gfx/EndlessGames/MrUpbeat/C702D0_upbeat_obj

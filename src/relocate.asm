@@ -27,6 +27,7 @@
 .include "gfx/RhythmGames/TramPauline/tramp_relocate.asm"
 .include "gfx/RhythmGames/SickBeats/sickbeats_relocate.asm"
 .include "gfx/RhythmGames/Showtime/showtime_relocate.asm"
+.include "gfx/RhythmGames/Fireworks/fireworks_relocate.asm"
 .include "gfx/RhythmGames/RAPMEN/rapmen_relocate.asm"
 .include "gfx/RhythmGames/Remix1/remix1_relocate.asm"
 .include "gfx/RhythmGames/Remix2/remix2_relocate.asm"
