@@ -41,7 +41,7 @@
 .include "gfx/HealthSafety/healthsafety_relocate.asm"
 .include "gfx/Studio/studio_relocate.asm"
 .include "gfx/MainMenu/mainmenu_relocate.asm"
-;
+.include "gfx/MedalCorner/medalcorner_relocate.asm"
 .include "gfx/RhythmToys/rhythmtoys_relocate.asm"
 .include "gfx/EndlessGames/endlessgames_relocate.asm"
 .include "gfx/EndlessGames/MrUpbeat/upbeat_relocate.asm"

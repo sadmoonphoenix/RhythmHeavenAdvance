@@ -1,5 +1,11 @@
 ; Basically all those OAM are shared between the menus, so I have to put it here...
 
+.org 0x08CD8FA4
+.dw CD8FA4_medalcorner_obj | 0x80000000
+
+.org 0x0890DB98
+.dw X90DA78_assembly0
+
 .org 0x0890D9D8
 .import "gfx/MedalCorner/90D9D8_assembly0.bin"
 
