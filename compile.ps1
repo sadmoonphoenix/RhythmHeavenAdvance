@@ -1,13 +1,15 @@
 @echo off
 
-REM clean this out lol
+# clean this out
 
-set perl-path="perl"
+$script:perl-path = "perl"
 
 if exist "tools\win\perl.exe" (
 	echo Found perl override, using that for compilation.
 	set perl-path="tools\win\perl.exe"
 )
+
+
 
 :check
 if exist "rh-jpn.gba" (
