@@ -1,5 +1,3 @@
-# clean this out
-
 Write-Host -BackgroundColor Black -ForegroundColor White
 
 $script:perl_path="perl"
