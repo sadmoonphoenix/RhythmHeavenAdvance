@@ -25,7 +25,8 @@ Everyone can contribute! So if you want to contribute, please join our [Discord 
 You'll need a legally obtained ROM of Rhythm Tengoku (Rev 0) (CRC32: 349D7025) for all systems.
 
 ### Windows
-If you want to be able to edit the audio files on Windows you'll need to have FFmpeg on the root of project or in your PATH (system-wide installation)!
+If you want to be able to edit the audio files on Windows you'll need to have FFmpeg and Perl on the root of project or in your PATH. These will be automagically installed for you.
+
 1. Open a command prompt.
 2. Download the Rhythm Heaven Advance repository.
 	```batch
@@ -43,17 +44,9 @@ If you want to be able to edit the audio files on Windows you'll need to have FF
 If compiling worked you should have an ROM of Rhythm Heaven Advance into the "build" folder called "rh-eng.gba"!
 	
 ### Dependencies
-On Linux & macOS you need to install Perl, Mono and FFmpeg! Git will be included in the commands below, in case your distro doesn't ship it. 
+On Linux & macOS you need to install Perl, Mono, FFmpeg, and Git. These will be automagically installed for you.
 
 On Linux systems, you can install them from your native package manager if you haven't already:
-* Debian/Ubuntu: ```sudo apt install perl mono-runtime ffmpeg git```
-* Fedora: ```sudo dnf install perl mono-core ffmpeg-free git```
-* Arch: ```sudo pacman -S perl mono ffmpeg git --needed```
-* OpenSUSE: ```sudo zypper in perl mono-core ffmpeg git-core```
-
-On macOS systems, you can install [Homebrew](https://brew.sh/) and then run the following commands to install what you need:
-```brew install perl mono ffmpeg```
-	
 ### Linux & macOS
 
 1. Open a terminal.
@@ -70,7 +63,7 @@ On macOS systems, you can install [Homebrew](https://brew.sh/) and then run the 
     ```
     or
     ```bash
-    bash compile.sh
+    ./compile.sh
     ```
     
 If compiling worked you should have an ROM of Rhythm Heaven Advance into the "build" folder called "rh-eng.gba"!
